@@ -24,6 +24,8 @@ SLUGS = [
     "image-to-video",
 ]
 
+ATTRIBUTION = "Data by [Artificial Analysis](https://artificialanalysis.ai/), via their [Data API](https://artificialanalysis.ai/data-api)."
+
 TITLES = {
     "llms": "LLM Leaderboard",
     "text-to-image": "Text-to-Image Arena",
@@ -93,6 +95,8 @@ def render_source(internal_dir: Path, tables_dir: Path, slug: str) -> str | None
     lines = [
         f"# {title}",
         "",
+        ATTRIBUTION,
+        "",
         f"- Source: [{meta.get('source_url', '')}]({meta.get('source_url', '')})",
         f"- Fetched at: {meta.get('fetched_at', 'unknown')}",
         f"- Model count: {meta.get('model_count', len(models))}",
@@ -105,6 +109,9 @@ def render_source(internal_dir: Path, tables_dir: Path, slug: str) -> str | None
         lines.append(render_table(columns, flat_rows))
     else:
         lines.append("_No data available for this endpoint in the current snapshot._")
+    lines.append("")
+    lines.append("---")
+    lines.append(ATTRIBUTION)
     lines.append("")
 
     out_path = tables_dir / f"{slug}.md"
@@ -131,6 +138,8 @@ def main() -> None:
 
     index_lines = [
         "# Leaderboard Tables",
+        "",
+        ATTRIBUTION,
         "",
         f"Snapshot fetched at: {fetched_at or 'unknown'}",
         "",

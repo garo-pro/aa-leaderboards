@@ -89,7 +89,9 @@ Data is fetched and tables are re-rendered daily at 05:13 UTC via GitHub Actions
 
 ## Attribution
 
-Data provided by [Artificial Analysis](https://artificialanalysis.ai). Please provide attribution when reusing the data. See their [methodology](https://artificialanalysis.ai/methodology) for benchmark details.
+Data by [Artificial Analysis](https://artificialanalysis.ai/), via their [Data API](https://artificialanalysis.ai/data-api). Their [terms](https://artificialanalysis.ai/data-api/docs) require attribution across all tiers ("a visible byline or footer link is sufficient"), which is included here and on every generated table.
+
+Their Free tier's own terms describe redistribution rights as "internal use only with attribution" — this repo publishes data publicly, which is broader than that. Flagging this here for transparency; if you're reusing this repo's data yourself, you may want to review [artificialanalysis.ai/data-api](https://artificialanalysis.ai/data-api) and reach out to them directly. See their [methodology](https://artificialanalysis.ai/methodology) for benchmark details.
 
 ## License
 
