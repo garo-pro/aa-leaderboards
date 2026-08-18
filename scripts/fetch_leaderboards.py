@@ -1,7 +1,8 @@
 #!/usr/bin/env python3
 """
 Fetch Artificial Analysis leaderboard data from public web surfaces.
-Saves daily snapshots + latest.json pointer.
+Saves the current snapshot to internal/ (overwritten each run — no history is kept
+here; run scripts/render_tables.py afterwards to publish readable Markdown tables).
 
 Sources:
   - /leaderboards/models                                → LLM leaderboard page payload
@@ -358,10 +359,10 @@ def main() -> None:
     date_str = now.strftime("%Y-%m-%d")
     fetched_at = now.isoformat()
 
-    day_dir = repo_root / "data" / date_str
-    day_dir.mkdir(parents=True, exist_ok=True)
+    internal_dir = repo_root / "internal"
+    internal_dir.mkdir(parents=True, exist_ok=True)
 
-    index_path = day_dir / "_index.json"
+    index_path = internal_dir / "_index.json"
     if index_path.exists() and args.only:
         with open(index_path, encoding="utf-8") as f:
             index = json.load(f)
@@ -390,7 +391,7 @@ def main() -> None:
                 "models": models,
             }
 
-            out_path = day_dir / f"{slug}.json"
+            out_path = internal_dir / f"{slug}.json"
             with open(out_path, "w", encoding="utf-8") as f:
                 json.dump(output, f, indent=2, ensure_ascii=False)
 
@@ -415,11 +416,7 @@ def main() -> None:
     with open(index_path, "w", encoding="utf-8") as f:
         json.dump(index, f, indent=2, ensure_ascii=False)
 
-    latest_path = repo_root / "data" / "latest.json"
-    with open(latest_path, "w", encoding="utf-8") as f:
-        json.dump({"date": date_str, "path": f"data/{date_str}"}, f, indent=2)
-
-    print(f"\nDone: {success_count}/{total} endpoints, saved to data/{date_str}/")
+    print(f"\nDone: {success_count}/{total} endpoints, saved to internal/")
     if success_count < total:
         sys.exit(1)
 

@@ -21,11 +21,14 @@ jobs:
       - name: Fetch leaderboards
         run: python3 scripts/fetch_leaderboards.py
 
+      - name: Render Markdown tables
+        run: python3 scripts/render_tables.py
+
       - name: Commit & push
         run: |
           git config user.name "github-actions[bot]"
           git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
-          git add data/
+          git add internal/ tables/
           DATE=$(python3 -c "from datetime import datetime, timezone; print(datetime.now(timezone.utc).strftime('%Y-%m-%d'))")
           git diff --cached --quiet || git commit -m "data: ${DATE} daily fetch"
           git push

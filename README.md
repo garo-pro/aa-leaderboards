@@ -1,19 +1,25 @@
-# Artificial Analysis Leaderboards
+# AA Leaderboards
 
-[![Daily Fetch](https://github.com/oolong-tea-2026/artificial-analysis-leaderboards/actions/workflows/fetch.yml/badge.svg)](https://github.com/oolong-tea-2026/artificial-analysis-leaderboards/actions/workflows/fetch.yml)
+[![Daily Fetch](https://github.com/garo-pro/aa-leaderboards/actions/workflows/fetch.yml/badge.svg)](https://github.com/garo-pro/aa-leaderboards/actions/workflows/fetch.yml)
 
-Daily snapshots of [Artificial Analysis](https://artificialanalysis.ai) leaderboard data collected from public web surfaces.
+Daily snapshots of [Artificial Analysis](https://artificialanalysis.ai) leaderboard data, published as readable Markdown tables.
 
-## Data
+Forked from [oolong-tea-2026/artificial-analysis-leaderboards](https://github.com/oolong-tea-2026/artificial-analysis-leaderboards), restructured to publish Markdown tables instead of dated JSON history.
 
-| Endpoint | Description | Data |
-|----------|-------------|------|
-| `llms` | LLM leaderboard | Intelligence, coding, agentic, pricing, speed, context window, modality support |
-| `text-to-image` | Text-to-image arena rankings | ELO, rank, CI95, appearances, win rate, per-tag breakdowns |
-| `image-editing` | Image editing arena rankings | ELO, rank, CI95, appearances, win rate |
-| `text-to-speech` | Text-to-speech arena rankings | ELO, rank, CI95, appearances, win rate, category/accent breakdowns |
-| `text-to-video` | Text-to-video arena rankings | ELO, rank, CI95, appearances, win rate, per-tag breakdowns |
-| `image-to-video` | Image-to-video arena rankings | ELO, rank, CI95, appearances, win rate, per-tag breakdowns |
+## Tables
+
+The current snapshot, rendered as Markdown:
+
+| Endpoint | Description | Table |
+|----------|-------------|-------|
+| `llms` | LLM leaderboard | [tables/llms.md](tables/llms.md) |
+| `text-to-image` | Text-to-image arena rankings | [tables/text-to-image.md](tables/text-to-image.md) |
+| `image-editing` | Image editing arena rankings | [tables/image-editing.md](tables/image-editing.md) |
+| `text-to-speech` | Text-to-speech arena rankings | [tables/text-to-speech.md](tables/text-to-speech.md) |
+| `text-to-video` | Text-to-video arena rankings | [tables/text-to-video.md](tables/text-to-video.md) |
+| `image-to-video` | Image-to-video arena rankings | [tables/image-to-video.md](tables/image-to-video.md) |
+
+See also the [tables index](tables/README.md).
 
 ## Sources
 
@@ -31,19 +37,28 @@ Instead it collects from Artificial Analysis public web surfaces:
 ## Structure
 
 ```text
-data/
-├── latest.json          # → {"date": "2026-04-10", "path": "data/2026-04-10"}
-├── 2026-04-10/
-│   ├── _index.json      # Daily summary
-│   ├── llms.json
-│   ├── text-to-image.json
-│   ├── image-editing.json
-│   ├── text-to-speech.json
-│   ├── text-to-video.json
-│   └── image-to-video.json
+internal/               # Internal, machine-readable data — implementation detail, not the published product
+├── _index.json          # Daily fetch summary
+├── llms.json
+├── text-to-image.json
+├── image-editing.json
+├── text-to-speech.json
+├── text-to-video.json
+└── image-to-video.json
+
+tables/                 # Published output — Markdown tables rendered from internal/
+├── README.md            # Table index
+├── llms.md
+├── text-to-image.md
+├── image-editing.md
+├── text-to-speech.md
+├── text-to-video.md
+└── image-to-video.md
 ```
 
-Each data file includes:
+Unlike the upstream repo, this fork keeps only the **current** snapshot — `internal/*.json` and `tables/*.md` are overwritten in place on each run, no dated history is retained.
+
+Each `internal/*.json` file includes:
 
 - `meta.endpoint`
 - `meta.source_type`
@@ -52,19 +67,21 @@ Each data file includes:
 - `meta.fetched_at`
 - `meta.model_count`
 
-## Quick Access
+## Pipeline
+
+Two scripts run in sequence, both on the same daily schedule:
+
+1. `scripts/fetch_leaderboards.py` — fetches the public web surfaces above and writes the normalized current snapshot to `internal/*.json`.
+2. `scripts/render_tables.py` — reads `internal/*.json` and renders full-detail Markdown tables to `tables/*.md`.
 
 ```bash
-# Latest pointer
-curl -s https://raw.githubusercontent.com/oolong-tea-2026/artificial-analysis-leaderboards/main/data/latest.json
-
-# Latest LLM snapshot
-curl -s https://raw.githubusercontent.com/oolong-tea-2026/artificial-analysis-leaderboards/main/data/2026-04-10/llms.json
+python3 scripts/fetch_leaderboards.py
+python3 scripts/render_tables.py
 ```
 
 ## Updates
 
-Data is fetched daily at 05:13 UTC via GitHub Actions.
+Data is fetched and tables are re-rendered daily at 05:13 UTC via GitHub Actions.
 
 ## Attribution
 
