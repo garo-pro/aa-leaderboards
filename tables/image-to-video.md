@@ -1,7 +1,9 @@
 # Image-to-Video Arena
 
+Data by [Artificial Analysis](https://artificialanalysis.ai/), via their [Data API](https://artificialanalysis.ai/data-api).
+
 - Source: [https://artificialanalysis.ai/api/v2/media/image-to-video/models/free](https://artificialanalysis.ai/api/v2/media/image-to-video/models/free)
-- Fetched at: 2026-08-18T09:41:51.467784+00:00
+- Fetched at: 2026-08-18T10:01:40.426014+00:00
 - Model count: 72
 
 > Generated from `internal/image-to-video.json` by `scripts/render_tables.py`. Do not edit by hand.
@@ -80,3 +82,6 @@
 | 43b09fe3-a4a8-4bda-9244-da05949c9d65 | Runway Gen 3 Alpha | runway-gen-3-alpha | a6906d95-a471-4a0c-ad10-b989571de20c | Runway | 994 | 11 | -11/+11 |
 | 815774fd-dcae-4abf-aaad-fb48c13fb70d | Wan 2.2 5B | wan-2-2-5b | d874d370-74d3-4fa0-ba00-5272f92f946b | Alibaba | 986 | 11 | -11/+11 |
 | 5bc92dfd-8341-493c-b288-7dc28f804740 | Hunyuan Video (Fal) | hunyuan-video-open-source- | a4e5bd55-a6cd-4dcf-8d4a-1d9643cd3826 | Tencent | 911 | 12 | -12/+12 |
+
+---
+Data by [Artificial Analysis](https://artificialanalysis.ai/), via their [Data API](https://artificialanalysis.ai/data-api).

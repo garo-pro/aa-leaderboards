@@ -1,7 +1,9 @@
 # Text-to-Video Arena
 
+Data by [Artificial Analysis](https://artificialanalysis.ai/), via their [Data API](https://artificialanalysis.ai/data-api).
+
 - Source: [https://artificialanalysis.ai/api/v2/media/text-to-video/models/free](https://artificialanalysis.ai/api/v2/media/text-to-video/models/free)
-- Fetched at: 2026-08-18T09:41:51.467784+00:00
+- Fetched at: 2026-08-18T10:01:40.426014+00:00
 - Model count: 78
 
 > Generated from `internal/text-to-video.json` by `scripts/render_tables.py`. Do not edit by hand.
@@ -86,3 +88,6 @@
 | 92e136ff-3bf2-46ac-ba9a-32d37d56bfe6 | Step-Video-T2V | step-video-t2v | ce2e2e8b-7a22-4020-98ec-8ef71000dd42 | StepFun | 915 | 9 | -9/+9 |
 | 1ac6e188-286d-4a32-a9aa-fe3824828ee5 | CogVideoX-5B | cogvideox-5b | 67437eb6-7dc1-4e93-befd-22c8b8ec2065 | Z AI | 801 | 10 | -10/+10 |
 | a6b7fe22-f5b3-4c59-b07a-f603c514dace | Pyramid Flow | pyramid-flow | c6d8fd18-9568-4145-a355-d03669294930 | Open Source | 763 | 10 | -10/+10 |
+
+---
+Data by [Artificial Analysis](https://artificialanalysis.ai/), via their [Data API](https://artificialanalysis.ai/data-api).

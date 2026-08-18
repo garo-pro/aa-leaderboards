@@ -1,7 +1,9 @@
 # Image Editing Arena
 
+Data by [Artificial Analysis](https://artificialanalysis.ai/), via their [Data API](https://artificialanalysis.ai/data-api).
+
 - Source: [https://artificialanalysis.ai/api/v2/media/image-editing/models/free](https://artificialanalysis.ai/api/v2/media/image-editing/models/free)
-- Fetched at: 2026-08-18T09:41:51.467784+00:00
+- Fetched at: 2026-08-18T10:01:40.426014+00:00
 - Model count: 67
 
 > Generated from `internal/image-editing.json` by `scripts/render_tables.py`. Do not edit by hand.
@@ -75,3 +77,6 @@
 | b2a76bb0-47e8-4781-a497-1f942ca605c7 | OmniGen V2 | omnigen-v2 | d2928e1f-884a-4728-8d1c-d48db15c561d | VectorSpaceLab | 914 | 9 | -9/+9 |
 | 82b0716c-d24a-4a19-b09c-dd4366ecdb79 | Step1X-Edit | step1x-edit | ce2e2e8b-7a22-4020-98ec-8ef71000dd42 | StepFun | 847 | 10 | -10/+10 |
 | f5ac3fc4-0c4f-4fef-b75b-1e21e6880ef0 | HiDream-E1-Full | hidream-e1-full | 040f2c41-5df4-4708-8c77-6a2030be2539 | HiDream | 822 | 16 | -16/+16 |
+
+---
+Data by [Artificial Analysis](https://artificialanalysis.ai/), via their [Data API](https://artificialanalysis.ai/data-api).

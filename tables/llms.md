@@ -1,7 +1,9 @@
 # LLM Leaderboard
 
+Data by [Artificial Analysis](https://artificialanalysis.ai/), via their [Data API](https://artificialanalysis.ai/data-api).
+
 - Source: [https://artificialanalysis.ai/api/v2/language/models/free](https://artificialanalysis.ai/api/v2/language/models/free)
-- Fetched at: 2026-08-18T09:41:51.467784+00:00
+- Fetched at: 2026-08-18T10:01:40.426014+00:00
 - Model count: 608
 
 > Generated from `internal/llms.json` by `scripts/render_tables.py`. Do not edit by hand.
@@ -616,3 +618,6 @@
 | ff51be8f-e362-4a7e-9043-687ba15de207 | Claude Opus 5 (Adaptive Reasoning, Medium Effort) | claude-opus-5-medium | 2026-07-24 | f0aa413f-e8ae-4fcd-9c48-0e049f4f3128 | Anthropic | 58.6 | 74.3 | 50.4 |  | 5 | 25 | 0.5 | 6.25 | 53.75 | 11.49 | 11.49 | 20.8 | 1116.24 | 0.7243 |
 | ff9bc5e5-a02f-4270-983e-4b3f834f3363 | Grok 3 mini Reasoning (high) | grok-3-mini-reasoning | 2025-02-19 | a1e3ddcf-d3e4-44a5-9e8f-029a69850875 | SpaceXAI | 22.9 |  |  |  | 0.3 | 0.5 | 0.07 |  | 70.7 | 0.71 | 29 | 36.07 |  |  |
 | ffd65ef7-fbdb-4145-98ae-b5d01cda770b | Llama 2 Chat 7B | llama-2-chat-7b | 2023-07-18 | e1694725-0192-4e54-b1b8-c97e816c6cbe | Meta | 3.9 |  |  |  | 0.05 | 0.25 |  |  |  |  |  |  |  |  |
+
+---
+Data by [Artificial Analysis](https://artificialanalysis.ai/), via their [Data API](https://artificialanalysis.ai/data-api).

@@ -1,7 +1,9 @@
 # Text-to-Speech Arena
 
+Data by [Artificial Analysis](https://artificialanalysis.ai/), via their [Data API](https://artificialanalysis.ai/data-api).
+
 - Source: [https://artificialanalysis.ai/api/v2/media/text-to-speech/models/free](https://artificialanalysis.ai/api/v2/media/text-to-speech/models/free)
-- Fetched at: 2026-08-18T09:41:51.467784+00:00
+- Fetched at: 2026-08-18T10:01:40.426014+00:00
 - Model count: 93
 
 > Generated from `internal/text-to-speech.json` by `scripts/render_tables.py`. Do not edit by hand.
@@ -101,3 +103,6 @@
 | e48743dc-d44e-491b-810f-654756e08508 | Noiz TTS | noiz-tts | bbdb8b42-981b-4085-b6b4-40e6b8f9d3ee | Noiz | 865 | 16 | -16/+16 |
 | fb51ab93-d79a-49c5-a2f5-19f03e311afd | MetaVoice v1 | metavoice-v1 | f3b30c3c-550d-4a90-870a-9a2f506c333e | MetaVoice | 844 | 18 | -18/+18 |
 | d3f9b298-8e1a-4328-a2bd-ce3ceea6db1f | Polly Standard | polly-standard | bb5a4e55-7969-4ab4-8702-3b9fd6547dc2 | Amazon | 816 | 16 | -16/+16 |
+
+---
+Data by [Artificial Analysis](https://artificialanalysis.ai/), via their [Data API](https://artificialanalysis.ai/data-api).

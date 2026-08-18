@@ -1,7 +1,9 @@
 # Text-to-Image Arena
 
+Data by [Artificial Analysis](https://artificialanalysis.ai/), via their [Data API](https://artificialanalysis.ai/data-api).
+
 - Source: [https://artificialanalysis.ai/api/v2/media/text-to-image/models/free](https://artificialanalysis.ai/api/v2/media/text-to-image/models/free)
-- Fetched at: 2026-08-18T09:41:51.467784+00:00
+- Fetched at: 2026-08-18T10:01:40.426014+00:00
 - Model count: 148
 
 > Generated from `internal/text-to-image.json` by `scripts/render_tables.py`. Do not edit by hand.
@@ -156,3 +158,6 @@
 | 5db3c143-21ef-4046-a9f3-9603c8297c18 | DALLE 2 | dalle-2 | e67e56e3-15cd-43db-b679-da4660a69f41 | OpenAI | 747 | 11 | -11/+11 |
 | 9d5d83b1-4b8e-4477-b587-5b35133d4b9e | Janus Pro | janus-pro | 58b835bf-4c87-4f87-a846-df4b692c6e7d | DeepSeek | 721 | 13 | -13/+13 |
 | a9df4a85-bb58-4e9a-9d5d-4b9f562c9d61 | Stable Diffusion 1.5 | stable-diffusion-1-5 | fae49f90-2280-46b0-b364-40d25eb84564 | Stability.ai | 666 | 13 | -13/+13 |
+
+---
+Data by [Artificial Analysis](https://artificialanalysis.ai/), via their [Data API](https://artificialanalysis.ai/data-api).

@@ -1,6 +1,8 @@
 # Leaderboard Tables
 
-Snapshot fetched at: 2026-08-18T09:41:51.467784+00:00
+Data by [Artificial Analysis](https://artificialanalysis.ai/), via their [Data API](https://artificialanalysis.ai/data-api).
+
+Snapshot fetched at: 2026-08-18T10:01:40.426014+00:00
 
 | Leaderboard | Table |
 |---|---|
