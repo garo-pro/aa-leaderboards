@@ -4,6 +4,11 @@ on:
   schedule:
     - cron: '13 5 * * *'  # 05:13 UTC daily
   workflow_dispatch:
+    inputs:
+      only:
+        description: 'Restrict fetch to these endpoint slugs (space-separated, e.g. "llms"). Leave blank for all.'
+        required: false
+        default: ''
 
 permissions:
   contents: write
@@ -12,14 +17,14 @@ jobs:
   fetch:
     runs-on: ubuntu-latest
     steps:
-      - uses: actions/checkout@v4
+      - uses: actions/checkout@v7
 
-      - uses: actions/setup-python@v5
+      - uses: actions/setup-python@v7
         with:
           python-version: '3.12'
 
       - name: Fetch leaderboards
-        run: python3 scripts/fetch_leaderboards.py
+        run: python3 scripts/fetch_leaderboards.py ${{ github.event.inputs.only && format('--only {0}', github.event.inputs.only) || '' }}
 
       - name: Render Markdown tables
         run: python3 scripts/render_tables.py
