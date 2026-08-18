@@ -23,16 +23,20 @@ See also the [tables index](tables/README.md).
 
 ## Sources
 
-This repo intentionally avoids relying on the rate-limited free AA API for daily full snapshots.
+This repo uses the official [Artificial Analysis Data API](https://artificialanalysis.ai/data-api) (Free tier), not scraped web surfaces. The upstream repo this was forked from scraped public pages/endpoints directly; several of those have since started requiring an API key, so this fork switched to the sanctioned API instead.
 
-Instead it collects from Artificial Analysis public web surfaces:
+All endpoints are under `https://artificialanalysis.ai/api/v2`, authenticated via an `x-api-key` header:
 
-- `llms` → `https://artificialanalysis.ai/leaderboards/models`
-- `text-to-image` → `https://artificialanalysis.ai/api/text-to-image/arena/preferences?supports_image_input=false`
-- `image-editing` → `https://artificialanalysis.ai/api/text-to-image/arena/preferences?supports_image_input=true`
-- `text-to-speech` → `https://artificialanalysis.ai/api/text-to-speech/arena/preferences`
-- `text-to-video` → `https://artificialanalysis.ai/api/text-to-video/arena/preferences?supports-image-input=false`
-- `image-to-video` → `https://artificialanalysis.ai/api/text-to-video/arena/preferences?supports-image-input=true`
+- `llms` → `/language/models/free`
+- `text-to-image` → `/media/text-to-image/models/free`
+- `image-editing` → `/media/image-editing/models/free`
+- `text-to-speech` → `/media/text-to-speech/models/free`
+- `text-to-video` → `/media/text-to-video/models/free`
+- `image-to-video` → `/media/image-to-video/models/free`
+
+The Free tier returns a smaller field set than a paid tier would (for the LLM leaderboard: identity, evaluations, pricing, performance; for the arena leaderboards: identity, Elo, and CI95 — no rank/samples/pricing breakdowns). Free tier is rate limited to 100 requests/24h; this pipeline uses a handful per run.
+
+**Setup:** get a free API key at [artificialanalysis.ai/data-api](https://artificialanalysis.ai/data-api) and set it as the `AA_API_KEY` repository secret (used by the workflow) or environment variable (for local runs).
 
 ## Structure
 
@@ -75,7 +79,7 @@ Two scripts run in sequence, both on the same daily schedule:
 2. `scripts/render_tables.py` — reads `internal/*.json` and renders full-detail Markdown tables to `tables/*.md`.
 
 ```bash
-python3 scripts/fetch_leaderboards.py
+AA_API_KEY=your_key_here python3 scripts/fetch_leaderboards.py
 python3 scripts/render_tables.py
 ```
 

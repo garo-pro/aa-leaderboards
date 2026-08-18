@@ -1,337 +1,159 @@
 #!/usr/bin/env python3
 """
-Fetch Artificial Analysis leaderboard data from public web surfaces.
+Fetch Artificial Analysis leaderboard data from the official Data API (Free tier).
 Saves the current snapshot to internal/ (overwritten each run — no history is kept
 here; run scripts/render_tables.py afterwards to publish readable Markdown tables).
 
-Sources:
-  - /leaderboards/models                                → LLM leaderboard page payload
-  - /api/text-to-image/arena/preferences                → Text-to-image / image editing
-  - /api/text-to-speech/arena/preferences               → Text-to-speech
-  - /api/text-to-video/arena/preferences                → Text-to-video / image-to-video
+Requires an API key: sign up for a free key at https://artificialanalysis.ai/data-api
+and set it as the AA_API_KEY environment variable. Free tier allows 100 requests per
+24h; this script uses at most a handful per run.
+
+Sources (all under https://artificialanalysis.ai/api/v2, Free tier):
+  - /language/models/free                    → LLM leaderboard (paginated)
+  - /media/text-to-image/models/free         → Text-to-image arena Elo
+  - /media/image-editing/models/free         → Image editing arena Elo
+  - /media/text-to-speech/models/free        → Text-to-speech arena Elo
+  - /media/text-to-video/models/free         → Text-to-video arena Elo
+  - /media/image-to-video/models/free        → Image-to-video arena Elo
 
 Usage:
-  python3 scripts/fetch_leaderboards.py
-  python3 scripts/fetch_leaderboards.py --only llms text-to-video
+  AA_API_KEY=... python3 scripts/fetch_leaderboards.py
+  AA_API_KEY=... python3 scripts/fetch_leaderboards.py --only llms text-to-video
 """
 
 from __future__ import annotations
 
 import argparse
 import json
-import re
+import os
 import sys
 import time
 from datetime import datetime, timezone
 from pathlib import Path
-from typing import Any, Iterable
+from typing import Any
 import urllib.error
 import urllib.request
 
-USER_AGENT = (
-    "Mozilla/5.0 (Windows NT 10.0; Win64; x64) "
-    "AppleWebKit/537.36 (KHTML, like Gecko) "
-    "Chrome/135.0.0.0 Safari/537.36"
-)
-PARSER_VERSION = "public-web-v1"
+API_BASE = "https://artificialanalysis.ai/api/v2"
+PARSER_VERSION = "official-api-v1"
 
 SOURCES = [
     {
         "slug": "llms",
-        "source_type": "page_payload",
-        "source_url": "https://artificialanalysis.ai/leaderboards/models",
-        "description": "LLM leaderboard page payload",
+        "path": "/language/models/free",
+        "kind": "language",
+        "description": "LLM leaderboard (Free tier)",
     },
     {
         "slug": "text-to-image",
-        "source_type": "public_json",
-        "source_url": "https://artificialanalysis.ai/api/text-to-image/arena/preferences?supports_image_input=false",
-        "description": "Text-to-image arena leaderboard",
+        "path": "/media/text-to-image/models/free",
+        "kind": "media",
+        "description": "Text-to-image arena Elo rankings (Free tier)",
     },
     {
         "slug": "image-editing",
-        "source_type": "public_json",
-        "source_url": "https://artificialanalysis.ai/api/text-to-image/arena/preferences?supports_image_input=true",
-        "description": "Image editing leaderboard via text-to-image public arena endpoint",
+        "path": "/media/image-editing/models/free",
+        "kind": "media",
+        "description": "Image editing arena Elo rankings (Free tier)",
     },
     {
         "slug": "text-to-speech",
-        "source_type": "public_json",
-        "source_url": "https://artificialanalysis.ai/api/text-to-speech/arena/preferences",
-        "description": "Text-to-speech arena leaderboard",
+        "path": "/media/text-to-speech/models/free",
+        "kind": "media",
+        "description": "Text-to-speech arena Elo rankings (Free tier)",
     },
     {
         "slug": "text-to-video",
-        "source_type": "public_json",
-        "source_url": "https://artificialanalysis.ai/api/text-to-video/arena/preferences?supports-image-input=false",
-        "description": "Text-to-video arena leaderboard",
+        "path": "/media/text-to-video/models/free",
+        "kind": "media",
+        "description": "Text-to-video arena Elo rankings (Free tier)",
     },
     {
         "slug": "image-to-video",
-        "source_type": "public_json",
-        "source_url": "https://artificialanalysis.ai/api/text-to-video/arena/preferences?supports-image-input=true",
-        "description": "Image-to-video leaderboard via text-to-video public arena endpoint",
+        "path": "/media/image-to-video/models/free",
+        "kind": "media",
+        "description": "Image-to-video arena Elo rankings (Free tier)",
     },
 ]
 
 
-def http_get(url: str, accept: str = "application/json") -> bytes:
+def fetch_json(path: str, api_key: str, params: dict[str, Any] | None = None) -> dict[str, Any]:
+    url = API_BASE + path
+    if params:
+        query = "&".join(f"{k}={v}" for k, v in params.items())
+        url = f"{url}?{query}"
+
     req = urllib.request.Request(
         url,
         headers={
-            "Accept": accept,
-            "User-Agent": USER_AGENT,
+            "Accept": "application/json",
+            "x-api-key": api_key,
         },
     )
-    with urllib.request.urlopen(req, timeout=60) as resp:
-        return resp.read()
-
-
-def fetch_json(url: str) -> dict[str, Any]:
-    return json.loads(http_get(url).decode("utf-8"))
-
-
-def fetch_text(url: str) -> str:
-    return http_get(url, accept="text/html,*/*;q=0.8").decode("utf-8", "ignore")
-
-
-def clean_value(value: Any) -> Any:
-    if value == "$undefined":
-        return None
-    if isinstance(value, dict):
-        return {k: clean_value(v) for k, v in value.items()}
-    if isinstance(value, list):
-        return [clean_value(v) for v in value]
-    return value
-
-
-def format_ci95(ci_delta: Any) -> str | None:
-    if ci_delta is None:
-        return None
-    if isinstance(ci_delta, float) and ci_delta.is_integer():
-        ci_delta = int(ci_delta)
-    return f"-{ci_delta}/+{ci_delta}"
-
-
-def iter_nested(obj: Any) -> Iterable[Any]:
-    yield obj
-    if isinstance(obj, dict):
-        for value in obj.values():
-            yield from iter_nested(value)
-    elif isinstance(obj, list):
-        for value in obj:
-            yield from iter_nested(value)
-
-
-def extract_llm_models_from_page(html: str) -> list[dict[str, Any]]:
-    pattern = re.compile(r'self\.__next_f\.push\(\[1,("(?:\\.|[^"\\])*")\]\)</script>')
-
-    for match in pattern.finditer(html):
-        decoded = json.loads(match.group(1))
-        if '"models":' not in decoded or ':' not in decoded:
-            continue
-
-        payload = decoded.split(':', 1)[1]
-        try:
-            obj = json.loads(payload)
-        except json.JSONDecodeError:
-            continue
-
-        for node in iter_nested(obj):
-            if not isinstance(node, dict):
-                continue
-            models = node.get("models")
-            if not isinstance(models, list) or not models:
-                continue
-            if isinstance(models[0], dict) and "modelCreatorId" in models[0]:
-                return clean_value(models)
-
-    raise RuntimeError("Could not locate detailed llm models payload in page HTML")
-
-
-def pick_primary_elo(raw: dict[str, Any]) -> dict[str, Any]:
-    overall = raw.get("overallElo")
-    if isinstance(overall, dict):
-        return overall
-
-    for entry in raw.get("elos", []):
-        if not entry.get("tag") and not entry.get("category") and not entry.get("accent"):
-            return entry
-
-    if raw.get("elos"):
-        return raw["elos"][0]
-
-    return {}
-
-
-def normalize_elo_entry(entry: dict[str, Any]) -> dict[str, Any]:
-    entry = clean_value(entry)
-    return {
-        "elo": entry.get("elo"),
-        "appearances": entry.get("appearances"),
-        "wins": entry.get("wins"),
-        "win_rate": entry.get("winRate"),
-        "ci95": format_ci95(entry.get("ciDelta")),
-        "ci_delta": entry.get("ciDelta"),
-        "tag": entry.get("tag"),
-        "category": entry.get("category"),
-        "accent": entry.get("accent"),
-    }
-
-
-def normalize_media(raw: dict[str, Any], slug: str, default_rank: int | None = None) -> dict[str, Any]:
-    raw = clean_value(raw)
-    primary = pick_primary_elo(raw)
-
-    result = {
-        "id": raw["id"],
-        "name": raw["name"],
-        "slug": raw["slug"],
-        "release_date": raw.get("releaseDate"),
-        "creator": raw.get("creator"),
-        "family": raw.get("family"),
-        "elo": primary.get("elo"),
-        "rank": raw.get("overallRank", default_rank),
-        "ci95": format_ci95(primary.get("ciDelta")),
-        "appearances": primary.get("appearances"),
-        "wins": primary.get("wins"),
-        "win_rate": primary.get("winRate"),
-        "open_weights_url": raw.get("openWeightsUrl"),
-        "is_current": raw.get("isCurrent"),
-        "is_scraped": raw.get("isScraped"),
-        "introduced_at": raw.get("introducedAt"),
-        "note": raw.get("note"),
-        "elos": [normalize_elo_entry(entry) for entry in raw.get("elos", [])],
-    }
-
-    if "isFirstPartyFoundational" in raw:
-        result["is_first_party_foundational"] = raw.get("isFirstPartyFoundational")
-
-    if slug in {"text-to-image", "image-editing"}:
-        result["pricing"] = {"price_per_1k_images": raw.get("pricePer1kImages")}
-    elif slug == "text-to-speech":
-        result["pricing"] = {"price_per_1m_characters": raw.get("pricePer1mCharacters")}
-    else:
-        result["pricing"] = {"price_per_minute": raw.get("pricePerMinute")}
-
-    return result
+    try:
+        with urllib.request.urlopen(req, timeout=60) as resp:
+            return json.loads(resp.read().decode("utf-8"))
+    except urllib.error.HTTPError as e:
+        body = e.read().decode("utf-8", "ignore")
+        raise RuntimeError(f"HTTP {e.code}: {body}") from e
 
 
 def normalize_llm(raw: dict[str, Any]) -> dict[str, Any]:
-    raw = clean_value(raw)
     return {
-        "id": raw["id"],
-        "name": raw["name"],
-        "short_name": raw.get("shortName"),
-        "slug": raw["slug"],
-        "release_date": raw.get("releaseDate"),
-        "reasoning_model": raw.get("reasoningModel"),
-        "deprecated": raw.get("deprecated"),
-        "creator": {
-            "id": raw.get("modelCreatorId"),
-            "name": raw.get("modelCreatorName"),
-            "slug": raw.get("modelCreatorSlug"),
-            "country": raw.get("modelCreatorCountry"),
-            "color": raw.get("modelCreatorColor"),
-            "logo": raw.get("modelCreatorLogo"),
-        },
-        "evaluations": {
-            "artificial_analysis_intelligence_index": raw.get("intelligenceIndex"),
-            "artificial_analysis_intelligence_index_is_estimated": raw.get("intelligenceIndexIsEstimated"),
-            "artificial_analysis_coding_index": raw.get("codingIndex"),
-            "artificial_analysis_agentic_index": raw.get("agenticIndex"),
-            "tau2_bench": raw.get("tau2"),
-            "terminal_bench_hard": raw.get("terminalbenchHard"),
-            "scicode": raw.get("scicode"),
-            "aa_lcr": raw.get("lcr"),
-            "aa_omniscience": raw.get("omniscience"),
-            "aa_omniscience_accuracy": raw.get("omniscienceAccuracy"),
-            "aa_omniscience_non_hallucination": raw.get("omniscienceNonHallucination"),
-            "ifbench": raw.get("ifbench"),
-            "hle": raw.get("hle"),
-            "gpqa": raw.get("gpqa"),
-            "critpt": raw.get("critpt"),
-            "apex_agents": raw.get("apexAgents"),
-            "gdpval_aa_normalized": raw.get("gdpvalNormalized"),
-            "mmmu_pro": raw.get("mmmuPro"),
-        },
-        "pricing": {
-            "price_1m_blended_3_to_1": raw.get("price1mBlended3To1"),
-            "price_1m_input_tokens": raw.get("price1mInputTokens"),
-            "price_1m_output_tokens": raw.get("price1mOutputTokens"),
-            "intelligence_index_cost_total": raw.get("intelligenceIndexCostTotal"),
-            "intelligence_index_cost_input": raw.get("intelligenceIndexCostInput"),
-            "intelligence_index_cost_output": raw.get("intelligenceIndexCostOutput"),
-            "intelligence_index_cost_reasoning": raw.get("intelligenceIndexCostReasoning"),
-            "intelligence_index_cost_answer": raw.get("intelligenceIndexCostAnswer"),
-            "price_class": raw.get("priceClass"),
-        },
-        "speed": {
-            "output_tokens_per_second": raw.get("medianOutputTokensPerSecond"),
-            "time_to_first_token_seconds": raw.get("medianTimeToFirstTokenSeconds"),
-            "time_to_first_answer_token_seconds": raw.get("medianTimeToFirstAnswerTokenSeconds"),
-            "end_to_end_response_time_seconds": raw.get("medianEndToEndResponseTimeSeconds"),
-            "reasoning_time_seconds": raw.get("medianReasoningTimeSeconds"),
-            "percentile_05_output_tokens_per_second": raw.get("percentile05OutputTokensPerSecond"),
-            "percentile_95_output_tokens_per_second": raw.get("percentile95OutputTokensPerSecond"),
-            "quartile_25_output_tokens_per_second": raw.get("quartile25OutputTokensPerSecond"),
-            "quartile_75_output_tokens_per_second": raw.get("quartile75OutputTokensPerSecond"),
-            "percentile_05_time_to_first_token_seconds": raw.get("percentile05TimeToFirstTokenSeconds"),
-            "percentile_95_time_to_first_token_seconds": raw.get("percentile95TimeToFirstTokenSeconds"),
-            "quartile_25_time_to_first_token_seconds": raw.get("quartile25TimeToFirstTokenSeconds"),
-            "quartile_75_time_to_first_token_seconds": raw.get("quartile75TimeToFirstTokenSeconds"),
-        },
-        "capabilities": {
-            "context_window_tokens": raw.get("contextWindowTokens"),
-            "total_parameters": raw.get("totalParameters"),
-            "active_parameters": raw.get("activeParameters"),
-            "training_tokens_trillions": raw.get("trainingTokensTrillions"),
-            "size_class": raw.get("sizeClass"),
-            "input_modality_text": raw.get("inputModalityText"),
-            "input_modality_image": raw.get("inputModalityImage"),
-            "input_modality_video": raw.get("inputModalityVideo"),
-            "input_modality_speech": raw.get("inputModalitySpeech"),
-            "output_modality_text": raw.get("outputModalityText"),
-            "output_modality_image": raw.get("outputModalityImage"),
-            "output_modality_video": raw.get("outputModalityVideo"),
-            "output_modality_speech": raw.get("outputModalitySpeech"),
-        },
-        "open_weights": {
-            "is_open_weights": raw.get("isOpenWeights"),
-            "commercial_allowed": raw.get("commercialAllowed"),
-            "license_name": raw.get("licenseName"),
-            "license_url": raw.get("licenseUrl"),
-            "huggingface_url": raw.get("huggingfaceUrl"),
-            "openrouter_api_id": raw.get("openrouterApiId"),
-        },
-        "breakdowns": {
-            "multilingual": raw.get("multilingualBreakdown"),
-            "gdpval": raw.get("gdpvalBreakdown"),
-            "omniscience": raw.get("omniscienceBreakdown"),
-            "openness": raw.get("opennessBreakdown"),
-            "eval_token_counts": raw.get("evalTokenCounts"),
-            "intelligence_index_token_counts": raw.get("intelligenceIndexTokenCounts"),
-        },
+        "id": raw.get("id"),
+        "name": raw.get("name"),
+        "slug": raw.get("slug"),
+        "release_date": raw.get("release_date"),
+        "creator": raw.get("model_creator"),
+        "evaluations": raw.get("evaluations"),
+        "intelligence_index_cost": raw.get("artificial_analysis_intelligence_index_cost"),
+        "pricing": raw.get("pricing"),
+        "performance": raw.get("performance"),
     }
 
 
-def fetch_source(source: dict[str, str]) -> tuple[list[dict[str, Any]], dict[str, Any]]:
-    slug = source["slug"]
-    source_url = source["source_url"]
+def normalize_media(raw: dict[str, Any]) -> dict[str, Any]:
+    ci_95 = raw.get("ci_95")
+    return {
+        "id": raw.get("id"),
+        "name": raw.get("name"),
+        "slug": raw.get("slug"),
+        "creator": raw.get("model_creator"),
+        "elo": raw.get("elo"),
+        "ci_95": ci_95,
+        "ci95_range": f"-{ci_95}/+{ci_95}" if ci_95 is not None else None,
+    }
 
-    if slug == "llms":
-        html = fetch_text(source_url)
-        raw_models = extract_llm_models_from_page(html)
-        models = [normalize_llm(model) for model in raw_models]
+
+def fetch_language_models(api_key: str) -> list[dict[str, Any]]:
+    models: list[dict[str, Any]] = []
+    page = 1
+    while True:
+        payload = fetch_json("/language/models/free", api_key, params={"page": page})
+        models.extend(payload.get("data", []))
+        pagination = payload.get("pagination") or {}
+        if not pagination.get("has_more"):
+            break
+        page += 1
+    return [normalize_llm(m) for m in models]
+
+
+def fetch_media_models(path: str, api_key: str) -> list[dict[str, Any]]:
+    payload = fetch_json(path, api_key)
+    return [normalize_media(m) for m in payload.get("data", [])]
+
+
+def fetch_source(source: dict[str, str], api_key: str) -> tuple[list[dict[str, Any]], dict[str, Any]]:
+    slug = source["slug"]
+    if source["kind"] == "language":
+        models = fetch_language_models(api_key)
     else:
-        payload = fetch_json(source_url)
-        raw_models = payload.get("models", [])
-        models = [normalize_media(model, slug, default_rank=i) for i, model in enumerate(raw_models, start=1)]
+        models = fetch_media_models(source["path"], api_key)
 
     meta = {
         "endpoint": slug,
-        "source_type": source["source_type"],
-        "source_url": source_url,
+        "source_type": "official_api_free_tier",
+        "source_url": API_BASE + source["path"],
         "source_description": source["description"],
         "parser_version": PARSER_VERSION,
         "model_count": len(models),
@@ -342,8 +164,14 @@ def fetch_source(source: dict[str, str]) -> tuple[list[dict[str, Any]], dict[str
 def main() -> None:
     parser = argparse.ArgumentParser(description="Fetch Artificial Analysis leaderboards")
     parser.add_argument("--only", nargs="*", help="Only fetch these endpoint slugs")
-    parser.add_argument("--delay", type=float, default=2.0, help="Delay between requests in seconds")
+    parser.add_argument("--delay", type=float, default=1.0, help="Delay between requests in seconds")
     args = parser.parse_args()
+
+    api_key = os.environ.get("AA_API_KEY")
+    if not api_key:
+        print("ERROR: AA_API_KEY environment variable is not set.", file=sys.stderr)
+        print("Get a free key at https://artificialanalysis.ai/data-api", file=sys.stderr)
+        sys.exit(1)
 
     sources = SOURCES
     if args.only:
@@ -371,8 +199,8 @@ def main() -> None:
         index = {
             "date": date_str,
             "fetched_at": fetched_at,
-            "source": "https://artificialanalysis.ai",
-            "source_type": "public_web_surfaces",
+            "source": "https://artificialanalysis.ai/data-api",
+            "source_type": "official_api_free_tier",
             "parser_version": PARSER_VERSION,
             "endpoints": {},
         }
@@ -384,7 +212,7 @@ def main() -> None:
         slug = source["slug"]
         print(f"Fetching {slug}...", end=" ", flush=True)
         try:
-            models, meta = fetch_source(source)
+            models, meta = fetch_source(source, api_key)
             meta["fetched_at"] = fetched_at
             output = {
                 "meta": meta,
@@ -397,8 +225,8 @@ def main() -> None:
 
             index["endpoints"][slug] = {
                 "model_count": len(models),
-                "source_type": source["source_type"],
-                "source_url": source["source_url"],
+                "source_type": "official_api_free_tier",
+                "source_url": API_BASE + source["path"],
             }
             success_count += 1
             print(f"✓ {len(models)} models")
@@ -406,8 +234,8 @@ def main() -> None:
             print(f"✗ {e}", file=sys.stderr)
             index["endpoints"][slug] = {
                 "error": str(e),
-                "source_type": source["source_type"],
-                "source_url": source["source_url"],
+                "source_type": "official_api_free_tier",
+                "source_url": API_BASE + source["path"],
             }
 
         if i < total:

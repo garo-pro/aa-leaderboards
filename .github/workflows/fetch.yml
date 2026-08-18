@@ -24,6 +24,8 @@ jobs:
           python-version: '3.12'
 
       - name: Fetch leaderboards
+        env:
+          AA_API_KEY: ${{ secrets.AA_API_KEY }}
         run: python3 scripts/fetch_leaderboards.py ${{ github.event.inputs.only && format('--only {0}', github.event.inputs.only) || '' }}
 
       - name: Render Markdown tables
