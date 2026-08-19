@@ -3,8 +3,8 @@
 Data by [Artificial Analysis](https://artificialanalysis.ai/), via their [Data API](https://artificialanalysis.ai/data-api).
 
 - Source: [https://artificialanalysis.ai/api/v2/language/models/free](https://artificialanalysis.ai/api/v2/language/models/free)
-- Fetched at: 2026-08-18T10:01:40.426014+00:00
-- Model count: 608
+- Fetched at: 2026-08-19T05:46:11.470052+00:00
+- Model count: 610
 
 > Generated from `internal/llms.json` by `scripts/render_tables.py`. Do not edit by hand.
 
@@ -610,13 +610,15 @@ Data by [Artificial Analysis](https://artificialanalysis.ai/), via their [Data A
 | fc4223e8-4586-4ca1-97ca-bb55ff586947 | KAT Coder Pro V2 | kat-coder-pro-v2 | 2026-03-27 | 2703c169-86d9-406b-8be1-ae5be8177f3c | KwaiKAT | 33.7 | 59.5 | 15.1 |  | 0.3 | 1.2 | 0.06 |  | 108.55 | 1.39 | 1.39 | 6 |  |  |
 | fc92f822-04b7-420d-9c07-a21af5e9aac7 | Qwen3 Coder Next | qwen3-coder-next | 2026-02-03 | d874d370-74d3-4fa0-ba00-5272f92f946b | Alibaba | 21.3 | 36.2 | 8.9 |  | 0.35 | 1.2 | 0.35 |  | 150.82 | 1.31 | 1.31 | 4.63 | 250.18 | 0.3371 |
 | fd4454ff-e703-46c0-a7f5-fa69af09486d | GPT-5.1 Codex mini (high) | gpt-5-1-codex-mini | 2025-11-13 | e67e56e3-15cd-43db-b679-da4660a69f41 | OpenAI | 31.3 |  |  |  | 0.25 | 2 |  |  |  |  |  |  |  |  |
+| fc92f822-04b7-420d-9c07-a21af5e9aac7 | Qwen3 Coder Next | qwen3-coder-next | 2026-02-03 | d874d370-74d3-4fa0-ba00-5272f92f946b | Alibaba | 21.3 | 36.2 | 8.9 |  | 0.35 | 1.2 | 0.35 |  | 128.22 | 1.14 | 1.14 | 5.04 | 250.18 | 0.3371 |
+| fd4454ff-e703-46c0-a7f5-fa69af09486d | GPT-5.1 Codex mini (high) | gpt-5-1-codex-mini | 2025-11-13 | e67e56e3-15cd-43db-b679-da4660a69f41 | OpenAI | 31.3 |  |  |  | 0.25 | 2 |  |  |  |  |  |  |  |  |
 | fddb72bd-60d3-41af-acc5-3df9a290eb8e | Gemini 2.0 Flash (experimental) | gemini-2-0-flash-experimental | 2024-12-11 | faddc6d9-2c14-445f-9b28-56726f59c793 | Google | 10.6 |  |  |  | 0 | 0 |  |  |  |  |  |  |  |  |
 | fe11ab6c-a4dd-4c28-9fef-07da76d5ed14 | Llama 65B | llama-65b | 2023-02-24 | e1694725-0192-4e54-b1b8-c97e816c6cbe | Meta | 1.7 |  |  |  |  |  |  |  |  |  |  |  |  |  |
-| fe2c2289-d261-4433-8681-46448372c1f6 | Grok 4.3 (low) | grok-4-3-low | 2026-04-30 | a1e3ddcf-d3e4-44a5-9e8f-029a69850875 | SpaceXAI | 36.3 |  |  |  | 1.25 | 2.5 | 0.2 | 1.25 | 113.34 | 6.5 | 6.5 | 10.91 |  |  |
-| fe4c0848-e284-4e52-a79d-cdc28392f1a9 | DeepSeek V4 Flash 0731 (Reasoning, Max Effort) | deepseek-v4-flash | 2026-07-31 | 58b835bf-4c87-4f87-a846-df4b692c6e7d | DeepSeek | 51.8 | 69.1 | 48.4 |  | 0.44 | 1.32 | 0.01 |  | 111.1 | 1.23 | 19.23 | 23.73 | 323.26 | 0.1122 |
-| feb02d3b-ff8d-4ed4-b165-13f8d4a7192c | Gemma 4 12B (Reasoning) | gemma-4-12b | 2026-06-03 | faddc6d9-2c14-445f-9b28-56726f59c793 | Google | 22.2 | 31 |  |  | 0.1 | 0.3 |  |  | 110.91 | 2.27 | 20.31 | 24.81 |  |  |
-| ff51be8f-e362-4a7e-9043-687ba15de207 | Claude Opus 5 (Adaptive Reasoning, Medium Effort) | claude-opus-5-medium | 2026-07-24 | f0aa413f-e8ae-4fcd-9c48-0e049f4f3128 | Anthropic | 58.6 | 74.3 | 50.4 |  | 5 | 25 | 0.5 | 6.25 | 53.75 | 11.49 | 11.49 | 20.8 | 1116.24 | 0.7243 |
-| ff9bc5e5-a02f-4270-983e-4b3f834f3363 | Grok 3 mini Reasoning (high) | grok-3-mini-reasoning | 2025-02-19 | a1e3ddcf-d3e4-44a5-9e8f-029a69850875 | SpaceXAI | 22.9 |  |  |  | 0.3 | 0.5 | 0.07 |  | 70.7 | 0.71 | 29 | 36.07 |  |  |
+| fe2c2289-d261-4433-8681-46448372c1f6 | Grok 4.3 (low) | grok-4-3-low | 2026-04-30 | a1e3ddcf-d3e4-44a5-9e8f-029a69850875 | SpaceXAI | 36.3 |  |  |  | 1.25 | 2.5 | 0.2 | 1.25 | 99.25 | 6.62 | 6.62 | 11.66 |  |  |
+| fe4c0848-e284-4e52-a79d-cdc28392f1a9 | DeepSeek V4 Flash 0731 (Reasoning, Max Effort) | deepseek-v4-flash | 2026-07-31 | 58b835bf-4c87-4f87-a846-df4b692c6e7d | DeepSeek | 51.8 | 69.1 | 48.4 |  | 0.44 | 1.32 | 0.01 |  | 103.17 | 1.18 | 20.56 | 25.41 | 323.26 | 0.1122 |
+| feb02d3b-ff8d-4ed4-b165-13f8d4a7192c | Gemma 4 12B (Reasoning) | gemma-4-12b | 2026-06-03 | faddc6d9-2c14-445f-9b28-56726f59c793 | Google | 22.2 | 31 |  |  | 0.1 | 0.3 |  |  | 109.35 | 2.34 | 20.63 | 25.2 |  |  |
+| ff51be8f-e362-4a7e-9043-687ba15de207 | Claude Opus 5 (Adaptive Reasoning, Medium Effort) | claude-opus-5-medium | 2026-07-24 | f0aa413f-e8ae-4fcd-9c48-0e049f4f3128 | Anthropic | 58.6 | 74.3 | 50.4 |  | 5 | 25 | 0.5 | 6.25 | 49.59 | 5.61 | 5.61 | 15.7 | 1116.24 | 0.7243 |
+| ff9bc5e5-a02f-4270-983e-4b3f834f3363 | Grok 3 mini Reasoning (high) | grok-3-mini-reasoning | 2025-02-19 | a1e3ddcf-d3e4-44a5-9e8f-029a69850875 | SpaceXAI | 22.9 |  |  |  | 0.3 | 0.5 | 0.07 |  | 64.22 | 0.71 | 31.85 | 39.64 |  |  |
 | ffd65ef7-fbdb-4145-98ae-b5d01cda770b | Llama 2 Chat 7B | llama-2-chat-7b | 2023-07-18 | e1694725-0192-4e54-b1b8-c97e816c6cbe | Meta | 3.9 |  |  |  | 0.05 | 0.25 |  |  |  |  |  |  |  |  |
 
 ---

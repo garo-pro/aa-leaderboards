@@ -5,8 +5,8 @@
     "source_url": "https://artificialanalysis.ai/api/v2/language/models/free",
     "source_description": "LLM leaderboard (Free tier)",
     "parser_version": "official-api-v1",
-    "model_count": 608,
-    "fetched_at": "2026-08-18T10:01:40.426014+00:00"
+    "model_count": 610,
+    "fetched_at": "2026-08-19T05:46:11.470052+00:00"
   },
   "models": [
     {
@@ -17520,6 +17520,67 @@
       }
     },
     {
+      "id": "fc92f822-04b7-420d-9c07-a21af5e9aac7",
+      "name": "Qwen3 Coder Next",
+      "slug": "qwen3-coder-next",
+      "release_date": "2026-02-03",
+      "creator": {
+        "id": "d874d370-74d3-4fa0-ba00-5272f92f946b",
+        "name": "Alibaba"
+      },
+      "evaluations": {
+        "artificial_analysis_intelligence_index": 21.3,
+        "artificial_analysis_coding_index": 36.2,
+        "artificial_analysis_agentic_index": 8.9
+      },
+      "intelligence_index_cost": {
+        "total_cost": 250.18,
+        "cost_per_task": {
+          "total_cost": 0.3371
+        }
+      },
+      "pricing": {
+        "price_1m_input_tokens": 0.35,
+        "price_1m_output_tokens": 1.2,
+        "price_1m_cache_hit_tokens": 0.35,
+        "price_1m_cache_write_tokens": null
+      },
+      "performance": {
+        "median_output_tokens_per_second": 128.22,
+        "median_time_to_first_token_seconds": 1.14,
+        "median_time_to_first_answer_token_seconds": 1.14,
+        "median_end_to_end_response_time_seconds": 5.04
+      }
+    },
+    {
+      "id": "fd4454ff-e703-46c0-a7f5-fa69af09486d",
+      "name": "GPT-5.1 Codex mini (high)",
+      "slug": "gpt-5-1-codex-mini",
+      "release_date": "2025-11-13",
+      "creator": {
+        "id": "e67e56e3-15cd-43db-b679-da4660a69f41",
+        "name": "OpenAI"
+      },
+      "evaluations": {
+        "artificial_analysis_intelligence_index": 31.3,
+        "artificial_analysis_coding_index": null,
+        "artificial_analysis_agentic_index": null
+      },
+      "intelligence_index_cost": null,
+      "pricing": {
+        "price_1m_input_tokens": 0.25,
+        "price_1m_output_tokens": 2,
+        "price_1m_cache_hit_tokens": null,
+        "price_1m_cache_write_tokens": null
+      },
+      "performance": {
+        "median_output_tokens_per_second": null,
+        "median_time_to_first_token_seconds": null,
+        "median_time_to_first_answer_token_seconds": null,
+        "median_end_to_end_response_time_seconds": null
+      }
+    },
+    {
       "id": "fddb72bd-60d3-41af-acc5-3df9a290eb8e",
       "name": "Gemini 2.0 Flash (experimental)",
       "slug": "gemini-2-0-flash-experimental",
@@ -17597,10 +17658,10 @@
         "price_1m_cache_write_tokens": 1.25
       },
       "performance": {
-        "median_output_tokens_per_second": 113.34,
-        "median_time_to_first_token_seconds": 6.5,
-        "median_time_to_first_answer_token_seconds": 6.5,
-        "median_end_to_end_response_time_seconds": 10.91
+        "median_output_tokens_per_second": 99.25,
+        "median_time_to_first_token_seconds": 6.62,
+        "median_time_to_first_answer_token_seconds": 6.62,
+        "median_end_to_end_response_time_seconds": 11.66
       }
     },
     {
@@ -17630,10 +17691,10 @@
         "price_1m_cache_write_tokens": null
       },
       "performance": {
-        "median_output_tokens_per_second": 111.1,
-        "median_time_to_first_token_seconds": 1.23,
-        "median_time_to_first_answer_token_seconds": 19.23,
-        "median_end_to_end_response_time_seconds": 23.73
+        "median_output_tokens_per_second": 103.17,
+        "median_time_to_first_token_seconds": 1.18,
+        "median_time_to_first_answer_token_seconds": 20.56,
+        "median_end_to_end_response_time_seconds": 25.41
       }
     },
     {
@@ -17658,10 +17719,10 @@
         "price_1m_cache_write_tokens": null
       },
       "performance": {
-        "median_output_tokens_per_second": 110.91,
-        "median_time_to_first_token_seconds": 2.27,
-        "median_time_to_first_answer_token_seconds": 20.31,
-        "median_end_to_end_response_time_seconds": 24.81
+        "median_output_tokens_per_second": 109.35,
+        "median_time_to_first_token_seconds": 2.34,
+        "median_time_to_first_answer_token_seconds": 20.63,
+        "median_end_to_end_response_time_seconds": 25.2
       }
     },
     {
@@ -17691,10 +17752,10 @@
         "price_1m_cache_write_tokens": 6.25
       },
       "performance": {
-        "median_output_tokens_per_second": 53.75,
-        "median_time_to_first_token_seconds": 11.49,
-        "median_time_to_first_answer_token_seconds": 11.49,
-        "median_end_to_end_response_time_seconds": 20.8
+        "median_output_tokens_per_second": 49.59,
+        "median_time_to_first_token_seconds": 5.61,
+        "median_time_to_first_answer_token_seconds": 5.61,
+        "median_end_to_end_response_time_seconds": 15.7
       }
     },
     {
@@ -17719,10 +17780,10 @@
         "price_1m_cache_write_tokens": null
       },
       "performance": {
-        "median_output_tokens_per_second": 70.7,
+        "median_output_tokens_per_second": 64.22,
         "median_time_to_first_token_seconds": 0.71,
-        "median_time_to_first_answer_token_seconds": 29,
-        "median_end_to_end_response_time_seconds": 36.07
+        "median_time_to_first_answer_token_seconds": 31.85,
+        "median_end_to_end_response_time_seconds": 39.64
       }
     },
     {
