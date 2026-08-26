@@ -6,7 +6,7 @@
     "source_description": "Text-to-video arena Elo rankings (Free tier)",
     "parser_version": "official-api-v1",
     "model_count": 80,
-    "fetched_at": "2026-08-25T05:47:34.712890+00:00"
+    "fetched_at": "2026-08-26T05:50:24.873627+00:00"
   },
   "models": [
     {
@@ -101,7 +101,7 @@
         "id": "62cc833b-f55a-4489-bcae-54806d4b04ff",
         "name": "KlingAI"
       },
-      "elo": 1227,
+      "elo": 1228,
       "ci_95": 8,
       "ci95_range": "-8/+8"
     },
@@ -113,7 +113,7 @@
         "id": "a1e3ddcf-d3e4-44a5-9e8f-029a69850875",
         "name": "SpaceXAI"
       },
-      "elo": 1221,
+      "elo": 1222,
       "ci_95": 7,
       "ci95_range": "-7/+7"
     },
@@ -401,7 +401,7 @@
         "id": "faddc6d9-2c14-445f-9b28-56726f59c793",
         "name": "Google"
       },
-      "elo": 1173,
+      "elo": 1172,
       "ci_95": 8,
       "ci95_range": "-8/+8"
     },
@@ -581,7 +581,7 @@
         "id": "ed94442e-da40-4fa6-a209-c7e9e095a75f",
         "name": "Lightricks"
       },
-      "elo": 1105,
+      "elo": 1106,
       "ci_95": 8,
       "ci95_range": "-8/+8"
     },
@@ -869,7 +869,7 @@
         "id": "d874d370-74d3-4fa0-ba00-5272f92f946b",
         "name": "Alibaba"
       },
-      "elo": 949,
+      "elo": 950,
       "ci_95": 9,
       "ci95_range": "-9/+9"
     },

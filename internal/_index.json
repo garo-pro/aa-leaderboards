@@ -1,22 +1,22 @@
 {
-  "date": "2026-08-25",
-  "fetched_at": "2026-08-25T05:47:34.712890+00:00",
+  "date": "2026-08-26",
+  "fetched_at": "2026-08-26T05:50:24.873627+00:00",
   "source": "https://artificialanalysis.ai/data-api",
   "source_type": "official_api_free_tier",
   "parser_version": "official-api-v1",
   "endpoints": {
     "llms": {
-      "model_count": 616,
+      "model_count": 618,
       "source_type": "official_api_free_tier",
       "source_url": "https://artificialanalysis.ai/api/v2/language/models/free"
     },
     "text-to-image": {
-      "model_count": 151,
+      "model_count": 154,
       "source_type": "official_api_free_tier",
       "source_url": "https://artificialanalysis.ai/api/v2/media/text-to-image/models/free"
     },
     "image-editing": {
-      "model_count": 70,
+      "model_count": 71,
       "source_type": "official_api_free_tier",
       "source_url": "https://artificialanalysis.ai/api/v2/media/image-editing/models/free"
     },

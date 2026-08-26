@@ -3,7 +3,7 @@
 Data by [Artificial Analysis](https://artificialanalysis.ai/), via their [Data API](https://artificialanalysis.ai/data-api).
 
 - Source: [https://artificialanalysis.ai/api/v2/media/text-to-video/models/free](https://artificialanalysis.ai/api/v2/media/text-to-video/models/free)
-- Fetched at: 2026-08-25T05:47:34.712890+00:00
+- Fetched at: 2026-08-26T05:50:24.873627+00:00
 - Model count: 80
 
 > Generated from `internal/text-to-video.json` by `scripts/render_tables.py`. Do not edit by hand.
@@ -17,8 +17,8 @@ Data by [Artificial Analysis](https://artificialanalysis.ai/), via their [Data A
 | e0e60f8f-ad67-4b84-aec9-4da2b9a962d5 | HappyHorse-1.1 | happyhorse-1-1 | 0ea38458-92d7-45de-a69d-c50bd8277273 | Alibaba-ATH | 1261 | 9 | -9/+9 |
 | 03ff7ea5-2ee9-4f2d-9c41-01f4279362cb | Wan2.7-260612 | wan2-7-260612 | d874d370-74d3-4fa0-ba00-5272f92f946b | Alibaba | 1242 | 9 | -9/+9 |
 | d149ad95-b3b2-4d23-8611-07a84c1a0e7f | Kling 3.0 1080p (Pro) | kling-3-0-pro | 62cc833b-f55a-4489-bcae-54806d4b04ff | KlingAI | 1238 | 7 | -7/+7 |
-| 553f28a1-95de-4991-9084-d9275d862f68 | Kling 3.0 Omni 1080p (Pro) | kling-o3-pro | 62cc833b-f55a-4489-bcae-54806d4b04ff | KlingAI | 1227 | 8 | -8/+8 |
-| 22ae7204-9ed9-4440-a8a6-48340dc8d446 | grok-imagine-video | grok-imagine-video | a1e3ddcf-d3e4-44a5-9e8f-029a69850875 | SpaceXAI | 1221 | 7 | -7/+7 |
+| 553f28a1-95de-4991-9084-d9275d862f68 | Kling 3.0 Omni 1080p (Pro) | kling-o3-pro | 62cc833b-f55a-4489-bcae-54806d4b04ff | KlingAI | 1228 | 8 | -8/+8 |
+| 22ae7204-9ed9-4440-a8a6-48340dc8d446 | grok-imagine-video | grok-imagine-video | a1e3ddcf-d3e4-44a5-9e8f-029a69850875 | SpaceXAI | 1222 | 7 | -7/+7 |
 | 2f5c6a72-ee06-436d-9a19-bc615825fa5b | Bach-1.0 Preview | bach-1-0-preview | 8fd60081-cd8e-4838-bd7c-01f705ed7f7e | Video Rebirth | 1217 | 8 | -8/+8 |
 | f0a7c830-eab1-419f-b61c-bb7143841a9d | Kling 3.0 Omni 720p (Standard) | kling-o3-standard | 62cc833b-f55a-4489-bcae-54806d4b04ff | KlingAI | 1214 | 8 | -8/+8 |
 | 1ce3af77-bb30-40ef-90e2-5aa9fa4588b9 | Wan 2.7 | wan-2-7-v2v | d874d370-74d3-4fa0-ba00-5272f92f946b | Alibaba | 1214 | 9 | -9/+9 |
@@ -42,7 +42,7 @@ Data by [Artificial Analysis](https://artificialanalysis.ai/), via their [Data A
 | 6ccddbde-d734-4ac0-95a7-f7ed903ec45d | Wan 2.6 | wan-2-6 | d874d370-74d3-4fa0-ba00-5272f92f946b | Alibaba | 1186 | 8 | -8/+8 |
 | f719629b-b8ad-4cce-92f9-758936baff53 | Ray 3 | ray-3 | 09468924-69a9-499b-8dd6-d0bb4c05285d | Luma Labs | 1185 | 8 | -8/+8 |
 | 54dce3b3-7d22-4c87-bd14-74e5218c7759 | Kling 2.6 Standard (January) | kling-2-6-standard-january-no-audio | 62cc833b-f55a-4489-bcae-54806d4b04ff | KlingAI | 1182 | 7 | -7/+7 |
-| 3e2f019d-70a5-4743-995b-5674840a89cf | Veo 3 Fast Preview | veo-3-fast-preview-no-audio | faddc6d9-2c14-445f-9b28-56726f59c793 | Google | 1173 | 8 | -8/+8 |
+| 3e2f019d-70a5-4743-995b-5674840a89cf | Veo 3 Fast Preview | veo-3-fast-preview-no-audio | faddc6d9-2c14-445f-9b28-56726f59c793 | Google | 1172 | 8 | -8/+8 |
 | c4f20ba7-a57a-46b5-a9eb-7655d7bed256 | Hailuo 2.3 | hailuo-2-3-prompt-enhancement | a31a9071-6144-4dbb-92dc-2e02d653ecea | MiniMax | 1170 | 7 | -7/+7 |
 | aea5e8ea-2766-4235-ad96-307ee1d985e3 | Hailuo 02 Standard | hailuo-02-standard | a31a9071-6144-4dbb-92dc-2e02d653ecea | MiniMax | 1169 | 9 | -9/+9 |
 | 54ccf54f-c5b1-4820-af60-57015ba37fc7 | Seedance 1.5 pro | seedance-1-5-pro | 2354746c-4775-4a06-b64d-0ba4137785b8 | ByteDance Seed | 1169 | 7 | -7/+7 |
@@ -57,7 +57,7 @@ Data by [Artificial Analysis](https://artificialanalysis.ai/), via their [Data A
 | 40f64093-99b7-4e9b-9705-651fc5b436c4 | LTX-2.3 Fast | ltx-2-3-fast | ed94442e-da40-4fa6-a209-c7e9e095a75f | Lightricks | 1120 | 8 | -8/+8 |
 | 2175641c-9303-4ac3-af3c-21cc7113adb0 | Veo 2 | veo-2 | faddc6d9-2c14-445f-9b28-56726f59c793 | Google | 1114 | 8 | -8/+8 |
 | 07afda5d-a248-4139-b662-2233391ff127 | Wan 2.2 A14B | wan-2-2-a14b | d874d370-74d3-4fa0-ba00-5272f92f946b | Alibaba | 1106 | 7 | -7/+7 |
-| c783d9aa-c387-4f44-b371-563fd9bab06d | LTX-2.3 Pro | ltx-2-3-pro | ed94442e-da40-4fa6-a209-c7e9e095a75f | Lightricks | 1105 | 8 | -8/+8 |
+| c783d9aa-c387-4f44-b371-563fd9bab06d | LTX-2.3 Pro | ltx-2-3-pro | ed94442e-da40-4fa6-a209-c7e9e095a75f | Lightricks | 1106 | 8 | -8/+8 |
 | 043f0cb2-3565-45ad-bf78-7e2de8288e94 | Vidu Q3 Turbo | vidu-q3-turbo | e3a5ba75-0127-45b0-8bcc-2864b8dd404d | Vidu | 1102 | 11 | -11/+11 |
 | 53ce6c01-8a4d-4d22-94a8-d48ffe32ce32 | Kling 2.0 | kling-2-0 | 62cc833b-f55a-4489-bcae-54806d4b04ff | KlingAI | 1084 | 8 | -8/+8 |
 | 105002bb-dfde-4b74-9615-361c637d1887 | Seedance 1.0 Mini | seedance-1-0-mini | 2354746c-4775-4a06-b64d-0ba4137785b8 | ByteDance Seed | 1079 | 8 | -8/+8 |
@@ -81,7 +81,7 @@ Data by [Artificial Analysis](https://artificialanalysis.ai/), via their [Data A
 | 43b09fe3-a4a8-4bda-9244-da05949c9d65 | Runway Gen 3 Alpha | runway-gen-3-alpha | a6906d95-a471-4a0c-ad10-b989571de20c | Runway | 983 | 8 | -8/+8 |
 | 5f244318-4fd4-48b9-93fe-44f109406809 | Ray 1 | ray-1 | 09468924-69a9-499b-8dd6-d0bb4c05285d | Luma Labs | 974 | 8 | -8/+8 |
 | 66313bcc-1718-4c02-b69a-e31dd5f19278 | Krea Realtime | krea-realtime | da6aca5c-fe97-453a-b5cb-43de1ac7210b | Krea | 965 | 9 | -9/+9 |
-| 815774fd-dcae-4abf-aaad-fb48c13fb70d | Wan 2.2 5B | wan-2-2-5b | d874d370-74d3-4fa0-ba00-5272f92f946b | Alibaba | 949 | 9 | -9/+9 |
+| 815774fd-dcae-4abf-aaad-fb48c13fb70d | Wan 2.2 5B | wan-2-2-5b | d874d370-74d3-4fa0-ba00-5272f92f946b | Alibaba | 950 | 9 | -9/+9 |
 | 31bbc42d-faa9-4863-8a23-3c7b6b5c3b49 | Kling 1.0 | kling-1-0 | 62cc833b-f55a-4489-bcae-54806d4b04ff | KlingAI | 948 | 8 | -8/+8 |
 | 43967fcc-e1b9-4591-ac7c-d59c51d8b192 | Pika 2.2 | pika-2-2 | acea75bb-3f76-4ce0-b168-741a31fcec0a | Pika Art | 947 | 9 | -9/+9 |
 | 8e64f13b-39f2-4d9e-8d68-eccd34ed8722 | Ray 2 | ray-2 | 09468924-69a9-499b-8dd6-d0bb4c05285d | Luma Labs | 944 | 8 | -8/+8 |
