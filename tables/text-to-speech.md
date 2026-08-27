@@ -3,8 +3,8 @@
 Data by [Artificial Analysis](https://artificialanalysis.ai/), via their [Data API](https://artificialanalysis.ai/data-api).
 
 - Source: [https://artificialanalysis.ai/api/v2/media/text-to-speech/models/free](https://artificialanalysis.ai/api/v2/media/text-to-speech/models/free)
-- Fetched at: 2026-08-26T05:50:24.873627+00:00
-- Model count: 101
+- Fetched at: 2026-08-27T16:30:16.209305+00:00
+- Model count: 100
 
 > Generated from `internal/text-to-speech.json` by `scripts/render_tables.py`. Do not edit by hand.
 
@@ -71,7 +71,6 @@ Data by [Artificial Analysis](https://artificialanalysis.ai/), via their [Data A
 | 7b6ea07a-99e1-4635-9ea1-beee1b6520d5 | Gemini 2.5 Flash TTS (Dec 2025) | gemini-2-5-flash-dec-2025 | faddc6d9-2c14-445f-9b28-56726f59c793 | Google | 1056 | 12 | -12/+12 |
 | b4a9f921-ae13-4c12-b907-6e9c6bedaf58 | Octave 2 | ocateve-2 | a6194e19-3b44-47d8-97b8-7eb2564c5b91 | Hume AI | 1055 | 12 | -12/+12 |
 | 291fe690-9bbd-452b-a352-87edab0c90b6 | Maya 2 Global | maya-2-global | 2dc2b41d-fb75-4fec-8e91-c55cfd34814f | Maya Research | 1055 | 14 | -14/+14 |
-| 77d660c1-f881-41ab-9982-167e09938218 | Flux TTS | flux-tts | e89cf922-cec7-4064-a472-c439f5a04da9 | Deepgram | 1053 | 14 | -14/+14 |
 | 226b8eae-c73f-4f81-a454-243d7e048043 | OpenAudio S1 Mini | openaudio-s1-mini | b28a9155-95e8-460a-82fe-8271e5f2bc77 | Fish Audio | 1050 | 19 | -19/+19 |
 | 765fd2b5-acb4-490f-a402-eaad710f23e1 | Async Flash v1.0 | asyncflow-v2 | fccade0c-ac6f-4c87-9c6e-59957a1e93b9 | async | 1049 | 11 | -11/+11 |
 | 081709c5-d010-462f-b6ad-ef128df78cbd | Maya1 | maya-1 | 2dc2b41d-fb75-4fec-8e91-c55cfd34814f | Maya Research | 1045 | 12 | -12/+12 |
