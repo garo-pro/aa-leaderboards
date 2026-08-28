@@ -149,6 +149,10 @@ def main() -> None:
     for slug in rendered:
         index_lines.append(f"| {TITLES.get(slug, slug)} | [{slug}.md]({slug}.md) |")
     index_lines.append("")
+    index_lines.append(
+        "Same data, grouped by provider instead of endpoint: [endpoint-providers.md](endpoint-providers.md)."
+    )
+    index_lines.append("")
 
     with open(tables_dir / "README.md", "w", encoding="utf-8") as f:
         f.write("\n".join(index_lines))

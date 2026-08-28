@@ -3,6 +3,11 @@ name: Fetch Leaderboards
 on:
   schedule:
     - cron: '13 5 * * *'  # 05:13 UTC daily
+  push:
+    branches:
+      - main
+    paths:
+      - 'scripts/**'
   workflow_dispatch:
     inputs:
       only:
@@ -30,6 +35,9 @@ jobs:
 
       - name: Render Markdown tables
         run: python3 scripts/render_tables.py
+
+      - name: Render provider-grouped table
+        run: python3 scripts/render_by_provider.py
 
       - name: Commit & push
         run: |

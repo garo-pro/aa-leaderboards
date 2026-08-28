@@ -12,3 +12,5 @@ Snapshot fetched at: 2026-08-27T16:30:16.209305+00:00
 | Text-to-Speech Arena | [text-to-speech.md](text-to-speech.md) |
 | Text-to-Video Arena | [text-to-video.md](text-to-video.md) |
 | Image-to-Video Arena | [image-to-video.md](image-to-video.md) |
+
+Same data, grouped by provider instead of endpoint: [endpoint-providers.md](endpoint-providers.md).

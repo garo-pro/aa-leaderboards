@@ -19,7 +19,7 @@ The current snapshot, rendered as Markdown:
 | `text-to-video` | Text-to-video arena rankings | [tables/text-to-video.md](tables/text-to-video.md) |
 | `image-to-video` | Image-to-video arena rankings | [tables/image-to-video.md](tables/image-to-video.md) |
 
-See also the [tables index](tables/README.md).
+See also the [tables index](tables/README.md) and [endpoint-providers.md](tables/endpoint-providers.md) (same data, grouped by provider instead of endpoint).
 
 ## Sources
 
@@ -57,7 +57,8 @@ tables/                 # Published output — Markdown tables rendered from int
 ├── image-editing.md
 ├── text-to-speech.md
 ├── text-to-video.md
-└── image-to-video.md
+├── image-to-video.md
+└── endpoint-providers.md # Same data, grouped by provider instead of endpoint
 ```
 
 Unlike the upstream repo, this fork keeps only the **current** snapshot — `internal/*.json` and `tables/*.md` are overwritten in place on each run, no dated history is retained.
@@ -73,14 +74,16 @@ Each `internal/*.json` file includes:
 
 ## Pipeline
 
-Two scripts run in sequence, both on the same daily schedule:
+Three scripts run in sequence, all on the same daily schedule:
 
 1. `scripts/fetch_leaderboards.py` — fetches the public web surfaces above and writes the normalized current snapshot to `internal/*.json`.
-2. `scripts/render_tables.py` — reads `internal/*.json` and renders full-detail Markdown tables to `tables/*.md`.
+2. `scripts/render_tables.py` — reads `internal/*.json` and renders full-detail Markdown tables to `tables/*.md`, one file per endpoint.
+3. `scripts/render_by_provider.py` — reads `internal/*.json` and renders `tables/endpoint-providers.md`, the same data grouped by provider (creator) instead of endpoint.
 
 ```bash
 AA_API_KEY=your_key_here python3 scripts/fetch_leaderboards.py
 python3 scripts/render_tables.py
+python3 scripts/render_by_provider.py
 ```
 
 ## Updates
