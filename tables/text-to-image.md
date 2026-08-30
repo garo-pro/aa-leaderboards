@@ -3,7 +3,7 @@
 Data by [Artificial Analysis](https://artificialanalysis.ai/), via their [Data API](https://artificialanalysis.ai/data-api).
 
 - Source: [https://artificialanalysis.ai/api/v2/media/text-to-image/models/free](https://artificialanalysis.ai/api/v2/media/text-to-image/models/free)
-- Fetched at: 2026-08-29T11:39:35.963226+00:00
+- Fetched at: 2026-08-30T10:28:38.336710+00:00
 - Model count: 155
 
 > Generated from `internal/text-to-image.json` by `scripts/render_tables.py`. Do not edit by hand.
