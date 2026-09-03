@@ -3,8 +3,8 @@
 Data by [Artificial Analysis](https://artificialanalysis.ai/), via their [Data API](https://artificialanalysis.ai/data-api).
 
 - Source: [https://artificialanalysis.ai/api/v2/media/text-to-speech/models/free](https://artificialanalysis.ai/api/v2/media/text-to-speech/models/free)
-- Fetched at: 2026-09-02T09:37:05.682469+00:00
-- Model count: 98
+- Fetched at: 2026-09-03T09:49:11.069401+00:00
+- Model count: 97
 
 > Generated from `internal/text-to-speech.json` by `scripts/render_tables.py`. Do not edit by hand.
 
@@ -70,7 +70,6 @@ Data by [Artificial Analysis](https://artificialanalysis.ai/), via their [Data A
 | f524429e-7e12-47eb-88df-6a9730f88989 | Chirp 3: HD | chirp3-hd | faddc6d9-2c14-445f-9b28-56726f59c793 | Google | 1054 | 11 | -11/+11 |
 | 226b8eae-c73f-4f81-a454-243d7e048043 | OpenAudio S1 Mini | openaudio-s1-mini | b28a9155-95e8-460a-82fe-8271e5f2bc77 | Fish Audio | 1049 | 19 | -19/+19 |
 | 765fd2b5-acb4-490f-a402-eaad710f23e1 | Async Flash v1.0 | asyncflow-v2 | fccade0c-ac6f-4c87-9c6e-59957a1e93b9 | async | 1046 | 11 | -11/+11 |
-| 58e4baac-f1c7-4a67-b812-bb7feda26a3b | Bland Speech v3 | bland-0830 | 3ab10c2e-eaa1-472e-b59c-d79818a52469 | Bland AI | 1044 | 14 | -14/+14 |
 | 081709c5-d010-462f-b6ad-ef128df78cbd | Maya1 | maya-1 | 2dc2b41d-fb75-4fec-8e91-c55cfd34814f | Maya Research | 1042 | 12 | -12/+12 |
 | 798934ab-0f43-49d2-8343-15c1ade78458 | Sonic English (Oct 2024) | sonic-english-oct-24- | 1fa5b287-d75e-4268-a1c1-c04c0a9e512a | Cartesia | 1041 | 12 | -12/+12 |
 | 8b4be309-2f31-4ff2-be79-a6652c29ab12 | Polly Long-Form | polly-long-form | bb5a4e55-7969-4ab4-8702-3b9fd6547dc2 | Amazon | 1041 | 13 | -13/+13 |

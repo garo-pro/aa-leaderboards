@@ -5,8 +5,8 @@
     "source_url": "https://artificialanalysis.ai/api/v2/media/text-to-speech/models/free",
     "source_description": "Text-to-speech arena Elo rankings (Free tier)",
     "parser_version": "official-api-v1",
-    "model_count": 98,
-    "fetched_at": "2026-09-02T09:37:05.682469+00:00"
+    "model_count": 97,
+    "fetched_at": "2026-09-03T09:49:11.069401+00:00"
   },
   "models": [
     {
@@ -728,18 +728,6 @@
       "elo": 1046,
       "ci_95": 11,
       "ci95_range": "-11/+11"
-    },
-    {
-      "id": "58e4baac-f1c7-4a67-b812-bb7feda26a3b",
-      "name": "Bland Speech v3",
-      "slug": "bland-0830",
-      "creator": {
-        "id": "3ab10c2e-eaa1-472e-b59c-d79818a52469",
-        "name": "Bland AI"
-      },
-      "elo": 1044,
-      "ci_95": 14,
-      "ci95_range": "-14/+14"
     },
     {
       "id": "081709c5-d010-462f-b6ad-ef128df78cbd",
