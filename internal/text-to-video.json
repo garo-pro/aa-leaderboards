@@ -6,7 +6,7 @@
     "source_description": "Text-to-video arena Elo rankings (Free tier)",
     "parser_version": "official-api-v1",
     "model_count": 81,
-    "fetched_at": "2026-09-03T09:49:11.069401+00:00"
+    "fetched_at": "2026-09-04T09:38:47.766439+00:00"
   },
   "models": [
     {
@@ -77,7 +77,7 @@
         "id": "0ea38458-92d7-45de-a69d-c50bd8277273",
         "name": "Alibaba-ATH"
       },
-      "elo": 1262,
+      "elo": 1261,
       "ci_95": 8,
       "ci95_range": "-8/+8"
     },
@@ -845,7 +845,7 @@
         "id": "a6906d95-a471-4a0c-ad10-b989571de20c",
         "name": "Runway"
       },
-      "elo": 982,
+      "elo": 983,
       "ci_95": 8,
       "ci95_range": "-8/+8"
     },

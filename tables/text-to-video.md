@@ -3,7 +3,7 @@
 Data by [Artificial Analysis](https://artificialanalysis.ai/), via their [Data API](https://artificialanalysis.ai/data-api).
 
 - Source: [https://artificialanalysis.ai/api/v2/media/text-to-video/models/free](https://artificialanalysis.ai/api/v2/media/text-to-video/models/free)
-- Fetched at: 2026-09-03T09:49:11.069401+00:00
+- Fetched at: 2026-09-04T09:38:47.766439+00:00
 - Model count: 81
 
 > Generated from `internal/text-to-video.json` by `scripts/render_tables.py`. Do not edit by hand.
@@ -15,7 +15,7 @@ Data by [Artificial Analysis](https://artificialanalysis.ai/), via their [Data A
 | c82a5e9e-6a94-40c3-ab47-7b4935f9c685 | MiniMax H3 | minimax-h3 | a31a9071-6144-4dbb-92dc-2e02d653ecea | MiniMax | 1301 | 10 | -10/+10 |
 | a4dc21f8-7a35-497e-90a4-4c9a1593c8ca | HappyHorse-1.0 | happyhorse-1-0 | 0ea38458-92d7-45de-a69d-c50bd8277273 | Alibaba-ATH | 1282 | 8 | -8/+8 |
 | 36db1f4d-a9f6-49d1-a74d-06bddbf2fe4f | Dreamina Seedance 2.0 720p | seedance-2-0 | 2354746c-4775-4a06-b64d-0ba4137785b8 | ByteDance Seed | 1267 | 7 | -7/+7 |
-| e0e60f8f-ad67-4b84-aec9-4da2b9a962d5 | HappyHorse-1.1 | happyhorse-1-1 | 0ea38458-92d7-45de-a69d-c50bd8277273 | Alibaba-ATH | 1262 | 8 | -8/+8 |
+| e0e60f8f-ad67-4b84-aec9-4da2b9a962d5 | HappyHorse-1.1 | happyhorse-1-1 | 0ea38458-92d7-45de-a69d-c50bd8277273 | Alibaba-ATH | 1261 | 8 | -8/+8 |
 | 03ff7ea5-2ee9-4f2d-9c41-01f4279362cb | Wan2.7-260612 | wan2-7-260612 | d874d370-74d3-4fa0-ba00-5272f92f946b | Alibaba | 1244 | 8 | -8/+8 |
 | d149ad95-b3b2-4d23-8611-07a84c1a0e7f | Kling 3.0 1080p (Pro) | kling-3-0-pro | 62cc833b-f55a-4489-bcae-54806d4b04ff | KlingAI | 1238 | 7 | -7/+7 |
 | 553f28a1-95de-4991-9084-d9275d862f68 | Kling 3.0 Omni 1080p (Pro) | kling-o3-pro | 62cc833b-f55a-4489-bcae-54806d4b04ff | KlingAI | 1227 | 8 | -8/+8 |
@@ -79,7 +79,7 @@ Data by [Artificial Analysis](https://artificialanalysis.ai/), via their [Data A
 | 21bce815-dea9-4e48-8515-cf2b193ae711 | Vidu Q1 | vidu-q1 | e3a5ba75-0127-45b0-8bcc-2864b8dd404d | Vidu | 1003 | 10 | -10/+10 |
 | 1553fa6c-1a13-4619-9187-0cc28da3d7c0 | Mochi 1 | mochi-1 | e345e061-a2be-46bc-adad-a4a686304982 | Genmo | 1000 | 0 | -0/+0 |
 | 5bc92dfd-8341-493c-b288-7dc28f804740 | Hunyuan Video (Fal) | hunyuan-video-open-source- | a4e5bd55-a6cd-4dcf-8d4a-1d9643cd3826 | Tencent | 996 | 8 | -8/+8 |
-| 43b09fe3-a4a8-4bda-9244-da05949c9d65 | Runway Gen 3 Alpha | runway-gen-3-alpha | a6906d95-a471-4a0c-ad10-b989571de20c | Runway | 982 | 8 | -8/+8 |
+| 43b09fe3-a4a8-4bda-9244-da05949c9d65 | Runway Gen 3 Alpha | runway-gen-3-alpha | a6906d95-a471-4a0c-ad10-b989571de20c | Runway | 983 | 8 | -8/+8 |
 | 5f244318-4fd4-48b9-93fe-44f109406809 | Ray 1 | ray-1 | 09468924-69a9-499b-8dd6-d0bb4c05285d | Luma Labs | 973 | 8 | -8/+8 |
 | 66313bcc-1718-4c02-b69a-e31dd5f19278 | Krea Realtime | krea-realtime | da6aca5c-fe97-453a-b5cb-43de1ac7210b | Krea | 965 | 9 | -9/+9 |
 | 815774fd-dcae-4abf-aaad-fb48c13fb70d | Wan 2.2 5B | wan-2-2-5b | d874d370-74d3-4fa0-ba00-5272f92f946b | Alibaba | 949 | 9 | -9/+9 |
