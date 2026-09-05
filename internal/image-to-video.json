@@ -6,7 +6,7 @@
     "source_description": "Image-to-video arena Elo rankings (Free tier)",
     "parser_version": "official-api-v1",
     "model_count": 75,
-    "fetched_at": "2026-09-04T09:38:47.766439+00:00"
+    "fetched_at": "2026-09-05T09:04:06.386473+00:00"
   },
   "models": [
     {
@@ -29,7 +29,7 @@
         "id": "d874d370-74d3-4fa0-ba00-5272f92f946b",
         "name": "Alibaba"
       },
-      "elo": 1357,
+      "elo": 1358,
       "ci_95": 13,
       "ci95_range": "-13/+13"
     },
@@ -53,7 +53,7 @@
         "id": "2354746c-4775-4a06-b64d-0ba4137785b8",
         "name": "ByteDance Seed"
       },
-      "elo": 1337,
+      "elo": 1338,
       "ci_95": 9,
       "ci95_range": "-9/+9"
     },
@@ -149,7 +149,7 @@
         "id": "62cc833b-f55a-4489-bcae-54806d4b04ff",
         "name": "KlingAI"
       },
-      "elo": 1283,
+      "elo": 1282,
       "ci_95": 9,
       "ci95_range": "-9/+9"
     },
@@ -173,7 +173,7 @@
         "id": "62cc833b-f55a-4489-bcae-54806d4b04ff",
         "name": "KlingAI"
       },
-      "elo": 1276,
+      "elo": 1277,
       "ci_95": 9,
       "ci95_range": "-9/+9"
     },
@@ -185,7 +185,7 @@
         "id": "1942f8d6-ab55-4408-99dd-2f99c70353f6",
         "name": "PixVerse"
       },
-      "elo": 1274,
+      "elo": 1275,
       "ci_95": 9,
       "ci95_range": "-9/+9"
     },
@@ -202,9 +202,9 @@
       "ci95_range": "-10/+10"
     },
     {
-      "id": "f0a7c830-eab1-419f-b61c-bb7143841a9d",
-      "name": "Kling 3.0 Omni 720p (Standard)",
-      "slug": "kling-o3-standard",
+      "id": "54dce3b3-7d22-4c87-bd14-74e5218c7759",
+      "name": "Kling 2.6 Standard (January)",
+      "slug": "kling-2-6-standard-january-no-audio",
       "creator": {
         "id": "62cc833b-f55a-4489-bcae-54806d4b04ff",
         "name": "KlingAI"
@@ -214,9 +214,9 @@
       "ci95_range": "-9/+9"
     },
     {
-      "id": "54dce3b3-7d22-4c87-bd14-74e5218c7759",
-      "name": "Kling 2.6 Standard (January)",
-      "slug": "kling-2-6-standard-january-no-audio",
+      "id": "f0a7c830-eab1-419f-b61c-bb7143841a9d",
+      "name": "Kling 3.0 Omni 720p (Standard)",
+      "slug": "kling-o3-standard",
       "creator": {
         "id": "62cc833b-f55a-4489-bcae-54806d4b04ff",
         "name": "KlingAI"
@@ -377,7 +377,7 @@
         "id": "a31a9071-6144-4dbb-92dc-2e02d653ecea",
         "name": "MiniMax"
       },
-      "elo": 1240,
+      "elo": 1241,
       "ci_95": 9,
       "ci95_range": "-9/+9"
     },
@@ -401,7 +401,7 @@
         "id": "d874d370-74d3-4fa0-ba00-5272f92f946b",
         "name": "Alibaba"
       },
-      "elo": 1236,
+      "elo": 1235,
       "ci_95": 8,
       "ci95_range": "-8/+8"
     },
@@ -497,7 +497,7 @@
         "id": "ed94442e-da40-4fa6-a209-c7e9e095a75f",
         "name": "Lightricks"
       },
-      "elo": 1209,
+      "elo": 1210,
       "ci_95": 12,
       "ci95_range": "-12/+12"
     },
@@ -557,7 +557,7 @@
         "id": "ed94442e-da40-4fa6-a209-c7e9e095a75f",
         "name": "Lightricks"
       },
-      "elo": 1187,
+      "elo": 1188,
       "ci_95": 12,
       "ci95_range": "-12/+12"
     },
@@ -593,7 +593,7 @@
         "id": "62cc833b-f55a-4489-bcae-54806d4b04ff",
         "name": "KlingAI"
       },
-      "elo": 1180,
+      "elo": 1181,
       "ci_95": 9,
       "ci95_range": "-9/+9"
     },
@@ -665,7 +665,7 @@
         "id": "ed94442e-da40-4fa6-a209-c7e9e095a75f",
         "name": "Lightricks"
       },
-      "elo": 1152,
+      "elo": 1153,
       "ci_95": 9,
       "ci95_range": "-9/+9"
     },
@@ -797,7 +797,7 @@
         "id": "ed94442e-da40-4fa6-a209-c7e9e095a75f",
         "name": "Lightricks"
       },
-      "elo": 1036,
+      "elo": 1037,
       "ci_95": 11,
       "ci95_range": "-11/+11"
     },

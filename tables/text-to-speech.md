@@ -3,7 +3,7 @@
 Data by [Artificial Analysis](https://artificialanalysis.ai/), via their [Data API](https://artificialanalysis.ai/data-api).
 
 - Source: [https://artificialanalysis.ai/api/v2/media/text-to-speech/models/free](https://artificialanalysis.ai/api/v2/media/text-to-speech/models/free)
-- Fetched at: 2026-09-04T09:38:47.766439+00:00
+- Fetched at: 2026-09-05T09:04:06.386473+00:00
 - Model count: 98
 
 > Generated from `internal/text-to-speech.json` by `scripts/render_tables.py`. Do not edit by hand.
@@ -19,7 +19,7 @@ Data by [Artificial Analysis](https://artificialanalysis.ai/), via their [Data A
 | d1fcdeff-86ab-46af-b163-bbd062cc80e7 | Breeze TTS 2 | breeze-tts-2 | 8cdb637a-ba81-4e96-98b5-6f8d743c20ee | BreezeBlue | 1215 | 17 | -17/+17 |
 | 2921a8a0-35f6-483d-b183-0c8a1c8bab30 | v3 Conversational | mitty | 8d057760-0a8b-460a-9625-6dd261bb325c | ElevenLabs | 1210 | 15 | -15/+15 |
 | abed0fa5-3a5e-4346-8559-5c9090924546 | Gemini 3.1 Flash TTS | gemini-3-1-tts | faddc6d9-2c14-445f-9b28-56726f59c793 | Google | 1208 | 12 | -12/+12 |
-| 735c1745-d548-499f-85b5-25a0a4b58218 | StepAudio 2.5 TTS | st260629 | ce2e2e8b-7a22-4020-98ec-8ef71000dd42 | StepFun | 1206 | 14 | -14/+14 |
+| b8ae91a5-c9c0-4972-9b31-293bce09c984 | StepAudio 2.5 TTS (Aug 2026) | st260826 | ce2e2e8b-7a22-4020-98ec-8ef71000dd42 | StepFun | 1205 | 17 | -17/+17 |
 | bddcb936-9715-4242-a936-510d8f276e4c | Sonic 3.5 | sonic-3-5 | 1fa5b287-d75e-4268-a1c1-c04c0a9e512a | Cartesia | 1193 | 12 | -12/+12 |
 | 55614001-84e3-4605-b2fc-5550364a74b0 | Lightning V3.1 Pro (Jul 2026) | lightning-v3-1-pro-july | 000cfce6-a1fa-478d-a83c-16a4928d91cf | Smallest.ai | 1190 | 14 | -14/+14 |
 | 9e67d197-552b-4186-be31-c8ce21a7179b | Soniox TTS Real-Time v2 | soniox-tts-rt-v2 | 2ec53bc5-5f0a-4614-b05b-ddefb9c5d4a5 | Soniox | 1179 | 11 | -11/+11 |

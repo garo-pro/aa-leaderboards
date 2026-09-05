@@ -3,7 +3,7 @@
 Data by [Artificial Analysis](https://artificialanalysis.ai/), via their [Data API](https://artificialanalysis.ai/data-api).
 
 - Source: [https://artificialanalysis.ai/api/v2/media/image-to-video/models/free](https://artificialanalysis.ai/api/v2/media/image-to-video/models/free)
-- Fetched at: 2026-09-04T09:38:47.766439+00:00
+- Fetched at: 2026-09-05T09:04:06.386473+00:00
 - Model count: 75
 
 > Generated from `internal/image-to-video.json` by `scripts/render_tables.py`. Do not edit by hand.
@@ -11,9 +11,9 @@ Data by [Artificial Analysis](https://artificialanalysis.ai/), via their [Data A
 | id | name | slug | creator.id | creator.name | elo | ci_95 | ci95_range |
 | --- | --- | --- | --- | --- | --- | --- | --- |
 | 88df9253-809f-4dc9-b993-3969fa606473 | Gemini Omni Flash | gemini-omni-flash | faddc6d9-2c14-445f-9b28-56726f59c793 | Google | 1363 | 11 | -11/+11 |
-| ceee978e-c560-4ba9-9405-f7d390a47709 | Wan 3.0 | wan-3-0 | d874d370-74d3-4fa0-ba00-5272f92f946b | Alibaba | 1357 | 13 | -13/+13 |
+| ceee978e-c560-4ba9-9405-f7d390a47709 | Wan 3.0 | wan-3-0 | d874d370-74d3-4fa0-ba00-5272f92f946b | Alibaba | 1358 | 13 | -13/+13 |
 | c82a5e9e-6a94-40c3-ab47-7b4935f9c685 | MiniMax H3 | minimax-h3 | a31a9071-6144-4dbb-92dc-2e02d653ecea | MiniMax | 1347 | 11 | -11/+11 |
-| 36db1f4d-a9f6-49d1-a74d-06bddbf2fe4f | Dreamina Seedance 2.0 720p | seedance-2-0 | 2354746c-4775-4a06-b64d-0ba4137785b8 | ByteDance Seed | 1337 | 9 | -9/+9 |
+| 36db1f4d-a9f6-49d1-a74d-06bddbf2fe4f | Dreamina Seedance 2.0 720p | seedance-2-0 | 2354746c-4775-4a06-b64d-0ba4137785b8 | ByteDance Seed | 1338 | 9 | -9/+9 |
 | e83498b8-ae29-4eb7-a343-2a2a74eb0e53 | grok-imagine-video-1.5 | grok-imagine-video-1.5 | a1e3ddcf-d3e4-44a5-9e8f-029a69850875 | SpaceXAI | 1328 | 11 | -11/+11 |
 | be866b8a-d073-4ee4-9652-73227c679dc4 | PixVerse V6 | pixverse-v6 | 1942f8d6-ab55-4408-99dd-2f99c70353f6 | PixVerse | 1325 | 9 | -9/+9 |
 | 22ae7204-9ed9-4440-a8a6-48340dc8d446 | grok-imagine-video | grok-imagine-video | a1e3ddcf-d3e4-44a5-9e8f-029a69850875 | SpaceXAI | 1322 | 8 | -8/+8 |
@@ -21,13 +21,13 @@ Data by [Artificial Analysis](https://artificialanalysis.ai/), via their [Data A
 | a4dc21f8-7a35-497e-90a4-4c9a1593c8ca | HappyHorse-1.0 | happyhorse-1-0 | 0ea38458-92d7-45de-a69d-c50bd8277273 | Alibaba-ATH | 1288 | 9 | -9/+9 |
 | 61270a9b-9d2e-4875-810f-e81508bc5504 | Kling 2.5 Turbo 1080p | kling-25-turbo-1080p | 62cc833b-f55a-4489-bcae-54806d4b04ff | KlingAI | 1287 | 8 | -8/+8 |
 | 50ed6856-5052-431d-8994-584b2e02f023 | SkyReels V4 | skyreels-v4 | 67b5ce4d-0c81-4edc-b4c3-370acc2df555 | Skywork AI | 1283 | 10 | -10/+10 |
-| d149ad95-b3b2-4d23-8611-07a84c1a0e7f | Kling 3.0 1080p (Pro) | kling-3-0-pro | 62cc833b-f55a-4489-bcae-54806d4b04ff | KlingAI | 1283 | 9 | -9/+9 |
+| d149ad95-b3b2-4d23-8611-07a84c1a0e7f | Kling 3.0 1080p (Pro) | kling-3-0-pro | 62cc833b-f55a-4489-bcae-54806d4b04ff | KlingAI | 1282 | 9 | -9/+9 |
 | d7c0367f-1adf-40ec-8195-5c5d1906efa8 | Vidu Q3 Pro | vidu-q3-pro | e3a5ba75-0127-45b0-8bcc-2864b8dd404d | Vidu | 1279 | 8 | -8/+8 |
-| 553f28a1-95de-4991-9084-d9275d862f68 | Kling 3.0 Omni 1080p (Pro) | kling-o3-pro | 62cc833b-f55a-4489-bcae-54806d4b04ff | KlingAI | 1276 | 9 | -9/+9 |
-| c6a494f5-7ab7-4693-8382-fa03060d2fdf | PixVerse V5.6 | pixverse-v5-6 | 1942f8d6-ab55-4408-99dd-2f99c70353f6 | PixVerse | 1274 | 9 | -9/+9 |
+| 553f28a1-95de-4991-9084-d9275d862f68 | Kling 3.0 Omni 1080p (Pro) | kling-o3-pro | 62cc833b-f55a-4489-bcae-54806d4b04ff | KlingAI | 1277 | 9 | -9/+9 |
+| c6a494f5-7ab7-4693-8382-fa03060d2fdf | PixVerse V5.6 | pixverse-v5-6 | 1942f8d6-ab55-4408-99dd-2f99c70353f6 | PixVerse | 1275 | 9 | -9/+9 |
 | 1ce3af77-bb30-40ef-90e2-5aa9fa4588b9 | Wan 2.7 | wan-2-7-v2v | d874d370-74d3-4fa0-ba00-5272f92f946b | Alibaba | 1268 | 10 | -10/+10 |
-| f0a7c830-eab1-419f-b61c-bb7143841a9d | Kling 3.0 Omni 720p (Standard) | kling-o3-standard | 62cc833b-f55a-4489-bcae-54806d4b04ff | KlingAI | 1268 | 9 | -9/+9 |
-| 54dce3b3-7d22-4c87-bd14-74e5218c7759 | Kling 2.6 Standard (January) | kling-2-6-standard-january-no-audio | 62cc833b-f55a-4489-bcae-54806d4b04ff | KlingAI | 1267 | 9 | -9/+9 |
+| 54dce3b3-7d22-4c87-bd14-74e5218c7759 | Kling 2.6 Standard (January) | kling-2-6-standard-january-no-audio | 62cc833b-f55a-4489-bcae-54806d4b04ff | KlingAI | 1268 | 9 | -9/+9 |
+| f0a7c830-eab1-419f-b61c-bb7143841a9d | Kling 3.0 Omni 720p (Standard) | kling-o3-standard | 62cc833b-f55a-4489-bcae-54806d4b04ff | KlingAI | 1267 | 9 | -9/+9 |
 | b5d5057e-3d0d-4e22-b029-bd976cd1b6a6 | Kling 3.0 720p (Standard) | kling-3-0-standard | 62cc833b-f55a-4489-bcae-54806d4b04ff | KlingAI | 1263 | 9 | -9/+9 |
 | 4818889c-3943-4578-9467-4827fb187e39 | PixVerse V5.5 | pixverse-v5-5 | 1942f8d6-ab55-4408-99dd-2f99c70353f6 | PixVerse | 1261 | 9 | -9/+9 |
 | 5180943f-2a96-44a5-9461-80e5ae1e249e | PixVerse V5 | pixverse-v5 | 1942f8d6-ab55-4408-99dd-2f99c70353f6 | PixVerse | 1260 | 9 | -9/+9 |
@@ -40,9 +40,9 @@ Data by [Artificial Analysis](https://artificialanalysis.ai/), via their [Data A
 | a8f7ab65-828a-4166-8fbf-616cbb01d773 | Veo 3.1 Lite | veo-3-1-lite | faddc6d9-2c14-445f-9b28-56726f59c793 | Google | 1244 | 9 | -9/+9 |
 | 69829cf3-6a45-4070-929c-b5d654364de3 | Cosmos3-Super-Image2Video | cosmos3-super-image2video | 0c303112-430d-4367-a484-51defaa2e166 | NVIDIA | 1242 | 10 | -10/+10 |
 | c4f20ba7-a57a-46b5-a9eb-7655d7bed256 | Hailuo 2.3 | hailuo-2-3-prompt-enhancement | a31a9071-6144-4dbb-92dc-2e02d653ecea | MiniMax | 1241 | 8 | -8/+8 |
-| 272fe027-de2f-42bb-b2ad-a01aab78bf4a | Hailuo 2.3 Fast | hailuo-2-3-fast-prompt-enhancement | a31a9071-6144-4dbb-92dc-2e02d653ecea | MiniMax | 1240 | 9 | -9/+9 |
+| 272fe027-de2f-42bb-b2ad-a01aab78bf4a | Hailuo 2.3 Fast | hailuo-2-3-fast-prompt-enhancement | a31a9071-6144-4dbb-92dc-2e02d653ecea | MiniMax | 1241 | 9 | -9/+9 |
 | 36e2f091-2000-4961-bf2d-0406e0a78b66 | Hailuo 02 Pro | hailuo-02-pro | a31a9071-6144-4dbb-92dc-2e02d653ecea | MiniMax | 1239 | 10 | -10/+10 |
-| 527bfb54-8238-4671-9b2f-5e9b86d80163 | Wan 2.5 Preview | wan-2-5-preview | d874d370-74d3-4fa0-ba00-5272f92f946b | Alibaba | 1236 | 8 | -8/+8 |
+| 527bfb54-8238-4671-9b2f-5e9b86d80163 | Wan 2.5 Preview | wan-2-5-preview | d874d370-74d3-4fa0-ba00-5272f92f946b | Alibaba | 1235 | 8 | -8/+8 |
 | aea5e8ea-2766-4235-ad96-307ee1d985e3 | Hailuo 02 Standard | hailuo-02-standard | a31a9071-6144-4dbb-92dc-2e02d653ecea | MiniMax | 1233 | 10 | -10/+10 |
 | b58bc338-cee5-4d19-b820-8c4f7d7f1248 | Seedance 1.0 | seedance-10 | 2354746c-4775-4a06-b64d-0ba4137785b8 | ByteDance Seed | 1229 | 9 | -9/+9 |
 | 57a29e57-e118-4ae7-abb1-aa6e5935634a | Vidu Q2 Pro | vidu-q2-pro | e3a5ba75-0127-45b0-8bcc-2864b8dd404d | Vidu | 1225 | 9 | -9/+9 |
@@ -50,21 +50,21 @@ Data by [Artificial Analysis](https://artificialanalysis.ai/), via their [Data A
 | dd3e028f-856f-4915-9759-eff55e2f5f9e | Vidu Q2 Turbo | vidu-q2-turbo | e3a5ba75-0127-45b0-8bcc-2864b8dd404d | Vidu | 1223 | 9 | -9/+9 |
 | 7623b756-8b01-4e60-aed4-3322c1933e36 | Veo 3 | veo-3-no-audio | faddc6d9-2c14-445f-9b28-56726f59c793 | Google | 1222 | 9 | -9/+9 |
 | f719629b-b8ad-4cce-92f9-758936baff53 | Ray 3 | ray-3 | 09468924-69a9-499b-8dd6-d0bb4c05285d | Luma Labs | 1217 | 9 | -9/+9 |
-| b5343afd-4bff-4e97-99fc-1e2edf2e8eb1 | LTX-2.5 Fast | ltx-2-5-fast | ed94442e-da40-4fa6-a209-c7e9e095a75f | Lightricks | 1209 | 12 | -12/+12 |
+| b5343afd-4bff-4e97-99fc-1e2edf2e8eb1 | LTX-2.5 Fast | ltx-2-5-fast | ed94442e-da40-4fa6-a209-c7e9e095a75f | Lightricks | 1210 | 12 | -12/+12 |
 | 6ccddbde-d734-4ac0-95a7-f7ed903ec45d | Wan 2.6 | wan-2-6 | d874d370-74d3-4fa0-ba00-5272f92f946b | Alibaba | 1207 | 9 | -9/+9 |
 | 1f1d69b1-4fd1-4499-ab22-9d9fd47fca21 | Kling 2.1 Master | kling-2-1-master | 62cc833b-f55a-4489-bcae-54806d4b04ff | KlingAI | 1200 | 10 | -10/+10 |
 | c308a441-376d-4783-b193-1da5ff10212e | Hailuo 02 Fast | hailuo-02-fast | a31a9071-6144-4dbb-92dc-2e02d653ecea | MiniMax | 1193 | 10 | -10/+10 |
 | e6709ae3-1527-4977-9b9a-aa13dbbc3647 | Pika 2.5 | pika-2-5 | acea75bb-3f76-4ce0-b168-741a31fcec0a | Pika Art | 1192 | 9 | -9/+9 |
-| 791ff10c-594f-418b-9c1a-39313784d759 | LTX-2.5 Pro | ltx-2-5-pro | ed94442e-da40-4fa6-a209-c7e9e095a75f | Lightricks | 1187 | 12 | -12/+12 |
+| 791ff10c-594f-418b-9c1a-39313784d759 | LTX-2.5 Pro | ltx-2-5-pro | ed94442e-da40-4fa6-a209-c7e9e095a75f | Lightricks | 1188 | 12 | -12/+12 |
 | e451b7d7-42eb-4c07-9f57-5b5e9bd80c97 | LTX-2 Pro | ltx-2-pro | ed94442e-da40-4fa6-a209-c7e9e095a75f | Lightricks | 1187 | 9 | -9/+9 |
 | f8e18877-4f78-4f5b-b45b-16222c8f641f | LTX-2 Fast | ltx-2-fast | ed94442e-da40-4fa6-a209-c7e9e095a75f | Lightricks | 1183 | 9 | -9/+9 |
-| 429afba7-8ce1-42b3-80c9-58d1b96d775a | Kling 2.1 Pro | kling-2-1-pro | 62cc833b-f55a-4489-bcae-54806d4b04ff | KlingAI | 1180 | 9 | -9/+9 |
+| 429afba7-8ce1-42b3-80c9-58d1b96d775a | Kling 2.1 Pro | kling-2-1-pro | 62cc833b-f55a-4489-bcae-54806d4b04ff | KlingAI | 1181 | 9 | -9/+9 |
 | 53ce6c01-8a4d-4d22-94a8-d48ffe32ce32 | Kling 2.0 | kling-2-0 | 62cc833b-f55a-4489-bcae-54806d4b04ff | KlingAI | 1173 | 9 | -9/+9 |
 | f0bea8bf-2158-448f-9158-0d99f707a58e | Kling 2.1 Standard | kling-2-1-standard | 62cc833b-f55a-4489-bcae-54806d4b04ff | KlingAI | 1165 | 9 | -9/+9 |
 | fc4b514c-8a82-4206-9471-076eaf9d5690 | Vivago 2.0 | vivago-2-0 | 040f2c41-5df4-4708-8c77-6a2030be2539 | HiDream | 1162 | 9 | -9/+9 |
 | 40f64093-99b7-4e9b-9705-651fc5b436c4 | LTX-2.3 Fast | ltx-2-3-fast | ed94442e-da40-4fa6-a209-c7e9e095a75f | Lightricks | 1159 | 9 | -9/+9 |
 | 2bc33840-9c22-428c-83a6-c0c0ba353b7f | Midjourney V1 | midjourney-v1 | f3101bf7-753f-4c98-9df5-d57092e924fb | Midjourney | 1157 | 9 | -9/+9 |
-| c783d9aa-c387-4f44-b371-563fd9bab06d | LTX-2.3 Pro | ltx-2-3-pro | ed94442e-da40-4fa6-a209-c7e9e095a75f | Lightricks | 1152 | 9 | -9/+9 |
+| c783d9aa-c387-4f44-b371-563fd9bab06d | LTX-2.3 Pro | ltx-2-3-pro | ed94442e-da40-4fa6-a209-c7e9e095a75f | Lightricks | 1153 | 9 | -9/+9 |
 | 105002bb-dfde-4b74-9615-361c637d1887 | Seedance 1.0 Mini | seedance-1-0-mini | 2354746c-4775-4a06-b64d-0ba4137785b8 | ByteDance Seed | 1140 | 9 | -9/+9 |
 | 7e329f46-5e24-41b1-84ab-af6df18782b8 | PixVerse V4.5 | pixverse-v4-5 | 1942f8d6-ab55-4408-99dd-2f99c70353f6 | PixVerse | 1131 | 10 | -10/+10 |
 | 39077383-a22e-4d2f-afe9-5c12f87ea16c | Kling 1.6 Pro | kling-1-6-pro | 62cc833b-f55a-4489-bcae-54806d4b04ff | KlingAI | 1126 | 9 | -9/+9 |
@@ -75,7 +75,7 @@ Data by [Artificial Analysis](https://artificialanalysis.ai/), via their [Data A
 | 2175641c-9303-4ac3-af3c-21cc7113adb0 | Veo 2 | veo-2 | faddc6d9-2c14-445f-9b28-56726f59c793 | Google | 1092 | 10 | -10/+10 |
 | d4684d1c-c874-4f2f-8e6a-1d2a21902663 | Runway Gen 4 | runway-gen-4 | a6906d95-a471-4a0c-ad10-b989571de20c | Runway | 1080 | 9 | -9/+9 |
 | 2ed47848-72e3-43b4-adff-c68c0432e000 | I2V-01-Director | i2v-01-director | a31a9071-6144-4dbb-92dc-2e02d653ecea | MiniMax | 1037 | 10 | -10/+10 |
-| 906000d4-9c7c-4584-8e16-f5a362d3c06e | LTX Video v0.9.7 13B | ltx-video-v0-9-7-13b | ed94442e-da40-4fa6-a209-c7e9e095a75f | Lightricks | 1036 | 11 | -11/+11 |
+| 906000d4-9c7c-4584-8e16-f5a362d3c06e | LTX Video v0.9.7 13B | ltx-video-v0-9-7-13b | ed94442e-da40-4fa6-a209-c7e9e095a75f | Lightricks | 1037 | 11 | -11/+11 |
 | 21bce815-dea9-4e48-8515-cf2b193ae711 | Vidu Q1 | vidu-q1 | e3a5ba75-0127-45b0-8bcc-2864b8dd404d | Vidu | 1023 | 12 | -12/+12 |
 | ca910fd5-94bf-46a0-adcd-bb24a55ec611 | Motion 2.0 | motion-2-0 | c104be52-31ea-4948-b921-265dc297f3ac | Leonardo.Ai | 1021 | 11 | -11/+11 |
 | aa7b1ddc-9db0-4afc-ad1b-4915cdc49b01 | Marey | marey | ba0bfcf7-3dd3-4d37-9114-cbe872a82723 | Moonvalley | 1008 | 11 | -11/+11 |
