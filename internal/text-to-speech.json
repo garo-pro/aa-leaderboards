@@ -5,8 +5,8 @@
     "source_url": "https://artificialanalysis.ai/api/v2/media/text-to-speech/models/free",
     "source_description": "Text-to-speech arena Elo rankings (Free tier)",
     "parser_version": "official-api-v1",
-    "model_count": 98,
-    "fetched_at": "2026-09-05T09:04:06.386473+00:00"
+    "model_count": 97,
+    "fetched_at": "2026-09-06T09:26:17.526002+00:00"
   },
   "models": [
     {
@@ -908,18 +908,6 @@
       "elo": 1009,
       "ci_95": 13,
       "ci95_range": "-13/+13"
-    },
-    {
-      "id": "620699f2-ae0e-4ff4-a3e3-5d43b96e98c5",
-      "name": "Magpie-Multilingual 357M",
-      "slug": "magpie-multilingual-357m",
-      "creator": {
-        "id": "0c303112-430d-4367-a484-51defaa2e166",
-        "name": "NVIDIA"
-      },
-      "elo": 1005,
-      "ci_95": 12,
-      "ci95_range": "-12/+12"
     },
     {
       "id": "20c6b2a3-4881-4f5d-b82f-f135fab82711",

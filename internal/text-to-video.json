@@ -6,7 +6,7 @@
     "source_description": "Text-to-video arena Elo rankings (Free tier)",
     "parser_version": "official-api-v1",
     "model_count": 81,
-    "fetched_at": "2026-09-05T09:04:06.386473+00:00"
+    "fetched_at": "2026-09-06T09:26:17.526002+00:00"
   },
   "models": [
     {
@@ -113,7 +113,7 @@
         "id": "62cc833b-f55a-4489-bcae-54806d4b04ff",
         "name": "KlingAI"
       },
-      "elo": 1228,
+      "elo": 1227,
       "ci_95": 8,
       "ci95_range": "-8/+8"
     },
@@ -353,7 +353,7 @@
         "id": "62cc833b-f55a-4489-bcae-54806d4b04ff",
         "name": "KlingAI"
       },
-      "elo": 1193,
+      "elo": 1192,
       "ci_95": 7,
       "ci95_range": "-7/+7"
     },
@@ -593,7 +593,7 @@
         "id": "ed94442e-da40-4fa6-a209-c7e9e095a75f",
         "name": "Lightricks"
       },
-      "elo": 1105,
+      "elo": 1104,
       "ci_95": 8,
       "ci95_range": "-8/+8"
     },
@@ -773,7 +773,7 @@
         "id": "62cc833b-f55a-4489-bcae-54806d4b04ff",
         "name": "KlingAI"
       },
-      "elo": 1013,
+      "elo": 1012,
       "ci_95": 8,
       "ci95_range": "-8/+8"
     },
@@ -809,7 +809,7 @@
         "id": "e3a5ba75-0127-45b0-8bcc-2864b8dd404d",
         "name": "Vidu"
       },
-      "elo": 1004,
+      "elo": 1003,
       "ci_95": 10,
       "ci95_range": "-10/+10"
     },
@@ -845,7 +845,7 @@
         "id": "a6906d95-a471-4a0c-ad10-b989571de20c",
         "name": "Runway"
       },
-      "elo": 983,
+      "elo": 982,
       "ci_95": 8,
       "ci95_range": "-8/+8"
     },
@@ -857,7 +857,7 @@
         "id": "09468924-69a9-499b-8dd6-d0bb4c05285d",
         "name": "Luma Labs"
       },
-      "elo": 974,
+      "elo": 973,
       "ci_95": 8,
       "ci95_range": "-8/+8"
     },

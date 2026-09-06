@@ -3,8 +3,8 @@
 Data by [Artificial Analysis](https://artificialanalysis.ai/), via their [Data API](https://artificialanalysis.ai/data-api).
 
 - Source: [https://artificialanalysis.ai/api/v2/media/text-to-speech/models/free](https://artificialanalysis.ai/api/v2/media/text-to-speech/models/free)
-- Fetched at: 2026-09-05T09:04:06.386473+00:00
-- Model count: 98
+- Fetched at: 2026-09-06T09:26:17.526002+00:00
+- Model count: 97
 
 > Generated from `internal/text-to-speech.json` by `scripts/render_tables.py`. Do not edit by hand.
 
@@ -85,7 +85,6 @@ Data by [Artificial Analysis](https://artificialanalysis.ai/), via their [Data A
 | 6cb43d71-bd49-4b44-9635-9ea5f28fd376 | Chatterbox | chatterbox | cca8a754-6c73-4b9f-aaad-aa10f0adb8e4 | Resemble AI | 1021 | 11 | -11/+11 |
 | ed574df4-d4f7-4c60-b19a-f1b80828aa98 | Lightning v3.1 | lightning-v3-1 | 000cfce6-a1fa-478d-a83c-16a4928d91cf | Smallest.ai | 1021 | 12 | -12/+12 |
 | 51bcb5a8-e358-499e-a0c9-139f6c1cbd78 | Raon SpeechLM | raon-speechlm | bf5e5871-bb86-4c30-8485-681169debc31 | Krafton | 1009 | 13 | -13/+13 |
-| 620699f2-ae0e-4ff4-a3e3-5d43b96e98c5 | Magpie-Multilingual 357M | magpie-multilingual-357m | 0c303112-430d-4367-a484-51defaa2e166 | NVIDIA | 1005 | 12 | -12/+12 |
 | 20c6b2a3-4881-4f5d-b82f-f135fab82711 | Arcana v3 | rime-arcana | 2f5ee776-6f01-4c17-8ce2-335e235f45f8 | Rime | 1005 | 13 | -13/+13 |
 | f5a3ab85-032b-41b1-8c78-c4b0eef2a9e8 | Zonos-v0.1 | zonos-v0-1 | 1124c0e1-03d7-498e-b8ca-212e86387c06 | Zyphra | 1000 | 0 | -0/+0 |
 | 86d3b629-8222-4ab6-ba77-6d2841fbf212 | Murf Speech Gen 2 | murf-speech-gen-2 | b4f8bea1-3777-4cfb-a062-0487d3ea1de6 | Murf AI | 981 | 11 | -11/+11 |
