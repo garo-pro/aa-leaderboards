@@ -3,7 +3,7 @@
 Data by [Artificial Analysis](https://artificialanalysis.ai/), via their [Data API](https://artificialanalysis.ai/data-api).
 
 - Source: [https://artificialanalysis.ai/api/v2/media/image-to-video/models/free](https://artificialanalysis.ai/api/v2/media/image-to-video/models/free)
-- Fetched at: 2026-09-06T09:26:17.526002+00:00
+- Fetched at: 2026-09-07T10:16:55.908773+00:00
 - Model count: 75
 
 > Generated from `internal/image-to-video.json` by `scripts/render_tables.py`. Do not edit by hand.
