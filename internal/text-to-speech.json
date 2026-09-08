@@ -5,8 +5,8 @@
     "source_url": "https://artificialanalysis.ai/api/v2/media/text-to-speech/models/free",
     "source_description": "Text-to-speech arena Elo rankings (Free tier)",
     "parser_version": "official-api-v1",
-    "model_count": 97,
-    "fetched_at": "2026-09-07T10:16:55.908773+00:00"
+    "model_count": 96,
+    "fetched_at": "2026-09-08T09:40:23.049509+00:00"
   },
   "models": [
     {
@@ -750,18 +750,6 @@
         "name": "Maya Research"
       },
       "elo": 1043,
-      "ci_95": 12,
-      "ci95_range": "-12/+12"
-    },
-    {
-      "id": "798934ab-0f43-49d2-8343-15c1ade78458",
-      "name": "Sonic English (Oct 2024)",
-      "slug": "sonic-english-oct-24-",
-      "creator": {
-        "id": "1fa5b287-d75e-4268-a1c1-c04c0a9e512a",
-        "name": "Cartesia"
-      },
-      "elo": 1040,
       "ci_95": 12,
       "ci95_range": "-12/+12"
     },

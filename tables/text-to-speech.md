@@ -3,8 +3,8 @@
 Data by [Artificial Analysis](https://artificialanalysis.ai/), via their [Data API](https://artificialanalysis.ai/data-api).
 
 - Source: [https://artificialanalysis.ai/api/v2/media/text-to-speech/models/free](https://artificialanalysis.ai/api/v2/media/text-to-speech/models/free)
-- Fetched at: 2026-09-07T10:16:55.908773+00:00
-- Model count: 97
+- Fetched at: 2026-09-08T09:40:23.049509+00:00
+- Model count: 96
 
 > Generated from `internal/text-to-speech.json` by `scripts/render_tables.py`. Do not edit by hand.
 
@@ -72,7 +72,6 @@ Data by [Artificial Analysis](https://artificialanalysis.ai/), via their [Data A
 | 765fd2b5-acb4-490f-a402-eaad710f23e1 | Async Flash v1.0 | asyncflow-v2 | fccade0c-ac6f-4c87-9c6e-59957a1e93b9 | async | 1048 | 11 | -11/+11 |
 | 8b4be309-2f31-4ff2-be79-a6652c29ab12 | Polly Long-Form | polly-long-form | bb5a4e55-7969-4ab4-8702-3b9fd6547dc2 | Amazon | 1044 | 13 | -13/+13 |
 | 081709c5-d010-462f-b6ad-ef128df78cbd | Maya1 | maya-1 | 2dc2b41d-fb75-4fec-8e91-c55cfd34814f | Maya Research | 1043 | 12 | -12/+12 |
-| 798934ab-0f43-49d2-8343-15c1ade78458 | Sonic English (Oct 2024) | sonic-english-oct-24- | 1fa5b287-d75e-4268-a1c1-c04c0a9e512a | Cartesia | 1040 | 12 | -12/+12 |
 | 49dc49c3-828e-4af5-8527-49606b4f6e14 | Higgs Audio V3 TTS | higgs-audio-v3-tts | 8342a503-53a9-4cb5-bc5b-daaa9e13dc23 | Boson AI | 1038 | 13 | -13/+13 |
 | 588357bb-fe98-4286-b13e-3cae200e6085 | SIMBA 1.0 | simba | 237d1944-ea14-43ed-82e6-3ab69698c9b4 | SpeechifyAI | 1034 | 11 | -11/+11 |
 | 58e4baac-f1c7-4a67-b812-bb7feda26a3b | Bland Speech v3 | bland-0830 | 3ab10c2e-eaa1-472e-b59c-d79818a52469 | Bland AI | 1034 | 13 | -13/+13 |
