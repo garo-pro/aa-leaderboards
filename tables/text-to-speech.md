@@ -3,8 +3,8 @@
 Data by [Artificial Analysis](https://artificialanalysis.ai/), via their [Data API](https://artificialanalysis.ai/data-api).
 
 - Source: [https://artificialanalysis.ai/api/v2/media/text-to-speech/models/free](https://artificialanalysis.ai/api/v2/media/text-to-speech/models/free)
-- Fetched at: 2026-09-08T09:40:23.049509+00:00
-- Model count: 96
+- Fetched at: 2026-09-09T09:44:48.267136+00:00
+- Model count: 95
 
 > Generated from `internal/text-to-speech.json` by `scripts/render_tables.py`. Do not edit by hand.
 
@@ -87,7 +87,6 @@ Data by [Artificial Analysis](https://artificialanalysis.ai/), via their [Data A
 | 20c6b2a3-4881-4f5d-b82f-f135fab82711 | Arcana v3 | rime-arcana | 2f5ee776-6f01-4c17-8ce2-335e235f45f8 | Rime | 1005 | 13 | -13/+13 |
 | f5a3ab85-032b-41b1-8c78-c4b0eef2a9e8 | Zonos-v0.1 | zonos-v0-1 | 1124c0e1-03d7-498e-b8ca-212e86387c06 | Zyphra | 1000 | 0 | -0/+0 |
 | 86d3b629-8222-4ab6-ba77-6d2841fbf212 | Murf Speech Gen 2 | murf-speech-gen-2 | b4f8bea1-3777-4cfb-a062-0487d3ea1de6 | Murf AI | 981 | 11 | -11/+11 |
-| a8b4b1db-2a38-4649-9b57-a12fb0a85253 | LMNT | lmnt | 6129a13c-7a80-4e52-9f6a-3f1269cc1594 | LMNT | 975 | 12 | -12/+12 |
 | 7395ed9e-1d19-4ab8-a989-eca165beefa4 | VibeVoice 7B | vibe-voice-7b | ef5ce458-9986-4652-915a-e31fac5506b0 | Microsoft | 969 | 13 | -13/+13 |
 | bd053b0f-5f69-4313-a7e5-5acd71422d4a | VibeVoice 1.5B | vibe-voice-1-5b | ef5ce458-9986-4652-915a-e31fac5506b0 | Microsoft | 966 | 13 | -13/+13 |
 | 80791fbe-7454-4719-9063-bedfcde606c7 | OpenVoice v2 | openvoice-v2 | 4a331525-1ba3-4722-b939-f3191c168ece | OpenVoice | 955 | 13 | -13/+13 |
