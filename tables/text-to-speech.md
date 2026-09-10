@@ -3,7 +3,7 @@
 Data by [Artificial Analysis](https://artificialanalysis.ai/), via their [Data API](https://artificialanalysis.ai/data-api).
 
 - Source: [https://artificialanalysis.ai/api/v2/media/text-to-speech/models/free](https://artificialanalysis.ai/api/v2/media/text-to-speech/models/free)
-- Fetched at: 2026-09-09T09:44:48.267136+00:00
+- Fetched at: 2026-09-10T09:43:09.463840+00:00
 - Model count: 95
 
 > Generated from `internal/text-to-speech.json` by `scripts/render_tables.py`. Do not edit by hand.

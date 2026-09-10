@@ -2,7 +2,7 @@
 
 Data by [Artificial Analysis](https://artificialanalysis.ai/), via their [Data API](https://artificialanalysis.ai/data-api).
 
-Snapshot fetched at: 2026-09-09T09:44:48.267136+00:00
+Snapshot fetched at: 2026-09-10T09:43:09.463840+00:00
 - Provider count: 124
 - Model count: 1126
 
