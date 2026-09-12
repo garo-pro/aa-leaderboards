@@ -6,7 +6,7 @@
     "source_description": "Image-to-video arena Elo rankings (Free tier)",
     "parser_version": "official-api-v1",
     "model_count": 75,
-    "fetched_at": "2026-09-11T09:40:36.910637+00:00"
+    "fetched_at": "2026-09-12T09:21:26.611204+00:00"
   },
   "models": [
     {
@@ -17,7 +17,7 @@
         "id": "faddc6d9-2c14-445f-9b28-56726f59c793",
         "name": "Google"
       },
-      "elo": 1365,
+      "elo": 1366,
       "ci_95": 11,
       "ci95_range": "-11/+11"
     },
@@ -173,7 +173,7 @@
         "id": "62cc833b-f55a-4489-bcae-54806d4b04ff",
         "name": "KlingAI"
       },
-      "elo": 1280,
+      "elo": 1281,
       "ci_95": 9,
       "ci95_range": "-9/+9"
     },
@@ -449,7 +449,7 @@
         "id": "e3a5ba75-0127-45b0-8bcc-2864b8dd404d",
         "name": "Vidu"
       },
-      "elo": 1229,
+      "elo": 1228,
       "ci_95": 11,
       "ci95_range": "-11/+11"
     },

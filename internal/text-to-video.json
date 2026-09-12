@@ -6,7 +6,7 @@
     "source_description": "Text-to-video arena Elo rankings (Free tier)",
     "parser_version": "official-api-v1",
     "model_count": 83,
-    "fetched_at": "2026-09-11T09:40:36.910637+00:00"
+    "fetched_at": "2026-09-12T09:21:26.611204+00:00"
   },
   "models": [
     {
@@ -77,7 +77,7 @@
         "id": "0ea38458-92d7-45de-a69d-c50bd8277273",
         "name": "Alibaba-ATH"
       },
-      "elo": 1263,
+      "elo": 1262,
       "ci_95": 8,
       "ci95_range": "-8/+8"
     },
@@ -113,7 +113,7 @@
         "id": "62cc833b-f55a-4489-bcae-54806d4b04ff",
         "name": "KlingAI"
       },
-      "elo": 1232,
+      "elo": 1233,
       "ci_95": 8,
       "ci95_range": "-8/+8"
     },
@@ -173,7 +173,7 @@
         "id": "e3a5ba75-0127-45b0-8bcc-2864b8dd404d",
         "name": "Vidu"
       },
-      "elo": 1215,
+      "elo": 1216,
       "ci_95": 7,
       "ci95_range": "-7/+7"
     },
@@ -238,18 +238,6 @@
       "ci95_range": "-7/+7"
     },
     {
-      "id": "50ed6856-5052-431d-8994-584b2e02f023",
-      "name": "SkyReels V4",
-      "slug": "skyreels-v4",
-      "creator": {
-        "id": "67b5ce4d-0c81-4edc-b4c3-370acc2df555",
-        "name": "Skywork AI"
-      },
-      "elo": 1210,
-      "ci_95": 9,
-      "ci95_range": "-9/+9"
-    },
-    {
       "id": "7623b756-8b01-4e60-aed4-3322c1933e36",
       "name": "Veo 3",
       "slug": "veo-3-no-audio",
@@ -260,6 +248,18 @@
       "elo": 1210,
       "ci_95": 8,
       "ci95_range": "-8/+8"
+    },
+    {
+      "id": "50ed6856-5052-431d-8994-584b2e02f023",
+      "name": "SkyReels V4",
+      "slug": "skyreels-v4",
+      "creator": {
+        "id": "67b5ce4d-0c81-4edc-b4c3-370acc2df555",
+        "name": "Skywork AI"
+      },
+      "elo": 1210,
+      "ci_95": 9,
+      "ci95_range": "-9/+9"
     },
     {
       "id": "a8f7ab65-828a-4166-8fbf-616cbb01d773",
@@ -298,24 +298,24 @@
       "ci95_range": "-8/+8"
     },
     {
-      "id": "61270a9b-9d2e-4875-810f-e81508bc5504",
-      "name": "Kling 2.5 Turbo 1080p",
-      "slug": "kling-25-turbo-1080p",
-      "creator": {
-        "id": "62cc833b-f55a-4489-bcae-54806d4b04ff",
-        "name": "KlingAI"
-      },
-      "elo": 1200,
-      "ci_95": 7,
-      "ci95_range": "-7/+7"
-    },
-    {
       "id": "f3c7e331-2b60-4f87-bc9c-363264f211a8",
       "name": "Veo 3.1 Fast",
       "slug": "veo-3-1-fast",
       "creator": {
         "id": "faddc6d9-2c14-445f-9b28-56726f59c793",
         "name": "Google"
+      },
+      "elo": 1200,
+      "ci_95": 7,
+      "ci95_range": "-7/+7"
+    },
+    {
+      "id": "61270a9b-9d2e-4875-810f-e81508bc5504",
+      "name": "Kling 2.5 Turbo 1080p",
+      "slug": "kling-25-turbo-1080p",
+      "creator": {
+        "id": "62cc833b-f55a-4489-bcae-54806d4b04ff",
+        "name": "KlingAI"
       },
       "elo": 1200,
       "ci_95": 7,
@@ -413,7 +413,7 @@
         "id": "e67e56e3-15cd-43db-b679-da4660a69f41",
         "name": "OpenAI"
       },
-      "elo": 1183,
+      "elo": 1184,
       "ci_95": 8,
       "ci95_range": "-8/+8"
     },
@@ -442,6 +442,18 @@
       "ci95_range": "-7/+7"
     },
     {
+      "id": "249f428c-b651-4c9e-b599-5cc3c1db7616",
+      "name": "Sora 2 (December)",
+      "slug": "sora-2-december-no-audio",
+      "creator": {
+        "id": "e67e56e3-15cd-43db-b679-da4660a69f41",
+        "name": "OpenAI"
+      },
+      "elo": 1172,
+      "ci_95": 9,
+      "ci95_range": "-9/+9"
+    },
+    {
       "id": "3e2f019d-70a5-4743-995b-5674840a89cf",
       "name": "Veo 3 Fast Preview",
       "slug": "veo-3-fast-preview-no-audio",
@@ -460,18 +472,6 @@
       "creator": {
         "id": "a31a9071-6144-4dbb-92dc-2e02d653ecea",
         "name": "MiniMax"
-      },
-      "elo": 1171,
-      "ci_95": 9,
-      "ci95_range": "-9/+9"
-    },
-    {
-      "id": "249f428c-b651-4c9e-b599-5cc3c1db7616",
-      "name": "Sora 2 (December)",
-      "slug": "sora-2-december-no-audio",
-      "creator": {
-        "id": "e67e56e3-15cd-43db-b679-da4660a69f41",
-        "name": "OpenAI"
       },
       "elo": 1171,
       "ci_95": 9,
