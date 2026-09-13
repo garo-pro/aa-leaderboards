@@ -2,7 +2,7 @@
 
 Data by [Artificial Analysis](https://artificialanalysis.ai/), via their [Data API](https://artificialanalysis.ai/data-api).
 
-Snapshot fetched at: 2026-09-12T09:21:26.611204+00:00
+Snapshot fetched at: 2026-09-13T10:16:56.239971+00:00
 - Provider count: 124
 - Model count: 1130
 
@@ -33,40 +33,41 @@ Model count: 2
 
 ## Alibaba
 
-Model count: 132
+Model count: 133
 
 | endpoint | id | name | slug | release_date | evaluations.artificial_analysis_intelligence_index | evaluations.artificial_analysis_coding_index | evaluations.artificial_analysis_agentic_index | intelligence_index_cost | pricing.price_1m_input_tokens | pricing.price_1m_output_tokens | pricing.price_1m_cache_hit_tokens | pricing.price_1m_cache_write_tokens | performance.median_output_tokens_per_second | performance.median_time_to_first_token_seconds | performance.median_time_to_first_answer_token_seconds | performance.median_end_to_end_response_time_seconds | intelligence_index_cost.total_cost | intelligence_index_cost.cost_per_task.total_cost | elo | ci_95 | ci95_range |
 | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- |
-| LLM Leaderboard | 0179b427-93dc-415c-bb4c-f980ddf8d088 | Qwen3.5 Omni Plus | qwen3-5-omni-plus | 2026-03-30 | 20.4 |  |  |  | 0.4 | 4.8 |  |  | 85.26 | 2.23 | 2.23 | 8.1 |  |  |  |  |  |
-| LLM Leaderboard | 021b1b31-d2fc-4653-ab74-c10bd2f41c8e | Qwen3.5 122B A10B (Non-reasoning) | qwen3-5-122b-a10b-non-reasoning | 2026-02-24 | 17.7 | 43.3 |  |  | 0.4 | 3.2 |  |  | 140.4 | 2.3 | 2.3 | 5.86 |  |  |  |  |  |
+| LLM Leaderboard | 0179b427-93dc-415c-bb4c-f980ddf8d088 | Qwen3.5 Omni Plus | qwen3-5-omni-plus | 2026-03-30 | 20.4 |  |  |  | 0.4 | 4.8 |  |  | 89.65 | 2.21 | 2.21 | 7.78 |  |  |  |  |  |
+| LLM Leaderboard | 021b1b31-d2fc-4653-ab74-c10bd2f41c8e | Qwen3.5 122B A10B (Non-reasoning) | qwen3-5-122b-a10b-non-reasoning | 2026-02-24 | 17.7 | 43.3 |  |  | 0.4 | 3.2 |  |  | 138.03 | 2.31 | 2.31 | 5.93 |  |  |  |  |  |
 | LLM Leaderboard | 04586102-6a28-48f8-a82e-85775d7ed779 | Qwen2.5 Coder Instruct 32B | qwen2-5-coder-32b-instruct | 2024-11-11 | 6.7 |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |
-| LLM Leaderboard | 093883ed-f5fc-443b-8e18-afbfb166699e | Qwen3 Coder 480B A35B Instruct | qwen3-coder-480b-a35b-instruct | 2025-07-22 | 11.9 |  |  |  | 1.5 | 7.5 |  |  | 51.78 | 2.96 | 2.96 | 12.62 |  |  |  |  |  |
+| LLM Leaderboard | 093883ed-f5fc-443b-8e18-afbfb166699e | Qwen3 Coder 480B A35B Instruct | qwen3-coder-480b-a35b-instruct | 2025-07-22 | 11.9 |  |  |  | 1.5 | 7.5 |  |  | 50.31 | 3.03 | 3.03 | 12.97 |  |  |  |  |  |
 | LLM Leaderboard | 0985ada8-2ed8-404d-bd8b-7357666ce40f | Qwen3.5 2B (Non-reasoning) | qwen3-5-2b-non-reasoning | 2026-03-02 | 6.2 | 2.4 |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |
-| LLM Leaderboard | 0b226b82-1462-4860-bf1a-f8aed7024791 | Qwen3 Omni 30B A3B Instruct | qwen3-omni-30b-a3b-instruct | 2025-09-22 | 6 |  |  |  | 0.25 | 0.97 |  |  | 96.83 | 1.87 | 1.87 | 7.03 |  |  |  |  |  |
+| LLM Leaderboard | 0b226b82-1462-4860-bf1a-f8aed7024791 | Qwen3 Omni 30B A3B Instruct | qwen3-omni-30b-a3b-instruct | 2025-09-22 | 6 |  |  |  | 0.25 | 0.97 |  |  | 96.83 | 1.88 | 1.88 | 7.04 |  |  |  |  |  |
 | LLM Leaderboard | 0e5f6140-1154-4583-a3e0-8c032a338892 | Qwen3 0.6B (Non-reasoning) | qwen3-0.6b-instruct | 2025-04-28 | 4.8 |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |
-| LLM Leaderboard | 0e66bae9-41f1-42fc-9276-ce8cb6f72919 | Qwen3.5 397B A17B (Reasoning) | qwen3-5-397b-a17b | 2026-02-16 | 19.1 | 48.2 | 10.6 |  | 0.6 | 3.6 |  |  | 78.98 | 2.12 | 42.46 | 48.79 | 940.97 | 0.4746 |  |  |  |
-| LLM Leaderboard | 169e47f5-3d4d-4ad4-8f8b-ab46f0c73f67 | Qwen3.5 27B (Reasoning) | qwen3-5-27b | 2026-02-24 | 22.9 |  |  |  | 0.3 | 2.4 |  |  | 75.23 | 5.62 | 32.21 | 38.85 |  |  |  |  |  |
+| LLM Leaderboard | 0e66bae9-41f1-42fc-9276-ce8cb6f72919 | Qwen3.5 397B A17B (Reasoning) | qwen3-5-397b-a17b | 2026-02-16 | 19.1 | 48.2 | 10.6 |  | 0.6 | 3.6 |  |  | 79.3 | 2.2 | 42.38 | 48.68 | 940.97 | 0.4746 |  |  |  |
+| LLM Leaderboard | 169e47f5-3d4d-4ad4-8f8b-ab46f0c73f67 | Qwen3.5 27B (Reasoning) | qwen3-5-27b | 2026-02-24 | 22.9 |  |  |  | 0.3 | 2.4 |  |  | 76.34 | 5.6 | 31.8 | 38.35 |  |  |  |  |  |
 | LLM Leaderboard | 191a2097-cce3-49cf-881e-0c790892059f | Qwen3 4B (Reasoning) | qwen3-4b-instruct-reasoning | 2025-04-28 | 7.2 |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |
 | LLM Leaderboard | 1d0db5a3-3132-4213-a94b-c2e395d08283 | Qwen2.5 Instruct 32B | qwen2.5-32b-instruct | 2024-09-19 | 6.9 |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |
-| LLM Leaderboard | 20da3b31-fc0a-4359-abec-d59367bf1d9f | Qwen3.5 9B (Non-reasoning) | qwen3-5-9b-non-reasoning | 2026-03-02 | 13.3 | 23.5 |  |  | 0.17 | 0.25 |  |  | 96.99 | 0.85 | 0.85 | 6.01 |  |  |  |  |  |
-| LLM Leaderboard | 2236df45-0699-40d1-b5cc-69ee345d2257 | Qwen3.5 122B A10B (Reasoning) | qwen3-5-122b-a10b | 2026-02-24 | 16.2 | 45.7 | 9.6 |  | 0.4 | 3.2 |  |  | 126.37 | 2.3 | 18.13 | 22.09 | 661.29 | 0.3247 |  |  |  |
-| LLM Leaderboard | 2698f6c6-e436-47ce-a583-dbc25596c571 | Qwen3 Next 80B A3B Instruct | qwen3-next-80b-a3b-instruct | 2025-09-11 | 9.6 |  |  |  | 0.15 | 1.2 |  |  | 180.24 | 2.15 | 2.15 | 4.92 |  |  |  |  |  |
+| LLM Leaderboard | 20da3b31-fc0a-4359-abec-d59367bf1d9f | Qwen3.5 9B (Non-reasoning) | qwen3-5-9b-non-reasoning | 2026-03-02 | 13.3 | 23.5 |  |  | 0.17 | 0.25 |  |  | 96.27 | 0.77 | 0.77 | 5.96 |  |  |  |  |  |
+| LLM Leaderboard | 2236df45-0699-40d1-b5cc-69ee345d2257 | Qwen3.5 122B A10B (Reasoning) | qwen3-5-122b-a10b | 2026-02-24 | 16.2 | 45.7 | 9.6 |  | 0.4 | 3.2 |  |  | 126.37 | 2.33 | 18.16 | 22.11 | 661.29 | 0.3247 |  |  |  |
+| LLM Leaderboard | 2698f6c6-e436-47ce-a583-dbc25596c571 | Qwen3 Next 80B A3B Instruct | qwen3-next-80b-a3b-instruct | 2025-09-11 | 9.6 |  |  |  | 0.15 | 1.2 |  |  | 177.58 | 2.18 | 2.18 | 5 |  |  |  |  |  |
 | LLM Leaderboard | 2aacdc07-5f4e-4ab9-8ea5-5f7ab93f9eeb | Qwen3 4B 2507 (Reasoning) | qwen3-4b-2507-instruct-reasoning | 2025-08-06 | 8.8 |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |
 | LLM Leaderboard | 2bb84433-f38e-4edc-9b65-4d7b1f473db9 | Qwen3 1.7B (Non-reasoning) | qwen3-1.7b-instruct | 2025-04-28 | 4.9 |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |
-| LLM Leaderboard | 2d28a13a-096e-475a-beb8-26bbd1c7d51c | Qwen3.5 9B (Reasoning) | qwen3-5-9b | 2026-03-02 | 13.7 | 28.7 |  |  | 0.14 | 0.2 |  |  | 87.33 | 1.88 | 24.78 | 30.51 |  |  |  |  |  |
-| LLM Leaderboard | 30c9ba61-d0a1-4794-938e-35865f379d15 | Qwen3.5 4B (Non-reasoning) | qwen3-5-4b-non-reasoning | 2026-03-02 | 10.8 | 20.3 |  |  | 0.03 | 0.15 |  |  | 19.18 | 0.8 | 0.8 | 26.87 |  |  |  |  |  |
-| LLM Leaderboard | 30ef2a79-e800-4165-9f13-2a338f120db7 | Qwen3.5 397B A17B (Non-reasoning) | qwen3-5-397b-a17b-non-reasoning | 2026-02-16 | 21.4 |  |  |  | 0.6 | 3.6 |  |  | 79 | 2.14 | 2.14 | 8.47 |  |  |  |  |  |
-| LLM Leaderboard | 3373245b-e6dc-4b66-a7b0-3f06f9b7bd46 | Qwen3 235B A22B 2507 Instruct | qwen3-235b-a22b-instruct-2507 | 2025-07-21 | 12 |  |  |  | 0.23 | 0.92 |  |  | 58.74 | 2.39 | 2.39 | 10.9 |  |  |  |  |  |
-| LLM Leaderboard | 352f834f-a03c-4117-8a29-c3ccd8a568ce | Qwen2.5 Turbo | qwen-turbo | 2024-11-18 | 6.4 |  |  |  | 0.05 | 0.2 |  |  | 107.71 | 2.24 | 2.24 | 6.88 |  |  |  |  |  |
-| LLM Leaderboard | 353c92f3-2148-4c2d-9231-aa7e1322a1fd | Qwen3.8 27B (Non-reasoning) | qwen3-8-27b-non-reasoning | 2026-08-14 | 22.4 | 44.6 |  |  | 0.5 | 3 | 0.05 |  | 44 | 3.95 | 3.95 | 15.32 |  |  |  |  |  |
+| LLM Leaderboard | 2d28a13a-096e-475a-beb8-26bbd1c7d51c | Qwen3.5 9B (Reasoning) | qwen3-5-9b | 2026-03-02 | 13.7 | 28.7 |  |  | 0.14 | 0.2 |  |  | 92.94 | 1.88 | 23.4 | 28.78 |  |  |  |  |  |
+| LLM Leaderboard | 30c9ba61-d0a1-4794-938e-35865f379d15 | Qwen3.5 4B (Non-reasoning) | qwen3-5-4b-non-reasoning | 2026-03-02 | 10.8 | 20.3 |  |  | 0.03 | 0.15 |  |  | 27.59 | 0.78 | 0.78 | 18.9 |  |  |  |  |  |
+| LLM Leaderboard | 30ef2a79-e800-4165-9f13-2a338f120db7 | Qwen3.5 397B A17B (Non-reasoning) | qwen3-5-397b-a17b-non-reasoning | 2026-02-16 | 21.4 |  |  |  | 0.6 | 3.6 |  |  | 81.72 | 2.24 | 2.24 | 8.35 |  |  |  |  |  |
+| LLM Leaderboard | 3373245b-e6dc-4b66-a7b0-3f06f9b7bd46 | Qwen3 235B A22B 2507 Instruct | qwen3-235b-a22b-instruct-2507 | 2025-07-21 | 12 |  |  |  | 0.23 | 0.92 |  |  | 57.59 | 2.38 | 2.38 | 11.06 |  |  |  |  |  |
+| LLM Leaderboard | 352f834f-a03c-4117-8a29-c3ccd8a568ce | Qwen2.5 Turbo | qwen-turbo | 2024-11-18 | 6.4 |  |  |  | 0.05 | 0.2 |  |  | 108.57 | 2.21 | 2.21 | 6.82 |  |  |  |  |  |
+| LLM Leaderboard | 353c92f3-2148-4c2d-9231-aa7e1322a1fd | Qwen3.8 27B (Non-reasoning) | qwen3-8-27b-non-reasoning | 2026-08-14 | 22.4 | 44.6 |  |  | 0.5 | 3 | 0.05 |  | 44.78 | 3.98 | 3.98 | 15.14 |  |  |  |  |  |
 | LLM Leaderboard | 3b156101-b0d7-4438-b350-2d1f1168f40a | Qwen3.6 27B (Non-reasoning) | qwen3-6-27b-non-reasoning | 2026-04-22 | 19.8 | 46.6 |  |  | 0.6 | 3.6 |  |  | 54.89 | 3.67 | 3.67 | 12.78 |  |  |  |  |  |
-| LLM Leaderboard | 3cf875b8-b6b5-42c0-ad70-617d5be59d00 | Qwen3 VL 8B Instruct | qwen3-vl-8b-instruct | 2025-10-14 | 7.3 |  |  |  | 0.18 | 0.7 |  |  | 116.69 | 2.23 | 2.23 | 6.52 |  |  |  |  |  |
-| LLM Leaderboard | 3e6cf518-a1f4-42d3-8fcf-827c9bd8e6d5 | Qwen3 30B A3B (Reasoning) | qwen3-30b-a3b-instruct-reasoning | 2025-04-28 | 7.6 |  |  |  | 0.2 | 2.4 |  |  | 107.04 | 2.21 | 20.89 | 25.56 |  |  |  |  |  |
+| LLM Leaderboard | 3cf875b8-b6b5-42c0-ad70-617d5be59d00 | Qwen3 VL 8B Instruct | qwen3-vl-8b-instruct | 2025-10-14 | 7.3 |  |  |  | 0.18 | 0.7 |  |  | 119.7 | 2.23 | 2.23 | 6.4 |  |  |  |  |  |
+| LLM Leaderboard | 3e6cf518-a1f4-42d3-8fcf-827c9bd8e6d5 | Qwen3 30B A3B (Reasoning) | qwen3-30b-a3b-instruct-reasoning | 2025-04-28 | 7.6 |  |  |  | 0.2 | 2.4 |  |  | 107.39 | 2.21 | 20.83 | 25.48 |  |  |  |  |  |
 | LLM Leaderboard | 405e2235-0925-4634-a3c7-fbd5f6394bc0 | Qwen3.5 0.8B (Non-reasoning) | qwen3-5-0-8b-non-reasoning | 2026-03-02 | 5.4 | 1.2 |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |
 | LLM Leaderboard | 41f73c27-880c-4f30-8b07-9999ce89a4ae | Qwen Chat 72B | qwen-chat-72b | 2023-11-30 | 5.4 |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |
-| LLM Leaderboard | 43573c57-2403-46fb-af4b-a93de9a0c3f5 | Qwen3 235B A22B (Non-reasoning) | qwen3-235b-a22b-instruct | 2025-04-28 | 8.3 |  |  |  | 0.7 | 2.8 |  |  | 61.9 | 2.73 | 2.73 | 10.81 |  |  |  |  |  |
-| LLM Leaderboard | 4559e9f0-8aad-4681-89fb-68cb915e0f16 | Qwen3 14B (Reasoning) | qwen3-14b-instruct-reasoning | 2025-04-28 | 6.4 | 13.8 | 0.9 |  | 0.35 | 4.2 |  |  | 61.82 | 2.7 | 35.06 | 43.14 |  |  |  |  |  |
-| LLM Leaderboard | 46d8315e-1630-463f-ab62-84185fa0faab | Qwen3.5 35B A3B (Reasoning) | qwen3-5-35b-a3b | 2026-02-24 | 19.3 |  |  |  | 0.25 | 2 |  |  | 145.66 | 2.07 | 15.8 | 19.24 |  |  |  |  |  |
+| LLM Leaderboard | 43573c57-2403-46fb-af4b-a93de9a0c3f5 | Qwen3 235B A22B (Non-reasoning) | qwen3-235b-a22b-instruct | 2025-04-28 | 8.3 |  |  |  | 0.7 | 2.8 |  |  | 60.49 | 2.71 | 2.71 | 10.97 |  |  |  |  |  |
+| LLM Leaderboard | 4559e9f0-8aad-4681-89fb-68cb915e0f16 | Qwen3 14B (Reasoning) | qwen3-14b-instruct-reasoning | 2025-04-28 | 6.4 | 13.8 | 0.9 |  | 0.35 | 4.2 |  |  | 62.85 | 2.71 | 34.53 | 42.48 |  |  |  |  |  |
+| LLM Leaderboard | 46d8315e-1630-463f-ab62-84185fa0faab | Qwen3.5 35B A3B (Reasoning) | qwen3-5-35b-a3b | 2026-02-24 | 19.3 |  |  |  | 0.25 | 2 |  |  | 149.1 | 2.04 | 15.46 | 18.81 |  |  |  |  |  |
+| LLM Leaderboard | 4ae6c88d-9e4a-4850-89fe-18a1c04a66cc | Qwen3 0.6B (Reasoning) | qwen3-0.6b-instruct-reasoning | 2025-04-28 | 4.8 |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |
 | LLM Leaderboard | 4ae6c88d-9e4a-4850-89fe-18a1c04a66cc | Qwen3 0.6B (Reasoning) | qwen3-0.6b-instruct-reasoning | 2025-04-28 | 4.8 |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |
 | LLM Leaderboard | 509e94e3-f1cb-43fb-98ff-e0e9872cfd1f | Qwen3.5 27B (Non-reasoning) | qwen3-5-27b-non-reasoning | 2026-02-24 | 19.4 |  |  |  | 0.3 | 2.4 |  |  | 80.09 | 5.61 | 5.61 | 11.86 |  |  |  |  |  |
 | LLM Leaderboard | 51d0b717-953d-4b44-af61-406c6b7dff39 | Qwen3 VL 30B A3B Instruct | qwen3-vl-30b-a3b-instruct | 2025-10-03 | 7.9 |  |  |  | 0.2 | 0.8 |  |  | 111.29 | 2.19 | 2.19 | 6.68 |  |  |  |  |  |
@@ -91,30 +92,30 @@ Model count: 132
 | LLM Leaderboard | 8823351e-8232-4c9c-8a1d-cd2c1d2c1196 | QwQ 32B-Preview | QwQ-32B-Preview | 2024-11-27 | 7.6 |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |
 | LLM Leaderboard | 8c29d66d-bf98-4ea3-8572-5409353ecc66 | Qwen3.6 27B (Reasoning) | qwen3-6-27b | 2026-04-22 | 21.9 | 53.7 | 20.1 |  | 0.6 | 3.6 |  |  | 56.25 | 3.68 | 104.58 | 113.47 | 1145.36 | 0.6212 |  |  |  |
 | LLM Leaderboard | 8df710d3-9dae-4498-9b4e-9818238e6f31 | Qwen3.8 2.4T A95B | qwen3-8-2-4t-a95b | 2026-08-12 | 40 | 71.9 | 50.4 |  | 2 | 6 | 0.25 |  | 38.4 | 2.84 | 54.93 | 67.95 | 2632.05 | 2.1552 |  |  |  |
-| LLM Leaderboard | 9ac3908c-9eb2-44db-8c01-3ec7da6fc2ae | Qwen3.8-Flash-Next | qwen3-8-flash-next | 2026-08-26 | 39.9 | 73.1 | 53.9 |  | 0.15 | 0.47 | 0.02 |  | 53.77 | 2.8 | 40 | 49.3 | 362.72 | 0.3722 |  |  |  |
-| LLM Leaderboard | 9dba61f5-78ee-4190-8d1d-8e7063ffd386 | Qwen3 8B (Reasoning) | qwen3-8b-instruct-reasoning | 2025-04-28 | 5.2 | 9 | 0.8 |  | 0.18 | 2.1 |  |  | 36.67 | 3.77 | 58.31 | 71.94 |  |  |  |  |  |
+| LLM Leaderboard | 9ac3908c-9eb2-44db-8c01-3ec7da6fc2ae | Qwen3.8-Flash-Next | qwen3-8-flash-next | 2026-08-26 | 39.9 | 73.1 | 53.9 |  | 0.15 | 0.47 | 0.02 |  | 52.29 | 2.8 | 41.04 | 50.61 | 362.72 | 0.3722 |  |  |  |
+| LLM Leaderboard | 9dba61f5-78ee-4190-8d1d-8e7063ffd386 | Qwen3 8B (Reasoning) | qwen3-8b-instruct-reasoning | 2025-04-28 | 5.2 | 9 | 0.8 |  | 0.18 | 2.1 |  |  | 37.46 | 3.72 | 57.11 | 70.46 |  |  |  |  |  |
 | LLM Leaderboard | a6ea7ec0-0aca-4442-98fb-4296c6d18b31 | Qwen3.5 0.8B (Reasoning) | qwen3-5-0-8b | 2026-03-02 | 6.1 | 0 |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |
-| LLM Leaderboard | a803d3d0-d22e-49a0-ac2c-b9c6f1141065 | Qwen3 VL 235B A22B (Reasoning) | qwen3-vl-235b-a22b-reasoning | 2025-09-23 | 13.4 |  |  |  | 0.4 | 4 |  |  | 57.52 | 2.8 | 37.57 | 46.27 |  |  |  |  |  |
-| LLM Leaderboard | a87fce42-eea3-4e45-a96d-fe057814f371 | Qwen3.7 Plus | qwen3-7-plus | 2026-06-01 | 25.8 | 55.9 | 19.7 |  | 0.4 | 1.6 | 0.04 | 0.5 | 66.82 | 2.23 | 32.16 | 39.64 | 568.49 | 0.3253 |  |  |  |
-| LLM Leaderboard | b00ecd62-a53f-4aed-b833-3e9d6b0170ba | Qwen3 32B (Reasoning) | qwen3-32b-instruct-reasoning | 2025-04-28 | 7.2 | 15.3 | 0.9 |  | 0.16 | 0.64 |  |  | 104.67 | 2.56 | 21.67 | 26.45 |  |  |  |  |  |
-| LLM Leaderboard | b01dee41-c62b-48ed-8d16-984adc405e5c | Qwen3.8 27B (xhigh) | qwen3-8-27b | 2026-08-14 | 33.9 | 68.1 | 46.5 |  | 0.5 | 3 | 0.05 |  | 38.98 | 4.09 | 55.39 | 68.22 | 1170.48 | 0.8202 |  |  |  |
+| LLM Leaderboard | a803d3d0-d22e-49a0-ac2c-b9c6f1141065 | Qwen3 VL 235B A22B (Reasoning) | qwen3-vl-235b-a22b-reasoning | 2025-09-23 | 13.4 |  |  |  | 0.4 | 4 |  |  | 58.46 | 2.73 | 36.94 | 45.49 |  |  |  |  |  |
+| LLM Leaderboard | a87fce42-eea3-4e45-a96d-fe057814f371 | Qwen3.7 Plus | qwen3-7-plus | 2026-06-01 | 25.8 | 55.9 | 19.7 |  | 0.4 | 1.6 | 0.04 | 0.5 | 68.86 | 2.15 | 31.19 | 38.45 | 568.49 | 0.3253 |  |  |  |
+| LLM Leaderboard | b00ecd62-a53f-4aed-b833-3e9d6b0170ba | Qwen3 32B (Reasoning) | qwen3-32b-instruct-reasoning | 2025-04-28 | 7.2 | 15.3 | 0.9 |  | 0.16 | 0.64 |  |  | 105.28 | 2.45 | 21.44 | 26.19 |  |  |  |  |  |
+| LLM Leaderboard | b01dee41-c62b-48ed-8d16-984adc405e5c | Qwen3.8 27B (xhigh) | qwen3-8-27b | 2026-08-14 | 33.9 | 68.1 | 46.5 |  | 0.5 | 3 | 0.05 |  | 39.71 | 4.09 | 54.46 | 67.05 | 1170.48 | 0.8202 |  |  |  |
 | LLM Leaderboard | b0249961-b8b2-479d-8325-a29ea17c7b89 | Qwen3 4B 2507 Instruct | qwen3-4b-2507-instruct | 2025-08-06 | 6.7 |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |
-| LLM Leaderboard | b2dd592a-fbc5-458a-b26d-f3964cbab82f | Qwen3 8B (Non-reasoning) | qwen3-8b-instruct | 2025-04-28 | 6 |  |  |  | 0.18 | 0.7 |  |  | 38.91 | 3.69 | 3.69 | 16.54 |  |  |  |  |  |
+| LLM Leaderboard | b2dd592a-fbc5-458a-b26d-f3964cbab82f | Qwen3 8B (Non-reasoning) | qwen3-8b-instruct | 2025-04-28 | 6 |  |  |  | 0.18 | 0.7 |  |  | 39.23 | 3.66 | 3.66 | 16.4 |  |  |  |  |  |
 | LLM Leaderboard | b4f7d7a4-869a-4ee7-b17a-4046cd1e79fd | Qwen2.5 Instruct 72B | qwen2-5-72b-instruct | 2024-09-19 | 7.7 |  |  |  | 0.47 | 0.49 | 0.35 |  |  |  |  |  |  |  |  |  |  |
-| LLM Leaderboard | b97ef678-2d31-4375-9416-67ea97f87204 | Qwen3 Omni 30B A3B (Reasoning) | qwen3-omni-30b-a3b-reasoning | 2025-09-22 | 7.8 |  |  |  | 0.25 | 0.97 |  |  | 101.37 | 1.9 | 21.63 | 26.57 |  |  |  |  |  |
+| LLM Leaderboard | b97ef678-2d31-4375-9416-67ea97f87204 | Qwen3 Omni 30B A3B (Reasoning) | qwen3-omni-30b-a3b-reasoning | 2025-09-22 | 7.8 |  |  |  | 0.25 | 0.97 |  |  | 101.61 | 1.93 | 21.61 | 26.53 |  |  |  |  |  |
 | LLM Leaderboard | b9dc72c6-7bea-4936-a55a-4b0c835fc755 | Qwen2.5 Max | qwen-2-5-max | 2025-01-28 | 8 |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |
-| LLM Leaderboard | bbe6d782-e630-48d5-b11c-3ce37f373f1e | Qwen3 235B A22B (Reasoning) | qwen3-235b-a22b-instruct-reasoning | 2025-04-28 | 9.5 |  |  |  | 0.7 | 8.4 |  |  | 59.47 | 2.73 | 36.36 | 44.77 |  |  |  |  |  |
-| LLM Leaderboard | bf60740e-6aa5-422f-ba49-ef6e9d171205 | Qwen3 32B (Non-reasoning) | qwen3-32b-instruct | 2025-04-28 | 7.3 |  |  |  | 0.16 | 0.64 |  |  | 106.12 | 2.42 | 2.42 | 7.13 |  |  |  |  |  |
+| LLM Leaderboard | bbe6d782-e630-48d5-b11c-3ce37f373f1e | Qwen3 235B A22B (Reasoning) | qwen3-235b-a22b-instruct-reasoning | 2025-04-28 | 9.5 |  |  |  | 0.7 | 8.4 |  |  | 58.67 | 2.73 | 36.82 | 45.34 |  |  |  |  |  |
+| LLM Leaderboard | bf60740e-6aa5-422f-ba49-ef6e9d171205 | Qwen3 32B (Non-reasoning) | qwen3-32b-instruct | 2025-04-28 | 7.3 |  |  |  | 0.16 | 0.64 |  |  | 106.83 | 2.45 | 2.45 | 7.13 |  |  |  |  |  |
 | LLM Leaderboard | c43aa1f9-31bd-4a99-be70-84c5e6bd2e75 | Qwen Chat 14B | qwen-chat-14b | 2023-09-25 | 5 |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |
-| LLM Leaderboard | c8a79180-7d16-4474-8701-9a77c0baa56a | Qwen3 Next 80B A3B (Reasoning) | qwen3-next-80b-a3b-reasoning | 2025-09-11 | 11.2 | 17.4 |  |  | 0.15 | 1.2 |  |  | 194.41 | 2.34 | 12.63 | 15.2 |  |  |  |  |  |
-| LLM Leaderboard | cbac8c35-e069-4c73-823e-0953e6ed0e85 | Qwen3 Max Thinking (Preview) | qwen3-max-thinking-preview | 2025-11-03 | 16.3 |  |  |  | 1.2 | 6 |  |  | 56.48 | 3.99 | 39.4 | 48.26 |  |  |  |  |  |
-| LLM Leaderboard | ce3d286e-093d-413d-a81a-0270309f039e | Qwen3 VL 30B A3B (Reasoning) | qwen3-vl-30b-a3b-reasoning | 2025-10-03 | 9.5 |  |  |  | 0.2 | 2.4 |  |  | 113.09 | 2.18 | 19.87 | 24.29 |  |  |  |  |  |
+| LLM Leaderboard | c8a79180-7d16-4474-8701-9a77c0baa56a | Qwen3 Next 80B A3B (Reasoning) | qwen3-next-80b-a3b-reasoning | 2025-09-11 | 11.2 | 17.4 |  |  | 0.15 | 1.2 |  |  | 186.94 | 2.37 | 13.06 | 15.74 |  |  |  |  |  |
+| LLM Leaderboard | cbac8c35-e069-4c73-823e-0953e6ed0e85 | Qwen3 Max Thinking (Preview) | qwen3-max-thinking-preview | 2025-11-03 | 16.3 |  |  |  | 1.2 | 6 |  |  | 55.32 | 3.99 | 40.15 | 49.19 |  |  |  |  |  |
+| LLM Leaderboard | ce3d286e-093d-413d-a81a-0270309f039e | Qwen3 VL 30B A3B (Reasoning) | qwen3-vl-30b-a3b-reasoning | 2025-10-03 | 9.5 |  |  |  | 0.2 | 2.4 |  |  | 111.9 | 2.19 | 20.06 | 24.53 |  |  |  |  |  |
 | LLM Leaderboard | ceb4d610-d0a4-48c1-bea0-80ed76f1e5ca | QwQ 32B | qwq-32b | 2025-03-05 | 9.5 |  |  |  | 0.66 | 1 |  |  |  |  |  |  |  |  |  |  |  |
 | LLM Leaderboard | d1768b3a-0a21-4e08-b3f6-56a9ab6cfbf3 | Qwen1.5 Chat 110B | qwen1.5-110b-chat | 2024-04-25 | 5.7 |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |
-| LLM Leaderboard | d370fcbf-c4a1-41a2-abc4-d204fcc3fcbf | Qwen3 VL 32B (Reasoning) | qwen3-vl-32b-reasoning | 2025-10-21 | 11.9 |  |  |  | 0.16 | 0.64 |  |  | 89.74 | 2.54 | 24.83 | 30.4 |  |  |  |  |  |
-| LLM Leaderboard | d58cf573-1bd3-4d1f-9182-5482a460f570 | Qwen3 VL 235B A22B Instruct | qwen3-vl-235b-a22b-instruct | 2025-09-23 | 9.9 |  |  |  | 0.4 | 1.6 |  |  | 52.56 | 2.62 | 2.62 | 12.13 |  |  |  |  |  |
-| LLM Leaderboard | da9fe224-8af3-46d7-a8c4-6220779c3f35 | Qwen3 Coder 30B A3B Instruct | qwen3-coder-30b-a3b-instruct | 2025-07-31 | 9.6 |  |  |  | 0.45 | 2.25 |  |  | 92.02 | 2.65 | 2.65 | 8.09 |  |  |  |  |  |
-| LLM Leaderboard | dec8073c-57e2-41c0-b1aa-7a62960f103f | Qwen3 VL 8B (Reasoning) | qwen3-vl-8b-reasoning | 2025-10-14 | 8.2 |  |  |  | 0.18 | 2.1 |  |  | 113.89 | 2.34 | 19.9 | 24.29 |  |  |  |  |  |
+| LLM Leaderboard | d370fcbf-c4a1-41a2-abc4-d204fcc3fcbf | Qwen3 VL 32B (Reasoning) | qwen3-vl-32b-reasoning | 2025-10-21 | 11.9 |  |  |  | 0.16 | 0.64 |  |  | 89.79 | 2.58 | 24.86 | 30.43 |  |  |  |  |  |
+| LLM Leaderboard | d58cf573-1bd3-4d1f-9182-5482a460f570 | Qwen3 VL 235B A22B Instruct | qwen3-vl-235b-a22b-instruct | 2025-09-23 | 9.9 |  |  |  | 0.4 | 1.6 |  |  | 51.8 | 2.61 | 2.61 | 12.26 |  |  |  |  |  |
+| LLM Leaderboard | da9fe224-8af3-46d7-a8c4-6220779c3f35 | Qwen3 Coder 30B A3B Instruct | qwen3-coder-30b-a3b-instruct | 2025-07-31 | 9.6 |  |  |  | 0.45 | 2.25 |  |  | 89.77 | 2.73 | 2.73 | 8.3 |  |  |  |  |  |
+| LLM Leaderboard | dec8073c-57e2-41c0-b1aa-7a62960f103f | Qwen3 VL 8B (Reasoning) | qwen3-vl-8b-reasoning | 2025-10-14 | 8.2 |  |  |  | 0.18 | 2.1 |  |  | 115.13 | 2.37 | 19.74 | 24.08 |  |  |  |  |  |
 | LLM Leaderboard | e410e854-104d-4b35-a171-899ff9d974bb | Qwen2.5 Coder Instruct 7B  | qwen2-5-coder-7b-instruct | 2024-09-19 | 5.8 |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |
 | LLM Leaderboard | e46198a7-cd29-4afd-933d-cdf180f0f305 | Qwen3 4B (Non-reasoning) | qwen3-4b-instruct | 2025-04-28 | 6.6 |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |
 | LLM Leaderboard | ecc6524a-d521-458a-8327-5009e8ce6549 | Qwen3 14B (Non-reasoning) | qwen3-14b-instruct | 2025-04-28 | 6.7 |  |  |  | 0.35 | 1.4 |  |  | 63.4 | 2.67 | 2.67 | 10.56 |  |  |  |  |  |
@@ -166,7 +167,7 @@ Model count: 132
 | Image-to-Video Arena | 1ce3af77-bb30-40ef-90e2-5aa9fa4588b9 | Wan 2.7 | wan-2-7-v2v |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  | 1272 | 10 | -10/+10 |
 | Image-to-Video Arena | 527bfb54-8238-4671-9b2f-5e9b86d80163 | Wan 2.5 Preview | wan-2-5-preview |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  | 1234 | 9 | -9/+9 |
 | Image-to-Video Arena | 6ccddbde-d734-4ac0-95a7-f7ed903ec45d | Wan 2.6 | wan-2-6 |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  | 1211 | 9 | -9/+9 |
-| Image-to-Video Arena | 07afda5d-a248-4139-b662-2233391ff127 | Wan 2.2 A14B | wan-2-2-a14b |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  | 1108 | 10 | -10/+10 |
+| Image-to-Video Arena | 07afda5d-a248-4139-b662-2233391ff127 | Wan 2.2 A14B | wan-2-2-a14b |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  | 1109 | 10 | -10/+10 |
 | Image-to-Video Arena | da890ad1-328b-42e7-8283-fac407482138 | Wan 2.1 14B | wan-2-1-14b |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  | 1000 | 0 | -0/+0 |
 | Image-to-Video Arena | 815774fd-dcae-4abf-aaad-fb48c13fb70d | Wan 2.2 5B | wan-2-2-5b |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  | 991 | 11 | -11/+11 |
 
@@ -205,17 +206,17 @@ Model count: 20
 | endpoint | id | name | slug | release_date | evaluations.artificial_analysis_intelligence_index | evaluations.artificial_analysis_coding_index | evaluations.artificial_analysis_agentic_index | intelligence_index_cost | pricing.price_1m_input_tokens | pricing.price_1m_output_tokens | pricing.price_1m_cache_hit_tokens | pricing.price_1m_cache_write_tokens | performance.median_output_tokens_per_second | performance.median_time_to_first_token_seconds | performance.median_time_to_first_answer_token_seconds | performance.median_end_to_end_response_time_seconds | elo | ci_95 | ci95_range |
 | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- |
 | LLM Leaderboard | 018c60e8-e908-431a-ba57-c840b1df3987 | Nova 2.0 Omni (medium) | nova-2-0-omni-reasoning-medium | 2025-11-26 | 13.6 |  |  |  | 0.3 | 2.5 |  |  |  |  |  |  |  |  |  |
-| LLM Leaderboard | 0d94dc87-12c8-4d4a-8d99-804ce3f17bc2 | Nova 2.0 Pro Preview (medium) | nova-2-0-pro-reasoning-medium | 2025-11-27 | 14.2 | 34 |  |  | 1.25 | 10 | 0.31 |  | 117.2 | 14.2 | 31.26 | 35.53 |  |  |  |
+| LLM Leaderboard | 0d94dc87-12c8-4d4a-8d99-804ce3f17bc2 | Nova 2.0 Pro Preview (medium) | nova-2-0-pro-reasoning-medium | 2025-11-27 | 14.2 | 34 |  |  | 1.25 | 10 | 0.31 |  | 113.7 | 12.37 | 29.96 | 34.36 |  |  |  |
 | LLM Leaderboard | 1f6478c9-3e22-4586-adbe-841782859677 | Nova 2.0 Omni (Non-reasoning) | nova-2-0-omni | 2025-11-26 | 8.2 |  |  |  | 0.3 | 2.5 |  |  |  |  |  |  |  |  |  |
-| LLM Leaderboard | 344c6718-c573-41d4-9556-10287a3fa1fc | Nova Micro | nova-micro | 2024-12-03 | 5.9 |  |  |  | 0.04 | 0.14 | 0.01 |  | 260.96 | 0.85 | 0.85 | 2.76 |  |  |  |
+| LLM Leaderboard | 344c6718-c573-41d4-9556-10287a3fa1fc | Nova Micro | nova-micro | 2024-12-03 | 5.9 |  |  |  | 0.04 | 0.14 | 0.01 |  | 260.17 | 0.85 | 0.85 | 2.77 |  |  |  |
 | LLM Leaderboard | 546ec53f-273c-4af7-b13f-b88c41f45905 | Nova Pro | nova-pro | 2024-12-03 | 7 |  |  |  | 0.8 | 3.2 | 0.2 |  |  |  |  |  |  |  |  |
 | LLM Leaderboard | 5c3dd927-48a3-4f3c-8045-9b135f62dfbb | Nova Lite | nova-lite | 2024-12-03 | 6.7 |  |  |  | 0.06 | 0.24 | 0.01 |  | 169.08 | 0.94 | 0.94 | 3.9 |  |  |  |
 | LLM Leaderboard | 61bd9367-e520-4ec8-989e-5fbf50e61610 | Nova 2.0 Lite (high) | nova-2-0-lite-reasoning | 2025-10-29 | 13.4 | 23 |  |  | 0.3 | 2.5 |  |  | 144.68 | 16.65 | 30.48 | 33.93 |  |  |  |
 | LLM Leaderboard | 6fd796d3-f346-4f66-97df-5da81714fc73 | Nova 2.0 Lite (low) | nova-2-0-lite-reasoning-low | 2025-10-29 | 11.8 |  |  |  | 0.3 | 2.5 |  |  | 152.29 | 10.66 | 23.79 | 27.08 |  |  |  |
 | LLM Leaderboard | 76bce7fb-3a3f-4b66-a78d-35ccf3edf5d2 | Nova 2.0 Lite (Non-reasoning) | nova-2-0-lite | 2025-10-29 | 8.7 |  |  |  | 0.3 | 2.5 |  |  | 156.58 | 1.03 | 1.03 | 4.22 |  |  |  |
-| LLM Leaderboard | a20ae33a-46e1-41e6-81a0-fe8b00d2e538 | Nova 2.0 Pro Preview (Non-reasoning) | nova-2-0-pro | 2025-11-27 | 10 | 20.9 |  |  | 1.25 | 10 |  |  | 103.79 | 1.03 | 1.03 | 5.85 |  |  |  |
+| LLM Leaderboard | a20ae33a-46e1-41e6-81a0-fe8b00d2e538 | Nova 2.0 Pro Preview (Non-reasoning) | nova-2-0-pro | 2025-11-27 | 10 | 20.9 |  |  | 1.25 | 10 |  |  | 103.96 | 1.03 | 1.03 | 5.84 |  |  |  |
 | LLM Leaderboard | b36ff8f3-0323-49d1-a063-ab09704fdb0c | Nova 2.0 Omni (low) | nova-2-0-omni-reasoning-low | 2025-11-26 | 11.1 |  |  |  | 0.3 | 2.5 |  |  |  |  |  |  |  |  |  |
-| LLM Leaderboard | e58bbffd-fdc2-412a-b6d7-ca0e3f5d611a | Nova Premier | nova-premier | 2025-04-30 | 9.2 |  |  |  | 2.5 | 12.5 | 0.63 |  | 31.77 | 2.85 | 2.85 | 18.58 |  |  |  |
+| LLM Leaderboard | e58bbffd-fdc2-412a-b6d7-ca0e3f5d611a | Nova Premier | nova-premier | 2025-04-30 | 9.2 |  |  |  | 2.5 | 12.5 | 0.63 |  | 34.12 | 2.85 | 2.85 | 17.5 |  |  |  |
 | LLM Leaderboard | f4274721-ef28-4121-aa88-8e97267a5a82 | Nova 2.0 Pro Preview (low) | nova-2-0-pro-reasoning-low | 2025-11-27 | 12.8 | 25.9 |  |  | 1.25 | 10 |  |  | 118.73 | 10.03 | 26.88 | 31.09 |  |  |  |
 | LLM Leaderboard | fbdf8da1-b341-448c-b3cb-8aff1d8f70b9 | Nova 2.0 Lite (medium) | nova-2-0-lite-reasoning-medium | 2025-10-29 | 12.5 |  |  |  | 0.3 | 2.5 |  |  | 142.69 | 14.53 | 28.55 | 32.05 |  |  |  |
 | Text-to-Image Arena | b5b08ae1-2313-4ce8-b911-82ada3b71e7e | Amazon Titan G1 v2 (Standard) | amazon-titan-g1-v2-standard |  |  |  |  |  |  |  |  |  |  |  |  |  | 727 | 8 | -8/+8 |
@@ -227,25 +228,25 @@ Model count: 20
 
 ## Anthropic
 
-Model count: 48
+Model count: 47
 
 | endpoint | id | name | slug | release_date | evaluations.artificial_analysis_intelligence_index | evaluations.artificial_analysis_coding_index | evaluations.artificial_analysis_agentic_index | intelligence_index_cost | pricing.price_1m_input_tokens | pricing.price_1m_output_tokens | pricing.price_1m_cache_hit_tokens | pricing.price_1m_cache_write_tokens | performance.median_output_tokens_per_second | performance.median_time_to_first_token_seconds | performance.median_time_to_first_answer_token_seconds | performance.median_end_to_end_response_time_seconds | intelligence_index_cost.total_cost | intelligence_index_cost.cost_per_task.total_cost |
 | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- |
 | LLM Leaderboard | 033e4aa9-a556-4224-87b0-341ed1070257 | Claude 3.5 Haiku | claude-3-5-haiku | 2024-10-22 | 8.9 | 15.9 |  |  |  |  |  |  |  |  |  |  |  |  |
-| LLM Leaderboard | 05776db7-f5c0-40f7-b824-079160f8cfa8 | Claude Fable 5.1 (Adaptive Reasoning, Low Effort, Default Fallback) | claude-fable-5-1-low | 2026-09-01 | 47 | 75.2 | 47.8 |  | 10 | 50 | 0.25 | 12.5 | 46.62 | 6.15 | 6.15 | 16.88 | 3157.66 | 2.371 |
+| LLM Leaderboard | 05776db7-f5c0-40f7-b824-079160f8cfa8 | Claude Fable 5.1 (Adaptive Reasoning, Low Effort, Default Fallback) | claude-fable-5-1-low | 2026-09-01 | 47 | 75.2 | 47.8 |  | 10 | 50 | 0.25 | 12.5 | 47.44 | 5.11 | 5.11 | 15.65 | 3157.66 | 2.371 |
 | LLM Leaderboard | 0a603978-03b9-4f47-a273-2f7fd969be85 | Claude 3.5 Sonnet (Oct '24) | claude-35-sonnet | 2024-10-22 | 7.9 | 30.2 |  |  | 3 | 15 | 0.3 | 3.75 |  |  |  |  |  |  |
-| LLM Leaderboard | 1305c921-7aaa-4d6d-99b5-99b3acf15e19 | Claude Opus 5 (Adaptive Reasoning, Xhigh Effort) | claude-opus-5-xhigh | 2026-07-24 | 49.7 | 77 | 55.5 |  | 5 | 25 | 0.5 | 6.25 | 50.56 | 25.66 | 25.66 | 35.55 | 5867.76 | 4.8778 |
+| LLM Leaderboard | 1305c921-7aaa-4d6d-99b5-99b3acf15e19 | Claude Opus 5 (Adaptive Reasoning, Xhigh Effort) | claude-opus-5-xhigh | 2026-07-24 | 49.7 | 77 | 55.5 |  | 5 | 25 | 0.5 | 6.25 | 49.3 | 22.02 | 22.02 | 32.16 | 5867.76 | 4.8778 |
 | LLM Leaderboard | 13358187-4584-479c-ab43-5bcdf8f297a4 | Claude 3.7 Sonnet (Reasoning) | claude-3-7-sonnet-thinking | 2025-02-24 | 17.7 | 36.4 |  |  |  |  |  |  |  |  |  |  |  |  |
-| LLM Leaderboard | 142b93bf-09c4-42dc-9c3a-50b1a222cbd4 | Claude Sonnet 5 (Adaptive Reasoning, Low Effort) | claude-sonnet-5-low | 2026-06-30 | 24.7 |  |  |  | 2 | 10 | 0.2 | 2.5 | 56.19 | 1.82 | 1.82 | 10.72 | 652.7 | 0.5088 |
+| LLM Leaderboard | 142b93bf-09c4-42dc-9c3a-50b1a222cbd4 | Claude Sonnet 5 (Adaptive Reasoning, Low Effort) | claude-sonnet-5-low | 2026-06-30 | 24.7 |  |  |  | 2 | 10 | 0.2 | 2.5 | 55.84 | 1.06 | 1.06 | 10.01 | 652.7 | 0.5088 |
 | LLM Leaderboard | 1fc54cef-d179-48b1-a27d-046874e9b208 | Claude 3 Haiku | claude-3-haiku | 2024-03-04 | 5.6 |  |  |  | 0.25 | 1.25 |  |  |  |  |  |  |  |  |
-| LLM Leaderboard | 20928ba9-3a3f-415f-9519-b84ff64ecf34 | Claude Opus 5 (Adaptive Reasoning, Low Effort) | claude-opus-5-low | 2026-07-24 | 39.8 | 66.9 | 37.5 |  | 5 | 25 | 0.5 | 6.25 | 47.77 | 3.03 | 3.03 | 13.5 | 1560.91 | 1.0983 |
-| LLM Leaderboard | 23c86e4a-c769-43c0-a056-79e3cd15834f | Claude Sonnet 5 (Adaptive Reasoning, Max Effort) | claude-sonnet-5 | 2026-06-30 | 38.4 | 71.5 | 44.3 |  | 2 | 10 | 0.2 | 2.5 | 74.17 | 176.14 | 176.14 | 182.89 | 6998.25 | 5.0912 |
-| LLM Leaderboard | 2660d74f-ce79-48a8-8b53-6e668e2071a2 | Claude Opus 4.5 (Reasoning) | claude-opus-4-5-thinking | 2025-11-24 | 29.1 |  |  |  | 5 | 25 | 0.5 | 6.25 | 45.22 | 16.36 | 16.36 | 27.41 |  |  |
-| LLM Leaderboard | 2e40e695-3cec-43da-83f9-615af30b8e91 | Claude Sonnet 4.6 (Non-reasoning, High Effort) | claude-sonnet-4-6 | 2026-02-17 | 24.7 |  |  |  | 3 | 15 | 0.3 | 3.75 | 42.38 | 2.14 | 2.14 | 13.94 |  |  |
-| LLM Leaderboard | 2fa8e143-77a8-4d05-bfa8-d3b54634c00f | Claude Opus 4.7 (Non-reasoning, High Effort) | claude-opus-4-7-non-reasoning | 2026-04-16 | 30.9 |  |  |  | 5 | 25 | 0.5 | 6.25 | 43.22 | 1.44 | 1.44 | 13.01 |  |  |
-| LLM Leaderboard | 3b7de71c-e034-4591-8ca6-6b6be2fa471f | Claude Fable 5.1 (Adaptive Reasoning, Medium Effort, Default Fallback) | claude-fable-5-1-medium | 2026-09-01 | 49.1 | 77.1 | 50.6 |  | 10 | 50 | 0.25 | 12.5 | 49.63 | 7.28 | 7.28 | 17.36 | 3983.28 | 2.9826 |
-| LLM Leaderboard | 3e87c73e-a257-495e-9730-367a66229811 | Claude Fable 5.1 (Adaptive Reasoning, Max Effort, Default Fallback) | claude-fable-5-1 | 2026-09-01 | 53.4 | 81.6 | 58 |  | 10 | 50 | 0.25 | 12.5 | 66.72 | 278.2 | 278.2 | 285.7 | 13128.9 | 7.6297 |
-| LLM Leaderboard | 4077490a-bbfb-404e-979a-a97a20e3b5de | Claude Opus 4.5 (Non-reasoning) | claude-opus-4-5 | 2025-11-24 | 23.7 |  |  |  | 5 | 25 | 0.5 | 6.25 | 45.49 | 1.31 | 1.31 | 12.3 |  |  |
+| LLM Leaderboard | 20928ba9-3a3f-415f-9519-b84ff64ecf34 | Claude Opus 5 (Adaptive Reasoning, Low Effort) | claude-opus-5-low | 2026-07-24 | 39.8 | 66.9 | 37.5 |  | 5 | 25 | 0.5 | 6.25 | 47.63 | 2.72 | 2.72 | 13.21 | 1560.91 | 1.0983 |
+| LLM Leaderboard | 23c86e4a-c769-43c0-a056-79e3cd15834f | Claude Sonnet 5 (Adaptive Reasoning, Max Effort) | claude-sonnet-5 | 2026-06-30 | 38.4 | 71.5 | 44.3 |  | 2 | 10 | 0.2 | 2.5 | 72.97 | 187.39 | 187.39 | 194.24 | 6998.25 | 5.0912 |
+| LLM Leaderboard | 2660d74f-ce79-48a8-8b53-6e668e2071a2 | Claude Opus 4.5 (Reasoning) | claude-opus-4-5-thinking | 2025-11-24 | 29.1 |  |  |  | 5 | 25 | 0.5 | 6.25 | 44.74 | 14.88 | 14.88 | 26.06 |  |  |
+| LLM Leaderboard | 2e40e695-3cec-43da-83f9-615af30b8e91 | Claude Sonnet 4.6 (Non-reasoning, High Effort) | claude-sonnet-4-6 | 2026-02-17 | 24.7 |  |  |  | 3 | 15 | 0.3 | 3.75 | 42 | 1.75 | 1.75 | 13.66 |  |  |
+| LLM Leaderboard | 2fa8e143-77a8-4d05-bfa8-d3b54634c00f | Claude Opus 4.7 (Non-reasoning, High Effort) | claude-opus-4-7-non-reasoning | 2026-04-16 | 30.9 |  |  |  | 5 | 25 | 0.5 | 6.25 | 43.39 | 1.26 | 1.26 | 12.78 |  |  |
+| LLM Leaderboard | 3b7de71c-e034-4591-8ca6-6b6be2fa471f | Claude Fable 5.1 (Adaptive Reasoning, Medium Effort, Default Fallback) | claude-fable-5-1-medium | 2026-09-01 | 49.1 | 77.1 | 50.6 |  | 10 | 50 | 0.25 | 12.5 | 49.63 | 5.94 | 5.94 | 16.01 | 3983.28 | 2.9826 |
+| LLM Leaderboard | 3e87c73e-a257-495e-9730-367a66229811 | Claude Fable 5.1 (Adaptive Reasoning, Max Effort, Default Fallback) | claude-fable-5-1 | 2026-09-01 | 53.4 | 81.6 | 58 |  | 10 | 50 | 0.25 | 12.5 | 65.8 | 268.14 | 268.14 | 275.74 | 13128.9 | 7.6297 |
+| LLM Leaderboard | 4077490a-bbfb-404e-979a-a97a20e3b5de | Claude Opus 4.5 (Non-reasoning) | claude-opus-4-5 | 2025-11-24 | 23.7 |  |  |  | 5 | 25 | 0.5 | 6.25 | 43.62 | 1.27 | 1.27 | 12.74 |  |  |
 | LLM Leaderboard | 4386585e-71b4-4a0c-8a63-afb333419cd6 | Claude Opus 4.6 (Non-reasoning, High Effort) | claude-opus-4-6 | 2026-02-05 | 26.4 |  |  |  | 5 | 25 | 0.5 | 6.25 | 36.56 | 2.39 | 2.39 | 16.07 |  |  |
 | LLM Leaderboard | 504412c2-2ada-499b-aebf-7e0a35c9d286 | Claude 4 Opus (Non-reasoning) | claude-4-opus | 2025-05-22 | 16.6 |  |  |  | 15 | 75 | 1.5 | 18.75 |  |  |  |  |  |  |
 | LLM Leaderboard | 53c98840-47af-49aa-94e6-469fb17e9a1b | Claude Opus 4.6 (Adaptive Reasoning, Max Effort) | claude-opus-4-6-adaptive | 2026-02-05 | 31.9 |  |  |  | 5 | 25 | 0.5 | 6.25 | 39.11 | 23.97 | 23.97 | 36.75 |  |  |
@@ -255,26 +256,25 @@ Model count: 48
 | LLM Leaderboard | 8a4a5ead-7789-4389-8400-30e9d20370b7 | Claude 4 Opus (Reasoning) | claude-4-opus-thinking | 2025-05-22 | 20.6 |  |  |  | 15 | 75 | 1.5 | 18.75 |  |  |  |  |  |  |
 | LLM Leaderboard | 90e078f2-051b-4c63-8919-76618971cb3f | Claude 4.5 Sonnet (Reasoning) | claude-4-5-sonnet-thinking | 2025-09-29 | 21.2 | 52.1 | 17.5 |  | 3 | 15 | 0.3 | 3.75 | 41.73 | 14.89 | 14.89 | 26.87 | 1501.22 | 0.5566 |
 | LLM Leaderboard | 91cb6144-4937-4e4e-aeda-b4341d355c10 | Claude 4.5 Sonnet (Non-reasoning) | claude-4-5-sonnet | 2025-09-29 | 19.3 |  |  |  | 3 | 15 | 0.3 | 3.75 | 37.99 | 1.49 | 1.49 | 14.66 |  |  |
-| LLM Leaderboard | 992b7b84-5069-4c6a-9295-834252553d50 | Claude Opus 4.8 (Adaptive Reasoning, Max Effort) | claude-opus-4-8 | 2026-05-28 | 42 | 74.3 | 42.6 |  | 5 | 25 | 0.5 | 6.25 | 57.66 | 29.32 | 29.32 | 37.99 | 6873.86 | 4.081 |
-| LLM Leaderboard | 99f376bf-cbcb-4124-bf3e-6b0a4e6e9bea | Claude Sonnet 5 (Adaptive Reasoning, Xhigh Effort) | claude-sonnet-5-xhigh | 2026-06-30 | 34.7 |  |  |  | 2 | 10 | 0.2 | 2.5 | 64.98 | 29.89 | 29.89 | 37.58 | 3255.4 | 2.872 |
-| LLM Leaderboard | 9b166bf3-42db-4f63-8338-1c4a1244ffe8 | Claude Fable 5.1 (Adaptive Reasoning, Xhigh Effort, Default Fallback) | claude-fable-5-1-xhigh | 2026-09-01 | 53.2 | 80.7 | 57.1 |  | 10 | 50 | 0.25 | 12.5 | 59.54 | 102.8 | 102.8 | 111.19 | 9063.11 | 5.9783 |
-| LLM Leaderboard | 9d7d72cd-d95d-45a0-b109-4ad292c9aabd | Claude Fable 5.1 (Adaptive Reasoning, High Effort, Default Fallback) | claude-fable-5-1-high | 2026-09-01 | 51.2 | 79.1 | 53.3 |  | 10 | 50 | 0.25 | 12.5 | 49.2 | 20.67 | 20.67 | 30.83 | 5241.59 | 3.9125 |
+| LLM Leaderboard | 99f376bf-cbcb-4124-bf3e-6b0a4e6e9bea | Claude Sonnet 5 (Adaptive Reasoning, Xhigh Effort) | claude-sonnet-5-xhigh | 2026-06-30 | 34.7 |  |  |  | 2 | 10 | 0.2 | 2.5 | 62.4 | 13.99 | 13.99 | 22 | 3255.4 | 2.872 |
+| LLM Leaderboard | 9b166bf3-42db-4f63-8338-1c4a1244ffe8 | Claude Fable 5.1 (Adaptive Reasoning, Xhigh Effort, Default Fallback) | claude-fable-5-1-xhigh | 2026-09-01 | 53.2 | 80.7 | 57.1 |  | 10 | 50 | 0.25 | 12.5 | 57.28 | 85.78 | 85.78 | 94.51 | 9063.11 | 5.9783 |
+| LLM Leaderboard | 9d7d72cd-d95d-45a0-b109-4ad292c9aabd | Claude Fable 5.1 (Adaptive Reasoning, High Effort, Default Fallback) | claude-fable-5-1-high | 2026-09-01 | 51.2 | 79.1 | 53.3 |  | 10 | 50 | 0.25 | 12.5 | 49.2 | 12.41 | 12.41 | 22.57 | 5241.59 | 3.9125 |
 | LLM Leaderboard | 9e141c0d-fc82-4e07-bb2e-fe0003bc030b | Claude 2.1 | claude-21 | 2023-11-21 | 5.6 | 14 |  |  |  |  |  |  |  |  |  |  |  |  |
-| LLM Leaderboard | a6340098-d7ae-462d-b372-0a0a67fc44b4 | Claude 4.5 Haiku (Reasoning) | claude-4-5-haiku-reasoning | 2025-10-15 | 17.6 | 43.9 | 10.3 |  | 1 | 5 | 0.1 | 1.25 | 84.67 | 20.31 | 20.31 | 26.22 | 524.25 | 0.2077 |
+| LLM Leaderboard | a6340098-d7ae-462d-b372-0a0a67fc44b4 | Claude 4.5 Haiku (Reasoning) | claude-4-5-haiku-reasoning | 2025-10-15 | 17.6 | 43.9 | 10.3 |  | 1 | 5 | 0.1 | 1.25 | 85.05 | 17.89 | 17.89 | 23.77 | 524.25 | 0.2077 |
 | LLM Leaderboard | a7564055-f8ba-4c4b-9e2d-060f61263645 | Claude 4 Sonnet (Reasoning) | claude-4-sonnet-thinking | 2025-05-22 | 18.9 | 37.6 |  |  | 3 | 15 | 0.3 | 3.75 |  |  |  |  |  |  |
 | LLM Leaderboard | aca9c1ad-fc86-49f3-a312-b1e517ea100c | Claude 3.5 Sonnet (June '24) | claude-35-sonnet-june-24 | 2024-06-21 | 7.2 | 26 |  |  | 3 | 15 | 0.3 | 3.75 |  |  |  |  |  |  |
 | LLM Leaderboard | b2e68f0a-8f66-4e4c-9821-2b786cea601b | Claude 3 Sonnet | claude-3-sonnet | 2024-03-04 | 5.9 |  |  |  |  |  |  |  |  |  |  |  |  |  |
-| LLM Leaderboard | b8fc61f7-5e9a-49e6-8547-6ac56db24627 | Claude Opus 5 (Adaptive Reasoning, Max Effort) | claude-opus-5 | 2026-07-24 | 50.7 | 78 | 56.2 |  | 5 | 25 | 0.5 | 6.25 | 51.5 | 79.03 | 79.03 | 88.74 | 7274.74 | 5.8584 |
-| LLM Leaderboard | ba0224cf-0351-4f56-8508-b3f1a740ae4a | Claude Sonnet 5 (Adaptive Reasoning, High Effort) | claude-sonnet-5-high | 2026-06-30 | 32 |  |  |  | 2 | 10 | 0.2 | 2.5 | 60.86 | 2.02 | 2.02 | 10.23 | 2086.04 | 1.7925 |
-| LLM Leaderboard | c2b1e769-7aee-4669-8076-73918bdebf6c | Claude 4.5 Haiku (Non-reasoning) | claude-4-5-haiku | 2025-10-15 | 15.4 |  |  |  | 1 | 5 | 0.1 | 1.25 | 78.32 | 0.74 | 0.74 | 7.13 |  |  |
+| LLM Leaderboard | b8fc61f7-5e9a-49e6-8547-6ac56db24627 | Claude Opus 5 (Adaptive Reasoning, Max Effort) | claude-opus-5 | 2026-07-24 | 50.7 | 78 | 56.2 |  | 5 | 25 | 0.5 | 6.25 | 50.41 | 58.38 | 58.38 | 68.29 | 7274.74 | 5.8584 |
+| LLM Leaderboard | ba0224cf-0351-4f56-8508-b3f1a740ae4a | Claude Sonnet 5 (Adaptive Reasoning, High Effort) | claude-sonnet-5-high | 2026-06-30 | 32 |  |  |  | 2 | 10 | 0.2 | 2.5 | 58.18 | 1.61 | 1.61 | 10.2 | 2086.04 | 1.7925 |
+| LLM Leaderboard | c2b1e769-7aee-4669-8076-73918bdebf6c | Claude 4.5 Haiku (Non-reasoning) | claude-4-5-haiku | 2025-10-15 | 15.4 |  |  |  | 1 | 5 | 0.1 | 1.25 | 77.38 | 0.72 | 0.72 | 7.18 |  |  |
 | LLM Leaderboard | ccbfa8c3-a762-480b-aade-34fb9697f98c | Claude 4.1 Opus (Reasoning) | claude-4-1-opus-thinking | 2025-08-05 | 22.8 |  |  |  | 15 | 75 | 1.5 | 18.75 |  |  |  |  |  |  |
-| LLM Leaderboard | cd55210d-358e-4df1-ba9c-9acb5f186cc9 | Claude Fable 5 (Adaptive Reasoning, Max Effort, Opus 4.8 Fallback) | claude-fable-5 | 2026-06-09 | 49.7 | 76.5 | 51 |  | 10 | 50 | 1 | 12.5 | 66.38 | 99.67 | 99.67 | 107.2 | 11160.9 | 8.746 |
+| LLM Leaderboard | cd55210d-358e-4df1-ba9c-9acb5f186cc9 | Claude Fable 5 (Adaptive Reasoning, Max Effort, Opus 4.8 Fallback) | claude-fable-5 | 2026-06-09 | 49.7 | 76.5 | 51 |  | 10 | 50 | 1 | 12.5 | 66.79 | 81.41 | 81.41 | 88.89 | 11160.9 | 8.746 |
 | LLM Leaderboard | d034dafe-463d-4c50-956f-84fca657b26f | Claude 4 Sonnet (Non-reasoning) | claude-4-sonnet | 2025-05-22 | 16.6 |  |  |  | 3 | 15 | 0.3 | 3.75 |  |  |  |  |  |  |
-| LLM Leaderboard | d58b9ada-fd9d-4fff-a086-242034657963 | Claude Sonnet 5 (Non-reasoning, High Effort) | claude-sonnet-5-non-reasoning | 2026-06-30 | 28.9 | 66.4 |  |  | 2 | 10 | 0.2 | 2.5 | 56.43 | 1.25 | 1.25 | 10.11 |  |  |
+| LLM Leaderboard | d58b9ada-fd9d-4fff-a086-242034657963 | Claude Sonnet 5 (Non-reasoning, High Effort) | claude-sonnet-5-non-reasoning | 2026-06-30 | 28.9 | 66.4 |  |  | 2 | 10 | 0.2 | 2.5 | 57.5 | 1.14 | 1.14 | 9.84 |  |  |
 | LLM Leaderboard | d925845d-39ad-4de3-8495-f176b79828c0 | Claude 3.7 Sonnet (Non-reasoning) | claude-3-7-sonnet | 2025-02-24 | 15.3 |  |  |  | 3 | 15 | 0.3 | 3.75 |  |  |  |  |  |  |
 | LLM Leaderboard | ddc748d0-6a9b-466b-8d6c-68417980d56d | Claude 2.0 | claude-2 | 2023-07-11 | 5.5 | 12.9 |  |  |  |  |  |  |  |  |  |  |  |  |
-| LLM Leaderboard | df8d14e0-3997-4e4d-b4ad-9c047acc9c69 | Claude Sonnet 4.6 (Adaptive Reasoning, Max Effort) | claude-sonnet-4-6-adaptive | 2026-02-17 | 30.5 | 63 | 33.1 |  | 3 | 15 | 0.3 | 3.75 | 55.74 | 107.79 | 107.79 | 116.76 | 4924.8 | 2.4859 |
-| LLM Leaderboard | e9a09db3-8fd6-41dd-ba2f-20e0a2bff7f2 | Claude Opus 4.7 (Adaptive Reasoning, Max Effort) | claude-opus-4-7 | 2026-04-16 | 40.7 | 73.6 | 39.5 |  | 5 | 25 | 0.5 | 6.25 | 43.55 | 21.61 | 21.61 | 33.09 |  |  |
+| LLM Leaderboard | df8d14e0-3997-4e4d-b4ad-9c047acc9c69 | Claude Sonnet 4.6 (Adaptive Reasoning, Max Effort) | claude-sonnet-4-6-adaptive | 2026-02-17 | 30.5 | 63 | 33.1 |  | 3 | 15 | 0.3 | 3.75 | 53.65 | 108.24 | 108.24 | 117.56 | 4924.8 | 2.4859 |
+| LLM Leaderboard | e9a09db3-8fd6-41dd-ba2f-20e0a2bff7f2 | Claude Opus 4.7 (Adaptive Reasoning, Max Effort) | claude-opus-4-7 | 2026-04-16 | 40.7 | 73.6 | 39.5 |  | 5 | 25 | 0.5 | 6.25 | 44.18 | 20.75 | 20.75 | 32.07 |  |  |
 | LLM Leaderboard | effcd151-7c31-4437-af3d-e88daeae9385 | Claude Sonnet 5 (Adaptive Reasoning, Medium Effort) | claude-sonnet-5-medium | 2026-06-30 | 28.4 |  |  |  | 2 | 10 | 0.2 | 2.5 | 57.81 | 1.24 | 1.24 | 9.89 | 1218.17 | 0.9991 |
 | LLM Leaderboard | f2e21112-192e-4aed-ae82-68ca3b38e667 | Claude Sonnet 4.6 (Non-reasoning, Low Effort) | claude-sonnet-4-6-non-reasoning-low-effort | 2026-02-17 | 23.3 |  |  |  | 3 | 15 | 0.3 | 3.75 | 42.24 | 2.29 | 2.29 | 14.13 |  |  |
 | LLM Leaderboard | f2f60e3a-e5f5-4471-acd2-9f2f29c76007 | Claude 4.1 Opus (Non-reasoning) | claude-4-1-opus | 2025-08-05 | 18.6 |  |  |  | 15 | 75 | 1.5 | 18.75 |  |  |  |  |  |  |
@@ -302,7 +302,7 @@ Model count: 1
 
 | endpoint | id | name | slug | release_date | evaluations.artificial_analysis_intelligence_index | evaluations.artificial_analysis_coding_index | evaluations.artificial_analysis_agentic_index | intelligence_index_cost.total_cost | intelligence_index_cost.cost_per_task.total_cost | pricing.price_1m_input_tokens | pricing.price_1m_output_tokens | pricing.price_1m_cache_hit_tokens | pricing.price_1m_cache_write_tokens | performance.median_output_tokens_per_second | performance.median_time_to_first_token_seconds | performance.median_time_to_first_answer_token_seconds | performance.median_end_to_end_response_time_seconds |
 | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- |
-| LLM Leaderboard | b6d2e43d-3082-43f5-9318-0f4dbcb54163 | Trinity Large Thinking | trinity-large-thinking | 2026-04-01 | 10.9 | 25.8 | 1.2 | 518.07 | 0.3534 | 0.25 | 0.9 |  |  | 321.93 | 1.24 | 7.45 | 9 |
+| LLM Leaderboard | b6d2e43d-3082-43f5-9318-0f4dbcb54163 | Trinity Large Thinking | trinity-large-thinking | 2026-04-01 | 10.9 | 25.8 | 1.2 | 518.07 | 0.3534 | 0.25 | 0.9 |  |  | 309.73 | 1.26 | 7.72 | 9.33 |
 
 ## async
 
@@ -428,7 +428,7 @@ Model count: 20
 | Text-to-Video Arena | 54ccf54f-c5b1-4820-af60-57015ba37fc7 | Seedance 1.5 pro | seedance-1-5-pro |  |  |  |  |  |  |  |  |  |  |  |  |  | 1173 | 7 | -7/+7 |
 | Text-to-Video Arena | b58bc338-cee5-4d19-b820-8c4f7d7f1248 | Seedance 1.0 | seedance-10 |  |  |  |  |  |  |  |  |  |  |  |  |  | 1138 | 8 | -8/+8 |
 | Text-to-Video Arena | 105002bb-dfde-4b74-9615-361c637d1887 | Seedance 1.0 Mini | seedance-1-0-mini |  |  |  |  |  |  |  |  |  |  |  |  |  | 1077 | 8 | -8/+8 |
-| Image-to-Video Arena | 36db1f4d-a9f6-49d1-a74d-06bddbf2fe4f | Dreamina Seedance 2.0 720p | seedance-2-0 |  |  |  |  |  |  |  |  |  |  |  |  |  | 1341 | 9 | -9/+9 |
+| Image-to-Video Arena | 36db1f4d-a9f6-49d1-a74d-06bddbf2fe4f | Dreamina Seedance 2.0 720p | seedance-2-0 |  |  |  |  |  |  |  |  |  |  |  |  |  | 1342 | 9 | -9/+9 |
 | Image-to-Video Arena | 54ccf54f-c5b1-4820-af60-57015ba37fc7 | Seedance 1.5 pro | seedance-1-5-pro |  |  |  |  |  |  |  |  |  |  |  |  |  | 1252 | 9 | -9/+9 |
 | Image-to-Video Arena | b58bc338-cee5-4d19-b820-8c4f7d7f1248 | Seedance 1.0 | seedance-10 |  |  |  |  |  |  |  |  |  |  |  |  |  | 1233 | 9 | -9/+9 |
 | Image-to-Video Arena | 105002bb-dfde-4b74-9615-361c637d1887 | Seedance 1.0 Mini | seedance-1-0-mini |  |  |  |  |  |  |  |  |  |  |  |  |  | 1141 | 10 | -10/+10 |
@@ -467,9 +467,9 @@ Model count: 6
 
 | endpoint | id | name | slug | release_date | evaluations.artificial_analysis_intelligence_index | evaluations.artificial_analysis_coding_index | evaluations.artificial_analysis_agentic_index | intelligence_index_cost | pricing.price_1m_input_tokens | pricing.price_1m_output_tokens | pricing.price_1m_cache_hit_tokens | pricing.price_1m_cache_write_tokens | performance.median_output_tokens_per_second | performance.median_time_to_first_token_seconds | performance.median_time_to_first_answer_token_seconds | performance.median_end_to_end_response_time_seconds | intelligence_index_cost.total_cost | intelligence_index_cost.cost_per_task.total_cost |
 | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- |
-| LLM Leaderboard | 1e9907e0-ffac-4595-b006-962e4f1da7cf | North Mini Code | north-mini-code | 2026-06-09 | 12.8 | 36.5 | 1.1 |  | 0 | 0 |  |  | 70.63 | 0.34 | 28.66 | 35.74 |  |  |
-| LLM Leaderboard | 2e9ff877-fd2c-4ce7-b631-7ca1bdb6d13e | Command A+ | command-a-plus | 2026-05-20 | 13.9 | 27.8 | 3.6 |  | 0 | 0 |  |  | 241.48 | 0.4 | 8.68 | 10.75 | 0 | 0 |
-| LLM Leaderboard | 3bc32f13-5afa-4e28-bce1-10e57376686b | Command A | command-a | 2025-03-13 | 7 |  |  |  | 2.5 | 10 |  |  | 65.93 | 1.64 | 1.64 | 9.22 |  |  |
+| LLM Leaderboard | 1e9907e0-ffac-4595-b006-962e4f1da7cf | North Mini Code | north-mini-code | 2026-06-09 | 12.8 | 36.5 | 1.1 |  | 0 | 0 |  |  | 82.51 | 0.34 | 24.58 | 30.64 |  |  |
+| LLM Leaderboard | 2e9ff877-fd2c-4ce7-b631-7ca1bdb6d13e | Command A+ | command-a-plus | 2026-05-20 | 13.9 | 27.8 | 3.6 |  | 0 | 0 |  |  | 247.76 | 0.4 | 8.47 | 10.49 | 0 | 0 |
+| LLM Leaderboard | 3bc32f13-5afa-4e28-bce1-10e57376686b | Command A | command-a | 2025-03-13 | 7 |  |  |  | 2.5 | 10 |  |  | 62.58 | 1.64 | 1.64 | 9.63 |  |  |
 | LLM Leaderboard | 76361085-f5dc-49ec-b069-fe56ca885933 | Command-R+ (Apr '24) | command-r-plus-04-2024 | 2024-04-04 | 5.3 |  |  |  |  |  |  |  |  |  |  |  |  |  |
 | LLM Leaderboard | 81444bc8-72f9-4a2d-ad43-27e3f0d2f461 | Tiny Aya Global | tiny-aya-global | 2026-02-17 | 4.8 |  |  |  | 0 | 0 |  |  |  |  |  |  |  |  |
 | LLM Leaderboard | abe9f0c7-f4f6-430d-ba42-f45afdd4841b | Command-R (Mar '24) | command-r-03-2024 | 2024-03-12 | 5 |  |  |  |  |  |  |  |  |  |  |  |  |  |
@@ -512,7 +512,7 @@ Model count: 36
 | LLM Leaderboard | 2d19c2d1-062d-436e-b2c2-3d3ecad34acc | DeepSeek-V2-Chat | deepseek-v2 | 2024-05-06 | 5.5 |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |
 | LLM Leaderboard | 43fc5506-c5ed-4dee-9b85-962bf7ae3986 | DeepSeek V3 (Dec '24) | deepseek-v3 | 2024-12-26 | 8.5 | 23 | 0.8 |  | 0.32 | 0.89 |  |  |  |  |  |  | 25.37 | 0.0198 |  |  |  |
 | LLM Leaderboard | 444cdb1e-bab8-42cd-938c-b2d7a93e2da1 | DeepSeek R1 Distill Qwen 1.5B | deepseek-r1-distill-qwen-1-5b | 2025-01-20 | 5.5 |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |
-| LLM Leaderboard | 4a845d7b-a52d-43bb-80b7-b58c7a0c155e | DeepSeek R1 Distill Llama 70B | deepseek-r1-distill-llama-70b | 2025-01-20 | 7.9 |  |  |  | 0.7 | 1.1 |  |  | 22.01 | 0.98 | 91.86 | 114.58 |  |  |  |  |  |
+| LLM Leaderboard | 4a845d7b-a52d-43bb-80b7-b58c7a0c155e | DeepSeek R1 Distill Llama 70B | deepseek-r1-distill-llama-70b | 2025-01-20 | 7.9 |  |  |  | 0.7 | 1.1 |  |  | 22.76 | 1.02 | 88.88 | 110.84 |  |  |  |  |  |
 | LLM Leaderboard | 527e943a-adc6-4e69-93af-d1608e1b5fed | DeepSeek V3.2 Speciale | deepseek-v3-2-speciale | 2025-12-01 | 14.5 |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |
 | LLM Leaderboard | 5da3c0e2-65d2-4bff-a410-cb2132ddafb6 | DeepSeek V4 Pro (Reasoning, High Effort) | deepseek-v4-pro-0424-high | 2026-04-24 | 30.1 | 58.7 |  |  | 0.43 | 0.87 | 0 |  | 65.04 | 1.58 | 32.21 | 39.9 |  |  |  |  |  |
 | LLM Leaderboard | 6000145b-0e3d-4fef-a55f-bcaac84803b2 | DeepSeek R1 0528 Qwen3 8B | deepseek-r1-qwen3-8b | 2025-05-29 | 8.1 |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |
@@ -530,11 +530,11 @@ Model count: 36
 | LLM Leaderboard | af134350-8ba3-4629-b56b-00bd6dcf60c4 | DeepSeek V3.2 Exp (Reasoning) | deepseek-v3-2-reasoning-0925 | 2025-09-29 | 16.6 |  |  |  | 0.28 | 0.42 | 0.03 |  |  |  |  |  |  |  |  |  |  |
 | LLM Leaderboard | b26ff709-1773-4595-ae44-78e0a5bac29c | DeepSeek R1 Distill Qwen 14B | deepseek-r1-distill-qwen-14b | 2025-01-20 | 7.8 |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |
 | LLM Leaderboard | bc4579d2-9c46-46c3-ace0-454039bf21bb | DeepSeek-V2.5 (Dec '24) | deepseek-v2-5 | 2024-12-10 | 6.6 |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |
-| LLM Leaderboard | bf220674-68bd-43cc-a1b8-ce5ed4d2f18d | DeepSeek V4 Pro (Reasoning, Max Effort) | deepseek-v4-pro-0424 | 2026-04-24 | 30.9 | 59.4 | 27.7 |  | 0.43 | 0.87 | 0 |  | 67.46 | 1.45 | 66.3 | 73.71 | 277.3 | 0.1215 |  |  |  |
+| LLM Leaderboard | bf220674-68bd-43cc-a1b8-ce5ed4d2f18d | DeepSeek V4 Pro (Reasoning, Max Effort) | deepseek-v4-pro-0424 | 2026-04-24 | 30.9 | 59.4 | 27.7 |  | 0.43 | 0.87 | 0 |  | 64.67 | 1.63 | 69.28 | 77.01 | 277.3 | 0.1215 |  |  |  |
 | LLM Leaderboard | c7327e6e-b27f-4b1b-859d-159a34e0ba1c | DeepSeek Coder V2 Lite Instruct | deepseek-coder-v2-lite | 2024-06-17 | 5.3 |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |
 | LLM Leaderboard | d621247c-d47e-458c-82cb-a166bc3b37e5 | DeepSeek V3.2 (Reasoning) | deepseek-v3-2-reasoning | 2025-12-01 | 21.5 | 44.2 |  |  | 0.28 | 0.42 | 0.01 |  |  |  |  |  |  |  |  |  |  |
 | LLM Leaderboard | d8ddb241-b3e4-4c25-a6a3-72eb1b30c541 | DeepSeek V4 Flash (Reasoning, Max Effort) | deepseek-v4-flash-0420 | 2026-04-24 | 24.6 | 56.2 | 23.7 |  | 0.13 | 0.28 | 0.03 |  |  |  |  |  | 190.88 | 0.1179 |  |  |  |
-| LLM Leaderboard | dbe7c625-3100-4463-b479-a228c41f75dd | DeepSeek V4.1 Flash (Reasoning, Max Effort) | deepseek-v4-1-flash | 2026-09-10 | 39.5 |  |  |  | 0.3 | 1.2 | 0.01 |  | 198.57 | 1.13 | 11.2 | 13.72 | 476.89 | 0.2652 |  |  |  |
+| LLM Leaderboard | dbe7c625-3100-4463-b479-a228c41f75dd | DeepSeek V4.1 Flash (Reasoning, Max Effort) | deepseek-v4-1-flash | 2026-09-10 | 39.5 |  |  |  | 0.3 | 1.2 | 0.01 |  | 217.06 | 1.13 | 10.35 | 12.65 | 476.89 | 0.2652 |  |  |  |
 | LLM Leaderboard | df95f83f-5ebb-466a-9d2d-b95efc8c012c | DeepSeek R1 Distill Qwen 32B | deepseek-r1-distill-qwen-32b | 2025-01-20 | 8.4 |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |
 | LLM Leaderboard | dfb9292d-bc7c-4425-a260-4256217e709f | DeepSeek V3.1 Terminus (Non-reasoning) | deepseek-v3-1-terminus | 2025-09-22 | 13.9 |  |  |  | 0.27 | 1 | 0.27 |  |  |  |  |  |  |  |  |  |  |
 | LLM Leaderboard | fb65266f-5a7d-403c-85d5-ccdf0d1ca838 | DeepSeek V3.1 (Non-reasoning) | deepseek-v3-1 | 2025-08-21 | 13.7 |  |  |  | 0.57 | 1.68 | 0.57 |  |  |  |  |  |  |  |  |  |  |
@@ -601,18 +601,18 @@ Model count: 100
 
 | endpoint | id | name | slug | release_date | evaluations.artificial_analysis_intelligence_index | evaluations.artificial_analysis_coding_index | evaluations.artificial_analysis_agentic_index | intelligence_index_cost.total_cost | intelligence_index_cost.cost_per_task.total_cost | pricing.price_1m_input_tokens | pricing.price_1m_output_tokens | pricing.price_1m_cache_hit_tokens | pricing.price_1m_cache_write_tokens | performance.median_output_tokens_per_second | performance.median_time_to_first_token_seconds | performance.median_time_to_first_answer_token_seconds | performance.median_end_to_end_response_time_seconds | intelligence_index_cost | elo | ci_95 | ci95_range |
 | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- |
-| LLM Leaderboard | 0097ebf5-124f-42f6-9463-33b00e711f03 | Gemini 3.5 Flash (high) | gemini-3-5-flash | 2026-05-19 | 33 | 70.1 | 27.3 | 2172.43 | 1.5625 | 1.5 | 9 | 0.15 |  | 213.87 | 15.54 | 15.54 | 17.87 |  |  |  |  |
-| LLM Leaderboard | 025ec6b6-df4a-449f-9a03-24e4388d6863 | Gemma 4 12B (Non-reasoning) | gemma-4-12b-non-reasoning | 2026-06-03 | 9.4 |  |  |  |  | 0.1 | 0.3 |  |  | 100.02 | 2.42 | 2.42 | 7.42 |  |  |  |  |
-| LLM Leaderboard | 033ade17-d9ec-44e0-b792-b5f1fcd5ab4c | Gemini 3.5 Flash (minimal) | gemini-3-5-flash-minimal | 2026-05-19 | 23.8 |  |  |  |  | 1.5 | 9 | 0.15 |  | 199.42 | 0.89 | 0.89 | 3.4 |  |  |  |  |
+| LLM Leaderboard | 0097ebf5-124f-42f6-9463-33b00e711f03 | Gemini 3.5 Flash (high) | gemini-3-5-flash | 2026-05-19 | 33 | 70.1 | 27.3 | 2172.43 | 1.5625 | 1.5 | 9 | 0.15 |  | 211.91 | 13.61 | 13.61 | 15.97 |  |  |  |  |
+| LLM Leaderboard | 025ec6b6-df4a-449f-9a03-24e4388d6863 | Gemma 4 12B (Non-reasoning) | gemma-4-12b-non-reasoning | 2026-06-03 | 9.4 |  |  |  |  | 0.1 | 0.3 |  |  | 102.6 | 2.44 | 2.44 | 7.31 |  |  |  |  |
+| LLM Leaderboard | 033ade17-d9ec-44e0-b792-b5f1fcd5ab4c | Gemini 3.5 Flash (minimal) | gemini-3-5-flash-minimal | 2026-05-19 | 23.8 |  |  |  |  | 1.5 | 9 | 0.15 |  | 205.07 | 0.82 | 0.82 | 3.26 |  |  |  |  |
 | LLM Leaderboard | 0399e614-5d46-484f-9183-e4f32d74e1c6 | Gemini 2.0 Flash Thinking Experimental (Jan '25) | gemini-2-0-flash-thinking-exp-0121 | 2025-01-21 | 9.4 | 24.1 |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |
 | LLM Leaderboard | 04781a0e-40f0-4e2a-a4e5-18e389364a79 | Gemma 3 270M | gemma-3-270m | 2025-08-14 | 5.1 |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |
 | LLM Leaderboard | 073b5329-c4b3-4f1f-8f97-4753aadf4398 | Gemini 2.5 Pro Preview (May' 25) | gemini-2-5-pro-05-06 | 2025-05-06 | 14.5 |  |  |  |  | 1.25 | 10 | 0.13 |  |  |  |  |  |  |  |  |  |
-| LLM Leaderboard | 093b9df2-ebee-4309-943f-5a7e88360adf | Gemini 3.5 Flash-Lite | gemini-3-5-flash-lite | 2026-07-21 | 22.7 | 49.3 | 15.9 | 266.94 | 0.1235 | 0.3 | 2.5 | 0.03 |  | 372.37 | 7.45 | 7.45 | 8.79 |  |  |  |  |
+| LLM Leaderboard | 093b9df2-ebee-4309-943f-5a7e88360adf | Gemini 3.5 Flash-Lite | gemini-3-5-flash-lite | 2026-07-21 | 22.7 | 49.3 | 15.9 | 266.94 | 0.1235 | 0.3 | 2.5 | 0.03 |  | 320.2 | 7.09 | 7.09 | 8.65 |  |  |  |  |
 | LLM Leaderboard | 16f2578b-1b28-4be3-b371-700c2677bcd6 | Gemini 1.5 Pro (May '24) | gemini-1-5-pro-may-2024 | 2024-05-15 | 6.4 | 19.8 |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |
-| LLM Leaderboard | 1d81aa1c-64c8-442a-9c41-81b37e407b91 | Gemini 2.5 Flash-Lite (Non-reasoning) | gemini-2-5-flash-lite | 2025-06-17 | 6.7 |  |  |  |  | 0.1 | 0.4 | 0.01 |  | 279.74 | 0.31 | 0.31 | 2.1 |  |  |  |  |
-| LLM Leaderboard | 219ed587-60c5-4a48-9517-8480e08d0ca1 | Gemini 2.5 Flash (Reasoning) | gemini-2-5-flash-reasoning | 2025-05-20 | 13.1 |  |  |  |  | 0.3 | 2.5 | 0.03 |  | 209.6 | 16.73 | 16.73 | 19.11 |  |  |  |  |
+| LLM Leaderboard | 1d81aa1c-64c8-442a-9c41-81b37e407b91 | Gemini 2.5 Flash-Lite (Non-reasoning) | gemini-2-5-flash-lite | 2025-06-17 | 6.7 |  |  |  |  | 0.1 | 0.4 | 0.01 |  | 271.48 | 0.31 | 0.31 | 2.15 |  |  |  |  |
+| LLM Leaderboard | 219ed587-60c5-4a48-9517-8480e08d0ca1 | Gemini 2.5 Flash (Reasoning) | gemini-2-5-flash-reasoning | 2025-05-20 | 13.1 |  |  |  |  | 0.3 | 2.5 | 0.03 |  | 211.65 | 16.17 | 16.17 | 18.54 |  |  |  |  |
 | LLM Leaderboard | 222fb320-6e55-4672-846a-b6d5a24a45f4 | Gemma 3 4B Instruct | gemma-3-4b | 2025-03-12 | 4.8 | 2.7 |  |  |  | 0 | 0 |  |  |  |  |  |  |  |  |  |  |
-| LLM Leaderboard | 27202e5f-c82d-4710-92e9-4317877d4883 | Gemini 2.5 Pro | gemini-2-5-pro | 2025-06-05 | 16.7 | 33.3 | 3.5 | 706.89 | 0.2317 | 1.25 | 10 | 0.13 |  | 120.75 | 23.32 | 23.32 | 27.46 |  |  |  |  |
+| LLM Leaderboard | 27202e5f-c82d-4710-92e9-4317877d4883 | Gemini 2.5 Pro | gemini-2-5-pro | 2025-06-05 | 16.7 | 33.3 | 3.5 | 706.89 | 0.2317 | 1.25 | 10 | 0.13 |  | 122.73 | 24.18 | 24.18 | 28.25 |  |  |  |  |
 | LLM Leaderboard | 2ac96b67-f4f8-4c8c-ac08-c7510faa7bb9 | Gemini 1.5 Pro (Sep '24) | gemini-1-5-pro | 2024-09-24 | 7.9 | 23.6 |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |
 | LLM Leaderboard | 2ae624ca-25b4-4cc8-8970-cdfdd3320691 | Gemini 1.0 Ultra | gemini-1-0-ultra | 2023-12-06 | 5.8 | 17.6 |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |
 | LLM Leaderboard | 2bfdd17a-e027-4068-a54e-b0e90a6df118 | Gemma 3 27B Instruct | gemma-3-27b | 2025-03-12 | 4.9 | 10.1 | 0.1 | 0 | 0 | 0 | 0 |  |  |  |  |  |  |  |  |  |  |
@@ -646,20 +646,20 @@ Model count: 100
 | LLM Leaderboard | a8c67863-9d66-44dd-8d27-f58654ecde03 | Gemma 3n E2B Instruct | gemma-3n-e2b | 2025-06-26 | 4.8 |  |  |  |  | 0 | 0 |  |  |  |  |  |  |  |  |  |  |
 | LLM Leaderboard | ac48c49d-9e77-4394-ac4e-d1ee51fd5fee | Gemini 1.5 Flash (May '24) | gemini-1-5-flash-may-2024 | 2024-05-14 | 5.9 |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |
 | LLM Leaderboard | b07aef0a-b192-46a1-b1c9-40b06d1b9061 | Gemma 4 E2B (Reasoning) | gemma-4-e2b | 2026-04-02 | 7.8 | 7.2 |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |
-| LLM Leaderboard | b2331108-72ed-415a-82d1-188633875bbc | Gemini 3.7 Flash (high) | gemini-3-7-flash | 2026-08-13 | 39.4 | 76.1 | 36.4 | 1084.46 | 0.9253 | 0.75 | 3.75 | 0.07 | 0.75 | 294.7 | 8.49 | 8.49 | 10.19 |  |  |  |  |
+| LLM Leaderboard | b2331108-72ed-415a-82d1-188633875bbc | Gemini 3.7 Flash (high) | gemini-3-7-flash | 2026-08-13 | 39.4 | 76.1 | 36.4 | 1084.46 | 0.9253 | 0.75 | 3.75 | 0.07 | 0.75 | 287.8 | 10.44 | 10.44 | 12.18 |  |  |  |  |
 | LLM Leaderboard | b2f3191f-77d6-4155-8be6-330f0baa1ae5 | Gemini 3 Pro Preview (low) | gemini-3-pro-low | 2025-11-18 | 22.3 |  |  |  |  | 2 | 12 | 0.2 |  |  |  |  |  |  |  |  |  |
-| LLM Leaderboard | bbd93ebe-80da-4594-bb19-61e69d0331df | Gemini 3.1 Pro Preview | gemini-3-1-pro-preview | 2026-02-19 | 30.4 | 68.8 | 10.3 | 1310.21 | 0.6747 | 2 | 12 | 0.2 |  | 107.99 | 34.04 | 34.04 | 38.67 |  |  |  |  |
+| LLM Leaderboard | bbd93ebe-80da-4594-bb19-61e69d0331df | Gemini 3.1 Pro Preview | gemini-3-1-pro-preview | 2026-02-19 | 30.4 | 68.8 | 10.3 | 1310.21 | 0.6747 | 2 | 12 | 0.2 |  | 109.62 | 25.16 | 25.16 | 29.72 |  |  |  |  |
 | LLM Leaderboard | bcca0e70-7e80-4c07-b1fa-b33bcfb19e51 | Gemini 2.0 Flash (Feb '25) | gemini-2-0-flash | 2025-02-05 | 8.9 |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |
 | LLM Leaderboard | bd2c3517-00d8-4ba5-a989-1f1e52f3ffab | Gemma 3n E4B Instruct Preview (May '25) | gemma-3n-e4b-preview-0520 | 2025-05-20 | 5.8 |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |
 | LLM Leaderboard | c3f12f61-9d57-4e2c-9106-5a82bb1cfee2 | DiffusionGemma 26B A4B | diffusiongemma-26b-a4b | 2026-06-10 | 9.5 | 19.7 |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |
 | LLM Leaderboard | c6a47d8a-7517-46e2-8383-329fe7241725 | Gemini 2.0 Pro Experimental (Feb '25) | gemini-2-0-pro-experimental-02-05 | 2025-02-05 | 8.7 | 25.5 |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |
 | LLM Leaderboard | c7667559-d9b6-43f1-8cd8-8bdbc78d190b | Gemini 2.5 Flash Preview (Sep '25) (Reasoning) | gemini-2-5-flash-preview-09-2025-reasoning | 2025-09-25 | 15.5 |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |
-| LLM Leaderboard | cd26a386-4873-46ff-b853-d239050025a2 | Gemma 4 31B (Reasoning) | gemma-4-31b | 2026-04-02 | 15.4 | 43.4 | 6.7 | 0 | 0 | 0 | 0 |  |  | 35.28 | 1.07 | 50.28 | 64.45 |  |  |  |  |
-| LLM Leaderboard | d0aa27aa-4705-4184-9a1d-483b78c9331c | Gemma 4 31B (Non-reasoning) | gemma-4-31b-non-reasoning | 2026-04-02 | 13.9 | 33.2 |  |  |  | 0.14 | 0.4 | 0.14 |  | 52.4 | 1.6 | 1.6 | 11.14 |  |  |  |  |
+| LLM Leaderboard | cd26a386-4873-46ff-b853-d239050025a2 | Gemma 4 31B (Reasoning) | gemma-4-31b | 2026-04-02 | 15.4 | 43.4 | 6.7 | 0 | 0 | 0 | 0 |  |  | 35.52 | 1.11 | 49.99 | 64.07 |  |  |  |  |
+| LLM Leaderboard | d0aa27aa-4705-4184-9a1d-483b78c9331c | Gemma 4 31B (Non-reasoning) | gemma-4-31b-non-reasoning | 2026-04-02 | 13.9 | 33.2 |  |  |  | 0.14 | 0.4 | 0.14 |  | 48.6 | 1.82 | 1.82 | 12.11 |  |  |  |  |
 | LLM Leaderboard | d1122eff-ee85-4fdc-8a9f-23bee6590667 | Gemini 3 Pro Preview (high) | gemini-3-pro | 2025-11-18 | 28 |  |  |  |  | 2 | 12 | 0.2 |  |  |  |  |  |  |  |  |  |
 | LLM Leaderboard | d1720545-d0a8-4c15-a53e-ef5ca99ac7ea | Gemma 3 1B Instruct | gemma-3-1b | 2025-03-13 | 4.8 |  |  |  |  | 0 | 0 |  |  |  |  |  |  |  |  |  |  |
-| LLM Leaderboard | d80eb0f1-f62e-4d31-99d2-7a925eb126b0 | Gemma 4 E4B (Reasoning) | gemma-4-e4b | 2026-04-03 | 8.9 | 9.4 |  |  |  | 0.02 | 0.1 |  |  | 41.66 | 1.13 | 49.14 | 61.14 |  |  |  |  |
-| LLM Leaderboard | ddfdaf64-3f8e-40a6-a492-608ee83a1351 | Gemini 3.7 Flash (low) | gemini-3-7-flash-low | 2026-08-13 | 36.9 | 71 |  |  |  | 0.75 | 3.75 | 0.07 | 0.75 | 287.13 | 0.68 | 0.68 | 2.42 |  |  |  |  |
+| LLM Leaderboard | d80eb0f1-f62e-4d31-99d2-7a925eb126b0 | Gemma 4 E4B (Reasoning) | gemma-4-e4b | 2026-04-03 | 8.9 | 9.4 |  |  |  | 0.02 | 0.1 |  |  | 42.76 | 1.2 | 47.97 | 59.67 |  |  |  |  |
+| LLM Leaderboard | ddfdaf64-3f8e-40a6-a492-608ee83a1351 | Gemini 3.7 Flash (low) | gemini-3-7-flash-low | 2026-08-13 | 36.9 | 71 |  |  |  | 0.75 | 3.75 | 0.07 | 0.75 | 273.31 | 0.76 | 0.76 | 2.59 |  |  |  |  |
 | LLM Leaderboard | dfeeb904-e784-4d5c-ad66-9400146b150b | Gemini 2.0 Flash Thinking Experimental (Dec '24) | gemini-2-0-flash-thinking-exp-1219 | 2024-12-19 | 6.6 |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |
 | LLM Leaderboard | eb0d4272-7204-42b9-b875-8866fed58548 | Gemini 3.7 Flash (medium) | gemini-3-7-flash-medium | 2026-08-13 | 39.6 | 71.5 |  |  |  | 0.75 | 3.75 | 0.07 | 0.75 | 272.47 | 4.37 | 4.37 | 6.21 |  |  |  |  |
 | LLM Leaderboard | f4e8194a-d0e6-48eb-92be-4307de5aeeec | Gemini 2.5 Flash-Lite (Reasoning) | gemini-2-5-flash-lite-reasoning | 2025-06-17 | 8.5 |  |  |  |  | 0.1 | 0.4 | 0.01 |  | 334 | 17.21 | 17.21 | 18.71 |  |  |  |  |
@@ -695,10 +695,10 @@ Model count: 100
 | Text-to-Video Arena | f3c7e331-2b60-4f87-bc9c-363264f211a8 | Veo 3.1 Fast | veo-3-1-fast |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  | 1200 | 7 | -7/+7 |
 | Text-to-Video Arena | 3e2f019d-70a5-4743-995b-5674840a89cf | Veo 3 Fast Preview | veo-3-fast-preview-no-audio |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  | 1172 | 8 | -8/+8 |
 | Text-to-Video Arena | 2175641c-9303-4ac3-af3c-21cc7113adb0 | Veo 2 | veo-2 |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  | 1112 | 8 | -8/+8 |
-| Image-to-Video Arena | 88df9253-809f-4dc9-b993-3969fa606473 | Gemini Omni Flash | gemini-omni-flash |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  | 1366 | 11 | -11/+11 |
+| Image-to-Video Arena | 88df9253-809f-4dc9-b993-3969fa606473 | Gemini Omni Flash | gemini-omni-flash |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  | 1365 | 11 | -11/+11 |
 | Image-to-Video Arena | f3c7e331-2b60-4f87-bc9c-363264f211a8 | Veo 3.1 Fast | veo-3-1-fast |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  | 1262 | 9 | -9/+9 |
-| Image-to-Video Arena | b8dc1338-a685-4c03-ad98-cf61226547b0 | Veo 3.1 | veo-3-1 |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  | 1252 | 9 | -9/+9 |
-| Image-to-Video Arena | a8f7ab65-828a-4166-8fbf-616cbb01d773 | Veo 3.1 Lite | veo-3-1-lite |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  | 1250 | 10 | -10/+10 |
+| Image-to-Video Arena | b8dc1338-a685-4c03-ad98-cf61226547b0 | Veo 3.1 | veo-3-1 |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  | 1253 | 9 | -9/+9 |
+| Image-to-Video Arena | a8f7ab65-828a-4166-8fbf-616cbb01d773 | Veo 3.1 Lite | veo-3-1-lite |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  | 1249 | 10 | -10/+10 |
 | Image-to-Video Arena | 7623b756-8b01-4e60-aed4-3322c1933e36 | Veo 3 | veo-3-no-audio |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  | 1229 | 9 | -9/+9 |
 | Image-to-Video Arena | 2175641c-9303-4ac3-af3c-21cc7113adb0 | Veo 2 | veo-2 |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  | 1095 | 10 | -10/+10 |
 
@@ -761,17 +761,17 @@ Model count: 13
 
 | endpoint | id | name | slug | release_date | evaluations.artificial_analysis_intelligence_index | evaluations.artificial_analysis_coding_index | evaluations.artificial_analysis_agentic_index | intelligence_index_cost.total_cost | intelligence_index_cost.cost_per_task.total_cost | pricing.price_1m_input_tokens | pricing.price_1m_output_tokens | pricing.price_1m_cache_hit_tokens | pricing.price_1m_cache_write_tokens | performance.median_output_tokens_per_second | performance.median_time_to_first_token_seconds | performance.median_time_to_first_answer_token_seconds | performance.median_end_to_end_response_time_seconds | intelligence_index_cost |
 | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- |
-| LLM Leaderboard | 0c64b008-20c3-408d-bd68-15136df8cd2c | Granite 4.2 3B | granite-4-2-3b | 2026-08-25 | 9.1 | 17.5 | 0.9 | 14.86 | 0.006 | 0.03 | 0.12 | 0.01 |  | 213.88 | 0.49 | 9.84 | 12.18 |  |
-| LLM Leaderboard | 1071dea1-43e7-4fe9-b936-3034bb622b2e | Granite 4.2 30B | granite-4-2-30b | 2026-08-25 | 14.8 | 29.9 |  |  |  | 0.16 | 0.65 | 0.04 |  | 76.69 | 0.85 | 26.93 | 33.45 |  |
+| LLM Leaderboard | 0c64b008-20c3-408d-bd68-15136df8cd2c | Granite 4.2 3B | granite-4-2-3b | 2026-08-25 | 9.1 | 17.5 | 0.9 | 14.86 | 0.006 | 0.03 | 0.12 | 0.01 |  | 213.81 | 0.48 | 9.84 | 12.17 |  |
+| LLM Leaderboard | 1071dea1-43e7-4fe9-b936-3034bb622b2e | Granite 4.2 30B | granite-4-2-30b | 2026-08-25 | 14.8 | 29.9 |  |  |  | 0.16 | 0.65 | 0.04 |  | 76.85 | 0.85 | 26.87 | 33.38 |  |
 | LLM Leaderboard | 1fc32894-1060-493b-af94-62bb1068555e | Granite 4.0 Micro | granite-4-0-micro | 2025-09-22 | 5.1 |  |  |  |  |  |  |  |  |  |  |  |  |  |
-| LLM Leaderboard | 2cff73da-4855-403c-afc9-5540feadcc15 | Granite 3.3 8B (Non-reasoning) | granite-3-3-8b-instruct | 2025-04-16 | 4.9 |  |  |  |  | 0.03 | 0.25 |  |  | 39.26 | 10.07 | 10.07 | 22.81 |  |
+| LLM Leaderboard | 2cff73da-4855-403c-afc9-5540feadcc15 | Granite 3.3 8B (Non-reasoning) | granite-3-3-8b-instruct | 2025-04-16 | 4.9 |  |  |  |  | 0.03 | 0.25 |  |  | 40.33 | 10.07 | 10.07 | 22.47 |  |
 | LLM Leaderboard | 54c7f3fc-7078-442a-b472-e8691257a88c | Granite 4.0 350M | granite-4-0-350m | 2025-10-28 | 4.8 |  |  |  |  |  |  |  |  |  |  |  |  |  |
 | LLM Leaderboard | 5dba8d07-9992-483c-81db-dac97cb15ba8 | Granite 4.0 H Small | granite-4-0-h-small | 2025-09-22 | 6 |  |  |  |  | 0.06 | 0.25 |  |  | 27.13 | 18.8 | 18.8 | 37.23 |  |
 | LLM Leaderboard | 82ed9bd2-c97b-4c35-9312-94bb72001e36 | Granite 4.1 8B | granite-4-1-8b | 2026-04-29 | 6.6 | 9.5 |  |  |  | 0.05 | 0.1 |  |  | 115.15 | 0.79 | 0.79 | 5.13 |  |
 | LLM Leaderboard | 91e3b45f-3f52-4511-8c15-8948854bebc5 | Granite 4.1 3B | granite-4-1-3b | 2026-04-29 | 5.9 | 4.7 |  |  |  |  |  |  |  |  |  |  |  |  |
 | LLM Leaderboard | a2c8e7b2-57bf-4d1e-96ea-7944d786d94d | Granite 4.0 1B | granite-4-0-nano-1b | 2025-10-28 | 5 |  |  |  |  |  |  |  |  |  |  |  |  |  |
 | LLM Leaderboard | a68afa0b-7fe2-4e9d-bf3e-741cce3c6aeb | Granite 4.0 H 350M | granite-4-0-h-350m | 2025-10-28 | 4.8 |  |  |  |  |  |  |  |  |  |  |  |  |  |
-| LLM Leaderboard | adfae555-f489-4f3e-9064-c6b7fcdd0783 | Granite 4.2 8B | granite-4-2-8b | 2026-08-25 | 11.8 | 22.4 | 3.7 | 53.07 | 0.0236 | 0.06 | 0.25 | 0.01 |  | 82.72 | 0.64 | 24.82 | 30.86 |  |
+| LLM Leaderboard | adfae555-f489-4f3e-9064-c6b7fcdd0783 | Granite 4.2 8B | granite-4-2-8b | 2026-08-25 | 11.8 | 22.4 | 3.7 | 53.07 | 0.0236 | 0.06 | 0.25 | 0.01 |  | 84.02 | 0.64 | 24.45 | 30.4 |  |
 | LLM Leaderboard | d4be6393-8915-436c-a3a8-4e59bd5c89a9 | Granite 4.1 30B | granite-4-1-30b | 2026-04-29 | 7.4 | 10.4 |  |  |  |  |  |  |  |  |  |  |  |  |
 | LLM Leaderboard | dafbb6d2-4825-43d1-a927-feedcfd2e998 | Granite 4.0 H 1B | granite-4-0-h-nano-1b | 2025-10-28 | 5.2 |  |  |  |  |  |  |  |  |  |  |  |  |  |
 
@@ -805,7 +805,7 @@ Model count: 1
 
 | endpoint | id | name | slug | release_date | evaluations.artificial_analysis_intelligence_index | evaluations.artificial_analysis_coding_index | evaluations.artificial_analysis_agentic_index | intelligence_index_cost.total_cost | intelligence_index_cost.cost_per_task.total_cost | pricing.price_1m_input_tokens | pricing.price_1m_output_tokens | pricing.price_1m_cache_hit_tokens | pricing.price_1m_cache_write_tokens | performance.median_output_tokens_per_second | performance.median_time_to_first_token_seconds | performance.median_time_to_first_answer_token_seconds | performance.median_end_to_end_response_time_seconds |
 | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- |
-| LLM Leaderboard | 016d330a-2141-4afa-b2fc-62b314423dc1 | Mercury 2 | mercury-2 | 2026-02-20 | 11.5 | 31.1 | 4 | 152.55 | 0.0733 | 0.25 | 0.75 | 0.03 |  | 734.04 | 3.6 | 3.6 | 4.28 |
+| LLM Leaderboard | 016d330a-2141-4afa-b2fc-62b314423dc1 | Mercury 2 | mercury-2 | 2026-02-20 | 11.5 | 31.1 | 4 | 152.55 | 0.0733 | 0.25 | 0.75 | 0.03 |  | 807.35 | 3.58 | 3.58 | 4.2 |
 
 ## InclusionAI
 
@@ -816,13 +816,13 @@ Model count: 11
 | LLM Leaderboard | 15b56b8e-7b93-4ed9-ac06-75c922e3b86e | Ling-1T | ling-1t | 2025-10-08 | 9.2 |  |  |  |  |  |  |  |  |  |  |  |  |  |
 | LLM Leaderboard | 2e46d2fd-eb2b-42b9-9fe4-be50630fe870 | Ling-2.6-1T | ling-2-6-1t | 2026-04-23 | 17 |  |  |  | 0.3 | 2.5 |  |  |  |  |  |  |  |  |
 | LLM Leaderboard | 3d64bf83-232e-427e-8590-26b478bae4a8 | Ling-mini-2.0 | ling-mini-2-0 | 2025-09-09 | 5.5 |  |  |  |  |  |  |  |  |  |  |  |  |  |
-| LLM Leaderboard | 433d5c5d-3092-4026-9727-1587ca07915d | Ling-3.0-flash-VL | ling-3-0-flash-vl | 2026-09-10 | 24.8 | 57 | 30 |  | 0 | 0 |  |  | 142.92 | 2.19 | 16.18 | 19.68 |  |  |
+| LLM Leaderboard | 433d5c5d-3092-4026-9727-1587ca07915d | Ling-3.0-flash-VL | ling-3-0-flash-vl | 2026-09-10 | 24.8 | 57 | 30 |  | 0 | 0 |  |  | 144.89 | 2.24 | 16.05 | 19.5 |  |  |
 | LLM Leaderboard | 47b7df55-5804-40de-ba11-317de786710a | Ring-flash-2.0 | ring-flash-2-0 | 2025-09-19 | 7.2 |  |  |  | 0.14 | 0.57 |  |  |  |  |  |  |  |  |
 | LLM Leaderboard | 7eaf926c-5f39-4e58-ae50-c38b5fc630fc | Ling 3.0 Tiny | ling-3-0-tiny | 2026-08-06 | 11.9 | 26.5 | 7.1 |  | 0 | 0 |  |  | 161.46 | 2.88 | 15.27 | 18.37 | 0 | 0 |
 | LLM Leaderboard | 882a5da3-94ca-4602-8693-c45970df17e2 | Ling-flash-2.0 | ling-flash-2-0 | 2025-09-17 | 7.8 |  |  |  | 0.14 | 0.57 |  |  | 3.05 | 2.73 | 2.73 | 166.76 |  |  |
 | LLM Leaderboard | 91f3a4c8-b000-4513-942c-bfe283375c35 | Ling 2.6 Flash | ling-2-6-flash | 2026-04-21 | 9.7 | 25.3 |  |  |  |  |  |  |  |  |  |  |  |  |
 | LLM Leaderboard | a29e66d6-1c3c-456a-8770-59ee3845b35d | Ring-1T | ring-1t | 2025-10-13 | 10.9 |  |  |  |  |  |  |  |  |  |  |  |  |  |
-| LLM Leaderboard | e33dc369-ae81-40e0-8c4e-28b002d02197 | Ling 3.0 Flash | ling-3-0-flash | 2026-08-04 | 24.9 | 50.6 | 21 |  | 0.07 | 0.22 | 0.01 |  | 315.11 | 2.46 | 8.8 | 10.39 |  |  |
+| LLM Leaderboard | e33dc369-ae81-40e0-8c4e-28b002d02197 | Ling 3.0 Flash | ling-3-0-flash | 2026-08-04 | 24.9 | 50.6 | 21 |  | 0.07 | 0.22 | 0.01 |  | 307.08 | 2.46 | 8.97 | 10.6 |  |  |
 | LLM Leaderboard | eb4ba465-3fcd-4065-9fe2-e8225e7b2c6c | Ring-2.6-1T | ring-2-6-1t | 2026-05-08 | 17.3 | 42.8 | 12.9 |  | 0.3 | 2.5 |  |  | 121.44 | 3.7 | 20.17 | 24.28 | 575.6 | 0.2872 |
 
 ## Inworld
@@ -840,16 +840,16 @@ Model count: 11
 
 | endpoint | id | name | slug | release_date | evaluations.artificial_analysis_intelligence_index | evaluations.artificial_analysis_coding_index | evaluations.artificial_analysis_agentic_index | intelligence_index_cost | pricing.price_1m_input_tokens | pricing.price_1m_output_tokens | pricing.price_1m_cache_hit_tokens | pricing.price_1m_cache_write_tokens | performance.median_output_tokens_per_second | performance.median_time_to_first_token_seconds | performance.median_time_to_first_answer_token_seconds | performance.median_end_to_end_response_time_seconds | intelligence_index_cost.total_cost | intelligence_index_cost.cost_per_task.total_cost |
 | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- |
-| LLM Leaderboard | 0de67206-4d36-4d10-b8f6-cf37fa747a03 | Kimi K2.6 | kimi-k2-6 | 2026-04-20 | 31.3 | 61.8 | 22.1 |  | 0.95 | 4 | 0.16 |  | 42.34 | 2.93 | 108.05 | 119.86 |  |  |
-| LLM Leaderboard | 0fc6308e-fbd2-42d3-a216-06da3c43e34e | Kimi K2.6 (Non-reasoning) | kimi-k2-6-non-reasoning | 2026-04-20 | 23.6 |  |  |  | 0.95 | 4 | 0.16 |  | 38.83 | 2.92 | 2.92 | 15.8 |  |  |
-| LLM Leaderboard | 441734a9-8901-4850-9bae-b474c370291f | Kimi K2 | kimi-k2 | 2025-07-11 | 12.7 |  |  |  | 0.57 | 2.3 |  |  | 40 | 1.67 | 1.67 | 14.17 |  |  |
+| LLM Leaderboard | 0de67206-4d36-4d10-b8f6-cf37fa747a03 | Kimi K2.6 | kimi-k2-6 | 2026-04-20 | 31.3 | 61.8 | 22.1 |  | 0.95 | 4 | 0.16 |  | 38.66 | 2.93 | 118.06 | 131 |  |  |
+| LLM Leaderboard | 0fc6308e-fbd2-42d3-a216-06da3c43e34e | Kimi K2.6 (Non-reasoning) | kimi-k2-6-non-reasoning | 2026-04-20 | 23.6 |  |  |  | 0.95 | 4 | 0.16 |  | 38.44 | 2.88 | 2.88 | 15.89 |  |  |
+| LLM Leaderboard | 441734a9-8901-4850-9bae-b474c370291f | Kimi K2 | kimi-k2 | 2025-07-11 | 12.7 |  |  |  | 0.57 | 2.3 |  |  | 39.23 | 1.68 | 1.68 | 14.43 |  |  |
 | LLM Leaderboard | 512d17ef-13d2-4f65-bf9b-154b0dec7e8d | Kimi K3 (low) | kimi-k3-low | 2026-07-16 | 34.5 | 72 | 30.7 |  | 3 | 15 | 0.3 |  | 38.16 | 3.79 | 56.2 | 69.3 |  |  |
 | LLM Leaderboard | 598de97d-029e-47b6-96ec-dbc1e0f9045a | Kimi Linear 48B A3B Instruct | kimi-linear-48b-a3b-instruct | 2025-10-30 | 7.3 |  |  |  |  |  |  |  |  |  |  |  |  |  |
 | LLM Leaderboard | 66445f84-b2e3-4202-afdc-92ba0f0e5f36 | Kimi K2 0905 | kimi-k2-0905 | 2025-09-05 | 15.3 |  |  |  | 0.6 | 2.5 |  |  | 39.89 | 1.19 | 1.19 | 13.73 |  |  |
 | LLM Leaderboard | 8d0cb231-7303-452c-9923-a9620b948475 | Kimi K2.7 Code | kimi-k2-7-code | 2026-06-12 | 26.3 | 60.8 | 22.5 |  | 0.95 | 4 | 0.19 |  | 47.71 | 2.88 | 49.6 | 60.08 | 992.88 | 0.5412 |
 | LLM Leaderboard | a550ffca-f89e-4381-ade6-a85dc6a1fb4c | Kimi K2.5 (Reasoning) | kimi-k2-5 | 2026-01-27 | 23.5 | 46.8 |  |  | 0.6 | 2.75 | 0.35 |  |  |  |  |  |  |  |
 | LLM Leaderboard | ba04694d-326a-4a6a-8f1b-46316f872a7f | Kimi K2.5 (Non-reasoning) | kimi-k2-5-non-reasoning | 2026-01-27 | 19.4 |  |  |  | 0.6 | 3 | 0.6 |  |  |  |  |  |  |  |
-| LLM Leaderboard | bddebfd3-0a8d-47f5-b722-bc4c2ca5a5dc | Kimi K2 Thinking | kimi-k2-thinking | 2025-11-06 | 22 |  |  |  | 0.6 | 2.5 |  |  | 115.23 | 1.42 | 18.78 | 23.12 |  |  |
+| LLM Leaderboard | bddebfd3-0a8d-47f5-b722-bc4c2ca5a5dc | Kimi K2 Thinking | kimi-k2-thinking | 2025-11-06 | 22 |  |  |  | 0.6 | 2.5 |  |  | 119.4 | 1.39 | 18.14 | 22.33 |  |  |
 | LLM Leaderboard | f7d2fc3e-1f7b-405f-818c-07952a4af78f | Kimi K3 (max) | kimi-k3 | 2026-07-16 | 43.8 | 76.2 | 50.6 |  | 3 | 15 | 0.3 |  | 38.06 | 3.76 | 56.31 | 69.45 | 3658.07 | 2.0001 |
 
 ## KlingAI
@@ -864,9 +864,9 @@ Model count: 32
 | Image Editing Arena | 84727a95-54d0-4237-b629-eae087023171 | Kling Image O1 | kling-image-o1 | 948 | 10 | -10/+10 |
 | Image Editing Arena | aef67397-7859-4806-8fbb-6b50e391feec | Kling Image 3.0 Omni | kling-image-3-0-omni | 946 | 10 | -10/+10 |
 | Text-to-Video Arena | d149ad95-b3b2-4d23-8611-07a84c1a0e7f | Kling 3.0 1080p (Pro) | kling-3-0-pro | 1240 | 7 | -7/+7 |
-| Text-to-Video Arena | 553f28a1-95de-4991-9084-d9275d862f68 | Kling 3.0 Omni 1080p (Pro) | kling-o3-pro | 1233 | 8 | -8/+8 |
-| Text-to-Video Arena | b5d5057e-3d0d-4e22-b029-bd976cd1b6a6 | Kling 3.0 720p (Standard) | kling-3-0-standard | 1214 | 7 | -7/+7 |
+| Text-to-Video Arena | 553f28a1-95de-4991-9084-d9275d862f68 | Kling 3.0 Omni 1080p (Pro) | kling-o3-pro | 1232 | 8 | -8/+8 |
 | Text-to-Video Arena | f0a7c830-eab1-419f-b61c-bb7143841a9d | Kling 3.0 Omni 720p (Standard) | kling-o3-standard | 1214 | 8 | -8/+8 |
+| Text-to-Video Arena | b5d5057e-3d0d-4e22-b029-bd976cd1b6a6 | Kling 3.0 720p (Standard) | kling-3-0-standard | 1214 | 7 | -7/+7 |
 | Text-to-Video Arena | 61270a9b-9d2e-4875-810f-e81508bc5504 | Kling 2.5 Turbo 1080p | kling-25-turbo-1080p | 1200 | 7 | -7/+7 |
 | Text-to-Video Arena | fc9dbded-1710-4498-9711-850dc6603abf | Kling 2.6 Pro (January) | kling-2-6-pro-january-no-audio | 1197 | 8 | -8/+8 |
 | Text-to-Video Arena | 46b5ed93-3586-4fc3-875b-4231492aea82 | Kling O1 Pro (January) | kling-o1-pro-january | 1194 | 8 | -8/+8 |
@@ -989,9 +989,9 @@ Model count: 13
 | Text-to-Video Arena | c783d9aa-c387-4f44-b371-563fd9bab06d | LTX-2.3 Pro | ltx-2-3-pro | 1108 | 8 | -8/+8 |
 | Image-to-Video Arena | b5343afd-4bff-4e97-99fc-1e2edf2e8eb1 | LTX-2.5 Fast | ltx-2-5-fast | 1215 | 11 | -11/+11 |
 | Image-to-Video Arena | e451b7d7-42eb-4c07-9f57-5b5e9bd80c97 | LTX-2 Pro | ltx-2-pro | 1194 | 9 | -9/+9 |
-| Image-to-Video Arena | 791ff10c-594f-418b-9c1a-39313784d759 | LTX-2.5 Pro | ltx-2-5-pro | 1193 | 12 | -12/+12 |
+| Image-to-Video Arena | 791ff10c-594f-418b-9c1a-39313784d759 | LTX-2.5 Pro | ltx-2-5-pro | 1192 | 12 | -12/+12 |
 | Image-to-Video Arena | f8e18877-4f78-4f5b-b45b-16222c8f641f | LTX-2 Fast | ltx-2-fast | 1186 | 9 | -9/+9 |
-| Image-to-Video Arena | 40f64093-99b7-4e9b-9705-651fc5b436c4 | LTX-2.3 Fast | ltx-2-3-fast | 1162 | 9 | -9/+9 |
+| Image-to-Video Arena | 40f64093-99b7-4e9b-9705-651fc5b436c4 | LTX-2.3 Fast | ltx-2-3-fast | 1161 | 9 | -9/+9 |
 | Image-to-Video Arena | c783d9aa-c387-4f44-b371-563fd9bab06d | LTX-2.3 Pro | ltx-2-3-pro | 1158 | 9 | -9/+9 |
 | Image-to-Video Arena | 906000d4-9c7c-4584-8e16-f5a362d3c06e | LTX Video v0.9.7 13B | ltx-video-v0-9-7-13b | 1038 | 11 | -11/+11 |
 
@@ -1008,7 +1008,7 @@ Model count: 10
 | LLM Leaderboard | 5a088cde-18e2-4dfa-98dd-d283e1c19654 | LFM2.5-1.2B-Thinking | lfm2-5-1-2b-thinking | 2026-01-20 | 5.2 |  |  |  |  |  |  |  |  |  |  |  |
 | LLM Leaderboard | 686ab020-ee58-4a70-a9ac-24d675a73506 | LFM2 8B A1B | lfm2-8b-a1b | 2025-10-07 | 4.9 |  |  |  |  |  |  |  |  |  |  |  |
 | LLM Leaderboard | 739e531a-eb0a-478f-bb67-5845b79ce65d | LFM2 2.6B | lfm2-2-6b | 2025-09-23 | 5.2 |  |  |  |  |  |  |  |  |  |  |  |
-| LLM Leaderboard | e1bfc488-5f48-4d42-abf6-7f3c53d79f9c | LFM2.5-2.6B | lfm2-5-2-6b | 2026-08-04 | 8.4 | 7.7 |  |  | 0 | 0 |  |  | 198.19 | 2.97 | 13.07 | 15.59 |
+| LLM Leaderboard | e1bfc488-5f48-4d42-abf6-7f3c53d79f9c | LFM2.5-2.6B | lfm2-5-2-6b | 2026-08-04 | 8.4 | 7.7 |  |  | 0 | 0 |  |  | 199.82 | 1.66 | 11.67 | 14.18 |
 | LLM Leaderboard | e2b664ca-7992-4de6-8839-4867f035c892 | LFM2.5-8B-A1B | lfm2-5-8b-a1b | 2026-05-28 | 7.2 |  |  |  | 0 | 0 |  |  |  |  |  |  |
 | LLM Leaderboard | fbc58677-e324-4b45-a979-7fd8eec555cd | LFM2 24B A2B | lfm2-24b-a2b | 2026-02-25 | 5.9 |  |  |  |  |  |  |  |  |  |  |  |
 
@@ -1056,7 +1056,7 @@ Model count: 5
 | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- |
 | LLM Leaderboard | 5a49ef80-3af5-404b-8ac0-e1b230ae95de | K2 Think V2 | k2-think-v2 | 2025-12-15 | 11.5 | 21 |  |  |  |  |  |  |  |  |  |  |
 | LLM Leaderboard | a38d719a-709c-4983-b3e7-7090389ae9a6 | K2-V2 (high) | k2-v2 | 2025-12-05 | 9.9 |  |  |  |  |  |  |  |  |  |  |  |
-| LLM Leaderboard | bb3d7e75-8e22-4082-b9d6-1db0803e042f | K2 Horizon 375B A23B | k2-horizon-375b-a23b | 2026-09-03 | 30.7 | 61.5 | 40.9 |  |  |  |  |  |  |  |  |  |
+| LLM Leaderboard | bb3d7e75-8e22-4082-b9d6-1db0803e042f | K2 Horizon 375B A23B | k2-horizon-375b-a23b | 2026-09-03 | 30.8 | 61.5 | 40.9 |  |  |  |  |  |  |  |  |  |
 | LLM Leaderboard | dae31abc-0587-44d0-ba53-f78e96b6e486 | K2-V2 (low) | k2-v2-low | 2025-12-05 | 7.3 |  |  |  |  |  |  |  |  |  |  |  |
 | LLM Leaderboard | dd738be7-2b69-4775-91a5-8851d3341c2d | K2-V2 (medium) | k2-v2-medium | 2025-12-05 | 9 |  |  |  |  |  |  |  |  |  |  |  |
 
@@ -1075,9 +1075,9 @@ Model count: 24
 
 | endpoint | id | name | slug | release_date | evaluations.artificial_analysis_intelligence_index | evaluations.artificial_analysis_coding_index | evaluations.artificial_analysis_agentic_index | intelligence_index_cost.total_cost | intelligence_index_cost.cost_per_task.total_cost | pricing.price_1m_input_tokens | pricing.price_1m_output_tokens | pricing.price_1m_cache_hit_tokens | pricing.price_1m_cache_write_tokens | performance.median_output_tokens_per_second | performance.median_time_to_first_token_seconds | performance.median_time_to_first_answer_token_seconds | performance.median_end_to_end_response_time_seconds | intelligence_index_cost | elo | ci_95 | ci95_range |
 | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- |
-| LLM Leaderboard | 04ee6719-0327-463b-a1a1-70a6a78254f9 | Muse Spark 1.2 (xhigh) | muse-spark-1-2 | 2026-08-05 | 39.8 | 72.2 | 44 | 1385.4 | 0.9747 | 1.25 | 4.25 | 0.15 |  | 186.69 | 14.01 | 24.72 | 27.4 |  |  |  |  |
+| LLM Leaderboard | 04ee6719-0327-463b-a1a1-70a6a78254f9 | Muse Spark 1.2 (xhigh) | muse-spark-1-2 | 2026-08-05 | 39.8 | 72.2 | 44 | 1385.4 | 0.9747 | 1.25 | 4.25 | 0.15 |  | 174.18 | 13.83 | 25.32 | 28.19 |  |  |  |  |
 | LLM Leaderboard | 45c87531-2d57-48e0-8012-202cd636189e | Llama 3.1 Instruct 405B | llama-3-1-instruct-405b | 2024-07-23 | 7.3 |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |
-| LLM Leaderboard | 466aecdb-3d96-4191-bc52-b3366db38851 | Llama 3.1 Instruct 70B | llama-3-1-instruct-70b | 2024-07-23 | 6.6 |  |  |  |  | 0.56 | 0.56 |  |  | 63.47 | 1.44 | 1.44 | 9.31 |  |  |  |  |
+| LLM Leaderboard | 466aecdb-3d96-4191-bc52-b3366db38851 | Llama 3.1 Instruct 70B | llama-3-1-instruct-70b | 2024-07-23 | 6.6 |  |  |  |  | 0.56 | 0.56 |  |  | 59.51 | 1.66 | 1.66 | 10.06 |  |  |  |  |
 | LLM Leaderboard | 583f98fb-c4b8-4df3-8d40-60ac0ed69882 | Muse Glimmer (high) | muse-glimmer | 2026-08-10 | 18.1 | 49 | 10.5 | 151.68 | 0.0551 | 0.35 | 1.5 | 0.04 |  | 92.48 | 1 | 22.63 | 28.03 |  |  |  |  |
 | LLM Leaderboard | 599da8e0-bd9c-4b38-a127-b50e371fbcf8 | Llama 2 Chat 70B | llama-2-chat-70b | 2023-07-18 | 5.3 |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |
 | LLM Leaderboard | 5fb47ff6-a30e-4c2c-96f2-55e95a13390f | Llama 3.2 Instruct 11B (Vision) | llama-3-2-instruct-11b-vision | 2024-09-25 | 5.4 |  |  |  |  | 0.34 | 0.34 |  |  | 16.27 | 1.33 | 1.33 | 32.06 |  |  |  |  |
@@ -1088,11 +1088,11 @@ Model count: 24
 | LLM Leaderboard | 82879bb8-89fb-4adc-b519-315b8ef30b77 | Llama 3 Instruct 8B | llama-3-instruct-8b | 2024-04-18 | 4.8 |  |  |  |  | 0.04 | 0.14 |  |  |  |  |  |  |  |  |  |  |
 | LLM Leaderboard | 922c69c7-9037-43c6-8bcf-a1c555e7f3eb | Llama 4 Maverick | llama-4-maverick | 2025-04-05 | 9.3 | 16.3 | 0.6 | 45.5 | 0.0397 | 0.26 | 0.91 | 0.24 |  | 89.86 | 0.88 | 0.88 | 6.44 |  |  |  |  |
 | LLM Leaderboard | 976cc8ad-7904-4056-83c5-960181f47d5f | Llama 3.3 Instruct 70B | llama-3-3-instruct-70b | 2024-12-06 | 7.7 | 11.9 |  |  |  | 0.66 | 0.72 | 0.66 |  | 85.81 | 1.66 | 1.66 | 7.49 |  |  |  |  |
-| LLM Leaderboard | 9999672c-b687-4026-9c15-5cef02ff53bb | Muse Spark 1.3 (max) | muse-spark-1-3 | 2026-09-02 | 48.2 | 75.8 | 55.7 | 2000.35 | 1.6049 | 1.25 | 4.25 | 0.15 |  | 205.89 | 26.12 | 35.84 | 38.27 |  |  |  |  |
+| LLM Leaderboard | 9999672c-b687-4026-9c15-5cef02ff53bb | Muse Spark 1.3 (max) | muse-spark-1-3 | 2026-09-02 | 48.2 | 75.8 | 55.7 | 2000.35 | 1.6049 | 1.25 | 4.25 | 0.15 |  | 205.89 | 21.64 | 31.35 | 33.78 |  |  |  |  |
 | LLM Leaderboard | 9ca71ac4-41c8-42c0-87dd-5704a9e5b94d | Llama 3.2 Instruct 90B (Vision) | llama-3-2-instruct-90b-vision | 2024-09-25 | 6.4 |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |
 | LLM Leaderboard | aa83359a-d804-4f0b-b5bf-dc637711c26f | Llama 3 Instruct 70B | llama-3-instruct-70b | 2024-04-18 | 5.5 |  |  |  |  | 0.65 | 2.75 |  |  |  |  |  |  |  |  |  |  |
-| LLM Leaderboard | adf9a85e-abc3-4f28-937b-db6655cc5238 | Llama 4 Scout | llama-4-scout | 2025-04-05 | 6.5 | 8.2 | 0.5 | 77.58 | 0.1184 | 0.19 | 0.68 |  |  | 92.37 | 0.86 | 0.86 | 6.27 |  |  |  |  |
-| LLM Leaderboard | d5170215-69be-4129-849b-26d8d8825bfc | Muse Spark 1.3 (xhigh) | muse-spark-1-3-xhigh | 2026-09-02 | 45.2 | 76.5 | 51.8 | 1655.27 | 1.3678 | 1.25 | 4.25 | 0.15 |  | 206.39 | 21.38 | 31.07 | 33.49 |  |  |  |  |
+| LLM Leaderboard | adf9a85e-abc3-4f28-937b-db6655cc5238 | Llama 4 Scout | llama-4-scout | 2025-04-05 | 6.5 | 8.2 | 0.5 | 77.58 | 0.1184 | 0.19 | 0.68 |  |  | 107.2 | 0.82 | 0.82 | 5.48 |  |  |  |  |
+| LLM Leaderboard | d5170215-69be-4129-849b-26d8d8825bfc | Muse Spark 1.3 (xhigh) | muse-spark-1-3-xhigh | 2026-09-02 | 45.2 | 76.5 | 51.8 | 1655.27 | 1.3678 | 1.25 | 4.25 | 0.15 |  | 206.82 | 19.78 | 29.45 | 31.86 |  |  |  |  |
 | LLM Leaderboard | d61493e2-43ff-460c-9054-eaf6ba317360 | Muse Spark 1.1 (xhigh) | muse-spark-1-1 | 2026-07-09 | 34.3 | 71.3 | 27.5 | 1737.18 | 1.3802 | 1.25 | 4.25 | 0.15 |  |  |  |  |  |  |  |  |  |
 | LLM Leaderboard | ebf3b39f-0be6-43a1-a37a-f9b2978c9916 | Muse Spark | muse-spark | 2026-04-08 | 31.3 | 58.6 |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |
 | LLM Leaderboard | fe11ab6c-a4dd-4c28-9fef-07da76d5ed14 | Llama 65B | llama-65b | 2023-02-24 | 5 |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |
@@ -1114,7 +1114,7 @@ Model count: 8
 
 | endpoint | id | name | slug | release_date | evaluations.artificial_analysis_intelligence_index | evaluations.artificial_analysis_coding_index | evaluations.artificial_analysis_agentic_index | intelligence_index_cost | pricing.price_1m_input_tokens | pricing.price_1m_output_tokens | pricing.price_1m_cache_hit_tokens | pricing.price_1m_cache_write_tokens | performance.median_output_tokens_per_second | performance.median_time_to_first_token_seconds | performance.median_time_to_first_answer_token_seconds | performance.median_end_to_end_response_time_seconds | elo | ci_95 | ci95_range |
 | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- |
-| LLM Leaderboard | 2cd04201-2b6e-47ef-853e-7601f705f2a8 | Phi-4 Multimodal Instruct | phi-4-multimodal | 2025-02-26 | 5.8 |  |  |  | 0 | 0 |  |  | 16.84 | 0.87 | 0.87 | 30.56 |  |  |  |
+| LLM Leaderboard | 2cd04201-2b6e-47ef-853e-7601f705f2a8 | Phi-4 Multimodal Instruct | phi-4-multimodal | 2025-02-26 | 5.8 |  |  |  | 0 | 0 |  |  | 16.84 | 0.85 | 0.85 | 30.55 |  |  |  |
 | LLM Leaderboard | 9f873c2f-2c2d-4ccb-9e1b-71bf61b052be | Phi-4 Mini Instruct | phi-4-mini | 2024-02-26 | 6.3 | 3.8 |  |  | 0 | 0 |  |  | 44.41 | 0.87 | 0.87 | 12.12 |  |  |  |
 | LLM Leaderboard | ded8d96e-835f-4359-947a-a4c3bb78e983 | Phi-3 Mini Instruct 3.8B | phi-3-mini | 2024-04-23 | 5.8 |  |  |  |  |  |  |  |  |  |  |  |  |  |  |
 | LLM Leaderboard | ee708f92-374e-4123-b900-e22d7b2afc19 | Phi-4 | phi-4 | 2024-12-12 | 5.9 |  |  |  | 0.13 | 0.5 |  |  | 40.42 | 2.54 | 2.54 | 14.91 |  |  |  |
@@ -1160,9 +1160,9 @@ Model count: 29
 
 | endpoint | id | name | slug | release_date | evaluations.artificial_analysis_intelligence_index | evaluations.artificial_analysis_coding_index | evaluations.artificial_analysis_agentic_index | intelligence_index_cost | pricing.price_1m_input_tokens | pricing.price_1m_output_tokens | pricing.price_1m_cache_hit_tokens | pricing.price_1m_cache_write_tokens | performance.median_output_tokens_per_second | performance.median_time_to_first_token_seconds | performance.median_time_to_first_answer_token_seconds | performance.median_end_to_end_response_time_seconds | intelligence_index_cost.total_cost | intelligence_index_cost.cost_per_task.total_cost | elo | ci_95 | ci95_range |
 | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- |
-| LLM Leaderboard | 12adec16-19fe-4d92-aeff-5ef3eb7e780a | MiniMax-M2.5 | minimax-m2-5 | 2026-02-12 | 22.8 |  |  |  | 0.3 | 1.2 | 0.03 | 0.38 | 81.18 | 1.7 | 26.33 | 32.49 |  |  |  |  |  |
-| LLM Leaderboard | 272ff333-442f-4169-a804-ac9177bc99d7 | MiniMax-M2.1 | minimax-m2-1 | 2025-12-23 | 20.9 |  |  |  | 0.3 | 1.2 |  |  | 83.31 | 1.65 | 25.66 | 31.66 |  |  |  |  |  |
-| LLM Leaderboard | 277f939a-985b-4b37-859d-b3eabc7c0b26 | MiniMax-M3 | minimax-m3 | 2026-06-01 | 29.6 | 58.6 | 30.8 |  | 0.3 | 1.2 | 0.06 | 0.38 | 92.09 | 1.9 | 23.62 | 29.05 | 537.98 | 0.5076 |  |  |  |
+| LLM Leaderboard | 12adec16-19fe-4d92-aeff-5ef3eb7e780a | MiniMax-M2.5 | minimax-m2-5 | 2026-02-12 | 22.8 |  |  |  | 0.3 | 1.2 | 0.03 | 0.38 | 82.31 | 1.68 | 25.98 | 32.05 |  |  |  |  |  |
+| LLM Leaderboard | 272ff333-442f-4169-a804-ac9177bc99d7 | MiniMax-M2.1 | minimax-m2-1 | 2025-12-23 | 20.9 |  |  |  | 0.3 | 1.2 |  |  | 84.07 | 1.73 | 25.52 | 31.47 |  |  |  |  |  |
+| LLM Leaderboard | 277f939a-985b-4b37-859d-b3eabc7c0b26 | MiniMax-M3 | minimax-m3 | 2026-06-01 | 29.6 | 58.6 | 30.8 |  | 0.3 | 1.2 | 0.06 | 0.38 | 87.67 | 1.74 | 24.55 | 30.26 | 537.98 | 0.5076 |  |  |  |
 | LLM Leaderboard | 385376b1-9815-47dd-83cc-85aac34f247d | MiniMax M1 40k | minimax-m1-40k | 2025-06-17 | 10 |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |
 | LLM Leaderboard | 4bbceacb-cf47-464b-b60f-e1d1fe016d67 | MiniMax-M2.7 | minimax-m2-7 | 2026-03-18 | 23.2 | 52.6 | 16.8 |  | 0.3 | 1.2 | 0.06 | 0.38 | 56.5 | 1.64 | 45.22 | 54.07 | 235.96 | 0.1017 |  |  |  |
 | LLM Leaderboard | 9ca246a7-cf13-42c9-9182-5b5ad6b79026 | MiniMax M1 80k | minimax-m1-80k | 2025-06-17 | 11.7 |  |  |  | 0.55 | 2.2 |  |  |  |  |  |  |  |  |  |  |  |
@@ -1176,7 +1176,7 @@ Model count: 29
 | Text-to-Speech Arena | 953aeced-7f15-4a02-a2f5-3c9cfccbbb39 | Speech-02-Turbo | speech-02-turbo |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  | 1081 | 12 | -12/+12 |
 | Text-to-Speech Arena | 0707d10e-e111-484c-8fd5-5dbb0a78029e | T2A-01-HD | t2a-01-hd |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  | 1062 | 11 | -11/+11 |
 | Text-to-Speech Arena | c8c8fcf1-03cb-4b63-a6c9-d72cab227b3f | T2A-01-Turbo | t2a-01-turbo |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  | 1028 | 11 | -11/+11 |
-| Text-to-Video Arena | c82a5e9e-6a94-40c3-ab47-7b4935f9c685 | MiniMax H3 | minimax-h3 |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  | 1304 | 10 | -10/+10 |
+| Text-to-Video Arena | c82a5e9e-6a94-40c3-ab47-7b4935f9c685 | MiniMax H3 | minimax-h3 |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  | 1302 | 10 | -10/+10 |
 | Text-to-Video Arena | c4f20ba7-a57a-46b5-a9eb-7655d7bed256 | Hailuo 2.3 | hailuo-2-3-prompt-enhancement |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  | 1172 | 7 | -7/+7 |
 | Text-to-Video Arena | aea5e8ea-2766-4235-ad96-307ee1d985e3 | Hailuo 02 Standard | hailuo-02-standard |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  | 1171 | 9 | -9/+9 |
 | Text-to-Video Arena | 36e2f091-2000-4961-bf2d-0406e0a78b66 | Hailuo 02 Pro | hailuo-02-pro |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  | 1153 | 9 | -9/+9 |
@@ -1196,19 +1196,19 @@ Model count: 33
 
 | endpoint | id | name | slug | release_date | evaluations.artificial_analysis_intelligence_index | evaluations.artificial_analysis_coding_index | evaluations.artificial_analysis_agentic_index | intelligence_index_cost | pricing.price_1m_input_tokens | pricing.price_1m_output_tokens | pricing.price_1m_cache_hit_tokens | pricing.price_1m_cache_write_tokens | performance.median_output_tokens_per_second | performance.median_time_to_first_token_seconds | performance.median_time_to_first_answer_token_seconds | performance.median_end_to_end_response_time_seconds | intelligence_index_cost.total_cost | intelligence_index_cost.cost_per_task.total_cost | elo | ci_95 | ci95_range |
 | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- |
-| LLM Leaderboard | 05a32e26-e609-4377-951b-8fa23d329926 | Mistral Medium 3.1 | mistral-medium-3-1 | 2025-08-12 | 9.9 | 20.5 | 3.1 |  | 0.4 | 2 |  |  | 130.59 | 2.22 | 2.22 | 6.05 |  |  |  |  |  |
-| LLM Leaderboard | 09f43999-b67b-4c1b-b050-44df41ed7e62 | Devstral 2 | devstral-2 | 2025-12-09 | 9.4 | 31.3 | 4.9 |  | 0 | 0 |  |  | 136.5 | 2.42 | 2.42 | 6.08 | 0 | 0 |  |  |  |
+| LLM Leaderboard | 05a32e26-e609-4377-951b-8fa23d329926 | Mistral Medium 3.1 | mistral-medium-3-1 | 2025-08-12 | 9.9 | 20.5 | 3.1 |  | 0.4 | 2 |  |  | 139.97 | 2.22 | 2.22 | 5.8 |  |  |  |  |  |
+| LLM Leaderboard | 09f43999-b67b-4c1b-b050-44df41ed7e62 | Devstral 2 | devstral-2 | 2025-12-09 | 9.4 | 31.3 | 4.9 |  | 0 | 0 |  |  | 145.71 | 2.42 | 2.42 | 5.85 | 0 | 0 |  |  |  |
 | LLM Leaderboard | 0fec07d5-a9b2-407a-b5f8-5bf10bd86b59 | Magistral Small 1 | magistral-small | 2025-06-10 | 8.2 |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |
-| LLM Leaderboard | 12f6a061-0ab3-4c76-b225-49abee253651 | Mistral Small 4 (Non-reasoning) | mistral-small-4-non-reasoning | 2026-03-16 | 9 |  |  |  | 0.15 | 0.6 |  |  | 149.04 | 0.75 | 0.75 | 4.11 |  |  |  |  |  |
+| LLM Leaderboard | 12f6a061-0ab3-4c76-b225-49abee253651 | Mistral Small 4 (Non-reasoning) | mistral-small-4-non-reasoning | 2026-03-16 | 9 |  |  |  | 0.15 | 0.6 |  |  | 144.57 | 0.75 | 0.75 | 4.2 |  |  |  |  |  |
 | LLM Leaderboard | 1b05e346-e86a-4a20-8feb-7da8c65a99aa | Mistral Large 2 (Jul '24) | mistral-large-2407 | 2024-07-24 | 6.8 |  |  |  | 2 | 6 |  |  |  |  |  |  |  |  |  |  |  |
-| LLM Leaderboard | 1f05af98-1ec6-4506-a0b8-57a8c9b63878 | Mistral Medium | mistral-medium | 2023-12-11 | 5.5 |  |  |  | 1.5 | 7.5 |  |  | 139.22 | 2.31 | 2.31 | 5.9 |  |  |  |  |  |
-| LLM Leaderboard | 217b34ec-5920-4fc1-8886-6a70a324837d | Mistral 7B Instruct | mistral-7b-instruct | 2023-09-27 | 5 |  |  |  | 0.25 | 0.25 |  |  | 86.66 | 0.76 | 0.76 | 6.53 |  |  |  |  |  |
-| LLM Leaderboard | 24ac5b00-5f03-4c47-8e37-522d1195383e | Mistral Small 3.1 | mistral-small-3-1 | 2025-03-17 | 7.4 | 26.3 | 2.1 |  | 0.1 | 0.3 |  |  | 150.33 | 0.73 | 0.73 | 4.05 | 35.76 | 0.0328 |  |  |  |
-| LLM Leaderboard | 35d602fc-b8b8-4698-9f4d-f2ce11ca50e4 | Mistral Small (Feb '24) | mistral-small-2402 | 2024-02-26 | 5.5 |  |  |  | 0.15 | 0.6 |  |  | 148.81 | 0.79 | 0.79 | 4.15 |  |  |  |  |  |
+| LLM Leaderboard | 1f05af98-1ec6-4506-a0b8-57a8c9b63878 | Mistral Medium | mistral-medium | 2023-12-11 | 5.5 |  |  |  | 1.5 | 7.5 |  |  | 140.82 | 2.27 | 2.27 | 5.82 |  |  |  |  |  |
+| LLM Leaderboard | 217b34ec-5920-4fc1-8886-6a70a324837d | Mistral 7B Instruct | mistral-7b-instruct | 2023-09-27 | 5 |  |  |  | 0.25 | 0.25 |  |  | 82.12 | 0.76 | 0.76 | 6.85 |  |  |  |  |  |
+| LLM Leaderboard | 24ac5b00-5f03-4c47-8e37-522d1195383e | Mistral Small 3.1 | mistral-small-3-1 | 2025-03-17 | 7.4 | 26.3 | 2.1 |  | 0.1 | 0.3 |  |  | 137.73 | 0.77 | 0.77 | 4.4 | 35.76 | 0.0328 |  |  |  |
+| LLM Leaderboard | 35d602fc-b8b8-4698-9f4d-f2ce11ca50e4 | Mistral Small (Feb '24) | mistral-small-2402 | 2024-02-26 | 5.5 |  |  |  | 0.15 | 0.6 |  |  | 142.07 | 0.73 | 0.73 | 4.25 |  |  |  |  |  |
 | LLM Leaderboard | 3edcb2ed-6981-4f88-a556-563f7f8f00aa | Mixtral 8x7B Instruct | mixtral-8x7b-instruct | 2023-12-11 | 5.1 |  |  |  | 0.45 | 0.7 |  |  |  |  |  |  |  |  |  |  |  |
-| LLM Leaderboard | 3fd96175-4ef1-434c-8795-f873aec2abc1 | Mistral Small 4 (Reasoning) | mistral-small-4 | 2026-03-16 | 11.5 | 26.6 | 1.4 |  | 0.15 | 0.6 |  |  | 164.06 | 0.76 | 12.95 | 16 | 78.7 | 0.0451 |  |  |  |
-| LLM Leaderboard | 43da3718-3d6e-40dd-901a-05664179ff7f | Mistral Small 3.2 | mistral-small-3-2 | 2025-06-20 | 7 | 12.5 | 1 |  | 0.1 | 0.3 |  |  | 147.23 | 0.72 | 0.72 | 4.11 | 162.68 | 0.1458 |  |  |  |
-| LLM Leaderboard | 4928e950-7f37-4475-b0dc-c5bad781a321 | Mistral Large 3 | mistral-large-3 | 2025-12-02 | 9.7 | 20.1 | 2.4 |  | 0.5 | 1.5 |  |  | 76.4 | 1.04 | 1.04 | 7.59 | 129.94 | 0.1044 |  |  |  |
+| LLM Leaderboard | 3fd96175-4ef1-434c-8795-f873aec2abc1 | Mistral Small 4 (Reasoning) | mistral-small-4 | 2026-03-16 | 11.5 | 26.6 | 1.4 |  | 0.15 | 0.6 |  |  | 154.84 | 0.73 | 13.65 | 16.88 | 78.7 | 0.0451 |  |  |  |
+| LLM Leaderboard | 43da3718-3d6e-40dd-901a-05664179ff7f | Mistral Small 3.2 | mistral-small-3-2 | 2025-06-20 | 7 | 12.5 | 1 |  | 0.1 | 0.3 |  |  | 149.09 | 0.72 | 0.72 | 4.07 | 162.68 | 0.1458 |  |  |  |
+| LLM Leaderboard | 4928e950-7f37-4475-b0dc-c5bad781a321 | Mistral Large 3 | mistral-large-3 | 2025-12-02 | 9.7 | 20.1 | 2.4 |  | 0.5 | 1.5 |  |  | 73.84 | 1.05 | 1.05 | 7.83 | 129.94 | 0.1044 |  |  |  |
 | LLM Leaderboard | 50f92d5f-f413-4c97-8dab-331101622a28 | Mistral Large 2 (Nov '24) | mistral-large-2 | 2024-11-18 | 7.6 |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |
 | LLM Leaderboard | 59e22326-1bca-4432-a5fa-147fbe8854e7 | Mistral Medium 3 | mistral-medium-3 | 2025-05-07 | 9 |  |  |  | 0.4 | 2 |  |  | 146.45 | 2.26 | 2.26 | 5.68 |  |  |  |  |  |
 | LLM Leaderboard | 5e4e4590-a77e-4b66-95f8-f3960a1a7c68 | Mistral Large (Feb '24) | mistral-large | 2024-02-26 | 5.8 |  |  |  | 4 | 12 |  |  |  |  |  |  |  |  |  |  |  |
@@ -1224,10 +1224,10 @@ Model count: 33
 | LLM Leaderboard | aba82268-2bb7-4a0f-80be-9b7722e2145b | Devstral Medium | devstral-medium | 2025-07-10 | 9 |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |
 | LLM Leaderboard | ca6c1412-f3c1-4391-9231-f83a702aa7af | Mixtral 8x22B Instruct | mistral-8x22b-instruct | 2024-04-17 | 5.7 |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |
 | LLM Leaderboard | cc1fa238-1a76-486d-a997-22309275eadd | Devstral Small (May '25) | devstral-small-2505 | 2025-05-21 | 8.7 |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |
-| LLM Leaderboard | ce819310-af7c-49d3-9a02-6845111e1788 | Devstral Small 2 | devstral-small-2 | 2025-12-09 | 8.4 | 29.3 | 4.8 |  | 0 | 0 |  |  | 132.5 | 2.31 | 2.31 | 6.08 | 0 | 0 |  |  |  |
-| LLM Leaderboard | dd059b25-d82a-4ead-82a4-4adceaaec48b | Mistral Medium 3.5 | mistral-medium-3-5 | 2026-04-29 | 14.9 | 46.9 | 9.4 |  | 1.5 | 7.5 | 0.15 |  | 145.2 | 2.32 | 16.1 | 19.54 | 1159.93 | 0.437 |  |  |  |
+| LLM Leaderboard | ce819310-af7c-49d3-9a02-6845111e1788 | Devstral Small 2 | devstral-small-2 | 2025-12-09 | 8.4 | 29.3 | 4.8 |  | 0 | 0 |  |  | 135.69 | 2.33 | 2.33 | 6.01 | 0 | 0 |  |  |  |
+| LLM Leaderboard | dd059b25-d82a-4ead-82a4-4adceaaec48b | Mistral Medium 3.5 | mistral-medium-3-5 | 2026-04-29 | 14.9 | 46.9 | 9.4 |  | 1.5 | 7.5 | 0.15 |  | 151.44 | 2.32 | 15.52 | 18.83 | 1159.93 | 0.437 |  |  |  |
 | LLM Leaderboard | de0beaf0-c951-487a-8eb4-3dd12e74122c | Pixtral Large | pixtral-large-2411 | 2024-11-18 | 7.1 |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |
-| LLM Leaderboard | e5dd499f-c330-45ec-9ff0-a99209c82af7 | Mistral Small 3 | mistral-small-3 | 2025-01-30 | 6.7 |  |  |  | 0.1 | 0.3 |  |  | 143.8 | 0.77 | 0.77 | 4.25 |  |  |  |  |  |
+| LLM Leaderboard | e5dd499f-c330-45ec-9ff0-a99209c82af7 | Mistral Small 3 | mistral-small-3 | 2025-01-30 | 6.7 |  |  |  | 0.1 | 0.3 |  |  | 146.21 | 0.78 | 0.78 | 4.2 |  |  |  |  |  |
 | Text-to-Speech Arena | b424cd2e-abb9-4131-8f47-7731bdbff455 | Voxtral TTS | voxtral-tts |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  | 1074 | 13 | -13/+13 |
 
 ## Moonvalley
@@ -1255,7 +1255,7 @@ Model count: 2
 
 | endpoint | id | name | slug | release_date | evaluations.artificial_analysis_intelligence_index | evaluations.artificial_analysis_coding_index | evaluations.artificial_analysis_agentic_index | intelligence_index_cost | pricing.price_1m_input_tokens | pricing.price_1m_output_tokens | pricing.price_1m_cache_hit_tokens | pricing.price_1m_cache_write_tokens | performance.median_output_tokens_per_second | performance.median_time_to_first_token_seconds | performance.median_time_to_first_answer_token_seconds | performance.median_end_to_end_response_time_seconds | intelligence_index_cost.total_cost | intelligence_index_cost.cost_per_task.total_cost |
 | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- |
-| LLM Leaderboard | 340fb211-4fad-41d3-87d5-ed0d0cd34088 | HyperNova 60B 2605 (high, based on gpt-oss-120b) | hypernova-60b | 2026-05-26 | 11.7 | 23.2 | 2.7 |  | 0.04 | 0.14 |  |  | 360.6 | 0.6 | 6.14 | 7.53 |  |  |
+| LLM Leaderboard | 340fb211-4fad-41d3-87d5-ed0d0cd34088 | HyperNova 60B 2605 (high, based on gpt-oss-120b) | hypernova-60b | 2026-05-26 | 11.7 | 23.2 | 2.7 |  | 0.04 | 0.14 |  |  | 360.52 | 0.6 | 6.15 | 7.53 |  |  |
 | LLM Leaderboard | f9739750-6d42-450f-ba1e-2f76c869b4fe | Quasar 438B (max, based on GLM-5.2) | quasar-438b | 2026-08-10 | 27.1 | 61.2 | 32.7 |  | 0.6 | 1.8 |  |  | 177.65 | 0.99 | 12.24 | 15.06 | 2503.7 | 2.0246 |
 
 ## Murf AI
@@ -1305,7 +1305,7 @@ Model count: 1
 
 | endpoint | id | name | slug | release_date | evaluations.artificial_analysis_intelligence_index | evaluations.artificial_analysis_coding_index | evaluations.artificial_analysis_agentic_index | intelligence_index_cost | pricing.price_1m_input_tokens | pricing.price_1m_output_tokens | pricing.price_1m_cache_hit_tokens | pricing.price_1m_cache_write_tokens | performance.median_output_tokens_per_second | performance.median_time_to_first_token_seconds | performance.median_time_to_first_answer_token_seconds | performance.median_end_to_end_response_time_seconds |
 | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- |
-| LLM Leaderboard | 3b5ba264-ad25-429b-a460-4d8698205f0d | Nex-N2-Pro | nex-n2-pro | 2026-06-02 | 28.2 | 59.1 |  |  | 0.5 | 2.5 | 0.25 |  | 125.59 | 1.76 | 17.68 | 21.67 |
+| LLM Leaderboard | 3b5ba264-ad25-429b-a460-4d8698205f0d | Nex-N2-Pro | nex-n2-pro | 2026-06-02 | 28.2 | 59.1 |  |  | 0.5 | 2.5 | 0.25 |  |  |  |  |  |
 
 ## Noiz
 
@@ -1321,13 +1321,13 @@ Model count: 7
 
 | endpoint | id | name | slug | release_date | evaluations.artificial_analysis_intelligence_index | evaluations.artificial_analysis_coding_index | evaluations.artificial_analysis_agentic_index | intelligence_index_cost | pricing.price_1m_input_tokens | pricing.price_1m_output_tokens | pricing.price_1m_cache_hit_tokens | pricing.price_1m_cache_write_tokens | performance.median_output_tokens_per_second | performance.median_time_to_first_token_seconds | performance.median_time_to_first_answer_token_seconds | performance.median_end_to_end_response_time_seconds |
 | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- |
-| LLM Leaderboard | 1dcea4f7-7e8b-49f8-abe2-5860ff9f349e | Hermes 3 - Llama-3.1 70B | hermes-3-llama-3-1-70b | 2024-08-15 | 6 |  |  |  | 0.7 | 0.7 |  |  | 29.28 | 2.15 | 2.15 | 19.23 |
+| LLM Leaderboard | 1dcea4f7-7e8b-49f8-abe2-5860ff9f349e | Hermes 3 - Llama-3.1 70B | hermes-3-llama-3-1-70b | 2024-08-15 | 6 |  |  |  | 0.7 | 0.7 |  |  | 29.52 | 2.07 | 2.07 | 19 |
 | LLM Leaderboard | 235060f4-057d-4bd1-8b8e-4a92908c770e | Hermes 4 - Llama-3.1 70B (Non-reasoning) | hermes-4-llama-3-1-70b | 2025-08-27 | 6.7 |  |  |  |  |  |  |  |  |  |  |  |
 | LLM Leaderboard | 6ba9e8eb-8124-436d-842f-dbe36df80c27 | Hermes 4 - Llama-3.1 70B (Reasoning) | hermes-4-llama-3-1-70b-reasoning | 2025-08-27 | 7.9 |  |  |  |  |  |  |  |  |  |  |  |
 | LLM Leaderboard | 82b207dd-d285-4a52-b2fc-2cbd27543899 | Hermes 4 - Llama-3.1 405B (Reasoning) | hermes-4-llama-3-1-405b-reasoning | 2025-08-27 | 7.5 |  |  |  | 1 | 3 |  |  | 43.09 | 2.44 | 48.86 | 60.46 |
 | LLM Leaderboard | a8efb564-9d17-4d7f-8f43-e9110657ce21 | DeepHermes 3 - Mistral 24B Preview (Non-reasoning) | deephermes-3-mistral-24b-preview | 2025-03-13 | 6.1 |  |  |  |  |  |  |  |  |  |  |  |
 | LLM Leaderboard | b7726745-9c77-40c3-8452-974cb53d6fbc | DeepHermes 3 - Llama-3.1 8B Preview (Non-reasoning) | deephermes-3-llama-3-1-8b-preview | 2025-02-13 | 5.1 |  |  |  |  |  |  |  |  |  |  |  |
-| LLM Leaderboard | d3968fd3-97d8-4693-8d26-19cefc6f5d5f | Hermes 4 - Llama-3.1 405B (Non-reasoning) | hermes-4-llama-3-1-405b | 2025-08-27 | 7.4 |  |  |  | 1 | 3 |  |  | 43.41 | 2.34 | 2.34 | 13.86 |
+| LLM Leaderboard | d3968fd3-97d8-4693-8d26-19cefc6f5d5f | Hermes 4 - Llama-3.1 405B (Non-reasoning) | hermes-4-llama-3-1-405b | 2025-08-27 | 7.4 |  |  |  | 1 | 3 |  |  | 43.32 | 2.36 | 2.36 | 13.9 |
 
 ## NVIDIA
 
@@ -1336,10 +1336,10 @@ Model count: 26
 | endpoint | id | name | slug | release_date | evaluations.artificial_analysis_intelligence_index | evaluations.artificial_analysis_coding_index | evaluations.artificial_analysis_agentic_index | intelligence_index_cost | pricing.price_1m_input_tokens | pricing.price_1m_output_tokens | pricing.price_1m_cache_hit_tokens | pricing.price_1m_cache_write_tokens | performance.median_output_tokens_per_second | performance.median_time_to_first_token_seconds | performance.median_time_to_first_answer_token_seconds | performance.median_end_to_end_response_time_seconds | intelligence_index_cost.total_cost | intelligence_index_cost.cost_per_task.total_cost | elo | ci_95 | ci95_range |
 | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- |
 | LLM Leaderboard | 1a8ba535-df18-459b-ad40-3199191296d7 | Llama 3.3 Nemotron Super 49B v1 (Reasoning) | llama-3-3-nemotron-super-49b-reasoning | 2025-03-18 | 8.9 |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |
-| LLM Leaderboard | 23b379f7-18df-492a-9fc1-a56c5a5b9cfc | NVIDIA Nemotron 3 Nano 30B A3B (Non-reasoning) | nvidia-nemotron-3-nano-30b-a3b | 2025-12-15 | 6.8 |  |  |  | 0.05 | 0.2 |  |  | 151.25 | 0.97 | 0.97 | 4.28 |  |  |  |  |  |
-| LLM Leaderboard | 26c0b5df-efa7-470f-a65e-2d883329e493 | Llama Nemotron Super 49B v1.5 (Non-reasoning) | llama-nemotron-super-49b-v1-5 | 2025-07-25 | 7.4 |  |  |  | 0.4 | 0.4 |  |  | 42.4 | 6.53 | 6.53 | 18.32 |  |  |  |  |  |
-| LLM Leaderboard | 29976311-665a-4b2f-ac72-557c33e0758e | Nemotron 3.5 Lightning | nemotron-3-5-lightning | 2026-08-11 | 13.6 | 26.8 | 6.1 |  | 0.06 | 0.2 | 0.05 |  | 283.4 | 0.95 | 8.01 | 9.77 | 105.48 | 0.0931 |  |  |  |
-| LLM Leaderboard | 2e8694f9-7782-47a6-a6ba-fdce89d939c8 | NVIDIA Nemotron Nano 9B V2 (Non-reasoning) | nvidia-nemotron-nano-9b-v2 | 2025-08-18 | 6.8 |  |  |  | 0.05 | 0.2 |  |  | 147.42 | 2.08 | 2.08 | 5.47 |  |  |  |  |  |
+| LLM Leaderboard | 23b379f7-18df-492a-9fc1-a56c5a5b9cfc | NVIDIA Nemotron 3 Nano 30B A3B (Non-reasoning) | nvidia-nemotron-3-nano-30b-a3b | 2025-12-15 | 6.8 |  |  |  | 0.05 | 0.2 |  |  | 159.34 | 0.98 | 0.98 | 4.11 |  |  |  |  |  |
+| LLM Leaderboard | 26c0b5df-efa7-470f-a65e-2d883329e493 | Llama Nemotron Super 49B v1.5 (Non-reasoning) | llama-nemotron-super-49b-v1-5 | 2025-07-25 | 7.4 |  |  |  | 0.4 | 0.4 |  |  | 42.4 | 4.72 | 4.72 | 16.52 |  |  |  |  |  |
+| LLM Leaderboard | 29976311-665a-4b2f-ac72-557c33e0758e | Nemotron 3.5 Lightning | nemotron-3-5-lightning | 2026-08-11 | 13.6 | 26.8 | 6.1 |  | 0.06 | 0.2 | 0.05 |  | 288.13 | 0.78 | 7.72 | 9.46 | 105.48 | 0.0931 |  |  |  |
+| LLM Leaderboard | 2e8694f9-7782-47a6-a6ba-fdce89d939c8 | NVIDIA Nemotron Nano 9B V2 (Non-reasoning) | nvidia-nemotron-nano-9b-v2 | 2025-08-18 | 6.8 |  |  |  | 0.05 | 0.2 |  |  | 151.18 | 1.8 | 1.8 | 5.11 |  |  |  |  |  |
 | LLM Leaderboard | 5b52def2-ac9b-4465-ad80-91ea8079e253 | Nemotron 3 Ultra 550B A55B (Reasoning) | nvidia-nemotron-3-ultra-550b-a55b | 2026-06-04 | 23.4 | 49.3 | 21.7 |  | 0.6 | 2.6 | 0.2 |  | 160.4 | 2.3 | 16.48 | 19.6 | 800.63 | 0.5848 |  |  |  |
 | LLM Leaderboard | 63872e9c-3377-4a6b-b477-7bba244c38e9 | Nemotron 3 Super 120B A12B (Reasoning) | nvidia-nemotron-3-super-120b-a12b | 2026-03-11 | 13.6 | 37.7 | 4.1 |  | 0.19 | 0.65 |  |  | 154.74 | 2.76 | 15.68 | 18.92 | 858.61 | 1.06 |  |  |  |
 | LLM Leaderboard | 6e6e02fd-9cbd-417f-9bfc-673df89c313d | NVIDIA Nemotron Nano 12B v2 VL (Reasoning) | nvidia-nemotron-nano-12b-v2-vl-reasoning | 2025-10-28 | 7.5 |  |  |  | 0.2 | 0.6 |  |  | 53.39 | 6.49 | 43.95 | 53.32 |  |  |  |  |  |
@@ -1348,18 +1348,18 @@ Model count: 26
 | LLM Leaderboard | 8c748e53-61ae-48b8-af8d-eb8298b1e9db | Nemotron 3 Nano Omni 30B A3B Reasoning | nemotron-3-nano-omni-30b-a3b | 2026-04-29 | 10.3 | 13.8 |  |  | 0.09 | 0.36 |  |  |  |  |  |  |  |  |  |  |  |
 | LLM Leaderboard | 9815da7d-70f4-44d6-b539-9ffef0faa152 | Nemotron Cascade 2 30B A3B | nemotron-cascade-2-30b-a3b | 2026-03-19 | 11.7 | 25.3 |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |
 | LLM Leaderboard | 9ee13921-62a4-425a-a22b-df3302198d93 | NVIDIA Nemotron 3 Nano 4B | nvidia-nemotron-3-nano-4b | 2026-03-16 | 7.4 | 8 |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |
-| LLM Leaderboard | ab7f016c-a29b-4710-bdf6-6a5cd96aacca | NVIDIA Nemotron Nano 12B v2 VL (Non-reasoning) | nvidia-nemotron-nano-12b-v2-vl | 2025-10-28 | 5.8 |  |  |  | 0.2 | 0.6 |  |  | 74.4 | 2.03 | 2.03 | 8.75 |  |  |  |  |  |
+| LLM Leaderboard | ab7f016c-a29b-4710-bdf6-6a5cd96aacca | NVIDIA Nemotron Nano 12B v2 VL (Non-reasoning) | nvidia-nemotron-nano-12b-v2-vl | 2025-10-28 | 5.8 |  |  |  | 0.2 | 0.6 |  |  | 77.67 | 2 | 2 | 8.44 |  |  |  |  |  |
 | LLM Leaderboard | b1fa84f8-1ed3-4124-b403-4655dafa4267 | Llama 3.1 Nemotron Nano 4B v1.1 (Reasoning) | llama-3-1-nemotron-nano-4b-reasoning | 2025-05-20 | 7.3 |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |
 | LLM Leaderboard | c4c3b42f-e0f0-48ca-b6f9-b296e7697806 | Llama 3.3 Nemotron Super 49B v1 (Non-reasoning) | llama-3-3-nemotron-super-49b | 2025-03-18 | 7.3 |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |
 | LLM Leaderboard | cf095603-72b6-47f8-8ee1-09a42890f92a | Llama 3.1 Nemotron Ultra 253B v1 (Reasoning) | llama-3-1-nemotron-ultra-253b-v1-reasoning | 2025-04-07 | 7.5 |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |
-| LLM Leaderboard | e1cfa926-9e2b-4a0d-8c31-48366a5041c5 | Llama Nemotron Super 49B v1.5 (Reasoning) | llama-nemotron-super-49b-v1-5-reasoning | 2025-07-25 | 9 |  |  |  | 0.4 | 0.4 |  |  | 60.2 | 6.76 | 39.99 | 48.29 |  |  |  |  |  |
+| LLM Leaderboard | e1cfa926-9e2b-4a0d-8c31-48366a5041c5 | Llama Nemotron Super 49B v1.5 (Reasoning) | llama-nemotron-super-49b-v1-5-reasoning | 2025-07-25 | 9 |  |  |  | 0.4 | 0.4 |  |  | 57.55 | 6.15 | 40.9 | 49.59 |  |  |  |  |  |
 | LLM Leaderboard | f1d52583-9d20-4099-99ac-b5df9430c3b6 | NVIDIA Nemotron Nano 9B V2 (Reasoning) | nvidia-nemotron-nano-9b-v2-reasoning | 2025-08-18 | 7.4 |  |  |  | 0.04 | 0.16 |  |  | 105.67 | 4.85 | 23.78 | 28.51 |  |  |  |  |  |
 | Text-to-Image Arena | 3ab1625b-0838-4314-a684-3d34328dfe65 | Cosmos3-Super-Text2Image (agentic) | cosmos3-super-text2image-agentic |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  | 991 | 8 | -8/+8 |
 | Text-to-Image Arena | 498395f7-5cde-4443-9f05-1dfc164caa6f | Cosmos3-Super-Text2Image | cosmos3-super-text2image |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  | 983 | 8 | -8/+8 |
 | Text-to-Image Arena | a972f679-3043-42fd-a8d2-a866b5acb516 | Cosmos3-Super-Text2Image-4Step | cosmos3-super-text2image-4step |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  | 969 | 8 | -8/+8 |
 | Text-to-Image Arena | 27cefc7e-1c92-42cd-a39f-b0c262db3e05 | Sana Sprint 1.6B | sana-sprint-1-6b |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  | 744 | 10 | -10/+10 |
 | Text-to-Speech Arena | 49198771-e5ea-4c4e-bad9-e57671a92291 | Magpie-Multilingual 357M (Feb 2026) | magpie-multilingual-357m-feb-2026 |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  | 1057 | 13 | -13/+13 |
-| Image-to-Video Arena | fbe52f99-34a3-44a9-b14b-dc35c030e9f4 | Cosmos3-Super-Image2Video-4Step | cosmos3-super-image2video-4step |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  | 1267 | 11 | -11/+11 |
+| Image-to-Video Arena | fbe52f99-34a3-44a9-b14b-dc35c030e9f4 | Cosmos3-Super-Image2Video-4Step | cosmos3-super-image2video-4step |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  | 1270 | 11 | -11/+11 |
 | Image-to-Video Arena | 69829cf3-6a45-4070-929c-b5d654364de3 | Cosmos3-Super-Image2Video | cosmos3-super-image2video |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  | 1246 | 10 | -10/+10 |
 
 ## Open Source
@@ -1379,28 +1379,27 @@ Model count: 112
 | LLM Leaderboard | 019e86f6-e66b-42d8-8a50-235a06b53003 | GPT-5.2 Codex (xhigh) | gpt-5-2-codex | 2025-12-11 | 28.5 |  |  |  | 1.75 | 14 | 0.17 |  |  |  |  |  |  |  |  |  |  |
 | LLM Leaderboard | 037dec2f-51e8-4127-a1f1-85155dae7a1d | GPT-3.5 Turbo | gpt-35-turbo | 2022-11-30 | 5.5 | 10.7 |  |  | 0.5 | 1.5 |  |  |  |  |  |  |  |  |  |  |  |
 | LLM Leaderboard | 04d023f3-025c-4d78-9571-53edda3eaf2a | GPT-5.1 Codex (high) | gpt-5-1-codex | 2025-11-13 | 23.7 |  |  |  | 1.25 | 10 |  |  |  |  |  |  |  |  |  |  |  |
-| LLM Leaderboard | 050c61cd-cddc-463a-a30a-a82aaa37be59 | GPT-5.6 Luna (low) | gpt-5-6-luna-low | 2026-07-09 | 21.5 | 44.2 | 17.9 |  | 0.2 | 1.2 | 0.02 | 0.25 | 104.61 | 1.5 | 1.5 | 6.28 | 27.02 | 0.0098 |  |  |  |
-| LLM Leaderboard | 05e45a36-b5c6-47a1-8adb-9ddc19add5b3 | GPT-5 nano (minimal) | gpt-5-nano-minimal | 2025-08-07 | 7.1 |  |  |  | 0.05 | 0.4 | 0.01 |  | 150.42 | 0.95 | 0.95 | 4.28 |  |  |  |  |  |
-| LLM Leaderboard | 076f2674-bc4b-4925-be59-50832eb8c090 | o3-mini (high) | o3-mini-high | 2025-01-31 | 11 | 16.3 | 0.9 |  | 1.1 | 4.4 | 0.55 |  | 217.71 | 17.76 | 17.76 | 20.06 |  |  |  |  |  |
+| LLM Leaderboard | 050c61cd-cddc-463a-a30a-a82aaa37be59 | GPT-5.6 Luna (low) | gpt-5-6-luna-low | 2026-07-09 | 21.5 | 44.2 | 17.9 |  | 0.2 | 1.2 | 0.02 | 0.25 | 105.4 | 1.51 | 1.51 | 6.25 | 27.02 | 0.0098 |  |  |  |
+| LLM Leaderboard | 05e45a36-b5c6-47a1-8adb-9ddc19add5b3 | GPT-5 nano (minimal) | gpt-5-nano-minimal | 2025-08-07 | 7.1 |  |  |  | 0.05 | 0.4 | 0.01 |  | 161.73 | 0.95 | 0.95 | 4.05 |  |  |  |  |  |
+| LLM Leaderboard | 076f2674-bc4b-4925-be59-50832eb8c090 | o3-mini (high) | o3-mini-high | 2025-01-31 | 11 | 16.3 | 0.9 |  | 1.1 | 4.4 | 0.55 |  | 220.53 | 17 | 17 | 19.26 |  |  |  |  |  |
 | LLM Leaderboard | 078f4dc8-5350-40a2-a5ea-e8359f795b70 | o1-preview | o1-preview | 2024-09-12 | 11.4 | 34 |  |  | 16.5 | 66 | 8.25 |  |  |  |  |  |  |  |  |  |  |
-| LLM Leaderboard | 0904b596-8932-43bd-9b21-324f128e1723 | GPT-5.6 Sol (low) | gpt-5-6-sol-low | 2026-07-09 | 33.8 | 69.7 | 32.6 |  | 4 | 20 | 0.4 | 5 | 52.9 | 3.24 | 3.24 | 12.7 | 637.28 | 0.2606 |  |  |  |
-| LLM Leaderboard | 16149b9c-a1e9-4669-a5cb-ff3c00d78f89 | gpt-oss-20b (low) | gpt-oss-20b-low | 2025-08-05 | 10 |  |  |  | 0.07 | 0.2 |  |  | 224.56 | 0.85 | 9.76 | 11.98 |  |  |  |  |  |
-| LLM Leaderboard | 16c5b637-8bce-4252-81f2-1b87a36a4e4c | o3 | o3 | 2025-04-16 | 20.2 |  |  |  | 2 | 8 | 0.5 |  | 107.06 | 6.34 | 6.34 | 11.01 |  |  |  |  |  |
-| LLM Leaderboard | 1f054429-397e-4fdb-9e71-67bc92c1735e | GPT-5.5 (xhigh) | gpt-5-5 | 2026-04-23 | 38.6 | 74.9 | 37.3 |  | 5 | 30 | 0.5 |  | 85.03 | 54.76 | 54.76 | 60.64 | 5294.36 | 2.634 |  |  |  |
-| LLM Leaderboard | 1f541ef3-913f-4eb2-9d07-0e93c7a9a5e3 | GPT-6 Astra (xhigh) | gpt-6-astra-xhigh | 2026-09-03 | 52.5 | 75.9 | 50.6 |  | 10 | 50 | 1 | 12.5 | 51.44 | 160.9 | 160.9 | 170.62 | 3802.98 | 2.3088 |  |  |  |
-| LLM Leaderboard | 21a0a2f6-bc72-40d2-80db-ea4e66b02b90 | GPT-6 Astra (Non-reasoning) | gpt-6-astra-non-reasoning | 2026-09-03 | 45.2 | 76.2 | 47.8 |  |  |  |  |  |  |  |  |  |  |  |  |  |  |
-| LLM Leaderboard | 26e0f83a-ca98-4f34-94ac-7c5e251ee410 | GPT-5.6 Terra (medium) | gpt-5-6-terra-medium | 2026-07-09 | 30.4 | 64.7 | 31.4 |  | 2 | 12 | 0.2 | 2.5 | 76.41 | 2.17 | 2.17 | 8.72 | 446.53 | 0.1834 |  |  |  |
-| LLM Leaderboard | 29855680-7469-43eb-8b88-cd3fb1d99da3 | GPT-5 mini (high) | gpt-5-mini | 2025-08-07 | 17.4 | 15.6 | 8.9 |  | 0.25 | 2 | 0.03 |  | 95.78 | 78.85 | 78.85 | 84.08 | 188.66 | 0.0535 |  |  |  |
-| LLM Leaderboard | 2dad8957-4c16-4e74-bf2d-8b21514e0ae9 | o3-mini | o3-mini | 2025-01-31 | 12.5 |  |  |  | 1.1 | 4.4 | 0.55 |  | 219.12 | 5.73 | 5.73 | 8.01 |  |  |  |  |  |
-| LLM Leaderboard | 2f339a97-9a0d-499a-9cb5-e0db665bfa25 | GPT-6 Astra (max) | gpt-6-astra | 2026-09-03 | 52.8 | 76.9 | 51.5 |  | 10 | 50 | 1 | 12.5 | 54.41 | 323.31 | 323.31 | 332.5 | 5324.1 | 3.2575 |  |  |  |
-| LLM Leaderboard | 36f73aaf-d38a-4b56-a2b3-d04d17186910 | gpt-oss-20b (high) | gpt-oss-20b | 2025-08-05 | 9 | 20.7 | 1.4 |  | 0.06 | 0.19 |  |  | 179.38 | 0.8 | 11.95 | 14.73 | 29.41 | 0.0113 |  |  |  |
-| LLM Leaderboard | 392063ba-c3b5-47e8-ba67-a7b0b34f6824 | GPT-5.4 mini (medium) | gpt-5-4-mini-medium | 2026-03-17 | 19.7 |  |  |  | 0.75 | 4.5 | 0.07 |  | 179.09 | 3.98 | 3.98 | 6.77 |  |  |  |  |  |
-| LLM Leaderboard | 3b608b70-6434-4baa-99ad-45d499703c67 | GPT-4.1 | gpt-4-1 | 2025-04-14 | 12.7 |  |  |  | 2 | 8 | 0.5 |  | 162.59 | 0.97 | 0.97 | 4.05 |  |  |  |  |  |
-| LLM Leaderboard | 426d24c8-49ae-482a-b4a8-20f1c53f21c1 | GPT-5.6 Luna (max) | gpt-5-6-luna | 2026-07-09 | 37.5 | 71.4 | 42.7 |  | 0.2 | 1.2 | 0.02 | 0.25 | 111.93 | 135.05 | 135.05 | 139.52 | 319.93 | 0.1783 |  |  |  |
+| LLM Leaderboard | 0904b596-8932-43bd-9b21-324f128e1723 | GPT-5.6 Sol (low) | gpt-5-6-sol-low | 2026-07-09 | 33.8 | 69.7 | 32.6 |  | 4 | 20 | 0.4 | 5 | 56.34 | 3.09 | 3.09 | 11.96 | 637.28 | 0.2606 |  |  |  |
+| LLM Leaderboard | 16149b9c-a1e9-4669-a5cb-ff3c00d78f89 | gpt-oss-20b (low) | gpt-oss-20b-low | 2025-08-05 | 10 |  |  |  | 0.07 | 0.2 |  |  | 243.71 | 0.86 | 9.07 | 11.12 |  |  |  |  |  |
+| LLM Leaderboard | 16c5b637-8bce-4252-81f2-1b87a36a4e4c | o3 | o3 | 2025-04-16 | 20.2 |  |  |  | 2 | 8 | 0.5 |  | 107.03 | 5.69 | 5.69 | 10.36 |  |  |  |  |  |
+| LLM Leaderboard | 1f054429-397e-4fdb-9e71-67bc92c1735e | GPT-5.5 (xhigh) | gpt-5-5 | 2026-04-23 | 38.6 | 74.9 | 37.3 |  | 5 | 30 | 0.5 |  | 79.68 | 41.1 | 41.1 | 47.38 | 5294.36 | 2.634 |  |  |  |
+| LLM Leaderboard | 1f541ef3-913f-4eb2-9d07-0e93c7a9a5e3 | GPT-6 Astra (xhigh) | gpt-6-astra-xhigh | 2026-09-03 | 52.5 | 75.9 | 50.6 |  | 10 | 50 | 1 | 12.5 | 51.14 | 135.89 | 135.89 | 145.66 | 3802.98 | 2.3088 |  |  |  |
+| LLM Leaderboard | 26e0f83a-ca98-4f34-94ac-7c5e251ee410 | GPT-5.6 Terra (medium) | gpt-5-6-terra-medium | 2026-07-09 | 30.4 | 64.7 | 31.4 |  | 2 | 12 | 0.2 | 2.5 | 85.38 | 1.81 | 1.81 | 7.67 | 446.53 | 0.1834 |  |  |  |
+| LLM Leaderboard | 29855680-7469-43eb-8b88-cd3fb1d99da3 | GPT-5 mini (high) | gpt-5-mini | 2025-08-07 | 17.4 | 15.6 | 8.9 |  | 0.25 | 2 | 0.03 |  | 70.88 | 96.47 | 96.47 | 103.52 | 188.66 | 0.0535 |  |  |  |
+| LLM Leaderboard | 2dad8957-4c16-4e74-bf2d-8b21514e0ae9 | o3-mini | o3-mini | 2025-01-31 | 12.5 |  |  |  | 1.1 | 4.4 | 0.55 |  | 219.12 | 5.2 | 5.2 | 7.48 |  |  |  |  |  |
+| LLM Leaderboard | 2f339a97-9a0d-499a-9cb5-e0db665bfa25 | GPT-6 Astra (max) | gpt-6-astra | 2026-09-03 | 52.8 | 76.9 | 51.5 |  | 10 | 50 | 1 | 12.5 | 56 | 320.98 | 320.98 | 329.91 | 5324.1 | 3.2575 |  |  |  |
+| LLM Leaderboard | 36f73aaf-d38a-4b56-a2b3-d04d17186910 | gpt-oss-20b (high) | gpt-oss-20b | 2025-08-05 | 9 | 20.7 | 1.4 |  | 0.06 | 0.19 |  |  | 213.77 | 0.81 | 10.16 | 12.5 | 29.41 | 0.0113 |  |  |  |
+| LLM Leaderboard | 392063ba-c3b5-47e8-ba67-a7b0b34f6824 | GPT-5.4 mini (medium) | gpt-5-4-mini-medium | 2026-03-17 | 19.7 |  |  |  | 0.75 | 4.5 | 0.07 |  | 175.23 | 2.86 | 2.86 | 5.71 |  |  |  |  |  |
+| LLM Leaderboard | 3b608b70-6434-4baa-99ad-45d499703c67 | GPT-4.1 | gpt-4-1 | 2025-04-14 | 12.7 |  |  |  | 2 | 8 | 0.5 |  | 151.06 | 0.98 | 0.98 | 4.29 |  |  |  |  |  |
+| LLM Leaderboard | 426d24c8-49ae-482a-b4a8-20f1c53f21c1 | GPT-5.6 Luna (max) | gpt-5-6-luna | 2026-07-09 | 37.5 | 71.4 | 42.7 |  | 0.2 | 1.2 | 0.02 | 0.25 | 119.03 | 127.42 | 127.42 | 131.62 | 319.93 | 0.1783 |  |  |  |
 | LLM Leaderboard | 4343afb1-c928-44c9-92e2-68fa1195b6f5 | GPT-4o mini Realtime (Dec '24) | gpt-4o-mini-realtime-dec-2024 | 2024-12-17 |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |
-| LLM Leaderboard | 48e50f00-1fd1-4acc-b337-61078aa341e6 | GPT-5 (high) | gpt-5 | 2025-08-07 | 23 | 37.8 |  |  | 1.25 | 10 | 0.13 |  | 75.68 | 67.81 | 67.81 | 74.41 |  |  |  |  |  |
-| LLM Leaderboard | 493f6a1e-7717-4e98-9d6f-548b92c4702d | GPT-5.4 (Non-reasoning) | gpt-5-4-non-reasoning | 2026-03-05 | 18.2 |  |  |  | 2.5 | 15 | 0.25 |  | 91.22 | 0.96 | 0.96 | 6.44 |  |  |  |  |  |
-| LLM Leaderboard | 498862c3-f9ac-49d2-852f-16a02bb0c38f | GPT-5.2 (xhigh) | gpt-5-2 | 2025-12-11 | 30.4 |  |  |  | 1.75 | 14 | 0.17 |  | 70.17 | 129.36 | 129.36 | 136.49 |  |  |  |  |  |
+| LLM Leaderboard | 48e50f00-1fd1-4acc-b337-61078aa341e6 | GPT-5 (high) | gpt-5 | 2025-08-07 | 23 | 37.8 |  |  | 1.25 | 10 | 0.13 |  | 90.91 | 57.81 | 57.81 | 63.31 |  |  |  |  |  |
+| LLM Leaderboard | 493f6a1e-7717-4e98-9d6f-548b92c4702d | GPT-5.4 (Non-reasoning) | gpt-5-4-non-reasoning | 2026-03-05 | 18.2 |  |  |  | 2.5 | 15 | 0.25 |  | 92.12 | 0.96 | 0.96 | 6.39 |  |  |  |  |  |
+| LLM Leaderboard | 498862c3-f9ac-49d2-852f-16a02bb0c38f | GPT-5.2 (xhigh) | gpt-5-2 | 2025-12-11 | 30.4 |  |  |  | 1.75 | 14 | 0.17 |  | 64.67 | 72.28 | 72.28 | 80.01 |  |  |  |  |  |
 | LLM Leaderboard | 4dc12a38-b18f-4c43-8e1b-678f8434b5b1 | GPT-5.1 (high) | gpt-5-1 | 2025-11-13 | 24.7 | 49.4 |  |  | 1.25 | 10 | 0.13 |  | 99.46 | 33.77 | 33.77 | 38.8 |  |  |  |  |  |
 | LLM Leaderboard | 538e945c-6c27-4fd3-995d-ded80a36cd10 | GPT-5.4 (low) | gpt-5-4-low | 2026-03-05 | 27.6 |  |  |  | 2.5 | 15 | 0.25 |  | 90.64 | 1.73 | 1.73 | 7.25 |  |  |  |  |  |
 | LLM Leaderboard | 575498d6-60ec-466b-9372-fea19911fd07 | GPT-4o (March 2025, chatgpt-4o-latest) | gpt-4o-chatgpt-03-25 | 2025-03-27 | 9 |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |
@@ -1429,42 +1428,43 @@ Model count: 112
 | LLM Leaderboard | 8b1a70d1-e05f-426b-9122-023d4629ab47 | GPT-3.5 Turbo (0613) | gpt-3-5-turbo-0613 | 2023-06-13 |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |
 | LLM Leaderboard | 8c1be908-67b6-4cf4-ba08-83ddbe44fde3 | GPT-4o (Aug '24) | gpt-4o-2024-08-06 | 2024-08-06 | 7.7 |  |  |  | 2.5 | 10 | 1.25 |  | 88.48 | 1.36 | 1.36 | 7.01 |  |  |  |  |  |
 | LLM Leaderboard | 8eb02396-f231-4189-ae15-05f7facebd9b | GPT-5 nano (medium) | gpt-5-nano-medium | 2025-08-07 | 12.5 |  |  |  | 0.05 | 0.4 | 0.01 |  | 130.94 | 38.8 | 38.8 | 42.62 |  |  |  |  |  |
-| LLM Leaderboard | 9b97a35e-6ac7-44d9-91c6-422fa678963e | GPT-5.6 Terra (Non-reasoning) | gpt-5-6-terra-non-reasoning | 2026-07-09 | 22.3 | 52.3 | 24.9 |  | 2 | 12 | 0.2 | 2.5 | 74.84 | 0.96 | 0.96 | 7.64 |  |  |  |  |  |
-| LLM Leaderboard | 9e30696f-16fa-4b4f-ba53-161895a85fed | GPT-5.6 Terra (xhigh) | gpt-5-6-terra-xhigh | 2026-07-09 | 38.2 | 70.6 | 42.2 |  | 2 | 12 | 0.2 | 2.5 | 76.14 | 30.94 | 30.94 | 37.5 | 1186.77 | 0.6318 |  |  |  |
-| LLM Leaderboard | 9f7c7566-a704-49a2-a383-cb3181da33a4 | GPT-4.1 mini | gpt-4-1-mini | 2025-04-14 | 10.2 | 20.2 |  |  | 0.4 | 1.6 | 0.1 |  | 107.07 | 0.9 | 0.9 | 5.57 |  |  |  |  |  |
-| LLM Leaderboard | a3f8100d-e38f-408b-b0fa-0085dae18dc1 | GPT-6 Astra (low) | gpt-6-astra-low | 2026-09-03 | 46 | 75.7 | 39.5 |  | 10 | 50 | 1 | 12.5 | 51.23 | 2.44 | 2.44 | 12.2 | 1536.78 | 0.8175 |  |  |  |
-| LLM Leaderboard | a89c4b28-2d8c-456e-88ea-255fb51fd2b6 | GPT-5.4 (xhigh) | gpt-5-4 | 2026-03-05 | 39 | 71.1 |  |  | 2.5 | 15 | 0.25 |  | 132.23 | 102.04 | 102.04 | 105.82 |  |  |  |  |  |
-| LLM Leaderboard | aa55297e-8fbf-4372-b4ab-9b068dc6396c | GPT-5.6 Luna (high) | gpt-5-6-luna-high | 2026-07-09 | 32.4 | 63.3 | 35.6 |  | 0.2 | 1.2 | 0.02 | 0.25 | 108.19 | 10.27 | 10.27 | 14.89 | 108.15 | 0.044 |  |  |  |
-| LLM Leaderboard | ae447455-940d-4d30-9139-a664fa896eaf | GPT-5.4 mini (Non-Reasoning) | gpt-5-4-mini-non-reasoning | 2026-03-17 | 11.1 |  |  |  | 0.75 | 4.5 | 0.07 |  | 139.1 | 0.74 | 0.74 | 4.33 |  |  |  |  |  |
-| LLM Leaderboard | b13c1257-d746-4027-8fc8-4892dc14701c | GPT-5.5 (high) | gpt-5-5-high | 2026-04-23 | 37.3 | 71.6 | 35.4 |  | 5 | 30 | 0.5 |  | 80.46 | 10.65 | 10.65 | 16.87 | 3410.76 | 1.5413 |  |  |  |
+| LLM Leaderboard | 9b97a35e-6ac7-44d9-91c6-422fa678963e | GPT-5.6 Terra (Non-reasoning) | gpt-5-6-terra-non-reasoning | 2026-07-09 | 22.3 | 52.3 | 24.9 |  | 2 | 12 | 0.2 | 2.5 | 85.24 | 0.93 | 0.93 | 6.8 |  |  |  |  |  |
+| LLM Leaderboard | 9e30696f-16fa-4b4f-ba53-161895a85fed | GPT-5.6 Terra (xhigh) | gpt-5-6-terra-xhigh | 2026-07-09 | 38.2 | 70.6 | 42.2 |  | 2 | 12 | 0.2 | 2.5 | 82.58 | 23.43 | 23.43 | 29.49 | 1186.77 | 0.6318 |  |  |  |
+| LLM Leaderboard | 9f7c7566-a704-49a2-a383-cb3181da33a4 | GPT-4.1 mini | gpt-4-1-mini | 2025-04-14 | 10.2 | 20.2 |  |  | 0.4 | 1.6 | 0.1 |  | 106.21 | 0.86 | 0.86 | 5.56 |  |  |  |  |  |
+| LLM Leaderboard | a3f8100d-e38f-408b-b0fa-0085dae18dc1 | GPT-6 Astra (low) | gpt-6-astra-low | 2026-09-03 | 46 | 75.7 | 39.5 |  | 10 | 50 | 1 | 12.5 | 52.11 | 2.1 | 2.1 | 11.69 | 1536.78 | 0.8175 |  |  |  |
+| LLM Leaderboard | a89c4b28-2d8c-456e-88ea-255fb51fd2b6 | GPT-5.4 (xhigh) | gpt-5-4 | 2026-03-05 | 39 | 71.1 |  |  | 2.5 | 15 | 0.25 |  | 131.5 | 90.01 | 90.01 | 93.81 |  |  |  |  |  |
+| LLM Leaderboard | aa55297e-8fbf-4372-b4ab-9b068dc6396c | GPT-5.6 Luna (high) | gpt-5-6-luna-high | 2026-07-09 | 32.4 | 63.3 | 35.6 |  | 0.2 | 1.2 | 0.02 | 0.25 | 101.18 | 7.38 | 7.38 | 12.32 | 108.15 | 0.044 |  |  |  |
+| LLM Leaderboard | ae447455-940d-4d30-9139-a664fa896eaf | GPT-5.4 mini (Non-Reasoning) | gpt-5-4-mini-non-reasoning | 2026-03-17 | 11.1 |  |  |  | 0.75 | 4.5 | 0.07 |  | 145.27 | 0.86 | 0.86 | 4.3 |  |  |  |  |  |
+| LLM Leaderboard | b13c1257-d746-4027-8fc8-4892dc14701c | GPT-5.5 (high) | gpt-5-5-high | 2026-04-23 | 37.3 | 71.6 | 35.4 |  | 5 | 30 | 0.5 |  | 80.46 | 10.37 | 10.37 | 16.58 | 3410.76 | 1.5413 |  |  |  |
 | LLM Leaderboard | b4784397-aa28-411b-b011-9c4331bfa9c8 | GPT-4o (ChatGPT) | gpt-4o-chatgpt | 2025-02-15 | 7.2 |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |
 | LLM Leaderboard | b515503d-4d65-4a3f-8a4a-6c731e2b079f | o1-mini | o1-mini | 2024-09-12 | 9.8 |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |
-| LLM Leaderboard | b5c1c91a-7474-4409-9a9c-9c2ac45d9eb6 | GPT-4o mini | gpt-4o-mini | 2024-07-18 | 6.7 | 11.4 |  |  | 0.15 | 0.6 | 0.07 |  | 149.59 | 0.99 | 0.99 | 4.33 |  |  |  |  |  |
-| LLM Leaderboard | ba242e40-83b7-4cd3-a0e0-b56237984914 | GPT-5.4 mini (xhigh) | gpt-5-4-mini | 2026-03-17 | 24.6 | 56.1 | 19.7 |  | 0.75 | 4.5 | 0.07 |  | 173.66 | 125.59 | 125.59 | 128.47 | 1437.8 | 0.4097 |  |  |  |
-| LLM Leaderboard | bc26bfdb-4923-4442-a6ca-e77392923581 | GPT-5 mini (minimal) | gpt-5-mini-minimal | 2025-08-07 | 9.9 |  |  |  | 0.25 | 2 | 0.03 |  | 97.75 | 1.03 | 1.03 | 6.15 |  |  |  |  |  |
-| LLM Leaderboard | bcf8db0a-3bb6-4d82-9516-0f57370c85a6 | GPT-5.6 Terra (max) | gpt-5-6-terra | 2026-07-09 | 42.3 | 76.7 | 43.7 |  | 2 | 12 | 0.2 | 2.5 | 87.05 | 190.9 | 190.9 | 196.64 | 2500.72 | 1.3987 |  |  |  |
-| LLM Leaderboard | c1045dc0-4fd3-4adb-9548-18763e0d051f | GPT-4o (Nov '24) | gpt-4o | 2024-11-20 | 8.4 |  |  |  | 2.5 | 10 | 1.5 |  | 123.83 | 1.02 | 1.02 | 5.05 |  |  |  |  |  |
-| LLM Leaderboard | c298d1a8-606c-4971-8613-ccdaaf941043 | GPT-5.4 nano (Non-Reasoning) | gpt-5-4-nano-non-reasoning | 2026-03-17 | 11.7 |  |  |  | 0.2 | 1.25 | 0.02 |  | 153.08 | 0.84 | 0.84 | 4.11 |  |  |  |  |  |
-| LLM Leaderboard | c3274a19-6d3c-4d01-ab9b-5055a0a40429 | GPT-5 mini (medium) | gpt-5-mini-medium | 2025-08-07 | 20.6 |  |  |  | 0.25 | 2 | 0.03 |  | 93.42 | 16.62 | 16.62 | 21.97 |  |  |  |  |  |
-| LLM Leaderboard | c3738fb0-3408-4430-a699-760ae4b70c93 | GPT-5 (minimal) | gpt-5-minimal | 2025-08-07 | 11.4 |  |  |  | 1.25 | 10 | 0.13 |  | 72.71 | 1.35 | 1.35 | 8.23 |  |  |  |  |  |
-| LLM Leaderboard | c4169d75-9d24-4794-a9c3-69e1fe364de5 | GPT-5.5 Instant (June 2026) | gpt-5-5-instant-06-26 | 2026-06-25 | 26.8 | 39.4 | 19.2 |  | 5 | 30 | 0.5 |  | 123.88 | 1.25 | 17.39 | 21.43 | 1184.34 | 0.6915 |  |  |  |
-| LLM Leaderboard | c77cfe51-f4a0-4692-9dee-5061ef667f23 | GPT-5.5 (low) | gpt-5-5-low | 2026-04-23 | 30.7 | 60.9 |  |  | 5 | 30 | 0.5 |  | 75.57 | 1.61 | 1.61 | 8.23 |  |  |  |  |  |
-| LLM Leaderboard | c99f3bde-7c08-4de8-bd5c-8ee9123ebffa | gpt-oss-120b (low) | gpt-oss-120b-low | 2025-08-05 | 10.2 | 21.2 |  |  | 0.15 | 0.54 | 0.15 |  | 203.4 | 0.85 | 10.68 | 13.14 |  |  |  |  |  |
+| LLM Leaderboard | b5c1c91a-7474-4409-9a9c-9c2ac45d9eb6 | GPT-4o mini | gpt-4o-mini | 2024-07-18 | 6.7 | 11.4 |  |  | 0.15 | 0.6 | 0.07 |  | 150.95 | 1 | 1 | 4.32 |  |  |  |  |  |
+| LLM Leaderboard | ba242e40-83b7-4cd3-a0e0-b56237984914 | GPT-5.4 mini (xhigh) | gpt-5-4-mini | 2026-03-17 | 24.6 | 56.1 | 19.7 |  | 0.75 | 4.5 | 0.07 |  | 186.25 | 127.04 | 127.04 | 129.73 | 1437.8 | 0.4097 |  |  |  |
+| LLM Leaderboard | bc26bfdb-4923-4442-a6ca-e77392923581 | GPT-5 mini (minimal) | gpt-5-mini-minimal | 2025-08-07 | 9.9 |  |  |  | 0.25 | 2 | 0.03 |  | 75.27 | 1.08 | 1.08 | 7.73 |  |  |  |  |  |
+| LLM Leaderboard | bcf8db0a-3bb6-4d82-9516-0f57370c85a6 | GPT-5.6 Terra (max) | gpt-5-6-terra | 2026-07-09 | 42.3 | 76.7 | 43.7 |  | 2 | 12 | 0.2 | 2.5 | 97.3 | 162.07 | 162.07 | 167.21 | 2500.72 | 1.3987 |  |  |  |
+| LLM Leaderboard | c1045dc0-4fd3-4adb-9548-18763e0d051f | GPT-4o (Nov '24) | gpt-4o | 2024-11-20 | 8.4 |  |  |  | 2.5 | 10 | 1.5 |  | 138.74 | 0.95 | 0.95 | 4.56 |  |  |  |  |  |
+| LLM Leaderboard | c298d1a8-606c-4971-8613-ccdaaf941043 | GPT-5.4 nano (Non-Reasoning) | gpt-5-4-nano-non-reasoning | 2026-03-17 | 11.7 |  |  |  | 0.2 | 1.25 | 0.02 |  | 164.41 | 0.84 | 0.84 | 3.88 |  |  |  |  |  |
+| LLM Leaderboard | c3274a19-6d3c-4d01-ab9b-5055a0a40429 | GPT-5 mini (medium) | gpt-5-mini-medium | 2025-08-07 | 20.6 |  |  |  | 0.25 | 2 | 0.03 |  | 86.09 | 15.61 | 15.61 | 21.42 |  |  |  |  |  |
+| LLM Leaderboard | c3738fb0-3408-4430-a699-760ae4b70c93 | GPT-5 (minimal) | gpt-5-minimal | 2025-08-07 | 11.4 |  |  |  | 1.25 | 10 | 0.13 |  | 76.79 | 1.28 | 1.28 | 7.79 |  |  |  |  |  |
+| LLM Leaderboard | c4169d75-9d24-4794-a9c3-69e1fe364de5 | GPT-5.5 Instant (June 2026) | gpt-5-5-instant-06-26 | 2026-06-25 | 26.8 | 39.4 | 19.2 |  | 5 | 30 | 0.5 |  | 130.84 | 1.2 | 16.49 | 20.31 | 1184.34 | 0.6915 |  |  |  |
+| LLM Leaderboard | c77cfe51-f4a0-4692-9dee-5061ef667f23 | GPT-5.5 (low) | gpt-5-5-low | 2026-04-23 | 30.7 | 60.9 |  |  | 5 | 30 | 0.5 |  | 82.33 | 1.7 | 1.7 | 7.78 |  |  |  |  |  |
+| LLM Leaderboard | c99f3bde-7c08-4de8-bd5c-8ee9123ebffa | gpt-oss-120b (low) | gpt-oss-120b-low | 2025-08-05 | 10.2 | 21.2 |  |  | 0.15 | 0.54 | 0.15 |  | 205.82 | 0.84 | 10.56 | 12.99 |  |  |  |  |  |
 | LLM Leaderboard | ca04852c-eaae-4881-a208-f9b2ca3b7cd6 | o3-pro | o3-pro | 2025-06-10 | 21.9 |  |  |  | 20 | 80 |  |  |  |  |  |  |  |  |  |  |  |
-| LLM Leaderboard | cc4a20cd-09fe-4962-a430-119c815e85fa | GPT-5.6 Terra (low) | gpt-5-6-terra-low | 2026-07-09 | 27.9 | 58.1 | 27.3 |  | 2 | 12 | 0.2 | 2.5 | 75.27 | 1.86 | 1.86 | 8.5 | 350.36 | 0.1445 |  |  |  |
-| LLM Leaderboard | d0b3d47e-aec6-425e-9de7-168dcc6d1e28 | GPT-5.1 (Non-reasoning) | gpt-5-1-non-reasoning | 2025-11-13 | 13.3 |  |  |  | 1.25 | 10 | 0.13 |  | 100.2 | 1.17 | 1.17 | 6.16 |  |  |  |  |  |
-| LLM Leaderboard | d4fc3f33-f2b0-4da1-88ee-f1f82bd4de31 | GPT-5.4 nano (xhigh) | gpt-5-4-nano | 2026-03-17 | 21.2 | 56.1 | 17.7 |  | 0.2 | 1.25 | 0.02 |  | 153.71 | 68.3 | 68.3 | 71.55 | 331.24 | 0.1831 |  |  |  |
-| LLM Leaderboard | d93edfe8-bf35-49ad-b56e-b18116142a1c | GPT-5.6 Sol (max) | gpt-5-6-sol | 2026-07-09 | 47.1 | 77.4 | 50.5 |  | 4 | 20 | 0.4 | 5 | 59.58 | 132.21 | 132.21 | 140.6 | 3464.84 | 1.9885 |  |  |  |
-| LLM Leaderboard | d998db47-9b67-4727-a2bb-2e1261020ac0 | GPT-5.6 Sol (xhigh) | gpt-5-6-sol-xhigh | 2026-07-09 | 44.1 | 78.3 | 47.8 |  | 4 | 20 | 0.4 | 5 | 61.12 | 47.33 | 47.33 | 55.51 | 2082.28 | 1.1844 |  |  |  |
-| LLM Leaderboard | dc64f856-3ded-497d-9527-d41d31267ed5 | GPT-5.6 Luna (Non-reasoning) | gpt-5-6-luna-non-reasoning | 2026-07-09 | 16.8 | 39.3 | 15.2 |  | 0.2 | 1.2 | 0.02 | 0.25 | 109.79 | 0.91 | 0.91 | 5.47 |  |  |  |  |  |
-| LLM Leaderboard | e05a4828-0536-4876-870d-a235023f992b | GPT-6 Astra (high) | gpt-6-astra-high | 2026-09-03 | 51 | 77.1 | 48.7 |  | 10 | 50 | 1 | 12.5 | 49.81 | 40.11 | 40.11 | 50.14 | 2916.61 | 1.7214 |  |  |  |
-| LLM Leaderboard | e18e5e6a-5a31-4c0b-b80b-ac401392f446 | GPT-5 nano (high) | gpt-5-nano | 2025-08-07 | 13 |  |  |  | 0.05 | 0.4 | 0.01 |  | 143.09 | 106.1 | 106.1 | 109.6 |  |  |  |  |  |
+| LLM Leaderboard | cc4a20cd-09fe-4962-a430-119c815e85fa | GPT-5.6 Terra (low) | gpt-5-6-terra-low | 2026-07-09 | 27.9 | 58.1 | 27.3 |  | 2 | 12 | 0.2 | 2.5 | 81.07 | 1.53 | 1.53 | 7.7 | 350.36 | 0.1445 |  |  |  |
+| LLM Leaderboard | d0b3d47e-aec6-425e-9de7-168dcc6d1e28 | GPT-5.1 (Non-reasoning) | gpt-5-1-non-reasoning | 2025-11-13 | 13.3 |  |  |  | 1.25 | 10 | 0.13 |  | 107.56 | 1.15 | 1.15 | 5.8 |  |  |  |  |  |
+| LLM Leaderboard | d4fc3f33-f2b0-4da1-88ee-f1f82bd4de31 | GPT-5.4 nano (xhigh) | gpt-5-4-nano | 2026-03-17 | 21.2 | 56.1 | 17.7 |  | 0.2 | 1.25 | 0.02 |  | 154.16 | 64.27 | 64.27 | 67.52 | 331.24 | 0.1831 |  |  |  |
+| LLM Leaderboard | d93edfe8-bf35-49ad-b56e-b18116142a1c | GPT-5.6 Sol (max) | gpt-5-6-sol | 2026-07-09 | 47.1 | 77.4 | 50.5 |  | 4 | 20 | 0.4 | 5 | 57.38 | 111.92 | 111.92 | 120.64 | 3464.84 | 1.9885 |  |  |  |
+| LLM Leaderboard | d998db47-9b67-4727-a2bb-2e1261020ac0 | GPT-5.6 Sol (xhigh) | gpt-5-6-sol-xhigh | 2026-07-09 | 44.1 | 78.3 | 47.8 |  | 4 | 20 | 0.4 | 5 | 61.12 | 41.1 | 41.1 | 49.28 | 2082.28 | 1.1844 |  |  |  |
+| LLM Leaderboard | dc64f856-3ded-497d-9527-d41d31267ed5 | GPT-5.6 Luna (Non-reasoning) | gpt-5-6-luna-non-reasoning | 2026-07-09 | 16.8 | 39.3 | 15.2 |  | 0.2 | 1.2 | 0.02 | 0.25 | 104.26 | 0.9 | 0.9 | 5.69 |  |  |  |  |  |
+| LLM Leaderboard | e05a4828-0536-4876-870d-a235023f992b | GPT-6 Astra (high) | gpt-6-astra-high | 2026-09-03 | 51 | 77.1 | 48.7 |  | 10 | 50 | 1 | 12.5 | 49.81 | 33.69 | 33.69 | 43.73 | 2916.61 | 1.7214 |  |  |  |
+| LLM Leaderboard | e18e5e6a-5a31-4c0b-b80b-ac401392f446 | GPT-5 nano (high) | gpt-5-nano | 2025-08-07 | 13 |  |  |  | 0.05 | 0.4 | 0.01 |  | 150.72 | 85.42 | 85.42 | 88.73 |  |  |  |  |  |
 | LLM Leaderboard | e2e9ddc3-8c2d-4bf5-a60a-83a1afe61034 | GPT-4o Realtime (Dec '24) | gpt-4o-realtime-dec-2024 | 2024-12-17 |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |
 | LLM Leaderboard | e3396f8f-7994-4df5-bdab-43745681ef0a | GPT-5.5 Pro (xhigh) | gpt-5-5-pro | 2026-04-23 |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |
 | LLM Leaderboard | e34ffffb-d8e1-4f5c-a2c7-3ca19c235eeb | GPT-5.5 Instant (May 2026) | gpt-5-5-instant-05-26 | 2026-05-05 | 22.7 |  |  |  | 5 | 30 | 0.5 |  |  |  |  |  |  |  |  |  |  |
 | LLM Leaderboard | e8d4100e-165b-4c5d-ac11-ac553590a334 | o1-pro | o1-pro | 2025-03-19 | 12.4 |  |  |  | 150 | 600 |  |  |  |  |  |  |  |  |  |  |  |
-| LLM Leaderboard | e97a4ef5-e817-480e-9595-12f81dc4974f | GPT-6 Astra (medium) | gpt-6-astra-medium | 2026-09-03 | 49.7 | 76.7 | 46.3 |  | 10 | 50 | 1 | 12.5 | 49.88 | 5.25 | 5.25 | 15.27 | 2434.12 | 1.5406 |  |  |  |
-| LLM Leaderboard | e98e911e-9fb2-4a9a-826e-3d681d0cdca8 | GPT-4o (May '24) | gpt-4o-2024-05-13 | 2024-05-13 | 7.3 | 24.2 |  |  | 5 | 15 |  |  | 85.36 | 1.25 | 1.25 | 7.11 |  |  |  |  |  |
+| LLM Leaderboard | e97a4ef5-e817-480e-9595-12f81dc4974f | GPT-6 Astra (medium) | gpt-6-astra-medium | 2026-09-03 | 49.7 | 76.7 | 46.3 |  | 10 | 50 | 1 | 12.5 | 49.98 | 4.4 | 4.4 | 14.4 | 2434.12 | 1.5406 |  |  |  |
+| LLM Leaderboard | e98e911e-9fb2-4a9a-826e-3d681d0cdca8 | GPT-4o (May '24) | gpt-4o-2024-05-13 | 2024-05-13 | 7.3 | 24.2 |  |  | 5 | 15 |  |  | 100.41 | 1.04 | 1.04 | 6.02 |  |  |  |  |  |
+| LLM Leaderboard | eab1492c-b853-4852-aa71-06b0ec2481c1 | GPT-5 (ChatGPT) | gpt-5-chatgpt | 2025-08-07 | 10.4 |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |
 | LLM Leaderboard | eab1492c-b853-4852-aa71-06b0ec2481c1 | GPT-5 (ChatGPT) | gpt-5-chatgpt | 2025-08-07 | 10.4 |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |
 | LLM Leaderboard | f0083258-8646-45b8-8082-7aaf6c2ea82a | gpt-oss-120b (high) | gpt-oss-120b | 2025-08-05 | 12.3 | 30.4 | 6.2 |  | 0.15 | 0.59 | 0.13 |  | 187.11 | 0.82 | 11.51 | 14.18 | 122.29 | 0.1074 |  |  |  |
 | LLM Leaderboard | fd4454ff-e703-46c0-a7f5-fa69af09486d | GPT-5.1 Codex mini (high) | gpt-5-1-codex-mini | 2025-11-13 | 20.4 |  |  |  | 0.25 | 2 |  |  |  |  |  |  |  |  |  |  |  |
@@ -1661,7 +1661,7 @@ Model count: 7
 | Text-to-Image Arena | 73b72208-7757-43a6-bc0b-1e3bbcee51e0 | Runway Gen-4 Image | runway-gen-4-image | 796 | 9 | -9/+9 |
 | Text-to-Video Arena | 440843ac-4961-4eef-a504-158724c11fee | Runway Gen-4.5 | runway-gen-4-5 | 1213 | 7 | -7/+7 |
 | Text-to-Video Arena | 43b09fe3-a4a8-4bda-9244-da05949c9d65 | Runway Gen 3 Alpha | runway-gen-3-alpha | 986 | 8 | -8/+8 |
-| Image-to-Video Arena | 440843ac-4961-4eef-a504-158724c11fee | Runway Gen-4.5 | runway-gen-4-5 | 1267 | 9 | -9/+9 |
+| Image-to-Video Arena | 440843ac-4961-4eef-a504-158724c11fee | Runway Gen-4.5 | runway-gen-4-5 | 1268 | 9 | -9/+9 |
 | Image-to-Video Arena | d4684d1c-c874-4f2f-8e6a-1d2a21902663 | Runway Gen 4 | runway-gen-4 | 1082 | 10 | -10/+10 |
 | Image-to-Video Arena | 43b09fe3-a4a8-4bda-9244-da05949c9d65 | Runway Gen 3 Alpha | runway-gen-3-alpha | 998 | 11 | -11/+11 |
 | Image-to-Video Arena | 6018f5d3-4cdf-49b2-aca9-8296f9c71111 | Runway Gen 3 Alpha Turbo | runway-gen-3-alpha-turbo | 995 | 11 | -11/+11 |
@@ -1713,7 +1713,7 @@ Model count: 2
 | endpoint | id | name | slug | elo | ci_95 | ci95_range |
 | --- | --- | --- | --- | --- | --- | --- |
 | Text-to-Video Arena | 50ed6856-5052-431d-8994-584b2e02f023 | SkyReels V4 | skyreels-v4 | 1210 | 9 | -9/+9 |
-| Image-to-Video Arena | 50ed6856-5052-431d-8994-584b2e02f023 | SkyReels V4 | skyreels-v4 | 1287 | 10 | -10/+10 |
+| Image-to-Video Arena | 50ed6856-5052-431d-8994-584b2e02f023 | SkyReels V4 | skyreels-v4 | 1286 | 10 | -10/+10 |
 
 ## Smallest.ai
 
@@ -1747,10 +1747,10 @@ Model count: 34
 | endpoint | id | name | slug | release_date | evaluations.artificial_analysis_intelligence_index | evaluations.artificial_analysis_coding_index | evaluations.artificial_analysis_agentic_index | intelligence_index_cost | pricing.price_1m_input_tokens | pricing.price_1m_output_tokens | pricing.price_1m_cache_hit_tokens | pricing.price_1m_cache_write_tokens | performance.median_output_tokens_per_second | performance.median_time_to_first_token_seconds | performance.median_time_to_first_answer_token_seconds | performance.median_end_to_end_response_time_seconds | intelligence_index_cost.total_cost | intelligence_index_cost.cost_per_task.total_cost | elo | ci_95 | ci95_range |
 | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- |
 | LLM Leaderboard | 04787c2b-0751-4269-8029-075b727d7aed | Grok 4.20 0309 (Reasoning) | grok-4-20-0309 | 2026-03-10 | 25.2 |  |  |  | 2 | 6 | 0.2 |  |  |  |  |  |  |  |  |  |  |
-| LLM Leaderboard | 0b7efa66-2115-49e0-a1b7-a2ba225fe9f6 | Grok Build 0.1 0616 | grok-build-0-1-06-16 | 2026-06-16 | 27.2 | 51.5 |  |  | 1 | 2 | 0.2 |  | 65.25 | 0.54 | 31.19 | 38.85 |  |  |  |  |  |
+| LLM Leaderboard | 0b7efa66-2115-49e0-a1b7-a2ba225fe9f6 | Grok Build 0.1 0616 | grok-build-0-1-06-16 | 2026-06-16 | 27.2 | 51.5 |  |  | 1 | 2 | 0.2 |  | 68.12 | 0.54 | 29.9 | 37.24 |  |  |  |  |  |
 | LLM Leaderboard | 23149f9b-c904-43e2-9ec4-afa2bf843941 | Grok 4.1 Fast (Reasoning) | grok-4-1-fast-reasoning | 2025-11-19 | 20.4 |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |
 | LLM Leaderboard | 2443ac9e-a3db-423d-accb-8963f6fb0a53 | Grok 3 | grok-3 | 2025-02-19 | 12.1 |  |  |  | 4 | 20 | 1.54 |  |  |  |  |  |  |  |  |  |  |
-| LLM Leaderboard | 26614164-6840-4e17-a65a-2deb2fe7e87b | Grok 4.6 (medium) | grok-4-6-medium | 2026-08-12 | 43 | 74.4 | 51.2 |  | 2 | 6 | 0.5 |  | 52.18 | 26.15 | 26.15 | 35.74 | 1936.75 | 1.4963 |  |  |  |
+| LLM Leaderboard | 26614164-6840-4e17-a65a-2deb2fe7e87b | Grok 4.6 (medium) | grok-4-6-medium | 2026-08-12 | 43 | 74.4 | 51.2 |  | 2 | 6 | 0.5 |  | 49.99 | 23.29 | 23.29 | 33.3 | 1936.75 | 1.4963 |  |  |  |
 | LLM Leaderboard | 291a510a-dcc0-40df-8a80-b3aa31900a6c | Grok 2 (Dec '24) | grok-2-1212 | 2024-12-12 | 7.1 |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |
 | LLM Leaderboard | 2dbb6dc7-8c40-4b6d-af9c-cf805f83b79a | Grok 4 Fast (Non-reasoning) | grok-4-fast | 2025-09-19 | 11.1 |  |  |  | 0.2 | 0.5 |  |  |  |  |  |  |  |  |  |  |  |
 | LLM Leaderboard | 49fd01f9-887d-4479-b8ce-771a81ecef4e | Grok 4.1 Fast (Non-reasoning) | grok-4-1-fast | 2025-11-19 | 11.3 |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |
@@ -1765,10 +1765,10 @@ Model count: 34
 | LLM Leaderboard | 948892b5-db03-4118-a4a8-ccd51ed871ea | Grok 4.3 (high) | grok-4-3 | 2026-04-30 | 25.4 | 42.2 | 17.2 |  | 1.25 | 2.5 | 0.2 | 1.25 | 119.35 | 21.05 | 21.05 | 25.24 | 332 | 0.1653 |  |  |  |
 | LLM Leaderboard | a04f5b78-f397-4fd8-a2b1-00dcab50324c | Grok Beta | grok-beta | 2024-08-13 | 6.9 |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |
 | LLM Leaderboard | a06bd3fc-86db-4a8e-ae6d-7459444d08c9 | Grok Code Fast 1 | grok-code-fast-1 | 2025-08-28 | 14.1 |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |
-| LLM Leaderboard | c07e65e6-32fc-451e-938d-7477a1c3ffcc | Grok 4.6 (low) | grok-4-6-low | 2026-08-12 | 35.4 | 66.3 | 42.2 |  | 2 | 6 | 0.5 |  | 49.15 | 6.89 | 6.89 | 17.06 | 760.75 | 0.4753 |  |  |  |
-| LLM Leaderboard | c72cb85a-18a4-4235-b455-77dff2f16c50 | Grok 4.20 0309 v2 (Reasoning) | grok-4-20 | 2026-04-07 | 25.7 |  |  |  | 1.25 | 2.5 | 0.2 |  | 101.08 | 19.38 | 19.38 | 24.32 |  |  |  |  |  |
-| LLM Leaderboard | c8adc5cf-fd5a-407b-af51-dc3bede3e49c | Grok 4.6 (high) | grok-4-6 | 2026-08-12 | 44.4 | 76.8 | 53.4 |  | 2 | 6 | 0.5 |  | 55.41 | 31.28 | 31.28 | 40.3 | 2351.83 | 1.8589 |  |  |  |
-| LLM Leaderboard | d6f43d0a-e8c4-447c-9ff7-5cf0a9d59aa3 | Grok 4.6 (xhigh) | grok-4-6-xhigh | 2026-08-12 | 44.3 | 75.9 | 52.7 |  | 2 | 6 | 0.5 |  | 52.58 | 47.26 | 47.26 | 56.77 | 2830.07 | 2.3237 |  |  |  |
+| LLM Leaderboard | c07e65e6-32fc-451e-938d-7477a1c3ffcc | Grok 4.6 (low) | grok-4-6-low | 2026-08-12 | 35.4 | 66.3 | 42.2 |  | 2 | 6 | 0.5 |  | 48.56 | 5.18 | 5.18 | 15.47 | 760.75 | 0.4753 |  |  |  |
+| LLM Leaderboard | c72cb85a-18a4-4235-b455-77dff2f16c50 | Grok 4.20 0309 v2 (Reasoning) | grok-4-20 | 2026-04-07 | 25.7 |  |  |  | 1.25 | 2.5 | 0.2 |  | 100.54 | 15.98 | 15.98 | 20.96 |  |  |  |  |  |
+| LLM Leaderboard | c8adc5cf-fd5a-407b-af51-dc3bede3e49c | Grok 4.6 (high) | grok-4-6 | 2026-08-12 | 44.4 | 76.8 | 53.4 |  | 2 | 6 | 0.5 |  | 53.59 | 28.4 | 28.4 | 37.73 | 2351.83 | 1.8589 |  |  |  |
+| LLM Leaderboard | d6f43d0a-e8c4-447c-9ff7-5cf0a9d59aa3 | Grok 4.6 (xhigh) | grok-4-6-xhigh | 2026-08-12 | 44.3 | 75.9 | 52.7 |  | 2 | 6 | 0.5 |  | 54.05 | 37.75 | 37.75 | 47 | 2830.07 | 2.3237 |  |  |  |
 | LLM Leaderboard | ec3b22e6-48ac-416a-b4ae-55565a4f3046 | Grok 3 Reasoning Beta | grok-3-reasoning | 2025-02-19 | 10.4 |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |
 | LLM Leaderboard | fe2c2289-d261-4433-8681-46448372c1f6 | Grok 4.3 (low) | grok-4-3-low | 2026-04-30 | 24.3 |  |  |  | 1.25 | 2.5 | 0.2 | 1.25 | 106.03 | 5.06 | 5.06 | 9.78 |  |  |  |  |  |
 | LLM Leaderboard | ff9bc5e5-a02f-4270-983e-4b3f834f3363 | Grok 3 mini Reasoning (high) | grok-3-mini-reasoning | 2025-02-19 | 14.6 |  |  |  | 0.3 | 0.5 | 0.07 |  | 61.45 | 0.68 | 33.23 | 41.36 |  |  |  |  |  |
@@ -1813,10 +1813,10 @@ Model count: 13
 
 | endpoint | id | name | slug | release_date | evaluations.artificial_analysis_intelligence_index | evaluations.artificial_analysis_coding_index | evaluations.artificial_analysis_agentic_index | intelligence_index_cost | pricing.price_1m_input_tokens | pricing.price_1m_output_tokens | pricing.price_1m_cache_hit_tokens | pricing.price_1m_cache_write_tokens | performance.median_output_tokens_per_second | performance.median_time_to_first_token_seconds | performance.median_time_to_first_answer_token_seconds | performance.median_end_to_end_response_time_seconds | elo | ci_95 | ci95_range |
 | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- |
-| LLM Leaderboard | 1aa3694e-b656-4dbe-8f84-0c65d8897abb | Step 3.5 Flash 2603 | step-3-5-flash | 2026-04-02 | 17 |  |  |  | 0.1 | 0.3 | 0.02 |  | 210.74 | 1.57 | 11.06 | 13.44 |  |  |  |
+| LLM Leaderboard | 1aa3694e-b656-4dbe-8f84-0c65d8897abb | Step 3.5 Flash 2603 | step-3-5-flash | 2026-04-02 | 17 |  |  |  | 0.1 | 0.3 | 0.02 |  | 183.21 | 3.33 | 14.25 | 16.98 |  |  |  |
 | LLM Leaderboard | 6c7b322e-2f35-48ff-9171-fb621a726fc0 | Step 3.7 Flash | step-3-7-flash | 2026-05-29 | 19.5 | 39.6 |  |  | 0.2 | 1.15 | 0.04 |  | 96.03 | 2.74 | 23.57 | 28.78 |  |  |  |
 | LLM Leaderboard | acad0665-9457-4531-abd5-b59efd7a89ea | Step3 VL 10B | step-3-vl-10b | 2026-01-20 | 7.7 |  |  |  |  |  |  |  |  |  |  |  |  |  |  |
-| LLM Leaderboard | c8158c23-6fff-4c31-911d-954c32d80c28 | Step 3.5 Flash | step-3-5-flash-0202 | 2026-02-02 | 16.6 |  |  |  | 0.1 | 0.3 |  |  | 208.74 | 2.58 | 12.16 | 14.56 |  |  |  |
+| LLM Leaderboard | c8158c23-6fff-4c31-911d-954c32d80c28 | Step 3.5 Flash | step-3-5-flash-0202 | 2026-02-02 | 16.6 |  |  |  | 0.1 | 0.3 |  |  | 192.06 | 3.26 | 13.68 | 16.28 |  |  |  |
 | Text-to-Image Arena | 74606b04-5682-4ff2-85ce-56999ef61acb | Step Image Edit 2 | step-image-edit-2 |  |  |  |  |  |  |  |  |  |  |  |  |  | 810 | 10 | -10/+10 |
 | Image Editing Arena | 74606b04-5682-4ff2-85ce-56999ef61acb | Step Image Edit 2 | step-image-edit-2 |  |  |  |  |  |  |  |  |  |  |  |  |  | 1008 | 10 | -10/+10 |
 | Image Editing Arena | 46e89634-7fee-4a7e-93b0-7f98672658ab | Step1X-Edit-v1p2 | step1x-edit-v1p2 |  |  |  |  |  |  |  |  |  |  |  |  |  | 922 | 9 | -9/+9 |
@@ -1851,7 +1851,7 @@ Model count: 12
 | endpoint | id | name | slug | release_date | evaluations.artificial_analysis_intelligence_index | evaluations.artificial_analysis_coding_index | evaluations.artificial_analysis_agentic_index | intelligence_index_cost | pricing.price_1m_input_tokens | pricing.price_1m_output_tokens | pricing.price_1m_cache_hit_tokens | pricing.price_1m_cache_write_tokens | performance.median_output_tokens_per_second | performance.median_time_to_first_token_seconds | performance.median_time_to_first_answer_token_seconds | performance.median_end_to_end_response_time_seconds | intelligence_index_cost.total_cost | intelligence_index_cost.cost_per_task.total_cost | elo | ci_95 | ci95_range |
 | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- |
 | LLM Leaderboard | 8ca48626-ff5e-48b3-8401-38081376d706 | Hy3-preview (Reasoning) | hy3-preview | 2026-04-23 | 22.7 |  |  |  | 0.06 | 0.21 | 0.02 |  |  |  |  |  |  |  |  |  |  |
-| LLM Leaderboard | b23e6c69-96e5-44c9-8f58-4b42e0c399d5 | Hy3 | hy3 | 2026-07-06 | 25.8 | 58.8 | 25.6 |  | 0.14 | 0.55 | 0.03 |  | 82.33 | 2.73 | 27.03 | 33.1 | 149.44 | 0.0718 |  |  |  |
+| LLM Leaderboard | b23e6c69-96e5-44c9-8f58-4b42e0c399d5 | Hy3 | hy3 | 2026-07-06 | 25.8 | 58.8 | 25.6 |  | 0.14 | 0.55 | 0.03 |  | 84.78 | 2.64 | 26.23 | 32.13 | 149.44 | 0.0718 |  |  |  |
 | LLM Leaderboard | b58b8272-cd3f-44b9-9b68-612f40779ce2 | Hy3-preview (Non-reasoning) | hy3-non-reasoning | 2026-04-23 | 17 |  |  |  | 0.06 | 0.21 | 0.02 |  |  |  |  |  |  |  |  |  |  |
 | Text-to-Image Arena | ba07faac-d296-472d-8249-9a0b6f78184a | HunyuanImage 3.0 Instruct (Fal) | tencent_hunyuanimage-3-0-instruct--fal |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  | 964 | 9 | -9/+9 |
 | Text-to-Image Arena | b88087be-28be-4cef-9981-2d4470b3c42a | HunyuanImage 3.0 (Fal) | tencent_hunyuanimage-3-0-fal |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  | 941 | 9 | -9/+9 |
@@ -1869,7 +1869,7 @@ Model count: 2
 
 | endpoint | id | name | slug | release_date | evaluations.artificial_analysis_intelligence_index | evaluations.artificial_analysis_coding_index | evaluations.artificial_analysis_agentic_index | intelligence_index_cost.total_cost | intelligence_index_cost.cost_per_task.total_cost | pricing.price_1m_input_tokens | pricing.price_1m_output_tokens | pricing.price_1m_cache_hit_tokens | pricing.price_1m_cache_write_tokens | performance.median_output_tokens_per_second | performance.median_time_to_first_token_seconds | performance.median_time_to_first_answer_token_seconds | performance.median_end_to_end_response_time_seconds |
 | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- |
-| LLM Leaderboard | 0de09623-2b1a-4c8d-86ef-7f5245d4e24b | Inkling (xhigh) | inkling | 2026-07-15 | 25.5 | 52.1 | 24.3 | 1026.14 | 0.607 | 1 | 4.05 | 0.17 |  | 76.18 | 2.69 | 28.94 | 35.51 |
+| LLM Leaderboard | 0de09623-2b1a-4c8d-86ef-7f5245d4e24b | Inkling (xhigh) | inkling | 2026-07-15 | 25.5 | 52.1 | 24.3 | 1026.14 | 0.607 | 1 | 4.05 | 0.17 |  | 76.18 | 2.78 | 29.03 | 35.59 |
 | LLM Leaderboard | 7261504e-503c-4a66-a9d3-a3272cdf9ad6 | Inkling Small | inkling-small | 2026-07-30 | 26.1 | 52.9 | 25 | 240.85 | 0.0895 | 0.3 | 1.2 | 0.06 |  | 150.81 | 2.33 | 15.59 | 18.9 |
 
 ## TII UAE
@@ -1895,13 +1895,13 @@ Model count: 9
 
 | endpoint | id | name | slug | release_date | evaluations.artificial_analysis_intelligence_index | evaluations.artificial_analysis_coding_index | evaluations.artificial_analysis_agentic_index | intelligence_index_cost | pricing.price_1m_input_tokens | pricing.price_1m_output_tokens | pricing.price_1m_cache_hit_tokens | pricing.price_1m_cache_write_tokens | performance.median_output_tokens_per_second | performance.median_time_to_first_token_seconds | performance.median_time_to_first_answer_token_seconds | performance.median_end_to_end_response_time_seconds | intelligence_index_cost.total_cost | intelligence_index_cost.cost_per_task.total_cost |
 | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- |
-| LLM Leaderboard | 1b64aa81-c223-4b8f-909b-82185a234765 | Solar Pro 4 | solar-pro4 | 2026-08-06 | 28.2 | 52.7 |  |  | 0.3 | 1.2 | 0.06 |  | 68.09 | 2.05 | 31.43 | 38.77 |  |  |
+| LLM Leaderboard | 1b64aa81-c223-4b8f-909b-82185a234765 | Solar Pro 4 | solar-pro4 | 2026-08-06 | 28.2 | 52.7 |  |  | 0.3 | 1.2 | 0.06 |  | 60.87 | 2.16 | 35.01 | 43.23 |  |  |
 | LLM Leaderboard | 432d6c36-8825-47f3-b4eb-58529cea346b | Solar Pro 2 (Preview) (Non-reasoning) | solar-pro-2-preview | 2025-05-20 | 7.9 |  |  |  |  |  |  |  |  |  |  |  |  |  |
 | LLM Leaderboard | 44db6283-aa82-4799-af4a-679fe0530845 | Solar Pro 2 (Non-reasoning) | solar-pro-2 | 2025-07-09 | 7 |  |  |  |  |  |  |  |  |  |  |  |  |  |
 | LLM Leaderboard | 59a1bb20-9170-4dc2-ba9c-12d326cf068e | Solar Open 100B (Reasoning) | solar-open-100b-reasoning | 2025-12-17 | 10.4 |  |  |  |  |  |  |  |  |  |  |  |  |  |
 | LLM Leaderboard | 7eabd8ca-bf43-4d56-b3df-efd1c4eebfb0 | Solar Open2 250B | solar-open2-250b | 2026-08-12 | 24.7 | 45 |  |  |  |  |  |  |  |  |  |  |  |  |
 | LLM Leaderboard | 8e78cf7a-5b76-4beb-beba-b99c6233b208 | Solar Pro 2 (Preview) (Reasoning) | solar-pro-2-preview-reasoning | 2025-05-20 | 9.1 |  |  |  |  |  |  |  |  |  |  |  |  |  |
-| LLM Leaderboard | b89c4faf-219e-4171-a1aa-e3bd2fd0a924 | Solar Pro 3 | solar-pro-3 | 2026-04-06 | 7.8 | 16.2 | 1.4 |  | 0.15 | 0.6 | 0.01 |  | 150.44 | 2.37 | 15.67 | 18.99 | 159.22 | 0.0794 |
+| LLM Leaderboard | b89c4faf-219e-4171-a1aa-e3bd2fd0a924 | Solar Pro 3 | solar-pro-3 | 2026-04-06 | 7.8 | 16.2 | 1.4 |  | 0.15 | 0.6 | 0.01 |  | 153.02 | 2.37 | 15.44 | 18.71 | 159.22 | 0.0794 |
 | LLM Leaderboard | d97713f2-afa6-4f8d-b2f3-ac89a24c4d6c | Solar Mini | solar-mini | 2024-01-25 | 6.4 |  |  |  | 0.15 | 0.15 |  |  |  |  |  |  |  |  |
 | LLM Leaderboard | eb689f7a-f210-4a87-b407-f249897f2764 | Solar Pro 2 (Reasoning) | solar-pro-2-reasoning | 2025-07-09 | 7.5 |  |  |  |  |  |  |  |  |  |  |  |  |  |
 
@@ -1935,10 +1935,10 @@ Model count: 11
 | Text-to-Video Arena | 043f0cb2-3565-45ad-bf78-7e2de8288e94 | Vidu Q3 Turbo | vidu-q3-turbo | 1103 | 10 | -10/+10 |
 | Text-to-Video Arena | 21bce815-dea9-4e48-8515-cf2b193ae711 | Vidu Q1 | vidu-q1 | 1007 | 10 | -10/+10 |
 | Image-to-Video Arena | d7c0367f-1adf-40ec-8195-5c5d1906efa8 | Vidu Q3 Pro | vidu-q3-pro | 1283 | 8 | -8/+8 |
-| Image-to-Video Arena | 043f0cb2-3565-45ad-bf78-7e2de8288e94 | Vidu Q3 Turbo | vidu-q3-turbo | 1228 | 11 | -11/+11 |
 | Image-to-Video Arena | dd3e028f-856f-4915-9759-eff55e2f5f9e | Vidu Q2 Turbo | vidu-q2-turbo | 1228 | 9 | -9/+9 |
-| Image-to-Video Arena | 57a29e57-e118-4ae7-abb1-aa6e5935634a | Vidu Q2 Pro | vidu-q2-pro | 1226 | 9 | -9/+9 |
-| Image-to-Video Arena | 21bce815-dea9-4e48-8515-cf2b193ae711 | Vidu Q1 | vidu-q1 | 1026 | 12 | -12/+12 |
+| Image-to-Video Arena | 043f0cb2-3565-45ad-bf78-7e2de8288e94 | Vidu Q3 Turbo | vidu-q3-turbo | 1228 | 11 | -11/+11 |
+| Image-to-Video Arena | 57a29e57-e118-4ae7-abb1-aa6e5935634a | Vidu Q2 Pro | vidu-q2-pro | 1227 | 9 | -9/+9 |
+| Image-to-Video Arena | 21bce815-dea9-4e48-8515-cf2b193ae711 | Vidu Q1 | vidu-q1 | 1027 | 12 | -12/+12 |
 
 ## VUI Labs
 
@@ -1954,11 +1954,11 @@ Model count: 11
 
 | endpoint | id | name | slug | release_date | evaluations.artificial_analysis_intelligence_index | evaluations.artificial_analysis_coding_index | evaluations.artificial_analysis_agentic_index | intelligence_index_cost.total_cost | intelligence_index_cost.cost_per_task.total_cost | pricing.price_1m_input_tokens | pricing.price_1m_output_tokens | pricing.price_1m_cache_hit_tokens | pricing.price_1m_cache_write_tokens | performance.median_output_tokens_per_second | performance.median_time_to_first_token_seconds | performance.median_time_to_first_answer_token_seconds | performance.median_end_to_end_response_time_seconds | intelligence_index_cost | elo | ci_95 | ci95_range |
 | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- |
-| LLM Leaderboard | 00f1248e-78e3-4230-8dc8-5e13ba8645e2 | MiMo-V2.5-Pro | mimo-v2-5-pro | 2026-04-22 | 26.4 | 60.2 | 22.7 | 138.26 | 0.0541 | 0.43 | 0.87 | 0 |  | 42.43 | 6.45 | 53.58 | 65.37 |  |  |  |  |
+| LLM Leaderboard | 00f1248e-78e3-4230-8dc8-5e13ba8645e2 | MiMo-V2.5-Pro | mimo-v2-5-pro | 2026-04-22 | 26.4 | 60.2 | 22.7 | 138.26 | 0.0541 | 0.43 | 0.87 | 0 |  | 44.8 | 7.16 | 51.81 | 62.97 |  |  |  |  |
 | LLM Leaderboard | 1479f50b-d37f-4b55-bb8b-4212a15042eb | MiMo-V2-Flash (Feb 2026) | mimo-v2-0206 | 2025-12-16 | 22.4 |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |
-| LLM Leaderboard | 22d09131-343b-4adf-8760-533e20a2155f | MiMo-V2.5 | mimo-v2-5-0424 | 2026-04-22 | 22.3 | 56.8 | 17.4 | 42.61 | 0.0191 | 0.14 | 0.28 | 0 |  | 52.5 | 7.3 | 45.4 | 54.93 |  |  |  |  |
+| LLM Leaderboard | 22d09131-343b-4adf-8760-533e20a2155f | MiMo-V2.5 | mimo-v2-5-0424 | 2026-04-22 | 22.3 | 56.8 | 17.4 | 42.61 | 0.0191 | 0.14 | 0.28 | 0 |  | 45.23 | 6.91 | 51.13 | 62.19 |  |  |  |  |
 | LLM Leaderboard | 296ace9b-0815-43b2-bafa-fd6cec5cce36 | MiMo-V2-Omni-0327 | mimo-v2-omni-0327 | 2026-03-27 | 25.1 |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |
-| LLM Leaderboard | 4764d31d-f4af-4297-8bd1-e993f26bcb64 | MiMo-V2.5-Pro (Non-reasoning) | mimo-v2-5-pro-non-reasoning | 2026-04-22 | 18.3 |  |  |  |  | 0.43 | 0.87 | 0 |  | 36.43 | 6.59 | 6.59 | 20.32 |  |  |  |  |
+| LLM Leaderboard | 4764d31d-f4af-4297-8bd1-e993f26bcb64 | MiMo-V2.5-Pro (Non-reasoning) | mimo-v2-5-pro-non-reasoning | 2026-04-22 | 18.3 |  |  |  |  | 0.43 | 0.87 | 0 |  | 36.43 | 7 | 7 | 20.72 |  |  |  |  |
 | LLM Leaderboard | 5d8183dc-24f4-46c5-a1d0-d937de149364 | MiMo-V2-Pro | mimo-v2-pro | 2026-03-18 | 28.6 |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |
 | LLM Leaderboard | 82b36b4d-84dd-4bc0-ad32-e3aee9442789 | MiMo-V2-Flash (Non-reasoning) | mimo-v2-flash | 2025-12-16 | 16 | 49.8 |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |
 | LLM Leaderboard | 94d09368-9035-47cf-963a-b4310b433a16 | MiMo-V2-Omni | mimo-v2-omni | 2026-03-19 | 23.9 |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |
@@ -1972,15 +1972,15 @@ Model count: 25
 
 | endpoint | id | name | slug | release_date | evaluations.artificial_analysis_intelligence_index | evaluations.artificial_analysis_coding_index | evaluations.artificial_analysis_agentic_index | intelligence_index_cost | pricing.price_1m_input_tokens | pricing.price_1m_output_tokens | pricing.price_1m_cache_hit_tokens | pricing.price_1m_cache_write_tokens | performance.median_output_tokens_per_second | performance.median_time_to_first_token_seconds | performance.median_time_to_first_answer_token_seconds | performance.median_end_to_end_response_time_seconds | intelligence_index_cost.total_cost | intelligence_index_cost.cost_per_task.total_cost | elo | ci_95 | ci95_range |
 | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- |
-| LLM Leaderboard | 0081ab31-d10a-44a0-a10d-eee5533fec65 | GLM-4.5V (Non-reasoning) | glm-4-5v | 2025-08-11 | 6.7 |  |  |  | 0.6 | 1.8 |  |  | 32.89 | 2.91 | 2.91 | 18.12 |  |  |  |  |  |
+| LLM Leaderboard | 0081ab31-d10a-44a0-a10d-eee5533fec65 | GLM-4.5V (Non-reasoning) | glm-4-5v | 2025-08-11 | 6.7 |  |  |  | 0.6 | 1.8 |  |  | 34.02 | 2.89 | 2.89 | 17.59 |  |  |  |  |  |
 | LLM Leaderboard | 149096f3-57b7-4413-80c2-a2c010a2995a | GLM-5-Turbo | glm-5-turbo | 2026-03-15 | 26.6 |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |
-| LLM Leaderboard | 19496b81-9f41-4214-a77a-1df803b3c5ae | GLM-5.3-Flash | glm-5-3-flash | 2026-08-26 | 41.9 | 71.5 | 51.2 |  | 0.15 | 0.5 | 0.03 |  | 94.93 | 2.49 | 23.56 | 28.83 | 280.28 | 0.2533 |  |  |  |
+| LLM Leaderboard | 19496b81-9f41-4214-a77a-1df803b3c5ae | GLM-5.3-Flash | glm-5-3-flash | 2026-08-26 | 41.9 | 71.5 | 51.2 |  | 0.15 | 0.5 | 0.03 |  | 103.49 | 2.4 | 21.72 | 26.55 | 280.28 | 0.2533 |  |  |  |
 | LLM Leaderboard | 1cf439b8-0cfd-47b2-9de2-9a2157e6762b | GLM-4.5 (Reasoning) | glm-4.5 | 2025-07-28 | 12.8 |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |
 | LLM Leaderboard | 248deb0d-426c-4fa9-86fa-bc60aa9c3719 | GLM 5V Turbo (Reasoning) | glm-5v-turbo | 2026-04-01 | 23.5 |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |
-| LLM Leaderboard | 2c4394a2-b443-470a-908e-5c4a271b780c | GLM-4.7-Flash (Reasoning) | glm-4-7-flash | 2026-01-19 | 14.9 |  |  |  | 0.07 | 0.4 | 0.07 |  | 81.13 | 1.06 | 25.71 | 31.88 |  |  |  |  |  |
-| LLM Leaderboard | 3068def4-7270-4c06-a320-6f6a5623d564 | GLM-4.5V (Reasoning) | glm-4-5v-reasoning | 2025-08-11 | 7.6 |  |  |  | 0.6 | 1.8 |  |  | 34.84 | 2.73 | 60.13 | 74.48 |  |  |  |  |  |
-| LLM Leaderboard | 40663ad2-b218-471e-bdd4-a1e0c2360e2b | GLM-5 (Reasoning) | glm-5 | 2026-02-11 | 27.9 |  |  |  | 1 | 3.2 | 0.2 |  | 65.38 | 1.4 | 48.9 | 56.54 |  |  |  |  |  |
-| LLM Leaderboard | 43098bd0-77ca-408b-b698-9d60b1d1c3b8 | GLM-4.6V (Non-reasoning) | glm-4-6v | 2025-12-08 | 8.4 |  |  |  | 0.3 | 0.9 |  |  | 53.91 | 3.52 | 3.52 | 12.8 |  |  |  |  |  |
+| LLM Leaderboard | 2c4394a2-b443-470a-908e-5c4a271b780c | GLM-4.7-Flash (Reasoning) | glm-4-7-flash | 2026-01-19 | 14.9 |  |  |  | 0.07 | 0.4 | 0.07 |  | 79.6 | 1.45 | 26.57 | 32.86 |  |  |  |  |  |
+| LLM Leaderboard | 3068def4-7270-4c06-a320-6f6a5623d564 | GLM-4.5V (Reasoning) | glm-4-5v-reasoning | 2025-08-11 | 7.6 |  |  |  | 0.6 | 1.8 |  |  | 35.69 | 2.71 | 58.75 | 72.76 |  |  |  |  |  |
+| LLM Leaderboard | 40663ad2-b218-471e-bdd4-a1e0c2360e2b | GLM-5 (Reasoning) | glm-5 | 2026-02-11 | 27.9 |  |  |  | 1 | 3.2 | 0.2 |  | 73.2 | 1.42 | 43.84 | 50.67 |  |  |  |  |  |
+| LLM Leaderboard | 43098bd0-77ca-408b-b698-9d60b1d1c3b8 | GLM-4.6V (Non-reasoning) | glm-4-6v | 2025-12-08 | 8.4 |  |  |  | 0.3 | 0.9 |  |  | 58.75 | 3.24 | 3.24 | 11.75 |  |  |  |  |  |
 | LLM Leaderboard | 5aa1c578-af76-4b91-8699-cdd43582b3af | GLM-5.1 (Reasoning) | glm-5-1 | 2026-04-07 | 26.4 | 55.8 | 25.2 |  | 1.2 | 4.4 | 0.26 |  | 71.21 | 1.7 | 54.93 | 61.95 | 1418.32 | 0.9218 |  |  |  |
 | LLM Leaderboard | 5d303dc9-c027-401f-9803-4e9aa3331007 | GLM-4.5-Air | glm-4-5-air | 2025-07-28 | 11.1 |  |  |  | 0.17 | 0.98 |  |  | 59.22 | 2.53 | 36.3 | 44.75 |  |  |  |  |  |
 | LLM Leaderboard | 6a5d56e1-bb68-4205-8d9b-26b97888bc84 | GLM-4.6 (Reasoning) | glm-4-6-reasoning | 2025-09-30 | 18.5 | 45.8 |  |  | 0.55 | 2.2 | 0.55 |  | 27.05 | 3.64 | 77.57 | 96.05 |  |  |  |  |  |
@@ -1988,10 +1988,10 @@ Model count: 25
 | LLM Leaderboard | 81b6ddfc-111e-4422-bd44-42ee6165b699 | GLM-4.7 (Non-reasoning) | glm-4-7-non-reasoning | 2025-12-22 | 17.4 |  |  |  | 0.6 | 2.2 | 0.53 |  | 84.78 | 1.36 | 1.36 | 7.26 |  |  |  |  |  |
 | LLM Leaderboard | 92f245a7-43b4-4ffd-8bfb-866746bf824d | GLM-5.1 (Non-reasoning) | glm-5-1-non-reasoning | 2026-04-07 | 24.2 |  |  |  | 1.38 | 4.4 | 0.26 |  | 49.63 | 1.91 | 1.91 | 11.98 |  |  |  |  |  |
 | LLM Leaderboard | 946e7aab-db1c-4c3f-b0b3-7720d0cff187 | GLM-4.6 (Non-reasoning) | glm-4-6 | 2025-09-30 | 14.9 |  |  |  | 0.57 | 2.2 |  |  | 36.87 | 3.75 | 3.75 | 17.31 |  |  |  |  |  |
-| LLM Leaderboard | c8673741-5e1a-46a1-9e4f-710a5c920982 | GLM-4.7-Flash (Non-reasoning) | glm-4-7-flash-non-reasoning | 2026-01-19 | 10.6 |  |  |  | 0.07 | 0.4 |  |  | 101.24 | 1.76 | 1.76 | 6.7 |  |  |  |  |  |
-| LLM Leaderboard | cd684ea4-b475-4269-b001-d469d06d8a7a | GLM-5.3 (max) | glm-5-3 | 2026-08-18 | 44.9 | 74.8 | 53.4 |  | 1.4 | 4.4 | 0.26 |  | 62.35 | 3.16 | 35.24 | 43.26 | 2503.48 | 2.0056 |  |  |  |
-| LLM Leaderboard | d2d7dd95-770f-4cb0-9bbc-d275ac19c265 | GLM-4.6V (Reasoning) | glm-4-6v-reasoning | 2025-12-08 | 11.2 |  |  |  | 0.3 | 0.9 |  |  | 57.81 | 2.91 | 37.51 | 46.16 |  |  |  |  |  |
-| LLM Leaderboard | e8aa417f-18fe-46b0-ba62-ef99785a9585 | GLM-5.2 (Non-reasoning) | glm-5-2-non-reasoning | 2026-06-16 | 22.4 | 46.5 |  |  | 1.4 | 4.4 | 0.26 |  | 119.56 | 1.95 | 1.95 | 6.14 |  |  |  |  |  |
+| LLM Leaderboard | c8673741-5e1a-46a1-9e4f-710a5c920982 | GLM-4.7-Flash (Non-reasoning) | glm-4-7-flash-non-reasoning | 2026-01-19 | 10.6 |  |  |  | 0.07 | 0.4 |  |  | 89.22 | 1.77 | 1.77 | 7.37 |  |  |  |  |  |
+| LLM Leaderboard | cd684ea4-b475-4269-b001-d469d06d8a7a | GLM-5.3 (max) | glm-5-3 | 2026-08-18 | 44.9 | 74.8 | 53.4 |  | 1.4 | 4.4 | 0.26 |  | 66.07 | 3.15 | 33.42 | 40.99 | 2503.48 | 2.0056 |  |  |  |
+| LLM Leaderboard | d2d7dd95-770f-4cb0-9bbc-d275ac19c265 | GLM-4.6V (Reasoning) | glm-4-6v-reasoning | 2025-12-08 | 11.2 |  |  |  | 0.3 | 0.9 |  |  | 64.87 | 3.1 | 33.94 | 41.64 |  |  |  |  |  |
+| LLM Leaderboard | e8aa417f-18fe-46b0-ba62-ef99785a9585 | GLM-5.2 (Non-reasoning) | glm-5-2-non-reasoning | 2026-06-16 | 22.4 | 46.5 |  |  | 1.4 | 4.4 | 0.26 |  | 129.73 | 1.78 | 1.78 | 5.63 |  |  |  |  |  |
 | LLM Leaderboard | f164b41f-44c5-4675-bca3-fea1db4bd9ae | GLM-5 (Non-reasoning) | glm-5-non-reasoning | 2026-02-11 | 21.8 |  |  |  | 1 | 3.2 | 0.2 |  | 57.6 | 1.5 | 1.5 | 10.18 |  |  |  |  |  |
 | LLM Leaderboard | f7a4ea75-e548-4069-80d4-9be8bc7c009b | GLM-5.2 (max) | glm-5-2 | 2026-06-16 | 38.6 | 68.8 | 39.4 |  | 1.4 | 4.4 | 0.26 |  | 67.56 | 4.22 | 33.82 | 41.23 |  |  |  |  |  |
 | Text-to-Image Arena | 5eba28d1-5f14-45e5-970a-47cd5da79c54 | GLM-Image | glm_glm-image |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  | 879 | 7 | -7/+7 |

@@ -6,7 +6,7 @@
     "source_description": "Text-to-video arena Elo rankings (Free tier)",
     "parser_version": "official-api-v1",
     "model_count": 83,
-    "fetched_at": "2026-09-12T09:21:26.611204+00:00"
+    "fetched_at": "2026-09-13T10:16:56.239971+00:00"
   },
   "models": [
     {
@@ -41,7 +41,7 @@
         "id": "a31a9071-6144-4dbb-92dc-2e02d653ecea",
         "name": "MiniMax"
       },
-      "elo": 1304,
+      "elo": 1302,
       "ci_95": 10,
       "ci95_range": "-10/+10"
     },
@@ -113,7 +113,7 @@
         "id": "62cc833b-f55a-4489-bcae-54806d4b04ff",
         "name": "KlingAI"
       },
-      "elo": 1233,
+      "elo": 1232,
       "ci_95": 8,
       "ci95_range": "-8/+8"
     },
@@ -178,18 +178,6 @@
       "ci95_range": "-7/+7"
     },
     {
-      "id": "b5d5057e-3d0d-4e22-b029-bd976cd1b6a6",
-      "name": "Kling 3.0 720p (Standard)",
-      "slug": "kling-3-0-standard",
-      "creator": {
-        "id": "62cc833b-f55a-4489-bcae-54806d4b04ff",
-        "name": "KlingAI"
-      },
-      "elo": 1214,
-      "ci_95": 7,
-      "ci95_range": "-7/+7"
-    },
-    {
       "id": "f0a7c830-eab1-419f-b61c-bb7143841a9d",
       "name": "Kling 3.0 Omni 720p (Standard)",
       "slug": "kling-o3-standard",
@@ -200,6 +188,18 @@
       "elo": 1214,
       "ci_95": 8,
       "ci95_range": "-8/+8"
+    },
+    {
+      "id": "b5d5057e-3d0d-4e22-b029-bd976cd1b6a6",
+      "name": "Kling 3.0 720p (Standard)",
+      "slug": "kling-3-0-standard",
+      "creator": {
+        "id": "62cc833b-f55a-4489-bcae-54806d4b04ff",
+        "name": "KlingAI"
+      },
+      "elo": 1214,
+      "ci_95": 7,
+      "ci95_range": "-7/+7"
     },
     {
       "id": "440843ac-4961-4eef-a504-158724c11fee",
@@ -298,24 +298,24 @@
       "ci95_range": "-8/+8"
     },
     {
-      "id": "f3c7e331-2b60-4f87-bc9c-363264f211a8",
-      "name": "Veo 3.1 Fast",
-      "slug": "veo-3-1-fast",
-      "creator": {
-        "id": "faddc6d9-2c14-445f-9b28-56726f59c793",
-        "name": "Google"
-      },
-      "elo": 1200,
-      "ci_95": 7,
-      "ci95_range": "-7/+7"
-    },
-    {
       "id": "61270a9b-9d2e-4875-810f-e81508bc5504",
       "name": "Kling 2.5 Turbo 1080p",
       "slug": "kling-25-turbo-1080p",
       "creator": {
         "id": "62cc833b-f55a-4489-bcae-54806d4b04ff",
         "name": "KlingAI"
+      },
+      "elo": 1200,
+      "ci_95": 7,
+      "ci95_range": "-7/+7"
+    },
+    {
+      "id": "f3c7e331-2b60-4f87-bc9c-363264f211a8",
+      "name": "Veo 3.1 Fast",
+      "slug": "veo-3-1-fast",
+      "creator": {
+        "id": "faddc6d9-2c14-445f-9b28-56726f59c793",
+        "name": "Google"
       },
       "elo": 1200,
       "ci_95": 7,
