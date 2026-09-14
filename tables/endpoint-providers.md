@@ -2,7 +2,7 @@
 
 Data by [Artificial Analysis](https://artificialanalysis.ai/), via their [Data API](https://artificialanalysis.ai/data-api).
 
-Snapshot fetched at: 2026-09-13T10:16:56.239971+00:00
+Snapshot fetched at: 2026-09-14T10:38:03.161947+00:00
 - Provider count: 124
 - Model count: 1130
 
@@ -155,7 +155,7 @@ Model count: 133
 | Text-to-Speech Arena | 646969d1-9845-4b8c-ac56-16107244a08e | Qwen-Audio-3.0-TTS-Plus | qwen-audio-3-0-tts-plus |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  | 1232 | 14 | -14/+14 |
 | Text-to-Speech Arena | f05bc243-0723-4f05-aa19-31341d8f2677 | Qwen3 TTS Flash | qwen3-tts-flash |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  | 941 | 14 | -14/+14 |
 | Text-to-Speech Arena | 8eb42b0b-213a-4911-b096-a7455e944090 | Qwen3 TTS | qwen3-tts-vc-realtime |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  | 927 | 13 | -13/+13 |
-| Text-to-Video Arena | ceee978e-c560-4ba9-9405-f7d390a47709 | Wan 3.0 | wan-3-0 |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  | 1334 | 12 | -12/+12 |
+| Text-to-Video Arena | ceee978e-c560-4ba9-9405-f7d390a47709 | Wan 3.0 | wan-3-0 |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  | 1335 | 12 | -12/+12 |
 | Text-to-Video Arena | 03ff7ea5-2ee9-4f2d-9c41-01f4279362cb | Wan2.7-260612 | wan2-7-260612 |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  | 1245 | 8 | -8/+8 |
 | Text-to-Video Arena | 1ce3af77-bb30-40ef-90e2-5aa9fa4588b9 | Wan 2.7 | wan-2-7-v2v |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  | 1216 | 9 | -9/+9 |
 | Text-to-Video Arena | 6ccddbde-d734-4ac0-95a7-f7ed903ec45d | Wan 2.6 | wan-2-6 |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  | 1185 | 8 | -8/+8 |
@@ -164,7 +164,7 @@ Model count: 133
 | Text-to-Video Arena | da890ad1-328b-42e7-8283-fac407482138 | Wan 2.1 14B | wan-2-1-14b |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  | 1018 | 8 | -8/+8 |
 | Text-to-Video Arena | 815774fd-dcae-4abf-aaad-fb48c13fb70d | Wan 2.2 5B | wan-2-2-5b |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  | 952 | 9 | -9/+9 |
 | Image-to-Video Arena | ceee978e-c560-4ba9-9405-f7d390a47709 | Wan 3.0 | wan-3-0 |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  | 1362 | 13 | -13/+13 |
-| Image-to-Video Arena | 1ce3af77-bb30-40ef-90e2-5aa9fa4588b9 | Wan 2.7 | wan-2-7-v2v |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  | 1272 | 10 | -10/+10 |
+| Image-to-Video Arena | 1ce3af77-bb30-40ef-90e2-5aa9fa4588b9 | Wan 2.7 | wan-2-7-v2v |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  | 1271 | 10 | -10/+10 |
 | Image-to-Video Arena | 527bfb54-8238-4671-9b2f-5e9b86d80163 | Wan 2.5 Preview | wan-2-5-preview |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  | 1234 | 9 | -9/+9 |
 | Image-to-Video Arena | 6ccddbde-d734-4ac0-95a7-f7ed903ec45d | Wan 2.6 | wan-2-6 |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  | 1211 | 9 | -9/+9 |
 | Image-to-Video Arena | 07afda5d-a248-4139-b662-2233391ff127 | Wan 2.2 A14B | wan-2-2-a14b |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  | 1109 | 10 | -10/+10 |
@@ -178,9 +178,9 @@ Model count: 4
 | endpoint | id | name | slug | elo | ci_95 | ci95_range |
 | --- | --- | --- | --- | --- | --- | --- |
 | Text-to-Video Arena | a4dc21f8-7a35-497e-90a4-4c9a1593c8ca | HappyHorse-1.0 | happyhorse-1-0 | 1284 | 8 | -8/+8 |
-| Text-to-Video Arena | e0e60f8f-ad67-4b84-aec9-4da2b9a962d5 | HappyHorse-1.1 | happyhorse-1-1 | 1262 | 8 | -8/+8 |
-| Image-to-Video Arena | e0e60f8f-ad67-4b84-aec9-4da2b9a962d5 | HappyHorse-1.1 | happyhorse-1-1 | 1307 | 10 | -10/+10 |
-| Image-to-Video Arena | a4dc21f8-7a35-497e-90a4-4c9a1593c8ca | HappyHorse-1.0 | happyhorse-1-0 | 1293 | 9 | -9/+9 |
+| Text-to-Video Arena | e0e60f8f-ad67-4b84-aec9-4da2b9a962d5 | HappyHorse-1.1 | happyhorse-1-1 | 1263 | 8 | -8/+8 |
+| Image-to-Video Arena | e0e60f8f-ad67-4b84-aec9-4da2b9a962d5 | HappyHorse-1.1 | happyhorse-1-1 | 1306 | 10 | -10/+10 |
+| Image-to-Video Arena | a4dc21f8-7a35-497e-90a4-4c9a1593c8ca | HappyHorse-1.0 | happyhorse-1-0 | 1292 | 9 | -9/+9 |
 
 ## Allen Institute for AI
 
@@ -688,7 +688,7 @@ Model count: 100
 | Text-to-Speech Arena | 16ad3e89-cc78-4478-a5a0-a048b5c72cfb | WaveNet | wavenet |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  | 915 | 12 | -12/+12 |
 | Text-to-Speech Arena | 666ff702-a2c8-413a-a8df-61902a6e7cb9 | Neural2 | neural2 |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  | 891 | 12 | -12/+12 |
 | Text-to-Speech Arena | 7efc9790-17f6-44a5-8b4f-897deaeb0088 | Standard | standard |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  | 880 | 12 | -12/+12 |
-| Text-to-Video Arena | 88df9253-809f-4dc9-b993-3969fa606473 | Gemini Omni Flash | gemini-omni-flash |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  | 1325 | 9 | -9/+9 |
+| Text-to-Video Arena | 88df9253-809f-4dc9-b993-3969fa606473 | Gemini Omni Flash | gemini-omni-flash |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  | 1324 | 9 | -9/+9 |
 | Text-to-Video Arena | 7623b756-8b01-4e60-aed4-3322c1933e36 | Veo 3 | veo-3-no-audio |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  | 1210 | 8 | -8/+8 |
 | Text-to-Video Arena | a8f7ab65-828a-4166-8fbf-616cbb01d773 | Veo 3.1 Lite | veo-3-1-lite |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  | 1209 | 8 | -8/+8 |
 | Text-to-Video Arena | b8dc1338-a685-4c03-ad98-cf61226547b0 | Veo 3.1 | veo-3-1 |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  | 1200 | 8 | -8/+8 |
@@ -889,7 +889,7 @@ Model count: 32
 | Image-to-Video Arena | 429afba7-8ce1-42b3-80c9-58d1b96d775a | Kling 2.1 Pro | kling-2-1-pro | 1180 | 10 | -10/+10 |
 | Image-to-Video Arena | 53ce6c01-8a4d-4d22-94a8-d48ffe32ce32 | Kling 2.0 | kling-2-0 | 1177 | 9 | -9/+9 |
 | Image-to-Video Arena | f0bea8bf-2158-448f-9158-0d99f707a58e | Kling 2.1 Standard | kling-2-1-standard | 1168 | 10 | -10/+10 |
-| Image-to-Video Arena | 39077383-a22e-4d2f-afe9-5c12f87ea16c | Kling 1.6 Pro | kling-1-6-pro | 1130 | 10 | -10/+10 |
+| Image-to-Video Arena | 39077383-a22e-4d2f-afe9-5c12f87ea16c | Kling 1.6 Pro | kling-1-6-pro | 1131 | 10 | -10/+10 |
 
 ## Kokoro
 
@@ -982,7 +982,7 @@ Model count: 13
 | endpoint | id | name | slug | elo | ci_95 | ci95_range |
 | --- | --- | --- | --- | --- | --- | --- |
 | Text-to-Video Arena | b5343afd-4bff-4e97-99fc-1e2edf2e8eb1 | LTX-2.5 Fast | ltx-2-5-fast | 1216 | 11 | -11/+11 |
-| Text-to-Video Arena | 791ff10c-594f-418b-9c1a-39313784d759 | LTX-2.5 Pro | ltx-2-5-pro | 1206 | 11 | -11/+11 |
+| Text-to-Video Arena | 791ff10c-594f-418b-9c1a-39313784d759 | LTX-2.5 Pro | ltx-2-5-pro | 1205 | 11 | -11/+11 |
 | Text-to-Video Arena | 40f64093-99b7-4e9b-9705-651fc5b436c4 | LTX-2.3 Fast | ltx-2-3-fast | 1124 | 8 | -8/+8 |
 | Text-to-Video Arena | f8e18877-4f78-4f5b-b45b-16222c8f641f | LTX-2 Fast | ltx-2-fast | 1124 | 8 | -8/+8 |
 | Text-to-Video Arena | e451b7d7-42eb-4c07-9f57-5b5e9bd80c97 | LTX-2 Pro | ltx-2-pro | 1123 | 8 | -8/+8 |
@@ -991,7 +991,7 @@ Model count: 13
 | Image-to-Video Arena | e451b7d7-42eb-4c07-9f57-5b5e9bd80c97 | LTX-2 Pro | ltx-2-pro | 1194 | 9 | -9/+9 |
 | Image-to-Video Arena | 791ff10c-594f-418b-9c1a-39313784d759 | LTX-2.5 Pro | ltx-2-5-pro | 1192 | 12 | -12/+12 |
 | Image-to-Video Arena | f8e18877-4f78-4f5b-b45b-16222c8f641f | LTX-2 Fast | ltx-2-fast | 1186 | 9 | -9/+9 |
-| Image-to-Video Arena | 40f64093-99b7-4e9b-9705-651fc5b436c4 | LTX-2.3 Fast | ltx-2-3-fast | 1161 | 9 | -9/+9 |
+| Image-to-Video Arena | 40f64093-99b7-4e9b-9705-651fc5b436c4 | LTX-2.3 Fast | ltx-2-3-fast | 1162 | 9 | -9/+9 |
 | Image-to-Video Arena | c783d9aa-c387-4f44-b371-563fd9bab06d | LTX-2.3 Pro | ltx-2-3-pro | 1158 | 9 | -9/+9 |
 | Image-to-Video Arena | 906000d4-9c7c-4584-8e16-f5a362d3c06e | LTX Video v0.9.7 13B | ltx-video-v0-9-7-13b | 1038 | 11 | -11/+11 |
 
@@ -1360,7 +1360,7 @@ Model count: 26
 | Text-to-Image Arena | 27cefc7e-1c92-42cd-a39f-b0c262db3e05 | Sana Sprint 1.6B | sana-sprint-1-6b |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  | 744 | 10 | -10/+10 |
 | Text-to-Speech Arena | 49198771-e5ea-4c4e-bad9-e57671a92291 | Magpie-Multilingual 357M (Feb 2026) | magpie-multilingual-357m-feb-2026 |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  | 1057 | 13 | -13/+13 |
 | Image-to-Video Arena | fbe52f99-34a3-44a9-b14b-dc35c030e9f4 | Cosmos3-Super-Image2Video-4Step | cosmos3-super-image2video-4step |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  | 1270 | 11 | -11/+11 |
-| Image-to-Video Arena | 69829cf3-6a45-4070-929c-b5d654364de3 | Cosmos3-Super-Image2Video | cosmos3-super-image2video |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  | 1246 | 10 | -10/+10 |
+| Image-to-Video Arena | 69829cf3-6a45-4070-929c-b5d654364de3 | Cosmos3-Super-Image2Video | cosmos3-super-image2video |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  | 1247 | 10 | -10/+10 |
 
 ## Open Source
 
@@ -1555,7 +1555,7 @@ Model count: 10
 
 | endpoint | id | name | slug | elo | ci_95 | ci95_range |
 | --- | --- | --- | --- | --- | --- | --- |
-| Text-to-Video Arena | c6a494f5-7ab7-4693-8382-fa03060d2fdf | PixVerse V5.6 | pixverse-v5-6 | 1212 | 8 | -8/+8 |
+| Text-to-Video Arena | c6a494f5-7ab7-4693-8382-fa03060d2fdf | PixVerse V5.6 | pixverse-v5-6 | 1211 | 8 | -8/+8 |
 | Text-to-Video Arena | be866b8a-d073-4ee4-9652-73227c679dc4 | PixVerse V6 | pixverse-v6 | 1211 | 7 | -7/+7 |
 | Text-to-Video Arena | 4818889c-3943-4578-9467-4827fb187e39 | PixVerse V5.5 | pixverse-v5-5 | 1195 | 9 | -9/+9 |
 | Text-to-Video Arena | 5180943f-2a96-44a5-9461-80e5ae1e249e | PixVerse V5 | pixverse-v5 | 1166 | 8 | -8/+8 |
@@ -1712,7 +1712,7 @@ Model count: 2
 
 | endpoint | id | name | slug | elo | ci_95 | ci95_range |
 | --- | --- | --- | --- | --- | --- | --- |
-| Text-to-Video Arena | 50ed6856-5052-431d-8994-584b2e02f023 | SkyReels V4 | skyreels-v4 | 1210 | 9 | -9/+9 |
+| Text-to-Video Arena | 50ed6856-5052-431d-8994-584b2e02f023 | SkyReels V4 | skyreels-v4 | 1211 | 9 | -9/+9 |
 | Image-to-Video Arena | 50ed6856-5052-431d-8994-584b2e02f023 | SkyReels V4 | skyreels-v4 | 1286 | 10 | -10/+10 |
 
 ## Smallest.ai
@@ -1930,14 +1930,14 @@ Model count: 11
 | --- | --- | --- | --- | --- | --- | --- |
 | Text-to-Image Arena | 29714890-0638-4648-a1df-3fdc2a4b42fa | Vidu Q2 | vidu_vidu_q2 | 915 | 7 | -7/+7 |
 | Image Editing Arena | 29714890-0638-4648-a1df-3fdc2a4b42fa | Vidu Q2 | vidu_vidu_q2 | 956 | 7 | -7/+7 |
-| Text-to-Video Arena | d7c0367f-1adf-40ec-8195-5c5d1906efa8 | Vidu Q3 Pro | vidu-q3-pro | 1216 | 7 | -7/+7 |
+| Text-to-Video Arena | d7c0367f-1adf-40ec-8195-5c5d1906efa8 | Vidu Q3 Pro | vidu-q3-pro | 1215 | 7 | -7/+7 |
 | Text-to-Video Arena | 6f8dc8b2-5400-4adc-99a6-688b69fa1d6d | Vidu Q2 | vidu-q2 | 1165 | 8 | -8/+8 |
 | Text-to-Video Arena | 043f0cb2-3565-45ad-bf78-7e2de8288e94 | Vidu Q3 Turbo | vidu-q3-turbo | 1103 | 10 | -10/+10 |
 | Text-to-Video Arena | 21bce815-dea9-4e48-8515-cf2b193ae711 | Vidu Q1 | vidu-q1 | 1007 | 10 | -10/+10 |
 | Image-to-Video Arena | d7c0367f-1adf-40ec-8195-5c5d1906efa8 | Vidu Q3 Pro | vidu-q3-pro | 1283 | 8 | -8/+8 |
 | Image-to-Video Arena | dd3e028f-856f-4915-9759-eff55e2f5f9e | Vidu Q2 Turbo | vidu-q2-turbo | 1228 | 9 | -9/+9 |
-| Image-to-Video Arena | 043f0cb2-3565-45ad-bf78-7e2de8288e94 | Vidu Q3 Turbo | vidu-q3-turbo | 1228 | 11 | -11/+11 |
-| Image-to-Video Arena | 57a29e57-e118-4ae7-abb1-aa6e5935634a | Vidu Q2 Pro | vidu-q2-pro | 1227 | 9 | -9/+9 |
+| Image-to-Video Arena | 043f0cb2-3565-45ad-bf78-7e2de8288e94 | Vidu Q3 Turbo | vidu-q3-turbo | 1227 | 11 | -11/+11 |
+| Image-to-Video Arena | 57a29e57-e118-4ae7-abb1-aa6e5935634a | Vidu Q2 Pro | vidu-q2-pro | 1226 | 9 | -9/+9 |
 | Image-to-Video Arena | 21bce815-dea9-4e48-8515-cf2b193ae711 | Vidu Q1 | vidu-q1 | 1027 | 12 | -12/+12 |
 
 ## VUI Labs

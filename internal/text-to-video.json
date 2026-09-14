@@ -6,7 +6,7 @@
     "source_description": "Text-to-video arena Elo rankings (Free tier)",
     "parser_version": "official-api-v1",
     "model_count": 83,
-    "fetched_at": "2026-09-13T10:16:56.239971+00:00"
+    "fetched_at": "2026-09-14T10:38:03.161947+00:00"
   },
   "models": [
     {
@@ -17,7 +17,7 @@
         "id": "d874d370-74d3-4fa0-ba00-5272f92f946b",
         "name": "Alibaba"
       },
-      "elo": 1334,
+      "elo": 1335,
       "ci_95": 12,
       "ci95_range": "-12/+12"
     },
@@ -29,7 +29,7 @@
         "id": "faddc6d9-2c14-445f-9b28-56726f59c793",
         "name": "Google"
       },
-      "elo": 1325,
+      "elo": 1324,
       "ci_95": 9,
       "ci95_range": "-9/+9"
     },
@@ -77,7 +77,7 @@
         "id": "0ea38458-92d7-45de-a69d-c50bd8277273",
         "name": "Alibaba-ATH"
       },
-      "elo": 1262,
+      "elo": 1263,
       "ci_95": 8,
       "ci95_range": "-8/+8"
     },
@@ -142,18 +142,6 @@
       "ci95_range": "-8/+8"
     },
     {
-      "id": "b5343afd-4bff-4e97-99fc-1e2edf2e8eb1",
-      "name": "LTX-2.5 Fast",
-      "slug": "ltx-2-5-fast",
-      "creator": {
-        "id": "ed94442e-da40-4fa6-a209-c7e9e095a75f",
-        "name": "Lightricks"
-      },
-      "elo": 1216,
-      "ci_95": 11,
-      "ci95_range": "-11/+11"
-    },
-    {
       "id": "1ce3af77-bb30-40ef-90e2-5aa9fa4588b9",
       "name": "Wan 2.7",
       "slug": "wan-2-7-v2v",
@@ -166,6 +154,18 @@
       "ci95_range": "-9/+9"
     },
     {
+      "id": "b5343afd-4bff-4e97-99fc-1e2edf2e8eb1",
+      "name": "LTX-2.5 Fast",
+      "slug": "ltx-2-5-fast",
+      "creator": {
+        "id": "ed94442e-da40-4fa6-a209-c7e9e095a75f",
+        "name": "Lightricks"
+      },
+      "elo": 1216,
+      "ci_95": 11,
+      "ci95_range": "-11/+11"
+    },
+    {
       "id": "d7c0367f-1adf-40ec-8195-5c5d1906efa8",
       "name": "Vidu Q3 Pro",
       "slug": "vidu-q3-pro",
@@ -173,7 +173,7 @@
         "id": "e3a5ba75-0127-45b0-8bcc-2864b8dd404d",
         "name": "Vidu"
       },
-      "elo": 1216,
+      "elo": 1215,
       "ci_95": 7,
       "ci95_range": "-7/+7"
     },
@@ -221,7 +221,7 @@
         "id": "1942f8d6-ab55-4408-99dd-2f99c70353f6",
         "name": "PixVerse"
       },
-      "elo": 1212,
+      "elo": 1211,
       "ci_95": 8,
       "ci95_range": "-8/+8"
     },
@@ -238,6 +238,18 @@
       "ci95_range": "-7/+7"
     },
     {
+      "id": "50ed6856-5052-431d-8994-584b2e02f023",
+      "name": "SkyReels V4",
+      "slug": "skyreels-v4",
+      "creator": {
+        "id": "67b5ce4d-0c81-4edc-b4c3-370acc2df555",
+        "name": "Skywork AI"
+      },
+      "elo": 1211,
+      "ci_95": 9,
+      "ci95_range": "-9/+9"
+    },
+    {
       "id": "7623b756-8b01-4e60-aed4-3322c1933e36",
       "name": "Veo 3",
       "slug": "veo-3-no-audio",
@@ -248,18 +260,6 @@
       "elo": 1210,
       "ci_95": 8,
       "ci95_range": "-8/+8"
-    },
-    {
-      "id": "50ed6856-5052-431d-8994-584b2e02f023",
-      "name": "SkyReels V4",
-      "slug": "skyreels-v4",
-      "creator": {
-        "id": "67b5ce4d-0c81-4edc-b4c3-370acc2df555",
-        "name": "Skywork AI"
-      },
-      "elo": 1210,
-      "ci_95": 9,
-      "ci95_range": "-9/+9"
     },
     {
       "id": "a8f7ab65-828a-4166-8fbf-616cbb01d773",
@@ -281,7 +281,7 @@
         "id": "ed94442e-da40-4fa6-a209-c7e9e095a75f",
         "name": "Lightricks"
       },
-      "elo": 1206,
+      "elo": 1205,
       "ci_95": 11,
       "ci95_range": "-11/+11"
     },
@@ -298,24 +298,24 @@
       "ci95_range": "-8/+8"
     },
     {
-      "id": "61270a9b-9d2e-4875-810f-e81508bc5504",
-      "name": "Kling 2.5 Turbo 1080p",
-      "slug": "kling-25-turbo-1080p",
-      "creator": {
-        "id": "62cc833b-f55a-4489-bcae-54806d4b04ff",
-        "name": "KlingAI"
-      },
-      "elo": 1200,
-      "ci_95": 7,
-      "ci95_range": "-7/+7"
-    },
-    {
       "id": "f3c7e331-2b60-4f87-bc9c-363264f211a8",
       "name": "Veo 3.1 Fast",
       "slug": "veo-3-1-fast",
       "creator": {
         "id": "faddc6d9-2c14-445f-9b28-56726f59c793",
         "name": "Google"
+      },
+      "elo": 1200,
+      "ci_95": 7,
+      "ci95_range": "-7/+7"
+    },
+    {
+      "id": "61270a9b-9d2e-4875-810f-e81508bc5504",
+      "name": "Kling 2.5 Turbo 1080p",
+      "slug": "kling-25-turbo-1080p",
+      "creator": {
+        "id": "62cc833b-f55a-4489-bcae-54806d4b04ff",
+        "name": "KlingAI"
       },
       "elo": 1200,
       "ci_95": 7,
