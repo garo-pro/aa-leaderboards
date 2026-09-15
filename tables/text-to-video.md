@@ -3,7 +3,7 @@
 Data by [Artificial Analysis](https://artificialanalysis.ai/), via their [Data API](https://artificialanalysis.ai/data-api).
 
 - Source: [https://artificialanalysis.ai/api/v2/media/text-to-video/models/free](https://artificialanalysis.ai/api/v2/media/text-to-video/models/free)
-- Fetched at: 2026-09-14T10:38:03.161947+00:00
+- Fetched at: 2026-09-15T10:04:12.167536+00:00
 - Model count: 83
 
 > Generated from `internal/text-to-video.json` by `scripts/render_tables.py`. Do not edit by hand.
@@ -11,7 +11,7 @@ Data by [Artificial Analysis](https://artificialanalysis.ai/), via their [Data A
 | id | name | slug | creator.id | creator.name | elo | ci_95 | ci95_range |
 | --- | --- | --- | --- | --- | --- | --- | --- |
 | ceee978e-c560-4ba9-9405-f7d390a47709 | Wan 3.0 | wan-3-0 | d874d370-74d3-4fa0-ba00-5272f92f946b | Alibaba | 1335 | 12 | -12/+12 |
-| 88df9253-809f-4dc9-b993-3969fa606473 | Gemini Omni Flash | gemini-omni-flash | faddc6d9-2c14-445f-9b28-56726f59c793 | Google | 1324 | 9 | -9/+9 |
+| 88df9253-809f-4dc9-b993-3969fa606473 | Gemini Omni Flash | gemini-omni-flash | faddc6d9-2c14-445f-9b28-56726f59c793 | Google | 1325 | 9 | -9/+9 |
 | c82a5e9e-6a94-40c3-ab47-7b4935f9c685 | MiniMax H3 | minimax-h3 | a31a9071-6144-4dbb-92dc-2e02d653ecea | MiniMax | 1302 | 10 | -10/+10 |
 | a4dc21f8-7a35-497e-90a4-4c9a1593c8ca | HappyHorse-1.0 | happyhorse-1-0 | 0ea38458-92d7-45de-a69d-c50bd8277273 | Alibaba-ATH | 1284 | 8 | -8/+8 |
 | 36db1f4d-a9f6-49d1-a74d-06bddbf2fe4f | Dreamina Seedance 2.0 720p | seedance-2-0 | 2354746c-4775-4a06-b64d-0ba4137785b8 | ByteDance Seed | 1269 | 7 | -7/+7 |
@@ -32,7 +32,7 @@ Data by [Artificial Analysis](https://artificialanalysis.ai/), via their [Data A
 | 50ed6856-5052-431d-8994-584b2e02f023 | SkyReels V4 | skyreels-v4 | 67b5ce4d-0c81-4edc-b4c3-370acc2df555 | Skywork AI | 1211 | 9 | -9/+9 |
 | 7623b756-8b01-4e60-aed4-3322c1933e36 | Veo 3 | veo-3-no-audio | faddc6d9-2c14-445f-9b28-56726f59c793 | Google | 1210 | 8 | -8/+8 |
 | a8f7ab65-828a-4166-8fbf-616cbb01d773 | Veo 3.1 Lite | veo-3-1-lite | faddc6d9-2c14-445f-9b28-56726f59c793 | Google | 1209 | 8 | -8/+8 |
-| 791ff10c-594f-418b-9c1a-39313784d759 | LTX-2.5 Pro | ltx-2-5-pro | ed94442e-da40-4fa6-a209-c7e9e095a75f | Lightricks | 1205 | 11 | -11/+11 |
+| 791ff10c-594f-418b-9c1a-39313784d759 | LTX-2.5 Pro | ltx-2-5-pro | ed94442e-da40-4fa6-a209-c7e9e095a75f | Lightricks | 1206 | 11 | -11/+11 |
 | b8dc1338-a685-4c03-ad98-cf61226547b0 | Veo 3.1 | veo-3-1 | faddc6d9-2c14-445f-9b28-56726f59c793 | Google | 1200 | 8 | -8/+8 |
 | f3c7e331-2b60-4f87-bc9c-363264f211a8 | Veo 3.1 Fast | veo-3-1-fast | faddc6d9-2c14-445f-9b28-56726f59c793 | Google | 1200 | 7 | -7/+7 |
 | 61270a9b-9d2e-4875-810f-e81508bc5504 | Kling 2.5 Turbo 1080p | kling-25-turbo-1080p | 62cc833b-f55a-4489-bcae-54806d4b04ff | KlingAI | 1200 | 7 | -7/+7 |
@@ -85,8 +85,8 @@ Data by [Artificial Analysis](https://artificialanalysis.ai/), via their [Data A
 | 5f244318-4fd4-48b9-93fe-44f109406809 | Ray 1 | ray-1 | 09468924-69a9-499b-8dd6-d0bb4c05285d | Luma Labs | 974 | 8 | -8/+8 |
 | 66313bcc-1718-4c02-b69a-e31dd5f19278 | Krea Realtime | krea-realtime | da6aca5c-fe97-453a-b5cb-43de1ac7210b | Krea | 969 | 9 | -9/+9 |
 | 815774fd-dcae-4abf-aaad-fb48c13fb70d | Wan 2.2 5B | wan-2-2-5b | d874d370-74d3-4fa0-ba00-5272f92f946b | Alibaba | 952 | 9 | -9/+9 |
-| 31bbc42d-faa9-4863-8a23-3c7b6b5c3b49 | Kling 1.0 | kling-1-0 | 62cc833b-f55a-4489-bcae-54806d4b04ff | KlingAI | 948 | 8 | -8/+8 |
 | 8e64f13b-39f2-4d9e-8d68-eccd34ed8722 | Ray 2 | ray-2 | 09468924-69a9-499b-8dd6-d0bb4c05285d | Luma Labs | 948 | 9 | -9/+9 |
+| 31bbc42d-faa9-4863-8a23-3c7b6b5c3b49 | Kling 1.0 | kling-1-0 | 62cc833b-f55a-4489-bcae-54806d4b04ff | KlingAI | 948 | 8 | -8/+8 |
 | 43967fcc-e1b9-4591-ac7c-d59c51d8b192 | Pika 2.2 | pika-2-2 | acea75bb-3f76-4ce0-b168-741a31fcec0a | Pika Art | 945 | 9 | -9/+9 |
 | 489c83bf-fcdb-44bc-9659-2cb08db163de | Haiper 2.0 | haiper-2-0 | 7659ca17-c277-4a5c-84a3-ba2605bf6d7c | Haiper | 938 | 9 | -9/+9 |
 | b1fd894d-1298-4a8e-b14b-f672e371ef39 | Pika 1.5 | pika-1-5 | acea75bb-3f76-4ce0-b168-741a31fcec0a | Pika Art | 935 | 8 | -8/+8 |

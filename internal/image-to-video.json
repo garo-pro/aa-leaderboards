@@ -5,8 +5,8 @@
     "source_url": "https://artificialanalysis.ai/api/v2/media/image-to-video/models/free",
     "source_description": "Image-to-video arena Elo rankings (Free tier)",
     "parser_version": "official-api-v1",
-    "model_count": 75,
-    "fetched_at": "2026-09-14T10:38:03.161947+00:00"
+    "model_count": 76,
+    "fetched_at": "2026-09-15T10:04:12.167536+00:00"
   },
   "models": [
     {
@@ -32,6 +32,18 @@
       "elo": 1362,
       "ci_95": 13,
       "ci95_range": "-13/+13"
+    },
+    {
+      "id": "c66de5cb-2ff1-4554-bff4-f3d347f2f7fd",
+      "name": "Bach 1.0 Pro",
+      "slug": "bach-1-0-pro",
+      "creator": {
+        "id": "8fd60081-cd8e-4838-bd7c-01f705ed7f7e",
+        "name": "Video Rebirth"
+      },
+      "elo": 1359,
+      "ci_95": 11,
+      "ci95_range": "-11/+11"
     },
     {
       "id": "c82a5e9e-6a94-40c3-ab47-7b4935f9c685",
@@ -341,7 +353,7 @@
         "id": "faddc6d9-2c14-445f-9b28-56726f59c793",
         "name": "Google"
       },
-      "elo": 1249,
+      "elo": 1250,
       "ci_95": 10,
       "ci95_range": "-10/+10"
     },
@@ -665,7 +677,7 @@
         "id": "ed94442e-da40-4fa6-a209-c7e9e095a75f",
         "name": "Lightricks"
       },
-      "elo": 1158,
+      "elo": 1159,
       "ci_95": 9,
       "ci95_range": "-9/+9"
     },
@@ -701,7 +713,7 @@
         "id": "62cc833b-f55a-4489-bcae-54806d4b04ff",
         "name": "KlingAI"
       },
-      "elo": 1131,
+      "elo": 1130,
       "ci_95": 10,
       "ci95_range": "-10/+10"
     },
@@ -809,7 +821,7 @@
         "id": "e3a5ba75-0127-45b0-8bcc-2864b8dd404d",
         "name": "Vidu"
       },
-      "elo": 1027,
+      "elo": 1026,
       "ci_95": 12,
       "ci95_range": "-12/+12"
     },
@@ -881,7 +893,7 @@
         "id": "a6906d95-a471-4a0c-ad10-b989571de20c",
         "name": "Runway"
       },
-      "elo": 995,
+      "elo": 994,
       "ci_95": 11,
       "ci95_range": "-11/+11"
     },

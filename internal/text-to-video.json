@@ -6,7 +6,7 @@
     "source_description": "Text-to-video arena Elo rankings (Free tier)",
     "parser_version": "official-api-v1",
     "model_count": 83,
-    "fetched_at": "2026-09-14T10:38:03.161947+00:00"
+    "fetched_at": "2026-09-15T10:04:12.167536+00:00"
   },
   "models": [
     {
@@ -29,7 +29,7 @@
         "id": "faddc6d9-2c14-445f-9b28-56726f59c793",
         "name": "Google"
       },
-      "elo": 1324,
+      "elo": 1325,
       "ci_95": 9,
       "ci95_range": "-9/+9"
     },
@@ -281,7 +281,7 @@
         "id": "ed94442e-da40-4fa6-a209-c7e9e095a75f",
         "name": "Lightricks"
       },
-      "elo": 1205,
+      "elo": 1206,
       "ci_95": 11,
       "ci95_range": "-11/+11"
     },
@@ -910,18 +910,6 @@
       "ci95_range": "-9/+9"
     },
     {
-      "id": "31bbc42d-faa9-4863-8a23-3c7b6b5c3b49",
-      "name": "Kling 1.0",
-      "slug": "kling-1-0",
-      "creator": {
-        "id": "62cc833b-f55a-4489-bcae-54806d4b04ff",
-        "name": "KlingAI"
-      },
-      "elo": 948,
-      "ci_95": 8,
-      "ci95_range": "-8/+8"
-    },
-    {
       "id": "8e64f13b-39f2-4d9e-8d68-eccd34ed8722",
       "name": "Ray 2",
       "slug": "ray-2",
@@ -932,6 +920,18 @@
       "elo": 948,
       "ci_95": 9,
       "ci95_range": "-9/+9"
+    },
+    {
+      "id": "31bbc42d-faa9-4863-8a23-3c7b6b5c3b49",
+      "name": "Kling 1.0",
+      "slug": "kling-1-0",
+      "creator": {
+        "id": "62cc833b-f55a-4489-bcae-54806d4b04ff",
+        "name": "KlingAI"
+      },
+      "elo": 948,
+      "ci_95": 8,
+      "ci95_range": "-8/+8"
     },
     {
       "id": "43967fcc-e1b9-4591-ac7c-d59c51d8b192",
