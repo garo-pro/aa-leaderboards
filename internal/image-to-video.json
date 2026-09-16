@@ -6,7 +6,7 @@
     "source_description": "Image-to-video arena Elo rankings (Free tier)",
     "parser_version": "official-api-v1",
     "model_count": 76,
-    "fetched_at": "2026-09-15T10:04:12.167536+00:00"
+    "fetched_at": "2026-09-16T09:56:29.187279+00:00"
   },
   "models": [
     {
@@ -29,7 +29,7 @@
         "id": "d874d370-74d3-4fa0-ba00-5272f92f946b",
         "name": "Alibaba"
       },
-      "elo": 1362,
+      "elo": 1360,
       "ci_95": 13,
       "ci95_range": "-13/+13"
     },
@@ -41,7 +41,7 @@
         "id": "8fd60081-cd8e-4838-bd7c-01f705ed7f7e",
         "name": "Video Rebirth"
       },
-      "elo": 1359,
+      "elo": 1358,
       "ci_95": 11,
       "ci95_range": "-11/+11"
     },
@@ -161,7 +161,7 @@
         "id": "67b5ce4d-0c81-4edc-b4c3-370acc2df555",
         "name": "Skywork AI"
       },
-      "elo": 1286,
+      "elo": 1285,
       "ci_95": 10,
       "ci95_range": "-10/+10"
     },
@@ -173,7 +173,7 @@
         "id": "e3a5ba75-0127-45b0-8bcc-2864b8dd404d",
         "name": "Vidu"
       },
-      "elo": 1283,
+      "elo": 1282,
       "ci_95": 8,
       "ci95_range": "-8/+8"
     },
@@ -202,6 +202,18 @@
       "ci95_range": "-9/+9"
     },
     {
+      "id": "f0a7c830-eab1-419f-b61c-bb7143841a9d",
+      "name": "Kling 3.0 Omni 720p (Standard)",
+      "slug": "kling-o3-standard",
+      "creator": {
+        "id": "62cc833b-f55a-4489-bcae-54806d4b04ff",
+        "name": "KlingAI"
+      },
+      "elo": 1272,
+      "ci_95": 9,
+      "ci95_range": "-9/+9"
+    },
+    {
       "id": "1ce3af77-bb30-40ef-90e2-5aa9fa4588b9",
       "name": "Wan 2.7",
       "slug": "wan-2-7-v2v",
@@ -214,16 +226,16 @@
       "ci95_range": "-10/+10"
     },
     {
-      "id": "f0a7c830-eab1-419f-b61c-bb7143841a9d",
-      "name": "Kling 3.0 Omni 720p (Standard)",
-      "slug": "kling-o3-standard",
+      "id": "fbe52f99-34a3-44a9-b14b-dc35c030e9f4",
+      "name": "Cosmos3-Super-Image2Video-4Step",
+      "slug": "cosmos3-super-image2video-4step",
       "creator": {
-        "id": "62cc833b-f55a-4489-bcae-54806d4b04ff",
-        "name": "KlingAI"
+        "id": "0c303112-430d-4367-a484-51defaa2e166",
+        "name": "NVIDIA"
       },
       "elo": 1271,
-      "ci_95": 9,
-      "ci95_range": "-9/+9"
+      "ci_95": 11,
+      "ci95_range": "-11/+11"
     },
     {
       "id": "54dce3b3-7d22-4c87-bd14-74e5218c7759",
@@ -236,18 +248,6 @@
       "elo": 1271,
       "ci_95": 9,
       "ci95_range": "-9/+9"
-    },
-    {
-      "id": "fbe52f99-34a3-44a9-b14b-dc35c030e9f4",
-      "name": "Cosmos3-Super-Image2Video-4Step",
-      "slug": "cosmos3-super-image2video-4step",
-      "creator": {
-        "id": "0c303112-430d-4367-a484-51defaa2e166",
-        "name": "NVIDIA"
-      },
-      "elo": 1270,
-      "ci_95": 11,
-      "ci95_range": "-11/+11"
     },
     {
       "id": "b5d5057e-3d0d-4e22-b029-bd976cd1b6a6",
@@ -293,7 +293,7 @@
         "id": "1942f8d6-ab55-4408-99dd-2f99c70353f6",
         "name": "PixVerse"
       },
-      "elo": 1267,
+      "elo": 1266,
       "ci_95": 9,
       "ci95_range": "-9/+9"
     },
@@ -305,7 +305,7 @@
         "id": "faddc6d9-2c14-445f-9b28-56726f59c793",
         "name": "Google"
       },
-      "elo": 1262,
+      "elo": 1263,
       "ci_95": 9,
       "ci95_range": "-9/+9"
     },
@@ -466,18 +466,6 @@
       "ci95_range": "-9/+9"
     },
     {
-      "id": "043f0cb2-3565-45ad-bf78-7e2de8288e94",
-      "name": "Vidu Q3 Turbo",
-      "slug": "vidu-q3-turbo",
-      "creator": {
-        "id": "e3a5ba75-0127-45b0-8bcc-2864b8dd404d",
-        "name": "Vidu"
-      },
-      "elo": 1227,
-      "ci_95": 11,
-      "ci95_range": "-11/+11"
-    },
-    {
       "id": "57a29e57-e118-4ae7-abb1-aa6e5935634a",
       "name": "Vidu Q2 Pro",
       "slug": "vidu-q2-pro",
@@ -488,6 +476,18 @@
       "elo": 1226,
       "ci_95": 9,
       "ci95_range": "-9/+9"
+    },
+    {
+      "id": "043f0cb2-3565-45ad-bf78-7e2de8288e94",
+      "name": "Vidu Q3 Turbo",
+      "slug": "vidu-q3-turbo",
+      "creator": {
+        "id": "e3a5ba75-0127-45b0-8bcc-2864b8dd404d",
+        "name": "Vidu"
+      },
+      "elo": 1226,
+      "ci_95": 11,
+      "ci95_range": "-11/+11"
     },
     {
       "id": "f719629b-b8ad-4cce-92f9-758936baff53",
@@ -581,9 +581,9 @@
         "id": "ed94442e-da40-4fa6-a209-c7e9e095a75f",
         "name": "Lightricks"
       },
-      "elo": 1192,
-      "ci_95": 12,
-      "ci95_range": "-12/+12"
+      "elo": 1191,
+      "ci_95": 11,
+      "ci95_range": "-11/+11"
     },
     {
       "id": "f8e18877-4f78-4f5b-b45b-16222c8f641f",
@@ -761,9 +761,9 @@
         "id": "d874d370-74d3-4fa0-ba00-5272f92f946b",
         "name": "Alibaba"
       },
-      "elo": 1109,
-      "ci_95": 10,
-      "ci95_range": "-10/+10"
+      "elo": 1108,
+      "ci_95": 9,
+      "ci95_range": "-9/+9"
     },
     {
       "id": "2175641c-9303-4ac3-af3c-21cc7113adb0",

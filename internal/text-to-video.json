@@ -6,7 +6,7 @@
     "source_description": "Text-to-video arena Elo rankings (Free tier)",
     "parser_version": "official-api-v1",
     "model_count": 83,
-    "fetched_at": "2026-09-15T10:04:12.167536+00:00"
+    "fetched_at": "2026-09-16T09:56:29.187279+00:00"
   },
   "models": [
     {
@@ -221,7 +221,7 @@
         "id": "1942f8d6-ab55-4408-99dd-2f99c70353f6",
         "name": "PixVerse"
       },
-      "elo": 1211,
+      "elo": 1212,
       "ci_95": 8,
       "ci95_range": "-8/+8"
     },

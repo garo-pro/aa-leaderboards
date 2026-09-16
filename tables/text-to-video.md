@@ -3,7 +3,7 @@
 Data by [Artificial Analysis](https://artificialanalysis.ai/), via their [Data API](https://artificialanalysis.ai/data-api).
 
 - Source: [https://artificialanalysis.ai/api/v2/media/text-to-video/models/free](https://artificialanalysis.ai/api/v2/media/text-to-video/models/free)
-- Fetched at: 2026-09-15T10:04:12.167536+00:00
+- Fetched at: 2026-09-16T09:56:29.187279+00:00
 - Model count: 83
 
 > Generated from `internal/text-to-video.json` by `scripts/render_tables.py`. Do not edit by hand.
@@ -27,7 +27,7 @@ Data by [Artificial Analysis](https://artificialanalysis.ai/), via their [Data A
 | f0a7c830-eab1-419f-b61c-bb7143841a9d | Kling 3.0 Omni 720p (Standard) | kling-o3-standard | 62cc833b-f55a-4489-bcae-54806d4b04ff | KlingAI | 1214 | 8 | -8/+8 |
 | b5d5057e-3d0d-4e22-b029-bd976cd1b6a6 | Kling 3.0 720p (Standard) | kling-3-0-standard | 62cc833b-f55a-4489-bcae-54806d4b04ff | KlingAI | 1214 | 7 | -7/+7 |
 | 440843ac-4961-4eef-a504-158724c11fee | Runway Gen-4.5 | runway-gen-4-5 | a6906d95-a471-4a0c-ad10-b989571de20c | Runway | 1213 | 7 | -7/+7 |
-| c6a494f5-7ab7-4693-8382-fa03060d2fdf | PixVerse V5.6 | pixverse-v5-6 | 1942f8d6-ab55-4408-99dd-2f99c70353f6 | PixVerse | 1211 | 8 | -8/+8 |
+| c6a494f5-7ab7-4693-8382-fa03060d2fdf | PixVerse V5.6 | pixverse-v5-6 | 1942f8d6-ab55-4408-99dd-2f99c70353f6 | PixVerse | 1212 | 8 | -8/+8 |
 | be866b8a-d073-4ee4-9652-73227c679dc4 | PixVerse V6 | pixverse-v6 | 1942f8d6-ab55-4408-99dd-2f99c70353f6 | PixVerse | 1211 | 7 | -7/+7 |
 | 50ed6856-5052-431d-8994-584b2e02f023 | SkyReels V4 | skyreels-v4 | 67b5ce4d-0c81-4edc-b4c3-370acc2df555 | Skywork AI | 1211 | 9 | -9/+9 |
 | 7623b756-8b01-4e60-aed4-3322c1933e36 | Veo 3 | veo-3-no-audio | faddc6d9-2c14-445f-9b28-56726f59c793 | Google | 1210 | 8 | -8/+8 |
