@@ -6,7 +6,7 @@
     "source_description": "Image-to-video arena Elo rankings (Free tier)",
     "parser_version": "official-api-v1",
     "model_count": 76,
-    "fetched_at": "2026-09-17T09:58:57.663395+00:00"
+    "fetched_at": "2026-09-18T09:45:35.821065+00:00"
   },
   "models": [
     {
@@ -209,7 +209,7 @@
         "id": "62cc833b-f55a-4489-bcae-54806d4b04ff",
         "name": "KlingAI"
       },
-      "elo": 1275,
+      "elo": 1276,
       "ci_95": 10,
       "ci95_range": "-10/+10"
     },
@@ -526,18 +526,6 @@
       "ci95_range": "-12/+12"
     },
     {
-      "id": "c308a441-376d-4783-b193-1da5ff10212e",
-      "name": "Hailuo 02 Fast",
-      "slug": "hailuo-02-fast",
-      "creator": {
-        "id": "a31a9071-6144-4dbb-92dc-2e02d653ecea",
-        "name": "MiniMax"
-      },
-      "elo": 1206,
-      "ci_95": 11,
-      "ci95_range": "-11/+11"
-    },
-    {
       "id": "1f1d69b1-4fd1-4499-ab22-9d9fd47fca21",
       "name": "Kling 2.1 Master",
       "slug": "kling-2-1-master",
@@ -548,6 +536,18 @@
       "elo": 1206,
       "ci_95": 12,
       "ci95_range": "-12/+12"
+    },
+    {
+      "id": "c308a441-376d-4783-b193-1da5ff10212e",
+      "name": "Hailuo 02 Fast",
+      "slug": "hailuo-02-fast",
+      "creator": {
+        "id": "a31a9071-6144-4dbb-92dc-2e02d653ecea",
+        "name": "MiniMax"
+      },
+      "elo": 1206,
+      "ci_95": 11,
+      "ci95_range": "-11/+11"
     },
     {
       "id": "e451b7d7-42eb-4c07-9f57-5b5e9bd80c97",
@@ -569,7 +569,7 @@
         "id": "acea75bb-3f76-4ce0-b168-741a31fcec0a",
         "name": "Pika Art"
       },
-      "elo": 1198,
+      "elo": 1199,
       "ci_95": 10,
       "ci95_range": "-10/+10"
     },
@@ -761,7 +761,7 @@
         "id": "d874d370-74d3-4fa0-ba00-5272f92f946b",
         "name": "Alibaba"
       },
-      "elo": 1105,
+      "elo": 1106,
       "ci_95": 11,
       "ci95_range": "-11/+11"
     },
@@ -785,7 +785,7 @@
         "id": "a6906d95-a471-4a0c-ad10-b989571de20c",
         "name": "Runway"
       },
-      "elo": 1086,
+      "elo": 1087,
       "ci_95": 11,
       "ci95_range": "-11/+11"
     },
@@ -797,7 +797,7 @@
         "id": "a31a9071-6144-4dbb-92dc-2e02d653ecea",
         "name": "MiniMax"
       },
-      "elo": 1046,
+      "elo": 1047,
       "ci_95": 11,
       "ci95_range": "-11/+11"
     },
@@ -857,7 +857,7 @@
         "id": "acea75bb-3f76-4ce0-b168-741a31fcec0a",
         "name": "Pika Art"
       },
-      "elo": 1011,
+      "elo": 1012,
       "ci_95": 12,
       "ci95_range": "-12/+12"
     },

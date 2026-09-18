@@ -3,7 +3,7 @@
 Data by [Artificial Analysis](https://artificialanalysis.ai/), via their [Data API](https://artificialanalysis.ai/data-api).
 
 - Source: [https://artificialanalysis.ai/api/v2/media/image-to-video/models/free](https://artificialanalysis.ai/api/v2/media/image-to-video/models/free)
-- Fetched at: 2026-09-17T09:58:57.663395+00:00
+- Fetched at: 2026-09-18T09:45:35.821065+00:00
 - Model count: 76
 
 > Generated from `internal/image-to-video.json` by `scripts/render_tables.py`. Do not edit by hand.
@@ -26,7 +26,7 @@ Data by [Artificial Analysis](https://artificialanalysis.ai/), via their [Data A
 | 50ed6856-5052-431d-8994-584b2e02f023 | SkyReels V4 | skyreels-v4 | 67b5ce4d-0c81-4edc-b4c3-370acc2df555 | Skywork AI | 1281 | 11 | -11/+11 |
 | 553f28a1-95de-4991-9084-d9275d862f68 | Kling 3.0 Omni 1080p (Pro) | kling-o3-pro | 62cc833b-f55a-4489-bcae-54806d4b04ff | KlingAI | 1279 | 10 | -10/+10 |
 | 5180943f-2a96-44a5-9461-80e5ae1e249e | PixVerse V5 | pixverse-v5 | 1942f8d6-ab55-4408-99dd-2f99c70353f6 | PixVerse | 1276 | 10 | -10/+10 |
-| d149ad95-b3b2-4d23-8611-07a84c1a0e7f | Kling 3.0 1080p (Pro) | kling-3-0-pro | 62cc833b-f55a-4489-bcae-54806d4b04ff | KlingAI | 1275 | 10 | -10/+10 |
+| d149ad95-b3b2-4d23-8611-07a84c1a0e7f | Kling 3.0 1080p (Pro) | kling-3-0-pro | 62cc833b-f55a-4489-bcae-54806d4b04ff | KlingAI | 1276 | 10 | -10/+10 |
 | fbe52f99-34a3-44a9-b14b-dc35c030e9f4 | Cosmos3-Super-Image2Video-4Step | cosmos3-super-image2video-4step | 0c303112-430d-4367-a484-51defaa2e166 | NVIDIA | 1274 | 12 | -12/+12 |
 | 4818889c-3943-4578-9467-4827fb187e39 | PixVerse V5.5 | pixverse-v5-5 | 1942f8d6-ab55-4408-99dd-2f99c70353f6 | PixVerse | 1274 | 10 | -10/+10 |
 | b5d5057e-3d0d-4e22-b029-bd976cd1b6a6 | Kling 3.0 720p (Standard) | kling-3-0-standard | 62cc833b-f55a-4489-bcae-54806d4b04ff | KlingAI | 1269 | 10 | -10/+10 |
@@ -53,10 +53,10 @@ Data by [Artificial Analysis](https://artificialanalysis.ai/), via their [Data A
 | 6ccddbde-d734-4ac0-95a7-f7ed903ec45d | Wan 2.6 | wan-2-6 | d874d370-74d3-4fa0-ba00-5272f92f946b | Alibaba | 1219 | 11 | -11/+11 |
 | f719629b-b8ad-4cce-92f9-758936baff53 | Ray 3 | ray-3 | 09468924-69a9-499b-8dd6-d0bb4c05285d | Luma Labs | 1215 | 10 | -10/+10 |
 | b5343afd-4bff-4e97-99fc-1e2edf2e8eb1 | LTX-2.5 Fast | ltx-2-5-fast | ed94442e-da40-4fa6-a209-c7e9e095a75f | Lightricks | 1214 | 12 | -12/+12 |
-| c308a441-376d-4783-b193-1da5ff10212e | Hailuo 02 Fast | hailuo-02-fast | a31a9071-6144-4dbb-92dc-2e02d653ecea | MiniMax | 1206 | 11 | -11/+11 |
 | 1f1d69b1-4fd1-4499-ab22-9d9fd47fca21 | Kling 2.1 Master | kling-2-1-master | 62cc833b-f55a-4489-bcae-54806d4b04ff | KlingAI | 1206 | 12 | -12/+12 |
+| c308a441-376d-4783-b193-1da5ff10212e | Hailuo 02 Fast | hailuo-02-fast | a31a9071-6144-4dbb-92dc-2e02d653ecea | MiniMax | 1206 | 11 | -11/+11 |
 | e451b7d7-42eb-4c07-9f57-5b5e9bd80c97 | LTX-2 Pro | ltx-2-pro | ed94442e-da40-4fa6-a209-c7e9e095a75f | Lightricks | 1201 | 10 | -10/+10 |
-| e6709ae3-1527-4977-9b9a-aa13dbbc3647 | Pika 2.5 | pika-2-5 | acea75bb-3f76-4ce0-b168-741a31fcec0a | Pika Art | 1198 | 10 | -10/+10 |
+| e6709ae3-1527-4977-9b9a-aa13dbbc3647 | Pika 2.5 | pika-2-5 | acea75bb-3f76-4ce0-b168-741a31fcec0a | Pika Art | 1199 | 10 | -10/+10 |
 | 791ff10c-594f-418b-9c1a-39313784d759 | LTX-2.5 Pro | ltx-2-5-pro | ed94442e-da40-4fa6-a209-c7e9e095a75f | Lightricks | 1191 | 12 | -12/+12 |
 | f8e18877-4f78-4f5b-b45b-16222c8f641f | LTX-2 Fast | ltx-2-fast | ed94442e-da40-4fa6-a209-c7e9e095a75f | Lightricks | 1189 | 10 | -10/+10 |
 | 429afba7-8ce1-42b3-80c9-58d1b96d775a | Kling 2.1 Pro | kling-2-1-pro | 62cc833b-f55a-4489-bcae-54806d4b04ff | KlingAI | 1184 | 11 | -11/+11 |
@@ -72,15 +72,15 @@ Data by [Artificial Analysis](https://artificialanalysis.ai/), via their [Data A
 | 498151a5-a67b-4104-94ce-891fbf1f035b | HunyuanVideo-1.5 (Fal) | hunyuanvideo-1-5-fal | a4e5bd55-a6cd-4dcf-8d4a-1d9643cd3826 | Tencent | 1133 | 11 | -11/+11 |
 | e3ae2457-aad0-469a-ae99-5bc082b59d76 | P-Video | p-video | a98e0396-4ef1-4a39-bb12-b004c7590bee | Pruna AI | 1130 | 11 | -11/+11 |
 | b84149e7-a8a2-4dff-983d-bb1fe8fcd9ef | Agnes-Video-V2.0 | agnes-video-v2.0 | 5db3af1a-e372-4c62-98bd-f6027eeaf990 | Sapiens AI | 1128 | 12 | -12/+12 |
-| 07afda5d-a248-4139-b662-2233391ff127 | Wan 2.2 A14B | wan-2-2-a14b | d874d370-74d3-4fa0-ba00-5272f92f946b | Alibaba | 1105 | 11 | -11/+11 |
+| 07afda5d-a248-4139-b662-2233391ff127 | Wan 2.2 A14B | wan-2-2-a14b | d874d370-74d3-4fa0-ba00-5272f92f946b | Alibaba | 1106 | 11 | -11/+11 |
 | 2175641c-9303-4ac3-af3c-21cc7113adb0 | Veo 2 | veo-2 | faddc6d9-2c14-445f-9b28-56726f59c793 | Google | 1098 | 11 | -11/+11 |
-| d4684d1c-c874-4f2f-8e6a-1d2a21902663 | Runway Gen 4 | runway-gen-4 | a6906d95-a471-4a0c-ad10-b989571de20c | Runway | 1086 | 11 | -11/+11 |
-| 2ed47848-72e3-43b4-adff-c68c0432e000 | I2V-01-Director | i2v-01-director | a31a9071-6144-4dbb-92dc-2e02d653ecea | MiniMax | 1046 | 11 | -11/+11 |
+| d4684d1c-c874-4f2f-8e6a-1d2a21902663 | Runway Gen 4 | runway-gen-4 | a6906d95-a471-4a0c-ad10-b989571de20c | Runway | 1087 | 11 | -11/+11 |
+| 2ed47848-72e3-43b4-adff-c68c0432e000 | I2V-01-Director | i2v-01-director | a31a9071-6144-4dbb-92dc-2e02d653ecea | MiniMax | 1047 | 11 | -11/+11 |
 | 21bce815-dea9-4e48-8515-cf2b193ae711 | Vidu Q1 | vidu-q1 | e3a5ba75-0127-45b0-8bcc-2864b8dd404d | Vidu | 1031 | 13 | -13/+13 |
 | 906000d4-9c7c-4584-8e16-f5a362d3c06e | LTX Video v0.9.7 13B | ltx-video-v0-9-7-13b | ed94442e-da40-4fa6-a209-c7e9e095a75f | Lightricks | 1030 | 13 | -13/+13 |
 | ca910fd5-94bf-46a0-adcd-bb24a55ec611 | Motion 2.0 | motion-2-0 | c104be52-31ea-4948-b921-265dc297f3ac | Leonardo.Ai | 1025 | 13 | -13/+13 |
 | 43b09fe3-a4a8-4bda-9244-da05949c9d65 | Runway Gen 3 Alpha | runway-gen-3-alpha | a6906d95-a471-4a0c-ad10-b989571de20c | Runway | 1012 | 12 | -12/+12 |
-| 43967fcc-e1b9-4591-ac7c-d59c51d8b192 | Pika 2.2 | pika-2-2 | acea75bb-3f76-4ce0-b168-741a31fcec0a | Pika Art | 1011 | 12 | -12/+12 |
+| 43967fcc-e1b9-4591-ac7c-d59c51d8b192 | Pika 2.2 | pika-2-2 | acea75bb-3f76-4ce0-b168-741a31fcec0a | Pika Art | 1012 | 12 | -12/+12 |
 | aa7b1ddc-9db0-4afc-ad1b-4915cdc49b01 | Marey | marey | ba0bfcf7-3dd3-4d37-9114-cbe872a82723 | Moonvalley | 1006 | 12 | -12/+12 |
 | 6018f5d3-4cdf-49b2-aca9-8296f9c71111 | Runway Gen 3 Alpha Turbo | runway-gen-3-alpha-turbo | a6906d95-a471-4a0c-ad10-b989571de20c | Runway | 1002 | 12 | -12/+12 |
 | da890ad1-328b-42e7-8283-fac407482138 | Wan 2.1 14B | wan-2-1-14b | d874d370-74d3-4fa0-ba00-5272f92f946b | Alibaba | 1000 | 0 | -0/+0 |
