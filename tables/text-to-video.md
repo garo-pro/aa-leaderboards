@@ -3,7 +3,7 @@
 Data by [Artificial Analysis](https://artificialanalysis.ai/), via their [Data API](https://artificialanalysis.ai/data-api).
 
 - Source: [https://artificialanalysis.ai/api/v2/media/text-to-video/models/free](https://artificialanalysis.ai/api/v2/media/text-to-video/models/free)
-- Fetched at: 2026-09-21T10:42:56.258542+00:00
+- Fetched at: 2026-09-22T09:56:49.521758+00:00
 - Model count: 83
 
 > Generated from `internal/text-to-video.json` by `scripts/render_tables.py`. Do not edit by hand.
@@ -52,7 +52,7 @@ Data by [Artificial Analysis](https://artificialanalysis.ai/), via their [Data A
 | aea5e8ea-2766-4235-ad96-307ee1d985e3 | Hailuo 02 Standard | hailuo-02-standard | a31a9071-6144-4dbb-92dc-2e02d653ecea | MiniMax | 1170 | 9 | -9/+9 |
 | 249f428c-b651-4c9e-b599-5cc3c1db7616 | Sora 2 (December) | sora-2-december-no-audio | e67e56e3-15cd-43db-b679-da4660a69f41 | OpenAI | 1168 | 10 | -10/+10 |
 | 527bfb54-8238-4671-9b2f-5e9b86d80163 | Wan 2.5 Preview | wan-2-5-preview | d874d370-74d3-4fa0-ba00-5272f92f946b | Alibaba | 1160 | 8 | -8/+8 |
-| 36e2f091-2000-4961-bf2d-0406e0a78b66 | Hailuo 02 Pro | hailuo-02-pro | a31a9071-6144-4dbb-92dc-2e02d653ecea | MiniMax | 1153 | 9 | -9/+9 |
+| 36e2f091-2000-4961-bf2d-0406e0a78b66 | Hailuo 02 Pro | hailuo-02-pro | a31a9071-6144-4dbb-92dc-2e02d653ecea | MiniMax | 1154 | 9 | -9/+9 |
 | b58bc338-cee5-4d19-b820-8c4f7d7f1248 | Seedance 1.0 | seedance-10 | 2354746c-4775-4a06-b64d-0ba4137785b8 | ByteDance Seed | 1136 | 8 | -8/+8 |
 | e451b7d7-42eb-4c07-9f57-5b5e9bd80c97 | LTX-2 Pro | ltx-2-pro | ed94442e-da40-4fa6-a209-c7e9e095a75f | Lightricks | 1127 | 8 | -8/+8 |
 | 1f1d69b1-4fd1-4499-ab22-9d9fd47fca21 | Kling 2.1 Master | kling-2-1-master | 62cc833b-f55a-4489-bcae-54806d4b04ff | KlingAI | 1127 | 10 | -10/+10 |
@@ -64,7 +64,7 @@ Data by [Artificial Analysis](https://artificialanalysis.ai/), via their [Data A
 | 043f0cb2-3565-45ad-bf78-7e2de8288e94 | Vidu Q3 Turbo | vidu-q3-turbo | e3a5ba75-0127-45b0-8bcc-2864b8dd404d | Vidu | 1106 | 11 | -11/+11 |
 | 53ce6c01-8a4d-4d22-94a8-d48ffe32ce32 | Kling 2.0 | kling-2-0 | 62cc833b-f55a-4489-bcae-54806d4b04ff | KlingAI | 1092 | 9 | -9/+9 |
 | e6709ae3-1527-4977-9b9a-aa13dbbc3647 | Pika 2.5 | pika-2-5 | acea75bb-3f76-4ce0-b168-741a31fcec0a | Pika Art | 1086 | 9 | -9/+9 |
-| 105002bb-dfde-4b74-9615-361c637d1887 | Seedance 1.0 Mini | seedance-1-0-mini | 2354746c-4775-4a06-b64d-0ba4137785b8 | ByteDance Seed | 1085 | 9 | -9/+9 |
+| 105002bb-dfde-4b74-9615-361c637d1887 | Seedance 1.0 Mini | seedance-1-0-mini | 2354746c-4775-4a06-b64d-0ba4137785b8 | ByteDance Seed | 1084 | 9 | -9/+9 |
 | 7e329f46-5e24-41b1-84ab-af6df18782b8 | PixVerse V4.5 | pixverse-v4-5 | 1942f8d6-ab55-4408-99dd-2f99c70353f6 | PixVerse | 1083 | 10 | -10/+10 |
 | e3ae2457-aad0-469a-ae99-5bc082b59d76 | P-Video | p-video | a98e0396-4ef1-4a39-bb12-b004c7590bee | Pruna AI | 1059 | 9 | -9/+9 |
 | b84149e7-a8a2-4dff-983d-bb1fe8fcd9ef | Agnes-Video-V2.0 | agnes-video-v2.0 | 5db3af1a-e372-4c62-98bd-f6027eeaf990 | Sapiens AI | 1053 | 10 | -10/+10 |
