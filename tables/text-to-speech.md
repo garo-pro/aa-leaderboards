@@ -3,17 +3,19 @@
 Data by [Artificial Analysis](https://artificialanalysis.ai/), via their [Data API](https://artificialanalysis.ai/data-api).
 
 - Source: [https://artificialanalysis.ai/api/v2/media/text-to-speech/models/free](https://artificialanalysis.ai/api/v2/media/text-to-speech/models/free)
-- Fetched at: 2026-09-23T09:58:39.200277+00:00
-- Model count: 90
+- Fetched at: 2026-09-24T10:00:17.797772+00:00
+- Model count: 92
 
 > Generated from `internal/text-to-speech.json` by `scripts/render_tables.py`. Do not edit by hand.
 
 | id | name | slug | creator.id | creator.name | elo | ci_95 | ci95_range |
 | --- | --- | --- | --- | --- | --- | --- | --- |
 | d03dbdcb-d7b8-4bc9-aa3e-90a9e6cb43be | Sonic 3.6 | sonic-3-6 | 1fa5b287-d75e-4268-a1c1-c04c0a9e512a | Cartesia | 1273 | 17 | -17/+17 |
+| e4a3c98a-0ac3-4039-a189-a820368ec76c | Gemini 3.8 Flash TTS | gemini-3-8-flash-tts | faddc6d9-2c14-445f-9b28-56726f59c793 | Google | 1260 | 17 | -17/+17 |
 | 0e0fb28e-5626-439f-a816-e7f05896daf9 | Qwen-Audio-3.0-TTS-Plus | qwen-audio-3-0-tts-plus | d874d370-74d3-4fa0-ba00-5272f92f946b | Alibaba | 1259 | 17 | -17/+17 |
 | 359b0666-ac70-4eb2-9804-c2bd02e06f9a | Realtime TTS-2 | realtime-tts-2 | 3aab6d2e-04b0-43ee-996f-d8ef76ac3232 | Inworld | 1245 | 18 | -18/+18 |
 | 5177af39-8605-4e2f-b13a-b97f94cb8022 | Simba 3.2 | simba-3-2 | 237d1944-ea14-43ed-82e6-3ab69698c9b4 | SpeechifyAI | 1237 | 14 | -14/+14 |
+| 0bacd380-cb3b-4fc9-956d-dd50711ba8bf | Gemini 3.8 Flash-Lite TTS | gemini-3-8-flash-lite-tts | faddc6d9-2c14-445f-9b28-56726f59c793 | Google | 1235 | 16 | -16/+16 |
 | bbc80a38-96a7-4fc2-ac14-64e6f2d7ea85 | Luna TTS | luna-tts | 1b623c0b-db8b-401a-b26c-f0a48e0c17e1 | VUI Labs | 1230 | 14 | -14/+14 |
 | bd4e5333-0162-46b3-9e16-4f61159eec6a | Realtime TTS-2 Flash | realtime-tts-2-flash-research-preview | 3aab6d2e-04b0-43ee-996f-d8ef76ac3232 | Inworld | 1210 | 15 | -15/+15 |
 | d1fcdeff-86ab-46af-b163-bbd062cc80e7 | Breeze TTS 2 | breeze-tts-2 | 8cdb637a-ba81-4e96-98b5-6f8d743c20ee | BreezeBlue | 1204 | 16 | -16/+16 |

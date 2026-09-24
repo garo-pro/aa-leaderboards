@@ -5,8 +5,8 @@
     "source_url": "https://artificialanalysis.ai/api/v2/media/text-to-speech/models/free",
     "source_description": "Text-to-speech arena Elo rankings (Free tier)",
     "parser_version": "official-api-v1",
-    "model_count": 90,
-    "fetched_at": "2026-09-23T09:58:39.200277+00:00"
+    "model_count": 92,
+    "fetched_at": "2026-09-24T10:00:17.797772+00:00"
   },
   "models": [
     {
@@ -18,6 +18,18 @@
         "name": "Cartesia"
       },
       "elo": 1273,
+      "ci_95": 17,
+      "ci95_range": "-17/+17"
+    },
+    {
+      "id": "e4a3c98a-0ac3-4039-a189-a820368ec76c",
+      "name": "Gemini 3.8 Flash TTS",
+      "slug": "gemini-3-8-flash-tts",
+      "creator": {
+        "id": "faddc6d9-2c14-445f-9b28-56726f59c793",
+        "name": "Google"
+      },
+      "elo": 1260,
       "ci_95": 17,
       "ci95_range": "-17/+17"
     },
@@ -56,6 +68,18 @@
       "elo": 1237,
       "ci_95": 14,
       "ci95_range": "-14/+14"
+    },
+    {
+      "id": "0bacd380-cb3b-4fc9-956d-dd50711ba8bf",
+      "name": "Gemini 3.8 Flash-Lite TTS",
+      "slug": "gemini-3-8-flash-lite-tts",
+      "creator": {
+        "id": "faddc6d9-2c14-445f-9b28-56726f59c793",
+        "name": "Google"
+      },
+      "elo": 1235,
+      "ci_95": 16,
+      "ci95_range": "-16/+16"
     },
     {
       "id": "bbc80a38-96a7-4fc2-ac14-64e6f2d7ea85",
