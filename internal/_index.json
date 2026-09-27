@@ -1,12 +1,12 @@
 {
-  "date": "2026-09-26",
-  "fetched_at": "2026-09-26T09:51:39.247357+00:00",
+  "date": "2026-09-27",
+  "fetched_at": "2026-09-27T10:33:10.130438+00:00",
   "source": "https://artificialanalysis.ai/data-api",
   "source_type": "official_api_free_tier",
   "parser_version": "official-api-v1",
   "endpoints": {
     "llms": {
-      "model_count": 673,
+      "model_count": 674,
       "source_type": "official_api_free_tier",
       "source_url": "https://artificialanalysis.ai/api/v2/language/models/free"
     },
