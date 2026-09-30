@@ -3,7 +3,7 @@
 Data by [Artificial Analysis](https://artificialanalysis.ai/), via their [Data API](https://artificialanalysis.ai/data-api).
 
 - Source: [https://artificialanalysis.ai/api/v2/media/image-to-video/models/free](https://artificialanalysis.ai/api/v2/media/image-to-video/models/free)
-- Fetched at: 2026-09-29T11:21:49.381434+00:00
+- Fetched at: 2026-09-30T11:09:47.345423+00:00
 - Model count: 76
 
 > Generated from `internal/image-to-video.json` by `scripts/render_tables.py`. Do not edit by hand.
@@ -33,7 +33,7 @@ Data by [Artificial Analysis](https://artificialanalysis.ai/), via their [Data A
 | 1ce3af77-bb30-40ef-90e2-5aa9fa4588b9 | Wan 2.7 | wan-2-7-v2v | d874d370-74d3-4fa0-ba00-5272f92f946b | Alibaba | 1270 | 11 | -11/+11 |
 | b5d5057e-3d0d-4e22-b029-bd976cd1b6a6 | Kling 3.0 720p (Standard) | kling-3-0-standard | 62cc833b-f55a-4489-bcae-54806d4b04ff | KlingAI | 1270 | 9 | -9/+9 |
 | fc9dbded-1710-4498-9711-850dc6603abf | Kling 2.6 Pro (January) | kling-2-6-pro-january-no-audio | 62cc833b-f55a-4489-bcae-54806d4b04ff | KlingAI | 1266 | 9 | -9/+9 |
-| 440843ac-4961-4eef-a504-158724c11fee | Runway Gen-4.5 | runway-gen-4-5 | a6906d95-a471-4a0c-ad10-b989571de20c | Runway | 1265 | 10 | -10/+10 |
+| 440843ac-4961-4eef-a504-158724c11fee | Runway Gen-4.5 (720p) | runway-gen-4-5 | a6906d95-a471-4a0c-ad10-b989571de20c | Runway | 1265 | 10 | -10/+10 |
 | 54dce3b3-7d22-4c87-bd14-74e5218c7759 | Kling 2.6 Standard (January) | kling-2-6-standard-january-no-audio | 62cc833b-f55a-4489-bcae-54806d4b04ff | KlingAI | 1265 | 10 | -10/+10 |
 | f3c7e331-2b60-4f87-bc9c-363264f211a8 | Veo 3.1 Fast | veo-3-1-fast | faddc6d9-2c14-445f-9b28-56726f59c793 | Google | 1259 | 9 | -9/+9 |
 | 272fe027-de2f-42bb-b2ad-a01aab78bf4a | Hailuo 2.3 Fast | hailuo-2-3-fast-prompt-enhancement | a31a9071-6144-4dbb-92dc-2e02d653ecea | MiniMax | 1257 | 10 | -10/+10 |

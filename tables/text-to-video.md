@@ -3,7 +3,7 @@
 Data by [Artificial Analysis](https://artificialanalysis.ai/), via their [Data API](https://artificialanalysis.ai/data-api).
 
 - Source: [https://artificialanalysis.ai/api/v2/media/text-to-video/models/free](https://artificialanalysis.ai/api/v2/media/text-to-video/models/free)
-- Fetched at: 2026-09-29T11:21:49.381434+00:00
+- Fetched at: 2026-09-30T11:09:47.345423+00:00
 - Model count: 81
 
 > Generated from `internal/text-to-video.json` by `scripts/render_tables.py`. Do not edit by hand.
@@ -28,7 +28,7 @@ Data by [Artificial Analysis](https://artificialanalysis.ai/), via their [Data A
 | b5343afd-4bff-4e97-99fc-1e2edf2e8eb1 | LTX-2.5 Fast | ltx-2-5-fast | ed94442e-da40-4fa6-a209-c7e9e095a75f | Lightricks | 1218 | 11 | -11/+11 |
 | a8f7ab65-828a-4166-8fbf-616cbb01d773 | Veo 3.1 Lite | veo-3-1-lite | faddc6d9-2c14-445f-9b28-56726f59c793 | Google | 1215 | 10 | -10/+10 |
 | f0a7c830-eab1-419f-b61c-bb7143841a9d | Kling 3.0 Omni 720p (Standard) | kling-o3-standard | 62cc833b-f55a-4489-bcae-54806d4b04ff | KlingAI | 1215 | 8 | -8/+8 |
-| 440843ac-4961-4eef-a504-158724c11fee | Runway Gen-4.5 | runway-gen-4-5 | a6906d95-a471-4a0c-ad10-b989571de20c | Runway | 1214 | 8 | -8/+8 |
+| 440843ac-4961-4eef-a504-158724c11fee | Runway Gen-4.5 (720p) | runway-gen-4-5 | a6906d95-a471-4a0c-ad10-b989571de20c | Runway | 1214 | 8 | -8/+8 |
 | b8dc1338-a685-4c03-ad98-cf61226547b0 | Veo 3.1 | veo-3-1 | faddc6d9-2c14-445f-9b28-56726f59c793 | Google | 1214 | 8 | -8/+8 |
 | 7623b756-8b01-4e60-aed4-3322c1933e36 | Veo 3 | veo-3-no-audio | faddc6d9-2c14-445f-9b28-56726f59c793 | Google | 1211 | 8 | -8/+8 |
 | 50ed6856-5052-431d-8994-584b2e02f023 | SkyReels V4 | skyreels-v4 | 67b5ce4d-0c81-4edc-b4c3-370acc2df555 | Skywork AI | 1211 | 9 | -9/+9 |
