@@ -3,8 +3,8 @@
 Data by [Artificial Analysis](https://artificialanalysis.ai/), via their [Data API](https://artificialanalysis.ai/data-api).
 
 - Source: [https://artificialanalysis.ai/api/v2/media/text-to-image/models/free](https://artificialanalysis.ai/api/v2/media/text-to-image/models/free)
-- Fetched at: 2026-09-30T11:09:47.345423+00:00
-- Model count: 165
+- Fetched at: 2026-10-01T11:36:49.667449+00:00
+- Model count: 166
 
 > Generated from `internal/text-to-image.json` by `scripts/render_tables.py`. Do not edit by hand.
 
@@ -43,6 +43,7 @@ Data by [Artificial Analysis](https://artificialanalysis.ai/), via their [Data A
 | 4ead8ffd-aa90-4fab-93f3-d3f4495657f8 | Recraft V4.1 Utility Pro | recraft-v4-1-utility-pro | 02845eed-a64f-4ddd-af96-8409678c890a | Recraft | 1018 | 7 | -7/+7 |
 | caa670a4-e827-4a4b-84fb-2dd240205fe2 | Wan2.6 Text to Image | wan_wan-2-6-text-to-image-v2 | d874d370-74d3-4fa0-ba00-5272f92f946b | Alibaba | 1017 | 9 | -9/+9 |
 | a71a9c1d-a20f-4237-8e36-8a58558e2edc | Luma UNI 1 Max | luma-uni-1-max | 09468924-69a9-499b-8dd6-d0bb4c05285d | Luma Labs | 1014 | 9 | -9/+9 |
+| 8358ca21-5c7b-48f2-9b26-a1a1fa770f46 | Ideogram 4.5 (High) | ideogram-v4-5-high | a8b2ac11-1f36-44cb-9e88-383c4e0d749f | Ideogram | 1014 | 11 | -11/+11 |
 | 01ec8e55-dad9-4e6f-9036-e1da2a5226b6 | Krea 2 Medium | krea-2-medium | da6aca5c-fe97-453a-b5cb-43de1ac7210b | Krea | 1012 | 7 | -7/+7 |
 | 2f5ebb1e-6d5f-48b0-95bf-3b590fd45971 | GPT Image 1 (high) | openai-gpt_gpt-image-1--high | e67e56e3-15cd-43db-b679-da4660a69f41 | OpenAI | 1011 | 9 | -9/+9 |
 | d82c66de-d55a-4b6a-af16-f5bf808431cc | Seedream 5.0 Lite | seedream-5-0-lite | 2354746c-4775-4a06-b64d-0ba4137785b8 | ByteDance Seed | 1011 | 9 | -9/+9 |

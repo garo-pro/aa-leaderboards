@@ -5,8 +5,8 @@
     "source_url": "https://artificialanalysis.ai/api/v2/media/text-to-image/models/free",
     "source_description": "Text-to-image arena Elo rankings (Free tier)",
     "parser_version": "official-api-v1",
-    "model_count": 165,
-    "fetched_at": "2026-09-30T11:09:47.345423+00:00"
+    "model_count": 166,
+    "fetched_at": "2026-10-01T11:36:49.667449+00:00"
   },
   "models": [
     {
@@ -404,6 +404,18 @@
       "elo": 1014,
       "ci_95": 9,
       "ci95_range": "-9/+9"
+    },
+    {
+      "id": "8358ca21-5c7b-48f2-9b26-a1a1fa770f46",
+      "name": "Ideogram 4.5 (High)",
+      "slug": "ideogram-v4-5-high",
+      "creator": {
+        "id": "a8b2ac11-1f36-44cb-9e88-383c4e0d749f",
+        "name": "Ideogram"
+      },
+      "elo": 1014,
+      "ci_95": 11,
+      "ci95_range": "-11/+11"
     },
     {
       "id": "01ec8e55-dad9-4e6f-9036-e1da2a5226b6",

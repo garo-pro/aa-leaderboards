@@ -6,7 +6,7 @@
     "source_description": "Image-to-video arena Elo rankings (Free tier)",
     "parser_version": "official-api-v1",
     "model_count": 76,
-    "fetched_at": "2026-09-30T11:09:47.345423+00:00"
+    "fetched_at": "2026-10-01T11:36:49.667449+00:00"
   },
   "models": [
     {
@@ -509,7 +509,7 @@
         "id": "09468924-69a9-499b-8dd6-d0bb4c05285d",
         "name": "Luma Labs"
       },
-      "elo": 1216,
+      "elo": 1215,
       "ci_95": 10,
       "ci95_range": "-10/+10"
     },
@@ -629,7 +629,7 @@
         "id": "040f2c41-5df4-4708-8c77-6a2030be2539",
         "name": "HiDream"
       },
-      "elo": 1176,
+      "elo": 1177,
       "ci_95": 10,
       "ci95_range": "-10/+10"
     },
@@ -845,7 +845,7 @@
         "id": "a6906d95-a471-4a0c-ad10-b989571de20c",
         "name": "Runway"
       },
-      "elo": 1016,
+      "elo": 1017,
       "ci_95": 12,
       "ci95_range": "-12/+12"
     },
