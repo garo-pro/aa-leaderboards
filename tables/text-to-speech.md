@@ -3,14 +3,15 @@
 Data by [Artificial Analysis](https://artificialanalysis.ai/), via their [Data API](https://artificialanalysis.ai/data-api).
 
 - Source: [https://artificialanalysis.ai/api/v2/media/text-to-speech/models/free](https://artificialanalysis.ai/api/v2/media/text-to-speech/models/free)
-- Fetched at: 2026-10-01T11:36:49.667449+00:00
-- Model count: 92
+- Fetched at: 2026-10-02T11:06:06.497128+00:00
+- Model count: 93
 
 > Generated from `internal/text-to-speech.json` by `scripts/render_tables.py`. Do not edit by hand.
 
 | id | name | slug | creator.id | creator.name | elo | ci_95 | ci95_range |
 | --- | --- | --- | --- | --- | --- | --- | --- |
 | 5731ba67-aafe-4ebd-be07-5b7f86454d01 | Eleven v4 | eleven-v4 | 8d057760-0a8b-460a-9625-6dd261bb325c | ElevenLabs | 1320 | 18 | -18/+18 |
+| 115c856c-4b94-4c4d-b9c9-5fb7817ca4a4 | Qwen-Audio-3.1-TTS-Plus | qwen-audio-3-1-tts-plus | d874d370-74d3-4fa0-ba00-5272f92f946b | Alibaba | 1291 | 18 | -18/+18 |
 | d03dbdcb-d7b8-4bc9-aa3e-90a9e6cb43be | Sonic 3.6 | sonic-3-6 | 1fa5b287-d75e-4268-a1c1-c04c0a9e512a | Cartesia | 1273 | 16 | -16/+16 |
 | e4a3c98a-0ac3-4039-a189-a820368ec76c | Gemini 3.8 Flash TTS | gemini-3-8-flash-tts | faddc6d9-2c14-445f-9b28-56726f59c793 | Google | 1272 | 16 | -16/+16 |
 | 0e0fb28e-5626-439f-a816-e7f05896daf9 | Qwen-Audio-3.0-TTS-Plus | qwen-audio-3-0-tts-plus | d874d370-74d3-4fa0-ba00-5272f92f946b | Alibaba | 1259 | 16 | -16/+16 |

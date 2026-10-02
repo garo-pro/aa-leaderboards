@@ -6,7 +6,7 @@
     "source_description": "Image-to-video arena Elo rankings (Free tier)",
     "parser_version": "official-api-v1",
     "model_count": 76,
-    "fetched_at": "2026-10-01T11:36:49.667449+00:00"
+    "fetched_at": "2026-10-02T11:06:06.497128+00:00"
   },
   "models": [
     {
@@ -461,7 +461,7 @@
         "id": "e3a5ba75-0127-45b0-8bcc-2864b8dd404d",
         "name": "Vidu"
       },
-      "elo": 1234,
+      "elo": 1233,
       "ci_95": 10,
       "ci95_range": "-10/+10"
     },
@@ -526,18 +526,6 @@
       "ci95_range": "-12/+12"
     },
     {
-      "id": "1f1d69b1-4fd1-4499-ab22-9d9fd47fca21",
-      "name": "Kling 2.1 Master",
-      "slug": "kling-2-1-master",
-      "creator": {
-        "id": "62cc833b-f55a-4489-bcae-54806d4b04ff",
-        "name": "KlingAI"
-      },
-      "elo": 1208,
-      "ci_95": 12,
-      "ci95_range": "-12/+12"
-    },
-    {
       "id": "c308a441-376d-4783-b193-1da5ff10212e",
       "name": "Hailuo 02 Fast",
       "slug": "hailuo-02-fast",
@@ -548,6 +536,18 @@
       "elo": 1208,
       "ci_95": 11,
       "ci95_range": "-11/+11"
+    },
+    {
+      "id": "1f1d69b1-4fd1-4499-ab22-9d9fd47fca21",
+      "name": "Kling 2.1 Master",
+      "slug": "kling-2-1-master",
+      "creator": {
+        "id": "62cc833b-f55a-4489-bcae-54806d4b04ff",
+        "name": "KlingAI"
+      },
+      "elo": 1208,
+      "ci_95": 12,
+      "ci95_range": "-12/+12"
     },
     {
       "id": "e6709ae3-1527-4977-9b9a-aa13dbbc3647",
@@ -833,7 +833,7 @@
         "id": "c104be52-31ea-4948-b921-265dc297f3ac",
         "name": "Leonardo.Ai"
       },
-      "elo": 1026,
+      "elo": 1027,
       "ci_95": 13,
       "ci95_range": "-13/+13"
     },
