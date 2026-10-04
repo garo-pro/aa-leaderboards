@@ -6,7 +6,7 @@
     "source_description": "LLM leaderboard (Free tier)",
     "parser_version": "official-api-v1",
     "model_count": 690,
-    "fetched_at": "2026-10-03T10:24:24.815263+00:00"
+    "fetched_at": "2026-10-04T11:06:11.440646+00:00"
   },
   "models": [
     {
@@ -37,10 +37,10 @@
         "price_1m_cache_write_tokens": null
       },
       "performance": {
-        "median_output_tokens_per_second": 51.94,
+        "median_output_tokens_per_second": 53.52,
         "median_time_to_first_token_seconds": 2.8,
         "median_time_to_first_answer_token_seconds": 2.8,
-        "median_end_to_end_response_time_seconds": 12.42
+        "median_end_to_end_response_time_seconds": 12.14
       }
     },
     {
@@ -77,9 +77,9 @@
       },
       "performance": {
         "median_output_tokens_per_second": 205.45,
-        "median_time_to_first_token_seconds": 15.43,
-        "median_time_to_first_answer_token_seconds": 15.43,
-        "median_end_to_end_response_time_seconds": 17.86
+        "median_time_to_first_token_seconds": 15.7,
+        "median_time_to_first_answer_token_seconds": 15.7,
+        "median_end_to_end_response_time_seconds": 18.13
       }
     },
     {
@@ -115,10 +115,10 @@
         "price_1m_cache_write_tokens": null
       },
       "performance": {
-        "median_output_tokens_per_second": 38.51,
-        "median_time_to_first_token_seconds": 2.2,
-        "median_time_to_first_answer_token_seconds": 54.14,
-        "median_end_to_end_response_time_seconds": 67.13
+        "median_output_tokens_per_second": 42.35,
+        "median_time_to_first_token_seconds": 2.18,
+        "median_time_to_first_answer_token_seconds": 49.41,
+        "median_end_to_end_response_time_seconds": 61.22
       }
     },
     {
@@ -188,10 +188,10 @@
         "price_1m_cache_write_tokens": 2.5
       },
       "performance": {
-        "median_output_tokens_per_second": 78.62,
-        "median_time_to_first_token_seconds": 1.62,
-        "median_time_to_first_answer_token_seconds": 1.62,
-        "median_end_to_end_response_time_seconds": 7.98
+        "median_output_tokens_per_second": 95.34,
+        "median_time_to_first_token_seconds": 1.55,
+        "median_time_to_first_answer_token_seconds": 1.55,
+        "median_end_to_end_response_time_seconds": 6.8
       }
     },
     {
@@ -222,10 +222,10 @@
         "price_1m_cache_write_tokens": null
       },
       "performance": {
-        "median_output_tokens_per_second": 744.97,
+        "median_output_tokens_per_second": 764.15,
         "median_time_to_first_token_seconds": 4.68,
         "median_time_to_first_answer_token_seconds": 4.68,
-        "median_end_to_end_response_time_seconds": 5.35
+        "median_end_to_end_response_time_seconds": 5.33
       }
     },
     {
@@ -256,10 +256,10 @@
         "price_1m_cache_write_tokens": null
       },
       "performance": {
-        "median_output_tokens_per_second": 118.06,
-        "median_time_to_first_token_seconds": 2.12,
-        "median_time_to_first_answer_token_seconds": 2.12,
-        "median_end_to_end_response_time_seconds": 6.36
+        "median_output_tokens_per_second": 124.3,
+        "median_time_to_first_token_seconds": 2.15,
+        "median_time_to_first_answer_token_seconds": 2.15,
+        "median_end_to_end_response_time_seconds": 6.17
       }
     },
     {
@@ -358,10 +358,10 @@
         "price_1m_cache_write_tokens": null
       },
       "performance": {
-        "median_output_tokens_per_second": 141.13,
-        "median_time_to_first_token_seconds": 2.34,
-        "median_time_to_first_answer_token_seconds": 2.34,
-        "median_end_to_end_response_time_seconds": 5.88
+        "median_output_tokens_per_second": 142.22,
+        "median_time_to_first_token_seconds": 2.33,
+        "median_time_to_first_answer_token_seconds": 2.33,
+        "median_end_to_end_response_time_seconds": 5.85
       }
     },
     {
@@ -392,10 +392,10 @@
         "price_1m_cache_write_tokens": null
       },
       "performance": {
-        "median_output_tokens_per_second": 112.34,
+        "median_output_tokens_per_second": 115.29,
         "median_time_to_first_token_seconds": 2.39,
         "median_time_to_first_answer_token_seconds": 2.39,
-        "median_end_to_end_response_time_seconds": 6.84
+        "median_end_to_end_response_time_seconds": 6.72
       }
     },
     {
@@ -426,10 +426,10 @@
         "price_1m_cache_write_tokens": null
       },
       "performance": {
-        "median_output_tokens_per_second": 195.63,
-        "median_time_to_first_token_seconds": 0.9,
-        "median_time_to_first_answer_token_seconds": 0.9,
-        "median_end_to_end_response_time_seconds": 3.46
+        "median_output_tokens_per_second": 188.98,
+        "median_time_to_first_token_seconds": 0.88,
+        "median_time_to_first_answer_token_seconds": 0.88,
+        "median_end_to_end_response_time_seconds": 3.53
       }
     },
     {
@@ -567,10 +567,10 @@
         "price_1m_cache_write_tokens": 2.5
       },
       "performance": {
-        "median_output_tokens_per_second": 91.87,
-        "median_time_to_first_token_seconds": 1.21,
-        "median_time_to_first_answer_token_seconds": 1.21,
-        "median_end_to_end_response_time_seconds": 6.65
+        "median_output_tokens_per_second": 94.77,
+        "median_time_to_first_token_seconds": 1.08,
+        "median_time_to_first_answer_token_seconds": 1.08,
+        "median_end_to_end_response_time_seconds": 6.35
       }
     },
     {
@@ -776,10 +776,10 @@
         "price_1m_cache_write_tokens": null
       },
       "performance": {
-        "median_output_tokens_per_second": 234.82,
-        "median_time_to_first_token_seconds": 11.97,
-        "median_time_to_first_answer_token_seconds": 20.48,
-        "median_end_to_end_response_time_seconds": 22.61
+        "median_output_tokens_per_second": 242.48,
+        "median_time_to_first_token_seconds": 11.72,
+        "median_time_to_first_answer_token_seconds": 19.96,
+        "median_end_to_end_response_time_seconds": 22.03
       }
     },
     {
@@ -815,10 +815,10 @@
         "price_1m_cache_write_tokens": 0.25
       },
       "performance": {
-        "median_output_tokens_per_second": 109.15,
-        "median_time_to_first_token_seconds": 1.58,
-        "median_time_to_first_answer_token_seconds": 1.58,
-        "median_end_to_end_response_time_seconds": 6.16
+        "median_output_tokens_per_second": 117.45,
+        "median_time_to_first_token_seconds": 1.46,
+        "median_time_to_first_answer_token_seconds": 1.46,
+        "median_end_to_end_response_time_seconds": 5.72
       }
     },
     {
@@ -854,10 +854,10 @@
         "price_1m_cache_write_tokens": 12.5
       },
       "performance": {
-        "median_output_tokens_per_second": 48.29,
-        "median_time_to_first_token_seconds": 4.49,
-        "median_time_to_first_answer_token_seconds": 4.49,
-        "median_end_to_end_response_time_seconds": 14.85
+        "median_output_tokens_per_second": 49.31,
+        "median_time_to_first_token_seconds": 3.63,
+        "median_time_to_first_answer_token_seconds": 3.63,
+        "median_end_to_end_response_time_seconds": 13.77
       }
     },
     {
@@ -922,10 +922,10 @@
         "price_1m_cache_write_tokens": null
       },
       "performance": {
-        "median_output_tokens_per_second": 140.22,
-        "median_time_to_first_token_seconds": 0.84,
-        "median_time_to_first_answer_token_seconds": 0.84,
-        "median_end_to_end_response_time_seconds": 4.41
+        "median_output_tokens_per_second": 149.97,
+        "median_time_to_first_token_seconds": 0.73,
+        "median_time_to_first_answer_token_seconds": 0.73,
+        "median_end_to_end_response_time_seconds": 4.06
       }
     },
     {
@@ -990,10 +990,10 @@
         "price_1m_cache_write_tokens": null
       },
       "performance": {
-        "median_output_tokens_per_second": 189.3,
+        "median_output_tokens_per_second": 192.14,
         "median_time_to_first_token_seconds": 18.97,
         "median_time_to_first_answer_token_seconds": 18.97,
-        "median_end_to_end_response_time_seconds": 21.61
+        "median_end_to_end_response_time_seconds": 21.57
       }
     },
     {
@@ -1136,10 +1136,10 @@
         "price_1m_cache_write_tokens": 5
       },
       "performance": {
-        "median_output_tokens_per_second": 67.53,
-        "median_time_to_first_token_seconds": 2.39,
-        "median_time_to_first_answer_token_seconds": 2.39,
-        "median_end_to_end_response_time_seconds": 9.79
+        "median_output_tokens_per_second": 70.87,
+        "median_time_to_first_token_seconds": 2.07,
+        "median_time_to_first_answer_token_seconds": 2.07,
+        "median_end_to_end_response_time_seconds": 9.12
       }
     },
     {
@@ -1175,10 +1175,10 @@
         "price_1m_cache_write_tokens": 2.5
       },
       "performance": {
-        "median_output_tokens_per_second": 50,
-        "median_time_to_first_token_seconds": 149.62,
-        "median_time_to_first_answer_token_seconds": 149.62,
-        "median_end_to_end_response_time_seconds": 159.62
+        "median_output_tokens_per_second": 52.01,
+        "median_time_to_first_token_seconds": 170.68,
+        "median_time_to_first_answer_token_seconds": 170.68,
+        "median_end_to_end_response_time_seconds": 180.29
       }
     },
     {
@@ -1209,10 +1209,10 @@
         "price_1m_cache_write_tokens": null
       },
       "performance": {
-        "median_output_tokens_per_second": 51.59,
+        "median_output_tokens_per_second": 48.84,
         "median_time_to_first_token_seconds": 2.97,
         "median_time_to_first_answer_token_seconds": 2.97,
-        "median_end_to_end_response_time_seconds": 12.66
+        "median_end_to_end_response_time_seconds": 13.2
       }
     },
     {
@@ -1248,10 +1248,10 @@
         "price_1m_cache_write_tokens": null
       },
       "performance": {
-        "median_output_tokens_per_second": 346.11,
-        "median_time_to_first_token_seconds": 8.47,
-        "median_time_to_first_answer_token_seconds": 8.47,
-        "median_end_to_end_response_time_seconds": 9.92
+        "median_output_tokens_per_second": 324.3,
+        "median_time_to_first_token_seconds": 8.75,
+        "median_time_to_first_answer_token_seconds": 8.75,
+        "median_end_to_end_response_time_seconds": 10.29
       }
     },
     {
@@ -1287,10 +1287,10 @@
         "price_1m_cache_write_tokens": null
       },
       "performance": {
-        "median_output_tokens_per_second": 85.12,
-        "median_time_to_first_token_seconds": 2.94,
-        "median_time_to_first_answer_token_seconds": 26.44,
-        "median_end_to_end_response_time_seconds": 32.31
+        "median_output_tokens_per_second": 85.75,
+        "median_time_to_first_token_seconds": 2.86,
+        "median_time_to_first_answer_token_seconds": 26.18,
+        "median_end_to_end_response_time_seconds": 32.01
       }
     },
     {
@@ -1457,10 +1457,10 @@
         "price_1m_cache_write_tokens": null
       },
       "performance": {
-        "median_output_tokens_per_second": 96.86,
+        "median_output_tokens_per_second": 96.35,
         "median_time_to_first_token_seconds": 1.87,
         "median_time_to_first_answer_token_seconds": 1.87,
-        "median_end_to_end_response_time_seconds": 7.03
+        "median_end_to_end_response_time_seconds": 7.06
       }
     },
     {
@@ -1491,10 +1491,10 @@
         "price_1m_cache_write_tokens": null
       },
       "performance": {
-        "median_output_tokens_per_second": 68.59,
-        "median_time_to_first_token_seconds": 0.52,
-        "median_time_to_first_answer_token_seconds": 29.68,
-        "median_end_to_end_response_time_seconds": 36.97
+        "median_output_tokens_per_second": 68.12,
+        "median_time_to_first_token_seconds": 0.59,
+        "median_time_to_first_answer_token_seconds": 29.95,
+        "median_end_to_end_response_time_seconds": 37.29
       }
     },
     {
@@ -1530,10 +1530,10 @@
         "price_1m_cache_write_tokens": null
       },
       "performance": {
-        "median_output_tokens_per_second": 220.26,
-        "median_time_to_first_token_seconds": 0.51,
-        "median_time_to_first_answer_token_seconds": 9.59,
-        "median_end_to_end_response_time_seconds": 11.86
+        "median_output_tokens_per_second": 221.09,
+        "median_time_to_first_token_seconds": 0.49,
+        "median_time_to_first_answer_token_seconds": 9.54,
+        "median_end_to_end_response_time_seconds": 11.8
       }
     },
     {
@@ -1564,10 +1564,10 @@
         "price_1m_cache_write_tokens": null
       },
       "performance": {
-        "median_output_tokens_per_second": 118.34,
-        "median_time_to_first_token_seconds": 12.52,
-        "median_time_to_first_answer_token_seconds": 29.42,
-        "median_end_to_end_response_time_seconds": 33.64
+        "median_output_tokens_per_second": 116.96,
+        "median_time_to_first_token_seconds": 12.22,
+        "median_time_to_first_answer_token_seconds": 29.32,
+        "median_end_to_end_response_time_seconds": 33.59
       }
     },
     {
@@ -1598,10 +1598,10 @@
         "price_1m_cache_write_tokens": null
       },
       "performance": {
-        "median_output_tokens_per_second": 169.4,
-        "median_time_to_first_token_seconds": 1.9,
-        "median_time_to_first_answer_token_seconds": 13.7,
-        "median_end_to_end_response_time_seconds": 16.65
+        "median_output_tokens_per_second": 170.31,
+        "median_time_to_first_token_seconds": 1.88,
+        "median_time_to_first_answer_token_seconds": 13.62,
+        "median_end_to_end_response_time_seconds": 16.56
       }
     },
     {
@@ -1637,10 +1637,10 @@
         "price_1m_cache_write_tokens": null
       },
       "performance": {
-        "median_output_tokens_per_second": 59.88,
+        "median_output_tokens_per_second": 59.59,
         "median_time_to_first_token_seconds": 2.81,
-        "median_time_to_first_answer_token_seconds": 77.15,
-        "median_end_to_end_response_time_seconds": 85.5
+        "median_time_to_first_answer_token_seconds": 77.5,
+        "median_end_to_end_response_time_seconds": 85.89
       }
     },
     {
@@ -1783,10 +1783,10 @@
         "price_1m_cache_write_tokens": null
       },
       "performance": {
-        "median_output_tokens_per_second": 85.25,
-        "median_time_to_first_token_seconds": 2.23,
-        "median_time_to_first_answer_token_seconds": 39.6,
-        "median_end_to_end_response_time_seconds": 45.47
+        "median_output_tokens_per_second": 82.55,
+        "median_time_to_first_token_seconds": 2.25,
+        "median_time_to_first_answer_token_seconds": 40.84,
+        "median_end_to_end_response_time_seconds": 46.9
       }
     },
     {
@@ -1851,10 +1851,10 @@
         "price_1m_cache_write_tokens": null
       },
       "performance": {
-        "median_output_tokens_per_second": 63.21,
+        "median_output_tokens_per_second": 68.6,
         "median_time_to_first_token_seconds": 2.87,
         "median_time_to_first_answer_token_seconds": 2.87,
-        "median_end_to_end_response_time_seconds": 10.78
+        "median_end_to_end_response_time_seconds": 10.15
       }
     },
     {
@@ -1919,10 +1919,10 @@
         "price_1m_cache_write_tokens": null
       },
       "performance": {
-        "median_output_tokens_per_second": 76.74,
-        "median_time_to_first_token_seconds": 0.88,
-        "median_time_to_first_answer_token_seconds": 26.94,
-        "median_end_to_end_response_time_seconds": 33.45
+        "median_output_tokens_per_second": 76.87,
+        "median_time_to_first_token_seconds": 0.9,
+        "median_time_to_first_answer_token_seconds": 26.91,
+        "median_end_to_end_response_time_seconds": 33.42
       }
     },
     {
@@ -1992,10 +1992,10 @@
         "price_1m_cache_write_tokens": null
       },
       "performance": {
-        "median_output_tokens_per_second": 48.22,
-        "median_time_to_first_token_seconds": 5.69,
-        "median_time_to_first_answer_token_seconds": 47.16,
-        "median_end_to_end_response_time_seconds": 57.53
+        "median_output_tokens_per_second": 49.12,
+        "median_time_to_first_token_seconds": 5.15,
+        "median_time_to_first_answer_token_seconds": 45.87,
+        "median_end_to_end_response_time_seconds": 56.05
       }
     },
     {
@@ -2060,10 +2060,10 @@
         "price_1m_cache_write_tokens": 0.38
       },
       "performance": {
-        "median_output_tokens_per_second": 90.46,
-        "median_time_to_first_token_seconds": 1.39,
-        "median_time_to_first_answer_token_seconds": 23.5,
-        "median_end_to_end_response_time_seconds": 29.02
+        "median_output_tokens_per_second": 96.99,
+        "median_time_to_first_token_seconds": 1.36,
+        "median_time_to_first_answer_token_seconds": 21.98,
+        "median_end_to_end_response_time_seconds": 27.14
       }
     },
     {
@@ -2094,10 +2094,10 @@
         "price_1m_cache_write_tokens": null
       },
       "performance": {
-        "median_output_tokens_per_second": 161.59,
-        "median_time_to_first_token_seconds": 0.72,
-        "median_time_to_first_answer_token_seconds": 0.72,
-        "median_end_to_end_response_time_seconds": 3.81
+        "median_output_tokens_per_second": 166.15,
+        "median_time_to_first_token_seconds": 0.75,
+        "median_time_to_first_answer_token_seconds": 0.75,
+        "median_end_to_end_response_time_seconds": 3.76
       }
     },
     {
@@ -2133,10 +2133,10 @@
         "price_1m_cache_write_tokens": 6.25
       },
       "performance": {
-        "median_output_tokens_per_second": 54.24,
-        "median_time_to_first_token_seconds": 31.76,
-        "median_time_to_first_answer_token_seconds": 31.76,
-        "median_end_to_end_response_time_seconds": 40.98
+        "median_output_tokens_per_second": 55.51,
+        "median_time_to_first_token_seconds": 27.42,
+        "median_time_to_first_answer_token_seconds": 27.42,
+        "median_end_to_end_response_time_seconds": 36.43
       }
     },
     {
@@ -2207,9 +2207,9 @@
       },
       "performance": {
         "median_output_tokens_per_second": 63.56,
-        "median_time_to_first_token_seconds": 0.94,
-        "median_time_to_first_answer_token_seconds": 0.94,
-        "median_end_to_end_response_time_seconds": 8.81
+        "median_time_to_first_token_seconds": 0.99,
+        "median_time_to_first_answer_token_seconds": 0.99,
+        "median_end_to_end_response_time_seconds": 8.85
       }
     },
     {
@@ -2342,10 +2342,10 @@
         "price_1m_cache_write_tokens": null
       },
       "performance": {
-        "median_output_tokens_per_second": 212.32,
+        "median_output_tokens_per_second": 246.32,
         "median_time_to_first_token_seconds": 0.93,
-        "median_time_to_first_answer_token_seconds": 10.35,
-        "median_end_to_end_response_time_seconds": 12.71
+        "median_time_to_first_answer_token_seconds": 9.04,
+        "median_end_to_end_response_time_seconds": 11.07
       }
     },
     {
@@ -2376,10 +2376,10 @@
         "price_1m_cache_write_tokens": null
       },
       "performance": {
-        "median_output_tokens_per_second": 75.44,
-        "median_time_to_first_token_seconds": 5.67,
-        "median_time_to_first_answer_token_seconds": 32.18,
-        "median_end_to_end_response_time_seconds": 38.81
+        "median_output_tokens_per_second": 75.84,
+        "median_time_to_first_token_seconds": 5.69,
+        "median_time_to_first_answer_token_seconds": 32.06,
+        "median_end_to_end_response_time_seconds": 38.65
       }
     },
     {
@@ -2410,10 +2410,10 @@
         "price_1m_cache_write_tokens": null
       },
       "performance": {
-        "median_output_tokens_per_second": 109.63,
-        "median_time_to_first_token_seconds": 8.2,
-        "median_time_to_first_answer_token_seconds": 8.2,
-        "median_end_to_end_response_time_seconds": 12.76
+        "median_output_tokens_per_second": 135.77,
+        "median_time_to_first_token_seconds": 8.6,
+        "median_time_to_first_answer_token_seconds": 8.6,
+        "median_end_to_end_response_time_seconds": 12.29
       }
     },
     {
@@ -2551,10 +2551,10 @@
         "price_1m_cache_write_tokens": null
       },
       "performance": {
-        "median_output_tokens_per_second": 52.38,
+        "median_output_tokens_per_second": 53.19,
         "median_time_to_first_token_seconds": 3.31,
-        "median_time_to_first_answer_token_seconds": 41.5,
-        "median_end_to_end_response_time_seconds": 51.04
+        "median_time_to_first_answer_token_seconds": 40.92,
+        "median_end_to_end_response_time_seconds": 50.32
       }
     },
     {
@@ -2590,10 +2590,10 @@
         "price_1m_cache_write_tokens": 0.13
       },
       "performance": {
-        "median_output_tokens_per_second": 136.38,
-        "median_time_to_first_token_seconds": 22.23,
-        "median_time_to_first_answer_token_seconds": 22.23,
-        "median_end_to_end_response_time_seconds": 25.9
+        "median_output_tokens_per_second": 137.33,
+        "median_time_to_first_token_seconds": 19.47,
+        "median_time_to_first_answer_token_seconds": 19.47,
+        "median_end_to_end_response_time_seconds": 23.11
       }
     },
     {
@@ -2692,10 +2692,10 @@
         "price_1m_cache_write_tokens": null
       },
       "performance": {
-        "median_output_tokens_per_second": 130.96,
-        "median_time_to_first_token_seconds": 3.39,
-        "median_time_to_first_answer_token_seconds": 18.66,
-        "median_end_to_end_response_time_seconds": 22.48
+        "median_output_tokens_per_second": 108.57,
+        "median_time_to_first_token_seconds": 3.44,
+        "median_time_to_first_answer_token_seconds": 21.86,
+        "median_end_to_end_response_time_seconds": 26.46
       }
     },
     {
@@ -2760,10 +2760,10 @@
         "price_1m_cache_write_tokens": null
       },
       "performance": {
-        "median_output_tokens_per_second": 109.19,
-        "median_time_to_first_token_seconds": 2.06,
-        "median_time_to_first_answer_token_seconds": 20.38,
-        "median_end_to_end_response_time_seconds": 24.96
+        "median_output_tokens_per_second": 110.01,
+        "median_time_to_first_token_seconds": 1.91,
+        "median_time_to_first_answer_token_seconds": 20.09,
+        "median_end_to_end_response_time_seconds": 24.63
       }
     },
     {
@@ -2896,10 +2896,10 @@
         "price_1m_cache_write_tokens": null
       },
       "performance": {
-        "median_output_tokens_per_second": 284.5,
-        "median_time_to_first_token_seconds": 0.33,
-        "median_time_to_first_answer_token_seconds": 0.33,
-        "median_end_to_end_response_time_seconds": 2.09
+        "median_output_tokens_per_second": 260.63,
+        "median_time_to_first_token_seconds": 0.32,
+        "median_time_to_first_answer_token_seconds": 0.32,
+        "median_end_to_end_response_time_seconds": 2.24
       }
     },
     {
@@ -2930,10 +2930,10 @@
         "price_1m_cache_write_tokens": null
       },
       "performance": {
-        "median_output_tokens_per_second": 30.84,
-        "median_time_to_first_token_seconds": 2.13,
-        "median_time_to_first_answer_token_seconds": 2.13,
-        "median_end_to_end_response_time_seconds": 18.34
+        "median_output_tokens_per_second": 31.02,
+        "median_time_to_first_token_seconds": 2.16,
+        "median_time_to_first_answer_token_seconds": 2.16,
+        "median_end_to_end_response_time_seconds": 18.28
       }
     },
     {
@@ -2969,10 +2969,10 @@
         "price_1m_cache_write_tokens": null
       },
       "performance": {
-        "median_output_tokens_per_second": 82.49,
-        "median_time_to_first_token_seconds": 0.39,
-        "median_time_to_first_answer_token_seconds": 24.64,
-        "median_end_to_end_response_time_seconds": 30.7
+        "median_output_tokens_per_second": 91.48,
+        "median_time_to_first_token_seconds": 0.41,
+        "median_time_to_first_answer_token_seconds": 22.28,
+        "median_end_to_end_response_time_seconds": 27.74
       }
     },
     {
@@ -3042,10 +3042,10 @@
         "price_1m_cache_write_tokens": null
       },
       "performance": {
-        "median_output_tokens_per_second": 84.38,
-        "median_time_to_first_token_seconds": 40.25,
-        "median_time_to_first_answer_token_seconds": 40.25,
-        "median_end_to_end_response_time_seconds": 46.18
+        "median_output_tokens_per_second": 89.61,
+        "median_time_to_first_token_seconds": 44.87,
+        "median_time_to_first_answer_token_seconds": 44.87,
+        "median_end_to_end_response_time_seconds": 50.45
       }
     },
     {
@@ -3115,10 +3115,10 @@
         "price_1m_cache_write_tokens": 12.5
       },
       "performance": {
-        "median_output_tokens_per_second": 49.37,
-        "median_time_to_first_token_seconds": 142.28,
-        "median_time_to_first_answer_token_seconds": 142.28,
-        "median_end_to_end_response_time_seconds": 152.41
+        "median_output_tokens_per_second": 55.81,
+        "median_time_to_first_token_seconds": 136.99,
+        "median_time_to_first_answer_token_seconds": 136.99,
+        "median_end_to_end_response_time_seconds": 145.95
       }
     },
     {
@@ -3256,10 +3256,10 @@
         "price_1m_cache_write_tokens": null
       },
       "performance": {
-        "median_output_tokens_per_second": 69.36,
-        "median_time_to_first_token_seconds": 8.34,
-        "median_time_to_first_answer_token_seconds": 8.34,
-        "median_end_to_end_response_time_seconds": 15.55
+        "median_output_tokens_per_second": 70.92,
+        "median_time_to_first_token_seconds": 5.71,
+        "median_time_to_first_answer_token_seconds": 5.71,
+        "median_end_to_end_response_time_seconds": 12.76
       }
     },
     {
@@ -3295,10 +3295,10 @@
         "price_1m_cache_write_tokens": 6.25
       },
       "performance": {
-        "median_output_tokens_per_second": 53.01,
-        "median_time_to_first_token_seconds": 2.68,
-        "median_time_to_first_answer_token_seconds": 2.68,
-        "median_end_to_end_response_time_seconds": 12.11
+        "median_output_tokens_per_second": 54.44,
+        "median_time_to_first_token_seconds": 2.15,
+        "median_time_to_first_answer_token_seconds": 2.15,
+        "median_end_to_end_response_time_seconds": 11.33
       }
     },
     {
@@ -3329,10 +3329,10 @@
         "price_1m_cache_write_tokens": null
       },
       "performance": {
-        "median_output_tokens_per_second": 102.06,
-        "median_time_to_first_token_seconds": 0.7,
-        "median_time_to_first_answer_token_seconds": 0.7,
-        "median_end_to_end_response_time_seconds": 5.6
+        "median_output_tokens_per_second": 95.94,
+        "median_time_to_first_token_seconds": 0.72,
+        "median_time_to_first_answer_token_seconds": 0.72,
+        "median_end_to_end_response_time_seconds": 5.94
       }
     },
     {
@@ -3397,10 +3397,10 @@
         "price_1m_cache_write_tokens": null
       },
       "performance": {
-        "median_output_tokens_per_second": 214.04,
-        "median_time_to_first_token_seconds": 16.55,
-        "median_time_to_first_answer_token_seconds": 16.55,
-        "median_end_to_end_response_time_seconds": 18.89
+        "median_output_tokens_per_second": 216.87,
+        "median_time_to_first_token_seconds": 17.55,
+        "median_time_to_first_answer_token_seconds": 17.55,
+        "median_end_to_end_response_time_seconds": 19.86
       }
     },
     {
@@ -3470,10 +3470,10 @@
         "price_1m_cache_write_tokens": null
       },
       "performance": {
-        "median_output_tokens_per_second": 131.22,
-        "median_time_to_first_token_seconds": 2.38,
-        "median_time_to_first_answer_token_seconds": 17.62,
-        "median_end_to_end_response_time_seconds": 21.43
+        "median_output_tokens_per_second": 131.49,
+        "median_time_to_first_token_seconds": 2.36,
+        "median_time_to_first_answer_token_seconds": 17.57,
+        "median_end_to_end_response_time_seconds": 21.37
       }
     },
     {
@@ -3504,10 +3504,10 @@
         "price_1m_cache_write_tokens": null
       },
       "performance": {
-        "median_output_tokens_per_second": 62.7,
+        "median_output_tokens_per_second": 62.38,
         "median_time_to_first_token_seconds": 2.44,
-        "median_time_to_first_answer_token_seconds": 34.33,
-        "median_end_to_end_response_time_seconds": 42.31
+        "median_time_to_first_answer_token_seconds": 34.5,
+        "median_end_to_end_response_time_seconds": 42.51
       }
     },
     {
@@ -3606,10 +3606,10 @@
         "price_1m_cache_write_tokens": null
       },
       "performance": {
-        "median_output_tokens_per_second": 234.44,
-        "median_time_to_first_token_seconds": 0.79,
-        "median_time_to_first_answer_token_seconds": 0.79,
-        "median_end_to_end_response_time_seconds": 2.92
+        "median_output_tokens_per_second": 251.34,
+        "median_time_to_first_token_seconds": 0.94,
+        "median_time_to_first_answer_token_seconds": 0.94,
+        "median_end_to_end_response_time_seconds": 2.93
       }
     },
     {
@@ -3645,10 +3645,10 @@
         "price_1m_cache_write_tokens": 2.5
       },
       "performance": {
-        "median_output_tokens_per_second": 82.56,
-        "median_time_to_first_token_seconds": 205.17,
-        "median_time_to_first_answer_token_seconds": 205.17,
-        "median_end_to_end_response_time_seconds": 211.22
+        "median_output_tokens_per_second": 86.08,
+        "median_time_to_first_token_seconds": 182.88,
+        "median_time_to_first_answer_token_seconds": 182.88,
+        "median_end_to_end_response_time_seconds": 188.69
       }
     },
     {
@@ -3791,10 +3791,10 @@
         "price_1m_cache_write_tokens": null
       },
       "performance": {
-        "median_output_tokens_per_second": 41.12,
-        "median_time_to_first_token_seconds": 3.6,
-        "median_time_to_first_answer_token_seconds": 52.24,
-        "median_end_to_end_response_time_seconds": 64.4
+        "median_output_tokens_per_second": 39.84,
+        "median_time_to_first_token_seconds": 3.88,
+        "median_time_to_first_answer_token_seconds": 54.09,
+        "median_end_to_end_response_time_seconds": 66.64
       }
     },
     {
@@ -3825,10 +3825,10 @@
         "price_1m_cache_write_tokens": 6.25
       },
       "performance": {
-        "median_output_tokens_per_second": 48.51,
-        "median_time_to_first_token_seconds": 14.14,
-        "median_time_to_first_answer_token_seconds": 14.14,
-        "median_end_to_end_response_time_seconds": 24.45
+        "median_output_tokens_per_second": 47.9,
+        "median_time_to_first_token_seconds": 15.75,
+        "median_time_to_first_answer_token_seconds": 15.75,
+        "median_end_to_end_response_time_seconds": 26.19
       }
     },
     {
@@ -3864,10 +3864,10 @@
         "price_1m_cache_write_tokens": null
       },
       "performance": {
-        "median_output_tokens_per_second": 62.95,
-        "median_time_to_first_token_seconds": 23.99,
-        "median_time_to_first_answer_token_seconds": 23.99,
-        "median_end_to_end_response_time_seconds": 31.93
+        "median_output_tokens_per_second": 64.4,
+        "median_time_to_first_token_seconds": 24.67,
+        "median_time_to_first_answer_token_seconds": 24.67,
+        "median_end_to_end_response_time_seconds": 32.43
       }
     },
     {
@@ -3903,10 +3903,10 @@
         "price_1m_cache_write_tokens": 2.5
       },
       "performance": {
-        "median_output_tokens_per_second": 97.59,
-        "median_time_to_first_token_seconds": 12.69,
-        "median_time_to_first_answer_token_seconds": 12.69,
-        "median_end_to_end_response_time_seconds": 17.81
+        "median_output_tokens_per_second": 96.33,
+        "median_time_to_first_token_seconds": 12.93,
+        "median_time_to_first_answer_token_seconds": 12.93,
+        "median_end_to_end_response_time_seconds": 18.12
       }
     },
     {
@@ -3937,10 +3937,10 @@
         "price_1m_cache_write_tokens": null
       },
       "performance": {
-        "median_output_tokens_per_second": 170.89,
+        "median_output_tokens_per_second": 174.64,
         "median_time_to_first_token_seconds": 2.16,
         "median_time_to_first_answer_token_seconds": 2.16,
-        "median_end_to_end_response_time_seconds": 5.09
+        "median_end_to_end_response_time_seconds": 5.03
       }
     },
     {
@@ -4010,10 +4010,10 @@
         "price_1m_cache_write_tokens": 2.5
       },
       "performance": {
-        "median_output_tokens_per_second": 85.24,
-        "median_time_to_first_token_seconds": 2.22,
-        "median_time_to_first_answer_token_seconds": 2.22,
-        "median_end_to_end_response_time_seconds": 8.08
+        "median_output_tokens_per_second": 92.4,
+        "median_time_to_first_token_seconds": 1.72,
+        "median_time_to_first_answer_token_seconds": 1.72,
+        "median_end_to_end_response_time_seconds": 7.13
       }
     },
     {
@@ -4049,10 +4049,10 @@
         "price_1m_cache_write_tokens": null
       },
       "performance": {
-        "median_output_tokens_per_second": 124.06,
-        "median_time_to_first_token_seconds": 22.9,
-        "median_time_to_first_answer_token_seconds": 22.9,
-        "median_end_to_end_response_time_seconds": 26.93
+        "median_output_tokens_per_second": 127.93,
+        "median_time_to_first_token_seconds": 19.66,
+        "median_time_to_first_answer_token_seconds": 19.66,
+        "median_end_to_end_response_time_seconds": 23.57
       }
     },
     {
@@ -4088,10 +4088,10 @@
         "price_1m_cache_write_tokens": null
       },
       "performance": {
-        "median_output_tokens_per_second": 77.54,
-        "median_time_to_first_token_seconds": 33.12,
-        "median_time_to_first_answer_token_seconds": 33.12,
-        "median_end_to_end_response_time_seconds": 39.56
+        "median_output_tokens_per_second": 78.41,
+        "median_time_to_first_token_seconds": 37.89,
+        "median_time_to_first_answer_token_seconds": 37.89,
+        "median_end_to_end_response_time_seconds": 44.27
       }
     },
     {
@@ -4122,10 +4122,10 @@
         "price_1m_cache_write_tokens": 0.38
       },
       "performance": {
-        "median_output_tokens_per_second": 92.2,
-        "median_time_to_first_token_seconds": 1.4,
-        "median_time_to_first_answer_token_seconds": 23.09,
-        "median_end_to_end_response_time_seconds": 28.52
+        "median_output_tokens_per_second": 100.87,
+        "median_time_to_first_token_seconds": 1.42,
+        "median_time_to_first_answer_token_seconds": 21.25,
+        "median_end_to_end_response_time_seconds": 26.2
       }
     },
     {
@@ -4161,10 +4161,10 @@
         "price_1m_cache_write_tokens": 0.38
       },
       "performance": {
-        "median_output_tokens_per_second": 83.75,
-        "median_time_to_first_token_seconds": 2.17,
-        "median_time_to_first_answer_token_seconds": 26.05,
-        "median_end_to_end_response_time_seconds": 32.02
+        "median_output_tokens_per_second": 84.59,
+        "median_time_to_first_token_seconds": 2.26,
+        "median_time_to_first_answer_token_seconds": 25.9,
+        "median_end_to_end_response_time_seconds": 31.81
       }
     },
     {
@@ -4268,10 +4268,10 @@
         "price_1m_cache_write_tokens": null
       },
       "performance": {
-        "median_output_tokens_per_second": 139.9,
-        "median_time_to_first_token_seconds": 42.11,
-        "median_time_to_first_answer_token_seconds": 42.11,
-        "median_end_to_end_response_time_seconds": 45.68
+        "median_output_tokens_per_second": 138.34,
+        "median_time_to_first_token_seconds": 44.54,
+        "median_time_to_first_answer_token_seconds": 44.54,
+        "median_end_to_end_response_time_seconds": 48.16
       }
     },
     {
@@ -4307,10 +4307,10 @@
         "price_1m_cache_write_tokens": null
       },
       "performance": {
-        "median_output_tokens_per_second": 295.8,
-        "median_time_to_first_token_seconds": 0.56,
-        "median_time_to_first_answer_token_seconds": 7.32,
-        "median_end_to_end_response_time_seconds": 9.01
+        "median_output_tokens_per_second": 295.25,
+        "median_time_to_first_token_seconds": 0.55,
+        "median_time_to_first_answer_token_seconds": 7.33,
+        "median_end_to_end_response_time_seconds": 9.02
       }
     },
     {
@@ -4516,10 +4516,10 @@
         "price_1m_cache_write_tokens": null
       },
       "performance": {
-        "median_output_tokens_per_second": 65.32,
-        "median_time_to_first_token_seconds": 1.55,
-        "median_time_to_first_answer_token_seconds": 32.16,
-        "median_end_to_end_response_time_seconds": 39.82
+        "median_output_tokens_per_second": 74.65,
+        "median_time_to_first_token_seconds": 1.73,
+        "median_time_to_first_answer_token_seconds": 28.52,
+        "median_end_to_end_response_time_seconds": 35.22
       }
     },
     {
@@ -4584,10 +4584,10 @@
         "price_1m_cache_write_tokens": null
       },
       "performance": {
-        "median_output_tokens_per_second": 10.18,
-        "median_time_to_first_token_seconds": 42.14,
-        "median_time_to_first_answer_token_seconds": 42.14,
-        "median_end_to_end_response_time_seconds": 91.25
+        "median_output_tokens_per_second": null,
+        "median_time_to_first_token_seconds": null,
+        "median_time_to_first_answer_token_seconds": null,
+        "median_end_to_end_response_time_seconds": null
       }
     },
     {
@@ -4657,10 +4657,10 @@
         "price_1m_cache_write_tokens": null
       },
       "performance": {
-        "median_output_tokens_per_second": 55.14,
-        "median_time_to_first_token_seconds": 2.14,
-        "median_time_to_first_answer_token_seconds": 38.41,
-        "median_end_to_end_response_time_seconds": 47.48
+        "median_output_tokens_per_second": 70.04,
+        "median_time_to_first_token_seconds": 2.02,
+        "median_time_to_first_answer_token_seconds": 30.57,
+        "median_end_to_end_response_time_seconds": 37.71
       }
     },
     {
@@ -4692,9 +4692,9 @@
       },
       "performance": {
         "median_output_tokens_per_second": 198.98,
-        "median_time_to_first_token_seconds": 6,
-        "median_time_to_first_answer_token_seconds": 6,
-        "median_end_to_end_response_time_seconds": 8.51
+        "median_time_to_first_token_seconds": 6.19,
+        "median_time_to_first_answer_token_seconds": 6.19,
+        "median_end_to_end_response_time_seconds": 8.71
       }
     },
     {
@@ -4759,10 +4759,10 @@
         "price_1m_cache_write_tokens": 3.75
       },
       "performance": {
-        "median_output_tokens_per_second": 43.68,
-        "median_time_to_first_token_seconds": 1.15,
-        "median_time_to_first_answer_token_seconds": 1.15,
-        "median_end_to_end_response_time_seconds": 12.6
+        "median_output_tokens_per_second": 43.75,
+        "median_time_to_first_token_seconds": 0.95,
+        "median_time_to_first_answer_token_seconds": 0.95,
+        "median_end_to_end_response_time_seconds": 12.38
       }
     },
     {
@@ -4866,10 +4866,10 @@
         "price_1m_cache_write_tokens": null
       },
       "performance": {
-        "median_output_tokens_per_second": 155.82,
-        "median_time_to_first_token_seconds": 1.99,
-        "median_time_to_first_answer_token_seconds": 1.99,
-        "median_end_to_end_response_time_seconds": 5.2
+        "median_output_tokens_per_second": 153.67,
+        "median_time_to_first_token_seconds": 2.57,
+        "median_time_to_first_answer_token_seconds": 2.57,
+        "median_end_to_end_response_time_seconds": 5.82
       }
     },
     {
@@ -4905,10 +4905,10 @@
         "price_1m_cache_write_tokens": null
       },
       "performance": {
-        "median_output_tokens_per_second": 218.73,
-        "median_time_to_first_token_seconds": 0.51,
-        "median_time_to_first_answer_token_seconds": 9.65,
-        "median_end_to_end_response_time_seconds": 11.94
+        "median_output_tokens_per_second": 172.84,
+        "median_time_to_first_token_seconds": 0.5,
+        "median_time_to_first_answer_token_seconds": 12.07,
+        "median_end_to_end_response_time_seconds": 14.96
       }
     },
     {
@@ -4944,10 +4944,10 @@
         "price_1m_cache_write_tokens": 12.5
       },
       "performance": {
-        "median_output_tokens_per_second": 56.06,
-        "median_time_to_first_token_seconds": 314.57,
-        "median_time_to_first_answer_token_seconds": 314.57,
-        "median_end_to_end_response_time_seconds": 323.49
+        "median_output_tokens_per_second": 60.59,
+        "median_time_to_first_token_seconds": 285.33,
+        "median_time_to_first_answer_token_seconds": 285.33,
+        "median_end_to_end_response_time_seconds": 293.58
       }
     },
     {
@@ -4983,10 +4983,10 @@
         "price_1m_cache_write_tokens": 5
       },
       "performance": {
-        "median_output_tokens_per_second": 93.01,
-        "median_time_to_first_token_seconds": 738.37,
-        "median_time_to_first_answer_token_seconds": 738.37,
-        "median_end_to_end_response_time_seconds": 743.74
+        "median_output_tokens_per_second": 92.02,
+        "median_time_to_first_token_seconds": 716.02,
+        "median_time_to_first_answer_token_seconds": 716.02,
+        "median_end_to_end_response_time_seconds": 721.45
       }
     },
     {
@@ -5052,9 +5052,9 @@
       },
       "performance": {
         "median_output_tokens_per_second": 43.64,
-        "median_time_to_first_token_seconds": 0.89,
-        "median_time_to_first_answer_token_seconds": 0.89,
-        "median_end_to_end_response_time_seconds": 12.35
+        "median_time_to_first_token_seconds": 0.8,
+        "median_time_to_first_answer_token_seconds": 0.8,
+        "median_end_to_end_response_time_seconds": 12.26
       }
     },
     {
@@ -5119,10 +5119,10 @@
         "price_1m_cache_write_tokens": null
       },
       "performance": {
-        "median_output_tokens_per_second": 47.06,
-        "median_time_to_first_token_seconds": 2.74,
-        "median_time_to_first_answer_token_seconds": 45.24,
-        "median_end_to_end_response_time_seconds": 55.86
+        "median_output_tokens_per_second": 44.63,
+        "median_time_to_first_token_seconds": 2.72,
+        "median_time_to_first_answer_token_seconds": 47.53,
+        "median_end_to_end_response_time_seconds": 58.74
       }
     },
     {
@@ -5153,10 +5153,10 @@
         "price_1m_cache_write_tokens": null
       },
       "performance": {
-        "median_output_tokens_per_second": 14.18,
-        "median_time_to_first_token_seconds": 0.89,
-        "median_time_to_first_answer_token_seconds": 0.89,
-        "median_end_to_end_response_time_seconds": 36.16
+        "median_output_tokens_per_second": 14.69,
+        "median_time_to_first_token_seconds": 0.9,
+        "median_time_to_first_answer_token_seconds": 0.9,
+        "median_end_to_end_response_time_seconds": 34.94
       }
     },
     {
@@ -5187,10 +5187,10 @@
         "price_1m_cache_write_tokens": null
       },
       "performance": {
-        "median_output_tokens_per_second": 83.1,
-        "median_time_to_first_token_seconds": 2.1,
-        "median_time_to_first_answer_token_seconds": 2.1,
-        "median_end_to_end_response_time_seconds": 8.12
+        "median_output_tokens_per_second": 82.88,
+        "median_time_to_first_token_seconds": 2.12,
+        "median_time_to_first_answer_token_seconds": 2.12,
+        "median_end_to_end_response_time_seconds": 8.15
       }
     },
     {
@@ -5255,10 +5255,10 @@
         "price_1m_cache_write_tokens": null
       },
       "performance": {
-        "median_output_tokens_per_second": 57.93,
-        "median_time_to_first_token_seconds": 2.43,
-        "median_time_to_first_answer_token_seconds": 2.43,
-        "median_end_to_end_response_time_seconds": 11.06
+        "median_output_tokens_per_second": 59.98,
+        "median_time_to_first_token_seconds": 2.44,
+        "median_time_to_first_answer_token_seconds": 2.44,
+        "median_end_to_end_response_time_seconds": 10.77
       }
     },
     {
@@ -5425,10 +5425,10 @@
         "price_1m_cache_write_tokens": null
       },
       "performance": {
-        "median_output_tokens_per_second": 291.96,
+        "median_output_tokens_per_second": 290.02,
         "median_time_to_first_token_seconds": 0.87,
         "median_time_to_first_answer_token_seconds": 0.87,
-        "median_end_to_end_response_time_seconds": 2.58
+        "median_end_to_end_response_time_seconds": 2.59
       }
     },
     {
@@ -5493,9 +5493,9 @@
         "price_1m_cache_write_tokens": null
       },
       "performance": {
-        "median_output_tokens_per_second": 109.07,
-        "median_time_to_first_token_seconds": 2.19,
-        "median_time_to_first_answer_token_seconds": 2.19,
+        "median_output_tokens_per_second": 109,
+        "median_time_to_first_token_seconds": 2.18,
+        "median_time_to_first_answer_token_seconds": 2.18,
         "median_end_to_end_response_time_seconds": 6.77
       }
     },
@@ -5566,10 +5566,10 @@
         "price_1m_cache_write_tokens": null
       },
       "performance": {
-        "median_output_tokens_per_second": 50.61,
-        "median_time_to_first_token_seconds": 3.73,
-        "median_time_to_first_answer_token_seconds": 3.73,
-        "median_end_to_end_response_time_seconds": 13.61
+        "median_output_tokens_per_second": 50.96,
+        "median_time_to_first_token_seconds": 3.75,
+        "median_time_to_first_answer_token_seconds": 3.75,
+        "median_end_to_end_response_time_seconds": 13.56
       }
     },
     {
@@ -5712,10 +5712,10 @@
         "price_1m_cache_write_tokens": null
       },
       "performance": {
-        "median_output_tokens_per_second": 179.99,
-        "median_time_to_first_token_seconds": 0.82,
-        "median_time_to_first_answer_token_seconds": 11.93,
-        "median_end_to_end_response_time_seconds": 14.71
+        "median_output_tokens_per_second": 194.2,
+        "median_time_to_first_token_seconds": 0.84,
+        "median_time_to_first_answer_token_seconds": 11.14,
+        "median_end_to_end_response_time_seconds": 13.71
       }
     },
     {
@@ -5780,10 +5780,10 @@
         "price_1m_cache_write_tokens": null
       },
       "performance": {
-        "median_output_tokens_per_second": 182.13,
-        "median_time_to_first_token_seconds": 7.17,
-        "median_time_to_first_answer_token_seconds": 7.17,
-        "median_end_to_end_response_time_seconds": 9.91
+        "median_output_tokens_per_second": 188.3,
+        "median_time_to_first_token_seconds": 6.7,
+        "median_time_to_first_answer_token_seconds": 6.7,
+        "median_end_to_end_response_time_seconds": 9.36
       }
     },
     {
@@ -5848,10 +5848,10 @@
         "price_1m_cache_write_tokens": null
       },
       "performance": {
-        "median_output_tokens_per_second": 55.68,
-        "median_time_to_first_token_seconds": 3.6,
-        "median_time_to_first_answer_token_seconds": 3.6,
-        "median_end_to_end_response_time_seconds": 12.58
+        "median_output_tokens_per_second": 56.42,
+        "median_time_to_first_token_seconds": 3.59,
+        "median_time_to_first_answer_token_seconds": 3.59,
+        "median_end_to_end_response_time_seconds": 12.45
       }
     },
     {
@@ -5916,10 +5916,10 @@
         "price_1m_cache_write_tokens": null
       },
       "performance": {
-        "median_output_tokens_per_second": 137.5,
-        "median_time_to_first_token_seconds": 0.95,
-        "median_time_to_first_answer_token_seconds": 0.95,
-        "median_end_to_end_response_time_seconds": 4.58
+        "median_output_tokens_per_second": 157.16,
+        "median_time_to_first_token_seconds": 0.87,
+        "median_time_to_first_answer_token_seconds": 0.87,
+        "median_end_to_end_response_time_seconds": 4.06
       }
     },
     {
@@ -5955,10 +5955,10 @@
         "price_1m_cache_write_tokens": 12.5
       },
       "performance": {
-        "median_output_tokens_per_second": 51.17,
-        "median_time_to_first_token_seconds": 9.11,
-        "median_time_to_first_answer_token_seconds": 9.11,
-        "median_end_to_end_response_time_seconds": 18.88
+        "median_output_tokens_per_second": 53.16,
+        "median_time_to_first_token_seconds": 10.6,
+        "median_time_to_first_answer_token_seconds": 10.6,
+        "median_end_to_end_response_time_seconds": 20.01
       }
     },
     {
@@ -5994,10 +5994,10 @@
         "price_1m_cache_write_tokens": 2.5
       },
       "performance": {
-        "median_output_tokens_per_second": 48.04,
-        "median_time_to_first_token_seconds": 51.74,
-        "median_time_to_first_answer_token_seconds": 51.74,
-        "median_end_to_end_response_time_seconds": 62.15
+        "median_output_tokens_per_second": 49.78,
+        "median_time_to_first_token_seconds": 50.79,
+        "median_time_to_first_answer_token_seconds": 50.79,
+        "median_end_to_end_response_time_seconds": 60.84
       }
     },
     {
@@ -6028,10 +6028,10 @@
         "price_1m_cache_write_tokens": null
       },
       "performance": {
-        "median_output_tokens_per_second": 65,
-        "median_time_to_first_token_seconds": 1.68,
-        "median_time_to_first_answer_token_seconds": 1.68,
-        "median_end_to_end_response_time_seconds": 9.37
+        "median_output_tokens_per_second": 62.44,
+        "median_time_to_first_token_seconds": 1.69,
+        "median_time_to_first_answer_token_seconds": 1.69,
+        "median_end_to_end_response_time_seconds": 9.7
       }
     },
     {
@@ -6096,10 +6096,10 @@
         "price_1m_cache_write_tokens": null
       },
       "performance": {
-        "median_output_tokens_per_second": 119.91,
-        "median_time_to_first_token_seconds": 2.25,
-        "median_time_to_first_answer_token_seconds": 2.25,
-        "median_end_to_end_response_time_seconds": 6.42
+        "median_output_tokens_per_second": 119.49,
+        "median_time_to_first_token_seconds": 2.28,
+        "median_time_to_first_answer_token_seconds": 2.28,
+        "median_end_to_end_response_time_seconds": 6.46
       }
     },
     {
@@ -6232,10 +6232,10 @@
         "price_1m_cache_write_tokens": null
       },
       "performance": {
-        "median_output_tokens_per_second": 107.6,
+        "median_output_tokens_per_second": 108.88,
         "median_time_to_first_token_seconds": 2.21,
-        "median_time_to_first_answer_token_seconds": 20.8,
-        "median_end_to_end_response_time_seconds": 25.44
+        "median_time_to_first_answer_token_seconds": 20.58,
+        "median_end_to_end_response_time_seconds": 25.17
       }
     },
     {
@@ -6272,9 +6272,9 @@
       },
       "performance": {
         "median_output_tokens_per_second": 66.19,
-        "median_time_to_first_token_seconds": 253.31,
-        "median_time_to_first_answer_token_seconds": 253.31,
-        "median_end_to_end_response_time_seconds": 260.87
+        "median_time_to_first_token_seconds": 259.12,
+        "median_time_to_first_answer_token_seconds": 259.12,
+        "median_end_to_end_response_time_seconds": 266.67
       }
     },
     {
@@ -6378,10 +6378,10 @@
         "price_1m_cache_write_tokens": null
       },
       "performance": {
-        "median_output_tokens_per_second": 176.71,
-        "median_time_to_first_token_seconds": 0.71,
-        "median_time_to_first_answer_token_seconds": 12.03,
-        "median_end_to_end_response_time_seconds": 14.86
+        "median_output_tokens_per_second": 174.05,
+        "median_time_to_first_token_seconds": 0.7,
+        "median_time_to_first_answer_token_seconds": 12.19,
+        "median_end_to_end_response_time_seconds": 15.07
       }
     },
     {
@@ -6446,10 +6446,10 @@
         "price_1m_cache_write_tokens": null
       },
       "performance": {
-        "median_output_tokens_per_second": 75.35,
-        "median_time_to_first_token_seconds": 1.54,
-        "median_time_to_first_answer_token_seconds": 42.75,
-        "median_end_to_end_response_time_seconds": 49.39
+        "median_output_tokens_per_second": 77.62,
+        "median_time_to_first_token_seconds": 1.51,
+        "median_time_to_first_answer_token_seconds": 41.52,
+        "median_end_to_end_response_time_seconds": 47.96
       }
     },
     {
@@ -6480,10 +6480,10 @@
         "price_1m_cache_write_tokens": 6.25
       },
       "performance": {
-        "median_output_tokens_per_second": 45.51,
-        "median_time_to_first_token_seconds": 1.18,
-        "median_time_to_first_answer_token_seconds": 1.18,
-        "median_end_to_end_response_time_seconds": 12.17
+        "median_output_tokens_per_second": 45.28,
+        "median_time_to_first_token_seconds": 1.14,
+        "median_time_to_first_answer_token_seconds": 1.14,
+        "median_end_to_end_response_time_seconds": 12.18
       }
     },
     {
@@ -6587,10 +6587,10 @@
         "price_1m_cache_write_tokens": 0.25
       },
       "performance": {
-        "median_output_tokens_per_second": 124.82,
-        "median_time_to_first_token_seconds": 109.99,
-        "median_time_to_first_answer_token_seconds": 109.99,
-        "median_end_to_end_response_time_seconds": 114
+        "median_output_tokens_per_second": 129.11,
+        "median_time_to_first_token_seconds": 115.54,
+        "median_time_to_first_answer_token_seconds": 115.54,
+        "median_end_to_end_response_time_seconds": 119.41
       }
     },
     {
@@ -6621,10 +6621,10 @@
         "price_1m_cache_write_tokens": null
       },
       "performance": {
-        "median_output_tokens_per_second": 89.06,
-        "median_time_to_first_token_seconds": 3.68,
-        "median_time_to_first_answer_token_seconds": 3.68,
-        "median_end_to_end_response_time_seconds": 9.29
+        "median_output_tokens_per_second": 88.9,
+        "median_time_to_first_token_seconds": 3.5,
+        "median_time_to_first_answer_token_seconds": 3.5,
+        "median_end_to_end_response_time_seconds": 9.13
       }
     },
     {
@@ -6791,10 +6791,10 @@
         "price_1m_cache_write_tokens": null
       },
       "performance": {
-        "median_output_tokens_per_second": 63.17,
-        "median_time_to_first_token_seconds": 2.74,
-        "median_time_to_first_answer_token_seconds": 2.74,
-        "median_end_to_end_response_time_seconds": 10.66
+        "median_output_tokens_per_second": 61.76,
+        "median_time_to_first_token_seconds": 2.77,
+        "median_time_to_first_answer_token_seconds": 2.77,
+        "median_end_to_end_response_time_seconds": 10.86
       }
     },
     {
@@ -6825,10 +6825,10 @@
         "price_1m_cache_write_tokens": 6.25
       },
       "performance": {
-        "median_output_tokens_per_second": 38.35,
-        "median_time_to_first_token_seconds": 1.88,
-        "median_time_to_first_answer_token_seconds": 1.88,
-        "median_end_to_end_response_time_seconds": 14.91
+        "median_output_tokens_per_second": 36.8,
+        "median_time_to_first_token_seconds": 1.86,
+        "median_time_to_first_answer_token_seconds": 1.86,
+        "median_end_to_end_response_time_seconds": 15.44
       }
     },
     {
@@ -6938,9 +6938,9 @@
       },
       "performance": {
         "median_output_tokens_per_second": 71.02,
-        "median_time_to_first_token_seconds": 7.86,
-        "median_time_to_first_answer_token_seconds": 7.86,
-        "median_end_to_end_response_time_seconds": 14.9
+        "median_time_to_first_token_seconds": 4.5,
+        "median_time_to_first_answer_token_seconds": 4.5,
+        "median_end_to_end_response_time_seconds": 11.54
       }
     },
     {
@@ -6971,10 +6971,10 @@
         "price_1m_cache_write_tokens": null
       },
       "performance": {
-        "median_output_tokens_per_second": 52.18,
-        "median_time_to_first_token_seconds": 1.48,
-        "median_time_to_first_answer_token_seconds": 1.48,
-        "median_end_to_end_response_time_seconds": 11.06
+        "median_output_tokens_per_second": 52.57,
+        "median_time_to_first_token_seconds": 1.51,
+        "median_time_to_first_answer_token_seconds": 1.51,
+        "median_end_to_end_response_time_seconds": 11.02
       }
     },
     {
@@ -7107,10 +7107,10 @@
         "price_1m_cache_write_tokens": null
       },
       "performance": {
-        "median_output_tokens_per_second": 61.36,
-        "median_time_to_first_token_seconds": 2.82,
-        "median_time_to_first_answer_token_seconds": 35.41,
-        "median_end_to_end_response_time_seconds": 43.56
+        "median_output_tokens_per_second": 61.63,
+        "median_time_to_first_token_seconds": 2.81,
+        "median_time_to_first_answer_token_seconds": 35.26,
+        "median_end_to_end_response_time_seconds": 43.37
       }
     },
     {
@@ -7209,10 +7209,10 @@
         "price_1m_cache_write_tokens": null
       },
       "performance": {
-        "median_output_tokens_per_second": 43.18,
-        "median_time_to_first_token_seconds": 1.85,
-        "median_time_to_first_answer_token_seconds": 1.85,
-        "median_end_to_end_response_time_seconds": 13.43
+        "median_output_tokens_per_second": 41.86,
+        "median_time_to_first_token_seconds": 1.91,
+        "median_time_to_first_answer_token_seconds": 1.91,
+        "median_end_to_end_response_time_seconds": 13.86
       }
     },
     {
@@ -7243,10 +7243,10 @@
         "price_1m_cache_write_tokens": null
       },
       "performance": {
-        "median_output_tokens_per_second": 139.71,
-        "median_time_to_first_token_seconds": 2.11,
-        "median_time_to_first_answer_token_seconds": 16.42,
-        "median_end_to_end_response_time_seconds": 20
+        "median_output_tokens_per_second": 142.99,
+        "median_time_to_first_token_seconds": 2.28,
+        "median_time_to_first_answer_token_seconds": 16.27,
+        "median_end_to_end_response_time_seconds": 19.77
       }
     },
     {
@@ -7311,10 +7311,10 @@
         "price_1m_cache_write_tokens": null
       },
       "performance": {
-        "median_output_tokens_per_second": 37.01,
+        "median_output_tokens_per_second": 44.41,
         "median_time_to_first_token_seconds": 2.27,
         "median_time_to_first_answer_token_seconds": 2.27,
-        "median_end_to_end_response_time_seconds": 15.78
+        "median_end_to_end_response_time_seconds": 13.53
       }
     },
     {
@@ -7413,10 +7413,10 @@
         "price_1m_cache_write_tokens": null
       },
       "performance": {
-        "median_output_tokens_per_second": 85.1,
-        "median_time_to_first_token_seconds": 74.36,
-        "median_time_to_first_answer_token_seconds": 74.36,
-        "median_end_to_end_response_time_seconds": 80.23
+        "median_output_tokens_per_second": 97.77,
+        "median_time_to_first_token_seconds": 62.34,
+        "median_time_to_first_answer_token_seconds": 62.34,
+        "median_end_to_end_response_time_seconds": 67.45
       }
     },
     {
@@ -7453,9 +7453,9 @@
       },
       "performance": {
         "median_output_tokens_per_second": 79.22,
-        "median_time_to_first_token_seconds": 1.06,
-        "median_time_to_first_answer_token_seconds": 1.06,
-        "median_end_to_end_response_time_seconds": 7.37
+        "median_time_to_first_token_seconds": 0.98,
+        "median_time_to_first_answer_token_seconds": 0.98,
+        "median_end_to_end_response_time_seconds": 7.29
       }
     },
     {
@@ -7486,10 +7486,10 @@
         "price_1m_cache_write_tokens": null
       },
       "performance": {
-        "median_output_tokens_per_second": 60.38,
-        "median_time_to_first_token_seconds": 0.8,
-        "median_time_to_first_answer_token_seconds": 0.8,
-        "median_end_to_end_response_time_seconds": 9.08
+        "median_output_tokens_per_second": 63.25,
+        "median_time_to_first_token_seconds": 0.84,
+        "median_time_to_first_answer_token_seconds": 0.84,
+        "median_end_to_end_response_time_seconds": 8.74
       }
     },
     {
@@ -7520,10 +7520,10 @@
         "price_1m_cache_write_tokens": null
       },
       "performance": {
-        "median_output_tokens_per_second": 74.91,
-        "median_time_to_first_token_seconds": 118.39,
-        "median_time_to_first_answer_token_seconds": 118.39,
-        "median_end_to_end_response_time_seconds": 125.07
+        "median_output_tokens_per_second": 78.87,
+        "median_time_to_first_token_seconds": 137.39,
+        "median_time_to_first_answer_token_seconds": 137.39,
+        "median_end_to_end_response_time_seconds": 143.72
       }
     },
     {
@@ -7690,10 +7690,10 @@
         "price_1m_cache_write_tokens": 0.38
       },
       "performance": {
-        "median_output_tokens_per_second": 49.87,
-        "median_time_to_first_token_seconds": 1.6,
-        "median_time_to_first_answer_token_seconds": 50.97,
-        "median_end_to_end_response_time_seconds": 60.99
+        "median_output_tokens_per_second": 62.78,
+        "median_time_to_first_token_seconds": 1.52,
+        "median_time_to_first_answer_token_seconds": 40.74,
+        "median_end_to_end_response_time_seconds": 48.7
       }
     },
     {
@@ -7792,10 +7792,10 @@
         "price_1m_cache_write_tokens": null
       },
       "performance": {
-        "median_output_tokens_per_second": 107.9,
+        "median_output_tokens_per_second": 118.77,
         "median_time_to_first_token_seconds": 32.99,
         "median_time_to_first_answer_token_seconds": 32.99,
-        "median_end_to_end_response_time_seconds": 37.62
+        "median_end_to_end_response_time_seconds": 37.2
       }
     },
     {
@@ -7826,10 +7826,10 @@
         "price_1m_cache_write_tokens": null
       },
       "performance": {
-        "median_output_tokens_per_second": 201.5,
-        "median_time_to_first_token_seconds": 13.52,
-        "median_time_to_first_answer_token_seconds": 13.52,
-        "median_end_to_end_response_time_seconds": 16
+        "median_output_tokens_per_second": 206.46,
+        "median_time_to_first_token_seconds": 13.5,
+        "median_time_to_first_answer_token_seconds": 13.5,
+        "median_end_to_end_response_time_seconds": 15.92
       }
     },
     {
@@ -7929,9 +7929,9 @@
       },
       "performance": {
         "median_output_tokens_per_second": 80.12,
-        "median_time_to_first_token_seconds": 5.8,
-        "median_time_to_first_answer_token_seconds": 5.8,
-        "median_end_to_end_response_time_seconds": 12.04
+        "median_time_to_first_token_seconds": 5.65,
+        "median_time_to_first_answer_token_seconds": 5.65,
+        "median_end_to_end_response_time_seconds": 11.89
       }
     },
     {
@@ -8001,10 +8001,10 @@
         "price_1m_cache_write_tokens": null
       },
       "performance": {
-        "median_output_tokens_per_second": 36.13,
-        "median_time_to_first_token_seconds": 4.85,
-        "median_time_to_first_answer_token_seconds": 60.2,
-        "median_end_to_end_response_time_seconds": 74.04
+        "median_output_tokens_per_second": 37.83,
+        "median_time_to_first_token_seconds": 3.78,
+        "median_time_to_first_answer_token_seconds": 56.65,
+        "median_end_to_end_response_time_seconds": 69.87
       }
     },
     {
@@ -8069,10 +8069,10 @@
         "price_1m_cache_write_tokens": null
       },
       "performance": {
-        "median_output_tokens_per_second": 111.68,
-        "median_time_to_first_token_seconds": 2.21,
-        "median_time_to_first_answer_token_seconds": 2.21,
-        "median_end_to_end_response_time_seconds": 6.69
+        "median_output_tokens_per_second": 112.01,
+        "median_time_to_first_token_seconds": 2.22,
+        "median_time_to_first_answer_token_seconds": 2.22,
+        "median_end_to_end_response_time_seconds": 6.68
       }
     },
     {
@@ -8176,10 +8176,10 @@
         "price_1m_cache_write_tokens": 2.5
       },
       "performance": {
-        "median_output_tokens_per_second": 88.92,
-        "median_time_to_first_token_seconds": 16.31,
-        "median_time_to_first_answer_token_seconds": 16.31,
-        "median_end_to_end_response_time_seconds": 21.93
+        "median_output_tokens_per_second": 96.74,
+        "median_time_to_first_token_seconds": 18.18,
+        "median_time_to_first_answer_token_seconds": 18.18,
+        "median_end_to_end_response_time_seconds": 23.35
       }
     },
     {
@@ -8210,10 +8210,10 @@
         "price_1m_cache_write_tokens": null
       },
       "performance": {
-        "median_output_tokens_per_second": 61.53,
-        "median_time_to_first_token_seconds": 0.83,
-        "median_time_to_first_answer_token_seconds": 0.83,
-        "median_end_to_end_response_time_seconds": 8.96
+        "median_output_tokens_per_second": 41.94,
+        "median_time_to_first_token_seconds": 0.85,
+        "median_time_to_first_answer_token_seconds": 0.85,
+        "median_end_to_end_response_time_seconds": 12.77
       }
     },
     {
@@ -8244,10 +8244,10 @@
         "price_1m_cache_write_tokens": null
       },
       "performance": {
-        "median_output_tokens_per_second": 59.19,
-        "median_time_to_first_token_seconds": 1.91,
-        "median_time_to_first_answer_token_seconds": 1.91,
-        "median_end_to_end_response_time_seconds": 10.35
+        "median_output_tokens_per_second": 59.84,
+        "median_time_to_first_token_seconds": 1.97,
+        "median_time_to_first_answer_token_seconds": 1.97,
+        "median_end_to_end_response_time_seconds": 10.32
       }
     },
     {
@@ -8312,10 +8312,10 @@
         "price_1m_cache_write_tokens": 6.25
       },
       "performance": {
-        "median_output_tokens_per_second": 40.93,
-        "median_time_to_first_token_seconds": 19.79,
-        "median_time_to_first_answer_token_seconds": 19.79,
-        "median_end_to_end_response_time_seconds": 32
+        "median_output_tokens_per_second": 38.97,
+        "median_time_to_first_token_seconds": 19.59,
+        "median_time_to_first_answer_token_seconds": 19.59,
+        "median_end_to_end_response_time_seconds": 32.43
       }
     },
     {
@@ -8589,10 +8589,10 @@
         "price_1m_cache_write_tokens": null
       },
       "performance": {
-        "median_output_tokens_per_second": 135.92,
-        "median_time_to_first_token_seconds": 1.29,
-        "median_time_to_first_answer_token_seconds": 16.01,
-        "median_end_to_end_response_time_seconds": 19.68
+        "median_output_tokens_per_second": 124.4,
+        "median_time_to_first_token_seconds": 1.03,
+        "median_time_to_first_answer_token_seconds": 17.11,
+        "median_end_to_end_response_time_seconds": 21.13
       }
     },
     {
@@ -8628,10 +8628,10 @@
         "price_1m_cache_write_tokens": 0.25
       },
       "performance": {
-        "median_output_tokens_per_second": 114,
-        "median_time_to_first_token_seconds": 2.85,
-        "median_time_to_first_answer_token_seconds": 2.85,
-        "median_end_to_end_response_time_seconds": 7.24
+        "median_output_tokens_per_second": 115.33,
+        "median_time_to_first_token_seconds": 2.37,
+        "median_time_to_first_answer_token_seconds": 2.37,
+        "median_end_to_end_response_time_seconds": 6.7
       }
     },
     {
@@ -8667,10 +8667,10 @@
         "price_1m_cache_write_tokens": null
       },
       "performance": {
-        "median_output_tokens_per_second": 74.36,
-        "median_time_to_first_token_seconds": 38.88,
-        "median_time_to_first_answer_token_seconds": 38.88,
-        "median_end_to_end_response_time_seconds": 45.6
+        "median_output_tokens_per_second": 77.11,
+        "median_time_to_first_token_seconds": 43.87,
+        "median_time_to_first_answer_token_seconds": 43.87,
+        "median_end_to_end_response_time_seconds": 50.35
       }
     },
     {
@@ -8740,10 +8740,10 @@
         "price_1m_cache_write_tokens": null
       },
       "performance": {
-        "median_output_tokens_per_second": 265.6,
-        "median_time_to_first_token_seconds": 5.47,
-        "median_time_to_first_answer_token_seconds": 5.47,
-        "median_end_to_end_response_time_seconds": 7.35
+        "median_output_tokens_per_second": 272.86,
+        "median_time_to_first_token_seconds": 5.56,
+        "median_time_to_first_answer_token_seconds": 5.56,
+        "median_end_to_end_response_time_seconds": 7.39
       }
     },
     {
@@ -8876,10 +8876,10 @@
         "price_1m_cache_write_tokens": null
       },
       "performance": {
-        "median_output_tokens_per_second": 95.14,
-        "median_time_to_first_token_seconds": 68.5,
-        "median_time_to_first_answer_token_seconds": 68.5,
-        "median_end_to_end_response_time_seconds": 73.76
+        "median_output_tokens_per_second": 101.65,
+        "median_time_to_first_token_seconds": 73.53,
+        "median_time_to_first_answer_token_seconds": 73.53,
+        "median_end_to_end_response_time_seconds": 78.45
       }
     },
     {
@@ -9017,10 +9017,10 @@
         "price_1m_cache_write_tokens": null
       },
       "performance": {
-        "median_output_tokens_per_second": 43.92,
-        "median_time_to_first_token_seconds": 1.72,
-        "median_time_to_first_answer_token_seconds": 88.03,
-        "median_end_to_end_response_time_seconds": 99.41
+        "median_output_tokens_per_second": 50.34,
+        "median_time_to_first_token_seconds": 1.75,
+        "median_time_to_first_answer_token_seconds": 77.06,
+        "median_end_to_end_response_time_seconds": 86.99
       }
     },
     {
@@ -9085,10 +9085,10 @@
         "price_1m_cache_write_tokens": null
       },
       "performance": {
-        "median_output_tokens_per_second": 56.5,
-        "median_time_to_first_token_seconds": 4.01,
-        "median_time_to_first_answer_token_seconds": 4.01,
-        "median_end_to_end_response_time_seconds": 12.86
+        "median_output_tokens_per_second": 56.21,
+        "median_time_to_first_token_seconds": 3.97,
+        "median_time_to_first_answer_token_seconds": 3.97,
+        "median_end_to_end_response_time_seconds": 12.87
       }
     },
     {
@@ -9124,10 +9124,10 @@
         "price_1m_cache_write_tokens": null
       },
       "performance": {
-        "median_output_tokens_per_second": 164.16,
-        "median_time_to_first_token_seconds": 1.37,
-        "median_time_to_first_answer_token_seconds": 15.23,
-        "median_end_to_end_response_time_seconds": 18.28
+        "median_output_tokens_per_second": 186.06,
+        "median_time_to_first_token_seconds": 1.22,
+        "median_time_to_first_answer_token_seconds": 13.45,
+        "median_end_to_end_response_time_seconds": 16.13
       }
     },
     {
@@ -9231,10 +9231,10 @@
         "price_1m_cache_write_tokens": null
       },
       "performance": {
-        "median_output_tokens_per_second": 173.57,
-        "median_time_to_first_token_seconds": 0.94,
-        "median_time_to_first_answer_token_seconds": 0.94,
-        "median_end_to_end_response_time_seconds": 3.82
+        "median_output_tokens_per_second": 170.36,
+        "median_time_to_first_token_seconds": 0.96,
+        "median_time_to_first_answer_token_seconds": 0.96,
+        "median_end_to_end_response_time_seconds": 3.89
       }
     },
     {
@@ -9265,10 +9265,10 @@
         "price_1m_cache_write_tokens": null
       },
       "performance": {
-        "median_output_tokens_per_second": 41.26,
-        "median_time_to_first_token_seconds": 2.99,
-        "median_time_to_first_answer_token_seconds": 51.47,
-        "median_end_to_end_response_time_seconds": 63.59
+        "median_output_tokens_per_second": 41.46,
+        "median_time_to_first_token_seconds": 2.93,
+        "median_time_to_first_answer_token_seconds": 51.17,
+        "median_end_to_end_response_time_seconds": 63.23
       }
     },
     {
@@ -9367,10 +9367,10 @@
         "price_1m_cache_write_tokens": null
       },
       "performance": {
-        "median_output_tokens_per_second": 85.82,
-        "median_time_to_first_token_seconds": 2.46,
-        "median_time_to_first_answer_token_seconds": 25.77,
-        "median_end_to_end_response_time_seconds": 31.59
+        "median_output_tokens_per_second": 82.58,
+        "median_time_to_first_token_seconds": 2.45,
+        "median_time_to_first_answer_token_seconds": 26.67,
+        "median_end_to_end_response_time_seconds": 32.72
       }
     },
     {
@@ -9503,10 +9503,10 @@
         "price_1m_cache_write_tokens": null
       },
       "performance": {
-        "median_output_tokens_per_second": 110.68,
-        "median_time_to_first_token_seconds": 1.81,
-        "median_time_to_first_answer_token_seconds": 19.81,
-        "median_end_to_end_response_time_seconds": 24.32
+        "median_output_tokens_per_second": 112.79,
+        "median_time_to_first_token_seconds": 1.79,
+        "median_time_to_first_answer_token_seconds": 19.46,
+        "median_end_to_end_response_time_seconds": 23.89
       }
     },
     {
@@ -9537,10 +9537,10 @@
         "price_1m_cache_write_tokens": null
       },
       "performance": {
-        "median_output_tokens_per_second": 13.65,
-        "median_time_to_first_token_seconds": 36.55,
-        "median_time_to_first_answer_token_seconds": 36.55,
-        "median_end_to_end_response_time_seconds": 73.17
+        "median_output_tokens_per_second": 14.08,
+        "median_time_to_first_token_seconds": 36,
+        "median_time_to_first_answer_token_seconds": 36,
+        "median_end_to_end_response_time_seconds": 71.51
       }
     },
     {
@@ -9576,10 +9576,10 @@
         "price_1m_cache_write_tokens": null
       },
       "performance": {
-        "median_output_tokens_per_second": 143.03,
-        "median_time_to_first_token_seconds": 2.4,
-        "median_time_to_first_answer_token_seconds": 16.38,
-        "median_end_to_end_response_time_seconds": 19.88
+        "median_output_tokens_per_second": 145.7,
+        "median_time_to_first_token_seconds": 2.39,
+        "median_time_to_first_answer_token_seconds": 16.11,
+        "median_end_to_end_response_time_seconds": 19.54
       }
     },
     {
@@ -9649,10 +9649,10 @@
         "price_1m_cache_write_tokens": null
       },
       "performance": {
-        "median_output_tokens_per_second": 37.3,
-        "median_time_to_first_token_seconds": 2.53,
-        "median_time_to_first_answer_token_seconds": 56.14,
-        "median_end_to_end_response_time_seconds": 69.55
+        "median_output_tokens_per_second": 37.22,
+        "median_time_to_first_token_seconds": 2.58,
+        "median_time_to_first_answer_token_seconds": 56.32,
+        "median_end_to_end_response_time_seconds": 69.75
       }
     },
     {
@@ -9683,10 +9683,10 @@
         "price_1m_cache_write_tokens": 1.25
       },
       "performance": {
-        "median_output_tokens_per_second": 123.43,
+        "median_output_tokens_per_second": 125.87,
         "median_time_to_first_token_seconds": 11.46,
         "median_time_to_first_answer_token_seconds": 11.46,
-        "median_end_to_end_response_time_seconds": 15.51
+        "median_end_to_end_response_time_seconds": 15.44
       }
     },
     {
@@ -9717,10 +9717,10 @@
         "price_1m_cache_write_tokens": null
       },
       "performance": {
-        "median_output_tokens_per_second": 81.96,
-        "median_time_to_first_token_seconds": 36.38,
-        "median_time_to_first_answer_token_seconds": 36.38,
-        "median_end_to_end_response_time_seconds": 42.48
+        "median_output_tokens_per_second": 103.95,
+        "median_time_to_first_token_seconds": 33.81,
+        "median_time_to_first_answer_token_seconds": 33.81,
+        "median_end_to_end_response_time_seconds": 38.62
       }
     },
     {
@@ -9819,10 +9819,10 @@
         "price_1m_cache_write_tokens": null
       },
       "performance": {
-        "median_output_tokens_per_second": 16.71,
-        "median_time_to_first_token_seconds": 3.76,
-        "median_time_to_first_answer_token_seconds": 3.76,
-        "median_end_to_end_response_time_seconds": 33.69
+        "median_output_tokens_per_second": 16.57,
+        "median_time_to_first_token_seconds": 2.92,
+        "median_time_to_first_answer_token_seconds": 2.92,
+        "median_end_to_end_response_time_seconds": 33.1
       }
     },
     {
@@ -9888,9 +9888,9 @@
       },
       "performance": {
         "median_output_tokens_per_second": 72.84,
-        "median_time_to_first_token_seconds": 2.99,
-        "median_time_to_first_answer_token_seconds": 30.45,
-        "median_end_to_end_response_time_seconds": 37.31
+        "median_time_to_first_token_seconds": 2.94,
+        "median_time_to_first_answer_token_seconds": 30.39,
+        "median_end_to_end_response_time_seconds": 37.26
       }
     },
     {
@@ -9989,10 +9989,10 @@
         "price_1m_cache_write_tokens": null
       },
       "performance": {
-        "median_output_tokens_per_second": 176.27,
-        "median_time_to_first_token_seconds": 15.7,
-        "median_time_to_first_answer_token_seconds": 27.05,
-        "median_end_to_end_response_time_seconds": 29.89
+        "median_output_tokens_per_second": 175.68,
+        "median_time_to_first_token_seconds": 17.82,
+        "median_time_to_first_answer_token_seconds": 29.21,
+        "median_end_to_end_response_time_seconds": 32.05
       }
     },
     {
@@ -10062,10 +10062,10 @@
         "price_1m_cache_write_tokens": null
       },
       "performance": {
-        "median_output_tokens_per_second": 195.44,
-        "median_time_to_first_token_seconds": 1.49,
-        "median_time_to_first_answer_token_seconds": 11.72,
-        "median_end_to_end_response_time_seconds": 14.28
+        "median_output_tokens_per_second": 202.19,
+        "median_time_to_first_token_seconds": 1.46,
+        "median_time_to_first_answer_token_seconds": 11.35,
+        "median_end_to_end_response_time_seconds": 13.82
       }
     },
     {
@@ -10101,10 +10101,10 @@
         "price_1m_cache_write_tokens": null
       },
       "performance": {
-        "median_output_tokens_per_second": 159.68,
-        "median_time_to_first_token_seconds": 1.31,
-        "median_time_to_first_answer_token_seconds": 13.83,
-        "median_end_to_end_response_time_seconds": 16.96
+        "median_output_tokens_per_second": 156.88,
+        "median_time_to_first_token_seconds": 1.33,
+        "median_time_to_first_answer_token_seconds": 14.07,
+        "median_end_to_end_response_time_seconds": 17.26
       }
     },
     {
@@ -10140,10 +10140,10 @@
         "price_1m_cache_write_tokens": 0.13
       },
       "performance": {
-        "median_output_tokens_per_second": 127.79,
+        "median_output_tokens_per_second": 128.07,
         "median_time_to_first_token_seconds": 0.67,
         "median_time_to_first_answer_token_seconds": 0.67,
-        "median_end_to_end_response_time_seconds": 4.58
+        "median_end_to_end_response_time_seconds": 4.57
       }
     },
     {
@@ -10208,10 +10208,10 @@
         "price_1m_cache_write_tokens": null
       },
       "performance": {
-        "median_output_tokens_per_second": 108.99,
-        "median_time_to_first_token_seconds": 0.63,
-        "median_time_to_first_answer_token_seconds": 0.63,
-        "median_end_to_end_response_time_seconds": 5.22
+        "median_output_tokens_per_second": 115.13,
+        "median_time_to_first_token_seconds": 0.65,
+        "median_time_to_first_answer_token_seconds": 0.65,
+        "median_end_to_end_response_time_seconds": 4.99
       }
     },
     {
@@ -10242,10 +10242,10 @@
         "price_1m_cache_write_tokens": null
       },
       "performance": {
-        "median_output_tokens_per_second": 20.7,
-        "median_time_to_first_token_seconds": 0.83,
-        "median_time_to_first_answer_token_seconds": 97.45,
-        "median_end_to_end_response_time_seconds": 121.6
+        "median_output_tokens_per_second": 19.53,
+        "median_time_to_first_token_seconds": 0.88,
+        "median_time_to_first_answer_token_seconds": 103.28,
+        "median_end_to_end_response_time_seconds": 128.88
       }
     },
     {
@@ -10310,10 +10310,10 @@
         "price_1m_cache_write_tokens": null
       },
       "performance": {
-        "median_output_tokens_per_second": 52.51,
-        "median_time_to_first_token_seconds": 1.14,
-        "median_time_to_first_answer_token_seconds": 1.14,
-        "median_end_to_end_response_time_seconds": 10.66
+        "median_output_tokens_per_second": 54.1,
+        "median_time_to_first_token_seconds": 1.15,
+        "median_time_to_first_answer_token_seconds": 1.15,
+        "median_end_to_end_response_time_seconds": 10.39
       }
     },
     {
@@ -10349,10 +10349,10 @@
         "price_1m_cache_write_tokens": null
       },
       "performance": {
-        "median_output_tokens_per_second": 51.26,
+        "median_output_tokens_per_second": 51.45,
         "median_time_to_first_token_seconds": 3.89,
-        "median_time_to_first_answer_token_seconds": 42.9,
-        "median_end_to_end_response_time_seconds": 52.66
+        "median_time_to_first_answer_token_seconds": 42.76,
+        "median_end_to_end_response_time_seconds": 52.48
       }
     },
     {
@@ -10417,9 +10417,9 @@
         "price_1m_cache_write_tokens": null
       },
       "performance": {
-        "median_output_tokens_per_second": 135.18,
-        "median_time_to_first_token_seconds": 2.09,
-        "median_time_to_first_answer_token_seconds": 2.09,
+        "median_output_tokens_per_second": 133.89,
+        "median_time_to_first_token_seconds": 2.06,
+        "median_time_to_first_answer_token_seconds": 2.06,
         "median_end_to_end_response_time_seconds": 5.79
       }
     },
@@ -10456,10 +10456,10 @@
         "price_1m_cache_write_tokens": null
       },
       "performance": {
-        "median_output_tokens_per_second": 206.25,
-        "median_time_to_first_token_seconds": 0.67,
-        "median_time_to_first_answer_token_seconds": 0.67,
-        "median_end_to_end_response_time_seconds": 3.1
+        "median_output_tokens_per_second": 221.53,
+        "median_time_to_first_token_seconds": 0.69,
+        "median_time_to_first_answer_token_seconds": 0.69,
+        "median_end_to_end_response_time_seconds": 2.95
       }
     },
     {
@@ -10563,10 +10563,10 @@
         "price_1m_cache_write_tokens": null
       },
       "performance": {
-        "median_output_tokens_per_second": 202.39,
-        "median_time_to_first_token_seconds": 2.2,
-        "median_time_to_first_answer_token_seconds": 14.1,
-        "median_end_to_end_response_time_seconds": 16.57
+        "median_output_tokens_per_second": 199.19,
+        "median_time_to_first_token_seconds": 2.18,
+        "median_time_to_first_answer_token_seconds": 14.27,
+        "median_end_to_end_response_time_seconds": 16.78
       }
     },
     {
@@ -10597,10 +10597,10 @@
         "price_1m_cache_write_tokens": null
       },
       "performance": {
-        "median_output_tokens_per_second": 35.85,
-        "median_time_to_first_token_seconds": 4.21,
-        "median_time_to_first_answer_token_seconds": 60.01,
-        "median_end_to_end_response_time_seconds": 73.95
+        "median_output_tokens_per_second": 35.34,
+        "median_time_to_first_token_seconds": 4.26,
+        "median_time_to_first_answer_token_seconds": 60.85,
+        "median_end_to_end_response_time_seconds": 75
       }
     },
     {
@@ -10665,10 +10665,10 @@
         "price_1m_cache_write_tokens": null
       },
       "performance": {
-        "median_output_tokens_per_second": 195.44,
-        "median_time_to_first_token_seconds": 0.48,
-        "median_time_to_first_answer_token_seconds": 0.48,
-        "median_end_to_end_response_time_seconds": 3.03
+        "median_output_tokens_per_second": 195.26,
+        "median_time_to_first_token_seconds": 0.47,
+        "median_time_to_first_answer_token_seconds": 0.47,
+        "median_end_to_end_response_time_seconds": 3.04
       }
     },
     {
@@ -10738,10 +10738,10 @@
         "price_1m_cache_write_tokens": null
       },
       "performance": {
-        "median_output_tokens_per_second": 81.32,
-        "median_time_to_first_token_seconds": 7.03,
-        "median_time_to_first_answer_token_seconds": 7.03,
-        "median_end_to_end_response_time_seconds": 13.17
+        "median_output_tokens_per_second": 82.76,
+        "median_time_to_first_token_seconds": 6.52,
+        "median_time_to_first_answer_token_seconds": 6.52,
+        "median_end_to_end_response_time_seconds": 12.57
       }
     },
     {
@@ -10806,10 +10806,10 @@
         "price_1m_cache_write_tokens": null
       },
       "performance": {
-        "median_output_tokens_per_second": 195.32,
-        "median_time_to_first_token_seconds": 2.54,
-        "median_time_to_first_answer_token_seconds": 12.78,
-        "median_end_to_end_response_time_seconds": 15.34
+        "median_output_tokens_per_second": 196.35,
+        "median_time_to_first_token_seconds": 2.5,
+        "median_time_to_first_answer_token_seconds": 12.69,
+        "median_end_to_end_response_time_seconds": 15.24
       }
     },
     {
@@ -10908,10 +10908,10 @@
         "price_1m_cache_write_tokens": null
       },
       "performance": {
-        "median_output_tokens_per_second": 69.99,
-        "median_time_to_first_token_seconds": 2.67,
-        "median_time_to_first_answer_token_seconds": 2.67,
-        "median_end_to_end_response_time_seconds": 9.82
+        "median_output_tokens_per_second": 74.23,
+        "median_time_to_first_token_seconds": 2.68,
+        "median_time_to_first_answer_token_seconds": 2.68,
+        "median_end_to_end_response_time_seconds": 9.42
       }
     },
     {
@@ -10942,10 +10942,10 @@
         "price_1m_cache_write_tokens": null
       },
       "performance": {
-        "median_output_tokens_per_second": 66.68,
-        "median_time_to_first_token_seconds": 0.77,
-        "median_time_to_first_answer_token_seconds": 0.77,
-        "median_end_to_end_response_time_seconds": 8.27
+        "median_output_tokens_per_second": 68.42,
+        "median_time_to_first_token_seconds": 0.75,
+        "median_time_to_first_answer_token_seconds": 0.75,
+        "median_end_to_end_response_time_seconds": 8.06
       }
     },
     {
@@ -11010,7 +11010,7 @@
         "price_1m_cache_write_tokens": null
       },
       "performance": {
-        "median_output_tokens_per_second": 107.75,
+        "median_output_tokens_per_second": 107.82,
         "median_time_to_first_token_seconds": 1.58,
         "median_time_to_first_answer_token_seconds": 1.58,
         "median_end_to_end_response_time_seconds": 6.22
@@ -11083,10 +11083,10 @@
         "price_1m_cache_write_tokens": 5
       },
       "performance": {
-        "median_output_tokens_per_second": 70.46,
-        "median_time_to_first_token_seconds": 4.66,
-        "median_time_to_first_answer_token_seconds": 4.66,
-        "median_end_to_end_response_time_seconds": 11.75
+        "median_output_tokens_per_second": 71.67,
+        "median_time_to_first_token_seconds": 5.67,
+        "median_time_to_first_answer_token_seconds": 5.67,
+        "median_end_to_end_response_time_seconds": 12.64
       }
     },
     {
@@ -11117,10 +11117,10 @@
         "price_1m_cache_write_tokens": null
       },
       "performance": {
-        "median_output_tokens_per_second": 78.48,
+        "median_output_tokens_per_second": 82.14,
         "median_time_to_first_token_seconds": 0.88,
         "median_time_to_first_answer_token_seconds": 0.88,
-        "median_end_to_end_response_time_seconds": 7.25
+        "median_end_to_end_response_time_seconds": 6.96
       }
     },
     {
@@ -11151,10 +11151,10 @@
         "price_1m_cache_write_tokens": null
       },
       "performance": {
-        "median_output_tokens_per_second": 217.22,
-        "median_time_to_first_token_seconds": 1.88,
-        "median_time_to_first_answer_token_seconds": 1.88,
-        "median_end_to_end_response_time_seconds": 4.19
+        "median_output_tokens_per_second": 218.02,
+        "median_time_to_first_token_seconds": 1.85,
+        "median_time_to_first_answer_token_seconds": 1.85,
+        "median_end_to_end_response_time_seconds": 4.15
       }
     },
     {
@@ -11190,10 +11190,10 @@
         "price_1m_cache_write_tokens": 0.13
       },
       "performance": {
-        "median_output_tokens_per_second": 125.99,
-        "median_time_to_first_token_seconds": 132.77,
-        "median_time_to_first_answer_token_seconds": 132.77,
-        "median_end_to_end_response_time_seconds": 136.74
+        "median_output_tokens_per_second": 140.7,
+        "median_time_to_first_token_seconds": 111.13,
+        "median_time_to_first_answer_token_seconds": 111.13,
+        "median_end_to_end_response_time_seconds": 114.69
       }
     },
     {
@@ -11224,10 +11224,10 @@
         "price_1m_cache_write_tokens": null
       },
       "performance": {
-        "median_output_tokens_per_second": 69.21,
-        "median_time_to_first_token_seconds": 1.26,
-        "median_time_to_first_answer_token_seconds": 30.15,
-        "median_end_to_end_response_time_seconds": 37.38
+        "median_output_tokens_per_second": 71.6,
+        "median_time_to_first_token_seconds": 1.23,
+        "median_time_to_first_answer_token_seconds": 29.16,
+        "median_end_to_end_response_time_seconds": 36.14
       }
     },
     {
@@ -11258,10 +11258,10 @@
         "price_1m_cache_write_tokens": null
       },
       "performance": {
-        "median_output_tokens_per_second": 149.82,
-        "median_time_to_first_token_seconds": 10.1,
-        "median_time_to_first_answer_token_seconds": 23.45,
-        "median_end_to_end_response_time_seconds": 26.78
+        "median_output_tokens_per_second": 150.39,
+        "median_time_to_first_token_seconds": 9.83,
+        "median_time_to_first_answer_token_seconds": 23.13,
+        "median_end_to_end_response_time_seconds": 26.45
       }
     },
     {
@@ -11326,10 +11326,10 @@
         "price_1m_cache_write_tokens": null
       },
       "performance": {
-        "median_output_tokens_per_second": 102.23,
-        "median_time_to_first_token_seconds": 1.24,
-        "median_time_to_first_answer_token_seconds": 1.24,
-        "median_end_to_end_response_time_seconds": 6.13
+        "median_output_tokens_per_second": 99.14,
+        "median_time_to_first_token_seconds": 1.13,
+        "median_time_to_first_answer_token_seconds": 1.13,
+        "median_end_to_end_response_time_seconds": 6.18
       }
     },
     {
@@ -11365,10 +11365,10 @@
         "price_1m_cache_write_tokens": 6.25
       },
       "performance": {
-        "median_output_tokens_per_second": 53.86,
-        "median_time_to_first_token_seconds": 19.18,
-        "median_time_to_first_answer_token_seconds": 19.18,
-        "median_end_to_end_response_time_seconds": 28.47
+        "median_output_tokens_per_second": 53.71,
+        "median_time_to_first_token_seconds": 20.74,
+        "median_time_to_first_answer_token_seconds": 20.74,
+        "median_end_to_end_response_time_seconds": 30.04
       }
     },
     {
@@ -11404,10 +11404,10 @@
         "price_1m_cache_write_tokens": null
       },
       "performance": {
-        "median_output_tokens_per_second": 71.45,
-        "median_time_to_first_token_seconds": 0.97,
-        "median_time_to_first_answer_token_seconds": 0.97,
-        "median_end_to_end_response_time_seconds": 7.97
+        "median_output_tokens_per_second": 81.12,
+        "median_time_to_first_token_seconds": 0.94,
+        "median_time_to_first_answer_token_seconds": 0.94,
+        "median_end_to_end_response_time_seconds": 7.11
       }
     },
     {
@@ -11545,10 +11545,10 @@
         "price_1m_cache_write_tokens": null
       },
       "performance": {
-        "median_output_tokens_per_second": 190.8,
-        "median_time_to_first_token_seconds": 2.12,
-        "median_time_to_first_answer_token_seconds": 12.61,
-        "median_end_to_end_response_time_seconds": 15.23
+        "median_output_tokens_per_second": 203.82,
+        "median_time_to_first_token_seconds": 2.1,
+        "median_time_to_first_answer_token_seconds": 11.92,
+        "median_end_to_end_response_time_seconds": 14.37
       }
     },
     {
@@ -11579,10 +11579,10 @@
         "price_1m_cache_write_tokens": null
       },
       "performance": {
-        "median_output_tokens_per_second": 135.29,
-        "median_time_to_first_token_seconds": 0.69,
-        "median_time_to_first_answer_token_seconds": 0.69,
-        "median_end_to_end_response_time_seconds": 4.39
+        "median_output_tokens_per_second": 173.1,
+        "median_time_to_first_token_seconds": 0.63,
+        "median_time_to_first_answer_token_seconds": 0.63,
+        "median_end_to_end_response_time_seconds": 3.52
       }
     },
     {
@@ -11647,9 +11647,9 @@
         "price_1m_cache_write_tokens": null
       },
       "performance": {
-        "median_output_tokens_per_second": 140.41,
-        "median_time_to_first_token_seconds": 0.89,
-        "median_time_to_first_answer_token_seconds": 0.89,
+        "median_output_tokens_per_second": 139.32,
+        "median_time_to_first_token_seconds": 0.86,
+        "median_time_to_first_answer_token_seconds": 0.86,
         "median_end_to_end_response_time_seconds": 4.45
       }
     },
@@ -11721,9 +11721,9 @@
       },
       "performance": {
         "median_output_tokens_per_second": 207.45,
-        "median_time_to_first_token_seconds": 0.94,
-        "median_time_to_first_answer_token_seconds": 0.94,
-        "median_end_to_end_response_time_seconds": 3.35
+        "median_time_to_first_token_seconds": 0.95,
+        "median_time_to_first_answer_token_seconds": 0.95,
+        "median_end_to_end_response_time_seconds": 3.36
       }
     },
     {
@@ -11973,10 +11973,10 @@
         "price_1m_cache_write_tokens": null
       },
       "performance": {
-        "median_output_tokens_per_second": 620.67,
-        "median_time_to_first_token_seconds": 3.53,
-        "median_time_to_first_answer_token_seconds": 3.53,
-        "median_end_to_end_response_time_seconds": 4.33
+        "median_output_tokens_per_second": 697.01,
+        "median_time_to_first_token_seconds": 3.59,
+        "median_time_to_first_answer_token_seconds": 3.59,
+        "median_end_to_end_response_time_seconds": 4.3
       }
     },
     {
@@ -12007,10 +12007,10 @@
         "price_1m_cache_write_tokens": null
       },
       "performance": {
-        "median_output_tokens_per_second": 32.36,
-        "median_time_to_first_token_seconds": 3.16,
-        "median_time_to_first_answer_token_seconds": 3.16,
-        "median_end_to_end_response_time_seconds": 18.61
+        "median_output_tokens_per_second": 32.95,
+        "median_time_to_first_token_seconds": 3.27,
+        "median_time_to_first_answer_token_seconds": 3.27,
+        "median_end_to_end_response_time_seconds": 18.44
       }
     },
     {
@@ -12041,10 +12041,10 @@
         "price_1m_cache_write_tokens": null
       },
       "performance": {
-        "median_output_tokens_per_second": 167.17,
-        "median_time_to_first_token_seconds": 1.06,
-        "median_time_to_first_answer_token_seconds": 1.06,
-        "median_end_to_end_response_time_seconds": 4.05
+        "median_output_tokens_per_second": 164.59,
+        "median_time_to_first_token_seconds": 1.04,
+        "median_time_to_first_answer_token_seconds": 1.04,
+        "median_end_to_end_response_time_seconds": 4.08
       }
     },
     {
@@ -12080,10 +12080,10 @@
         "price_1m_cache_write_tokens": null
       },
       "performance": {
-        "median_output_tokens_per_second": 206.37,
+        "median_output_tokens_per_second": 219.59,
         "median_time_to_first_token_seconds": 1.02,
-        "median_time_to_first_answer_token_seconds": 10.72,
-        "median_end_to_end_response_time_seconds": 13.14
+        "median_time_to_first_answer_token_seconds": 10.12,
+        "median_end_to_end_response_time_seconds": 12.4
       }
     },
     {
@@ -12119,10 +12119,10 @@
         "price_1m_cache_write_tokens": null
       },
       "performance": {
-        "median_output_tokens_per_second": 207.3,
-        "median_time_to_first_token_seconds": 0.95,
-        "median_time_to_first_answer_token_seconds": 10.6,
-        "median_end_to_end_response_time_seconds": 13.01
+        "median_output_tokens_per_second": 205.78,
+        "median_time_to_first_token_seconds": 0.93,
+        "median_time_to_first_answer_token_seconds": 10.65,
+        "median_end_to_end_response_time_seconds": 13.08
       }
     },
     {
@@ -12299,10 +12299,10 @@
         "price_1m_cache_write_tokens": null
       },
       "performance": {
-        "median_output_tokens_per_second": 188.06,
+        "median_output_tokens_per_second": 194.3,
         "median_time_to_first_token_seconds": 14.27,
         "median_time_to_first_answer_token_seconds": 14.27,
-        "median_end_to_end_response_time_seconds": 16.93
+        "median_end_to_end_response_time_seconds": 16.85
       }
     },
     {
@@ -12333,10 +12333,10 @@
         "price_1m_cache_write_tokens": null
       },
       "performance": {
-        "median_output_tokens_per_second": 186.82,
-        "median_time_to_first_token_seconds": 0.96,
-        "median_time_to_first_answer_token_seconds": 0.96,
-        "median_end_to_end_response_time_seconds": 3.63
+        "median_output_tokens_per_second": 192.19,
+        "median_time_to_first_token_seconds": 0.87,
+        "median_time_to_first_answer_token_seconds": 0.87,
+        "median_end_to_end_response_time_seconds": 3.47
       }
     },
     {
@@ -12406,10 +12406,10 @@
         "price_1m_cache_write_tokens": null
       },
       "performance": {
-        "median_output_tokens_per_second": 53.47,
-        "median_time_to_first_token_seconds": 8.18,
-        "median_time_to_first_answer_token_seconds": 8.18,
-        "median_end_to_end_response_time_seconds": 17.53
+        "median_output_tokens_per_second": 55.2,
+        "median_time_to_first_token_seconds": 9.34,
+        "median_time_to_first_answer_token_seconds": 9.34,
+        "median_end_to_end_response_time_seconds": 18.4
       }
     },
     {
@@ -12474,10 +12474,10 @@
         "price_1m_cache_write_tokens": null
       },
       "performance": {
-        "median_output_tokens_per_second": 63.79,
-        "median_time_to_first_token_seconds": 2.23,
-        "median_time_to_first_answer_token_seconds": 2.23,
-        "median_end_to_end_response_time_seconds": 10.07
+        "median_output_tokens_per_second": 64.84,
+        "median_time_to_first_token_seconds": 2.17,
+        "median_time_to_first_answer_token_seconds": 2.17,
+        "median_end_to_end_response_time_seconds": 9.88
       }
     },
     {
@@ -12576,10 +12576,10 @@
         "price_1m_cache_write_tokens": 5
       },
       "performance": {
-        "median_output_tokens_per_second": 68.63,
-        "median_time_to_first_token_seconds": 0.98,
-        "median_time_to_first_answer_token_seconds": 0.98,
-        "median_end_to_end_response_time_seconds": 8.26
+        "median_output_tokens_per_second": 71.7,
+        "median_time_to_first_token_seconds": 0.91,
+        "median_time_to_first_answer_token_seconds": 0.91,
+        "median_end_to_end_response_time_seconds": 7.88
       }
     },
     {
@@ -12610,10 +12610,10 @@
         "price_1m_cache_write_tokens": null
       },
       "performance": {
-        "median_output_tokens_per_second": 195.72,
-        "median_time_to_first_token_seconds": 6.63,
-        "median_time_to_first_answer_token_seconds": 6.63,
-        "median_end_to_end_response_time_seconds": 9.19
+        "median_output_tokens_per_second": 192.99,
+        "median_time_to_first_token_seconds": 6.17,
+        "median_time_to_first_answer_token_seconds": 6.17,
+        "median_end_to_end_response_time_seconds": 8.76
       }
     },
     {
@@ -12649,10 +12649,10 @@
         "price_1m_cache_write_tokens": 0.13
       },
       "performance": {
-        "median_output_tokens_per_second": 133.33,
-        "median_time_to_first_token_seconds": 12.22,
-        "median_time_to_first_answer_token_seconds": 12.22,
-        "median_end_to_end_response_time_seconds": 15.97
+        "median_output_tokens_per_second": 133.57,
+        "median_time_to_first_token_seconds": 13.84,
+        "median_time_to_first_answer_token_seconds": 13.84,
+        "median_end_to_end_response_time_seconds": 17.59
       }
     },
     {
@@ -12722,10 +12722,10 @@
         "price_1m_cache_write_tokens": null
       },
       "performance": {
-        "median_output_tokens_per_second": 50.95,
-        "median_time_to_first_token_seconds": 3.69,
-        "median_time_to_first_answer_token_seconds": 42.94,
-        "median_end_to_end_response_time_seconds": 52.75
+        "median_output_tokens_per_second": 51.04,
+        "median_time_to_first_token_seconds": 3.79,
+        "median_time_to_first_answer_token_seconds": 42.98,
+        "median_end_to_end_response_time_seconds": 52.78
       }
     },
     {
@@ -12795,10 +12795,10 @@
         "price_1m_cache_write_tokens": null
       },
       "performance": {
-        "median_output_tokens_per_second": 56.58,
+        "median_output_tokens_per_second": 53.18,
         "median_time_to_first_token_seconds": 2.62,
-        "median_time_to_first_answer_token_seconds": 37.97,
-        "median_end_to_end_response_time_seconds": 46.81
+        "median_time_to_first_answer_token_seconds": 40.23,
+        "median_end_to_end_response_time_seconds": 49.63
       }
     },
     {
@@ -12829,10 +12829,10 @@
         "price_1m_cache_write_tokens": null
       },
       "performance": {
-        "median_output_tokens_per_second": 144.09,
-        "median_time_to_first_token_seconds": 1.87,
-        "median_time_to_first_answer_token_seconds": 1.87,
-        "median_end_to_end_response_time_seconds": 5.34
+        "median_output_tokens_per_second": 142.83,
+        "median_time_to_first_token_seconds": 1.86,
+        "median_time_to_first_answer_token_seconds": 1.86,
+        "median_end_to_end_response_time_seconds": 5.36
       }
     },
     {
@@ -12863,10 +12863,10 @@
         "price_1m_cache_write_tokens": null
       },
       "performance": {
-        "median_output_tokens_per_second": 84.44,
-        "median_time_to_first_token_seconds": 13.34,
-        "median_time_to_first_answer_token_seconds": 13.34,
-        "median_end_to_end_response_time_seconds": 19.26
+        "median_output_tokens_per_second": 91.76,
+        "median_time_to_first_token_seconds": 7.22,
+        "median_time_to_first_answer_token_seconds": 7.22,
+        "median_end_to_end_response_time_seconds": 12.67
       }
     },
     {
@@ -12902,10 +12902,10 @@
         "price_1m_cache_write_tokens": null
       },
       "performance": {
-        "median_output_tokens_per_second": 1491.99,
-        "median_time_to_first_token_seconds": 0.62,
-        "median_time_to_first_answer_token_seconds": 0.62,
-        "median_end_to_end_response_time_seconds": 0.96
+        "median_output_tokens_per_second": 1597.23,
+        "median_time_to_first_token_seconds": 0.61,
+        "median_time_to_first_answer_token_seconds": 0.61,
+        "median_end_to_end_response_time_seconds": 0.92
       }
     },
     {
@@ -13043,10 +13043,10 @@
         "price_1m_cache_write_tokens": 2.5
       },
       "performance": {
-        "median_output_tokens_per_second": 84.29,
-        "median_time_to_first_token_seconds": 3.42,
-        "median_time_to_first_answer_token_seconds": 3.42,
-        "median_end_to_end_response_time_seconds": 9.36
+        "median_output_tokens_per_second": 88.22,
+        "median_time_to_first_token_seconds": 2.68,
+        "median_time_to_first_answer_token_seconds": 2.68,
+        "median_end_to_end_response_time_seconds": 8.35
       }
     },
     {
@@ -13077,10 +13077,10 @@
         "price_1m_cache_write_tokens": null
       },
       "performance": {
-        "median_output_tokens_per_second": 70.9,
-        "median_time_to_first_token_seconds": 1.44,
-        "median_time_to_first_answer_token_seconds": 1.44,
-        "median_end_to_end_response_time_seconds": 8.5
+        "median_output_tokens_per_second": 64.74,
+        "median_time_to_first_token_seconds": 1.34,
+        "median_time_to_first_answer_token_seconds": 1.34,
+        "median_end_to_end_response_time_seconds": 9.06
       }
     },
     {
@@ -13213,10 +13213,10 @@
         "price_1m_cache_write_tokens": null
       },
       "performance": {
-        "median_output_tokens_per_second": 37.1,
-        "median_time_to_first_token_seconds": 2.4,
-        "median_time_to_first_answer_token_seconds": 56.32,
-        "median_end_to_end_response_time_seconds": 69.8
+        "median_output_tokens_per_second": 39.53,
+        "median_time_to_first_token_seconds": 2.34,
+        "median_time_to_first_answer_token_seconds": 52.94,
+        "median_end_to_end_response_time_seconds": 65.59
       }
     },
     {
@@ -13320,10 +13320,10 @@
         "price_1m_cache_write_tokens": null
       },
       "performance": {
-        "median_output_tokens_per_second": 110.08,
-        "median_time_to_first_token_seconds": 1.71,
-        "median_time_to_first_answer_token_seconds": 19.88,
-        "median_end_to_end_response_time_seconds": 24.42
+        "median_output_tokens_per_second": 115.78,
+        "median_time_to_first_token_seconds": 1.72,
+        "median_time_to_first_answer_token_seconds": 18.99,
+        "median_end_to_end_response_time_seconds": 23.31
       }
     },
     {
@@ -13422,10 +13422,10 @@
         "price_1m_cache_write_tokens": null
       },
       "performance": {
-        "median_output_tokens_per_second": 145.99,
-        "median_time_to_first_token_seconds": 26.21,
-        "median_time_to_first_answer_token_seconds": 26.21,
-        "median_end_to_end_response_time_seconds": 29.63
+        "median_output_tokens_per_second": 155.26,
+        "median_time_to_first_token_seconds": 22.32,
+        "median_time_to_first_answer_token_seconds": 22.32,
+        "median_end_to_end_response_time_seconds": 25.54
       }
     },
     {
@@ -13529,10 +13529,10 @@
         "price_1m_cache_write_tokens": null
       },
       "performance": {
-        "median_output_tokens_per_second": 124,
-        "median_time_to_first_token_seconds": 2.12,
-        "median_time_to_first_answer_token_seconds": 45.62,
-        "median_end_to_end_response_time_seconds": 49.66
+        "median_output_tokens_per_second": 123.42,
+        "median_time_to_first_token_seconds": 2.11,
+        "median_time_to_first_answer_token_seconds": 45.82,
+        "median_end_to_end_response_time_seconds": 49.87
       }
     },
     {
@@ -13568,10 +13568,10 @@
         "price_1m_cache_write_tokens": 0.25
       },
       "performance": {
-        "median_output_tokens_per_second": 116.24,
-        "median_time_to_first_token_seconds": 54.92,
-        "median_time_to_first_answer_token_seconds": 54.92,
-        "median_end_to_end_response_time_seconds": 59.22
+        "median_output_tokens_per_second": 125.72,
+        "median_time_to_first_token_seconds": 52.91,
+        "median_time_to_first_answer_token_seconds": 52.91,
+        "median_end_to_end_response_time_seconds": 56.89
       }
     },
     {
@@ -13670,10 +13670,10 @@
         "price_1m_cache_write_tokens": null
       },
       "performance": {
-        "median_output_tokens_per_second": 5.04,
-        "median_time_to_first_token_seconds": 2.47,
-        "median_time_to_first_answer_token_seconds": 2.47,
-        "median_end_to_end_response_time_seconds": 101.72
+        "median_output_tokens_per_second": 4.98,
+        "median_time_to_first_token_seconds": 2.48,
+        "median_time_to_first_answer_token_seconds": 2.48,
+        "median_end_to_end_response_time_seconds": 102.93
       }
     },
     {
@@ -13704,10 +13704,10 @@
         "price_1m_cache_write_tokens": null
       },
       "performance": {
-        "median_output_tokens_per_second": 161,
+        "median_output_tokens_per_second": 174.86,
         "median_time_to_first_token_seconds": 5.23,
         "median_time_to_first_answer_token_seconds": 5.23,
-        "median_end_to_end_response_time_seconds": 8.33
+        "median_end_to_end_response_time_seconds": 8.09
       }
     },
     {
@@ -13884,10 +13884,10 @@
         "price_1m_cache_write_tokens": 0.75
       },
       "performance": {
-        "median_output_tokens_per_second": 232.28,
+        "median_output_tokens_per_second": 239.12,
         "median_time_to_first_token_seconds": 14.93,
         "median_time_to_first_answer_token_seconds": 14.93,
-        "median_end_to_end_response_time_seconds": 17.08
+        "median_end_to_end_response_time_seconds": 17.02
       }
     },
     {
@@ -13923,10 +13923,10 @@
         "price_1m_cache_write_tokens": 5
       },
       "performance": {
-        "median_output_tokens_per_second": 73.3,
-        "median_time_to_first_token_seconds": 15.3,
-        "median_time_to_first_answer_token_seconds": 15.3,
-        "median_end_to_end_response_time_seconds": 22.12
+        "median_output_tokens_per_second": 73.44,
+        "median_time_to_first_token_seconds": 17.43,
+        "median_time_to_first_answer_token_seconds": 17.43,
+        "median_end_to_end_response_time_seconds": 24.24
       }
     },
     {
@@ -13991,10 +13991,10 @@
         "price_1m_cache_write_tokens": null
       },
       "performance": {
-        "median_output_tokens_per_second": 109.65,
-        "median_time_to_first_token_seconds": 1.11,
-        "median_time_to_first_answer_token_seconds": 1.11,
-        "median_end_to_end_response_time_seconds": 5.67
+        "median_output_tokens_per_second": 112.29,
+        "median_time_to_first_token_seconds": 0.99,
+        "median_time_to_first_answer_token_seconds": 0.99,
+        "median_end_to_end_response_time_seconds": 5.44
       }
     },
     {
@@ -14031,9 +14031,9 @@
       },
       "performance": {
         "median_output_tokens_per_second": 56.5,
-        "median_time_to_first_token_seconds": 3.62,
-        "median_time_to_first_answer_token_seconds": 104.08,
-        "median_end_to_end_response_time_seconds": 112.93
+        "median_time_to_first_token_seconds": 3.6,
+        "median_time_to_first_answer_token_seconds": 104.06,
+        "median_end_to_end_response_time_seconds": 112.91
       }
     },
     {
@@ -14064,10 +14064,10 @@
         "price_1m_cache_write_tokens": null
       },
       "performance": {
-        "median_output_tokens_per_second": 272.36,
-        "median_time_to_first_token_seconds": 0.34,
-        "median_time_to_first_answer_token_seconds": 7.68,
-        "median_end_to_end_response_time_seconds": 9.52
+        "median_output_tokens_per_second": 269.05,
+        "median_time_to_first_token_seconds": 0.35,
+        "median_time_to_first_answer_token_seconds": 7.79,
+        "median_end_to_end_response_time_seconds": 9.64
       }
     },
     {
@@ -14137,10 +14137,10 @@
         "price_1m_cache_write_tokens": null
       },
       "performance": {
-        "median_output_tokens_per_second": 94.87,
-        "median_time_to_first_token_seconds": 3.05,
-        "median_time_to_first_answer_token_seconds": 26.54,
-        "median_end_to_end_response_time_seconds": 31.81
+        "median_output_tokens_per_second": 96.5,
+        "median_time_to_first_token_seconds": 2.94,
+        "median_time_to_first_answer_token_seconds": 26.03,
+        "median_end_to_end_response_time_seconds": 31.22
       }
     },
     {
@@ -14210,10 +14210,10 @@
         "price_1m_cache_write_tokens": null
       },
       "performance": {
-        "median_output_tokens_per_second": 38.68,
-        "median_time_to_first_token_seconds": 2.78,
-        "median_time_to_first_answer_token_seconds": 54.48,
-        "median_end_to_end_response_time_seconds": 67.4
+        "median_output_tokens_per_second": 37.66,
+        "median_time_to_first_token_seconds": 2.76,
+        "median_time_to_first_answer_token_seconds": 55.86,
+        "median_end_to_end_response_time_seconds": 69.13
       }
     },
     {
@@ -14278,10 +14278,10 @@
         "price_1m_cache_write_tokens": null
       },
       "performance": {
-        "median_output_tokens_per_second": 161.9,
-        "median_time_to_first_token_seconds": 31.04,
-        "median_time_to_first_answer_token_seconds": 31.04,
-        "median_end_to_end_response_time_seconds": 34.12
+        "median_output_tokens_per_second": 167.3,
+        "median_time_to_first_token_seconds": 28.39,
+        "median_time_to_first_answer_token_seconds": 28.39,
+        "median_end_to_end_response_time_seconds": 31.38
       }
     },
     {
@@ -14419,10 +14419,10 @@
         "price_1m_cache_write_tokens": 1.25
       },
       "performance": {
-        "median_output_tokens_per_second": 118.78,
-        "median_time_to_first_token_seconds": 0.73,
-        "median_time_to_first_answer_token_seconds": 0.73,
-        "median_end_to_end_response_time_seconds": 4.94
+        "median_output_tokens_per_second": 120.59,
+        "median_time_to_first_token_seconds": 0.74,
+        "median_time_to_first_answer_token_seconds": 0.74,
+        "median_end_to_end_response_time_seconds": 4.88
       }
     },
     {
@@ -14458,10 +14458,10 @@
         "price_1m_cache_write_tokens": 3.75
       },
       "performance": {
-        "median_output_tokens_per_second": 45.49,
-        "median_time_to_first_token_seconds": 14.38,
-        "median_time_to_first_answer_token_seconds": 14.38,
-        "median_end_to_end_response_time_seconds": 25.37
+        "median_output_tokens_per_second": 44.49,
+        "median_time_to_first_token_seconds": 15.29,
+        "median_time_to_first_answer_token_seconds": 15.29,
+        "median_end_to_end_response_time_seconds": 26.53
       }
     },
     {
@@ -14493,9 +14493,9 @@
       },
       "performance": {
         "median_output_tokens_per_second": 41.52,
-        "median_time_to_first_token_seconds": 1.14,
-        "median_time_to_first_answer_token_seconds": 1.14,
-        "median_end_to_end_response_time_seconds": 13.18
+        "median_time_to_first_token_seconds": 1.09,
+        "median_time_to_first_answer_token_seconds": 1.09,
+        "median_end_to_end_response_time_seconds": 13.13
       }
     },
     {
@@ -14594,10 +14594,10 @@
         "price_1m_cache_write_tokens": null
       },
       "performance": {
-        "median_output_tokens_per_second": 74.77,
-        "median_time_to_first_token_seconds": 1.11,
-        "median_time_to_first_answer_token_seconds": 1.11,
-        "median_end_to_end_response_time_seconds": 7.8
+        "median_output_tokens_per_second": 71.4,
+        "median_time_to_first_token_seconds": 1.2,
+        "median_time_to_first_answer_token_seconds": 1.2,
+        "median_end_to_end_response_time_seconds": 8.2
       }
     },
     {
@@ -14662,10 +14662,10 @@
         "price_1m_cache_write_tokens": null
       },
       "performance": {
-        "median_output_tokens_per_second": 44.01,
-        "median_time_to_first_token_seconds": 1.8,
-        "median_time_to_first_answer_token_seconds": 1.8,
-        "median_end_to_end_response_time_seconds": 13.17
+        "median_output_tokens_per_second": 49.6,
+        "median_time_to_first_token_seconds": 1.82,
+        "median_time_to_first_answer_token_seconds": 1.82,
+        "median_end_to_end_response_time_seconds": 11.9
       }
     },
     {
@@ -14730,10 +14730,10 @@
         "price_1m_cache_write_tokens": null
       },
       "performance": {
-        "median_output_tokens_per_second": 36.66,
-        "median_time_to_first_token_seconds": 4.83,
-        "median_time_to_first_answer_token_seconds": 4.83,
-        "median_end_to_end_response_time_seconds": 18.47
+        "median_output_tokens_per_second": 36.84,
+        "median_time_to_first_token_seconds": 4.51,
+        "median_time_to_first_answer_token_seconds": 4.51,
+        "median_end_to_end_response_time_seconds": 18.08
       }
     },
     {
@@ -14769,10 +14769,10 @@
         "price_1m_cache_write_tokens": 1.25
       },
       "performance": {
-        "median_output_tokens_per_second": 140.95,
+        "median_output_tokens_per_second": 138.82,
         "median_time_to_first_token_seconds": 18.37,
         "median_time_to_first_answer_token_seconds": 18.37,
-        "median_end_to_end_response_time_seconds": 21.91
+        "median_end_to_end_response_time_seconds": 21.97
       }
     },
     {
@@ -14876,10 +14876,10 @@
         "price_1m_cache_write_tokens": null
       },
       "performance": {
-        "median_output_tokens_per_second": 96.25,
-        "median_time_to_first_token_seconds": 0.75,
-        "median_time_to_first_answer_token_seconds": 0.75,
-        "median_end_to_end_response_time_seconds": 5.95
+        "median_output_tokens_per_second": 101.92,
+        "median_time_to_first_token_seconds": 0.78,
+        "median_time_to_first_answer_token_seconds": 0.78,
+        "median_end_to_end_response_time_seconds": 5.69
       }
     },
     {
@@ -14915,10 +14915,10 @@
         "price_1m_cache_write_tokens": 2.5
       },
       "performance": {
-        "median_output_tokens_per_second": 101.95,
-        "median_time_to_first_token_seconds": 33.63,
-        "median_time_to_first_answer_token_seconds": 33.63,
-        "median_end_to_end_response_time_seconds": 38.53
+        "median_output_tokens_per_second": 101.15,
+        "median_time_to_first_token_seconds": 35.78,
+        "median_time_to_first_answer_token_seconds": 35.78,
+        "median_end_to_end_response_time_seconds": 40.73
       }
     },
     {
@@ -14949,10 +14949,10 @@
         "price_1m_cache_write_tokens": null
       },
       "performance": {
-        "median_output_tokens_per_second": 78.42,
-        "median_time_to_first_token_seconds": 1.74,
-        "median_time_to_first_answer_token_seconds": 1.74,
-        "median_end_to_end_response_time_seconds": 8.11
+        "median_output_tokens_per_second": 79,
+        "median_time_to_first_token_seconds": 1.73,
+        "median_time_to_first_answer_token_seconds": 1.73,
+        "median_end_to_end_response_time_seconds": 8.06
       }
     },
     {
@@ -15056,10 +15056,10 @@
         "price_1m_cache_write_tokens": 6.25
       },
       "performance": {
-        "median_output_tokens_per_second": 58.95,
-        "median_time_to_first_token_seconds": 41.56,
-        "median_time_to_first_answer_token_seconds": 41.56,
-        "median_end_to_end_response_time_seconds": 50.04
+        "median_output_tokens_per_second": 56.8,
+        "median_time_to_first_token_seconds": 37.94,
+        "median_time_to_first_answer_token_seconds": 37.94,
+        "median_end_to_end_response_time_seconds": 46.74
       }
     },
     {
@@ -15095,10 +15095,10 @@
         "price_1m_cache_write_tokens": null
       },
       "performance": {
-        "median_output_tokens_per_second": 123.48,
-        "median_time_to_first_token_seconds": 50.84,
-        "median_time_to_first_answer_token_seconds": 67.03,
-        "median_end_to_end_response_time_seconds": 71.08
+        "median_output_tokens_per_second": 134.52,
+        "median_time_to_first_token_seconds": 52.9,
+        "median_time_to_first_answer_token_seconds": 67.77,
+        "median_end_to_end_response_time_seconds": 71.48
       }
     },
     {
@@ -15134,10 +15134,10 @@
         "price_1m_cache_write_tokens": 2.5
       },
       "performance": {
-        "median_output_tokens_per_second": 70.07,
-        "median_time_to_first_token_seconds": 21.98,
-        "median_time_to_first_answer_token_seconds": 21.98,
-        "median_end_to_end_response_time_seconds": 29.12
+        "median_output_tokens_per_second": 72.42,
+        "median_time_to_first_token_seconds": 20.1,
+        "median_time_to_first_answer_token_seconds": 20.1,
+        "median_end_to_end_response_time_seconds": 27
       }
     },
     {
@@ -15173,10 +15173,10 @@
         "price_1m_cache_write_tokens": null
       },
       "performance": {
-        "median_output_tokens_per_second": 53.05,
-        "median_time_to_first_token_seconds": 2.51,
-        "median_time_to_first_answer_token_seconds": 40.22,
-        "median_end_to_end_response_time_seconds": 49.64
+        "median_output_tokens_per_second": 55.37,
+        "median_time_to_first_token_seconds": 2.48,
+        "median_time_to_first_answer_token_seconds": 38.6,
+        "median_end_to_end_response_time_seconds": 47.63
       }
     },
     {
@@ -15212,10 +15212,10 @@
         "price_1m_cache_write_tokens": 12.5
       },
       "performance": {
-        "median_output_tokens_per_second": 63.13,
-        "median_time_to_first_token_seconds": 97.77,
-        "median_time_to_first_answer_token_seconds": 97.77,
-        "median_end_to_end_response_time_seconds": 105.69
+        "median_output_tokens_per_second": 66.29,
+        "median_time_to_first_token_seconds": 122.52,
+        "median_time_to_first_answer_token_seconds": 122.52,
+        "median_end_to_end_response_time_seconds": 130.06
       }
     },
     {
@@ -15251,10 +15251,10 @@
         "price_1m_cache_write_tokens": 2.5
       },
       "performance": {
-        "median_output_tokens_per_second": 86.28,
-        "median_time_to_first_token_seconds": 0.79,
-        "median_time_to_first_answer_token_seconds": 0.79,
-        "median_end_to_end_response_time_seconds": 6.59
+        "median_output_tokens_per_second": 93.92,
+        "median_time_to_first_token_seconds": 0.72,
+        "median_time_to_first_answer_token_seconds": 0.72,
+        "median_end_to_end_response_time_seconds": 6.04
       }
     },
     {
@@ -15392,10 +15392,10 @@
         "price_1m_cache_write_tokens": 12.5
       },
       "performance": {
-        "median_output_tokens_per_second": 52.83,
-        "median_time_to_first_token_seconds": 23.09,
-        "median_time_to_first_answer_token_seconds": 23.09,
-        "median_end_to_end_response_time_seconds": 32.56
+        "median_output_tokens_per_second": 53.13,
+        "median_time_to_first_token_seconds": 24.22,
+        "median_time_to_first_answer_token_seconds": 24.22,
+        "median_end_to_end_response_time_seconds": 33.63
       }
     },
     {
@@ -15426,10 +15426,10 @@
         "price_1m_cache_write_tokens": null
       },
       "performance": {
-        "median_output_tokens_per_second": 42.55,
-        "median_time_to_first_token_seconds": 3.73,
-        "median_time_to_first_answer_token_seconds": 50.73,
-        "median_end_to_end_response_time_seconds": 62.48
+        "median_output_tokens_per_second": 41.84,
+        "median_time_to_first_token_seconds": 3.72,
+        "median_time_to_first_answer_token_seconds": 51.52,
+        "median_end_to_end_response_time_seconds": 63.47
       }
     },
     {
@@ -15499,10 +15499,10 @@
         "price_1m_cache_write_tokens": 2.5
       },
       "performance": {
-        "median_output_tokens_per_second": 90.94,
-        "median_time_to_first_token_seconds": 28.5,
-        "median_time_to_first_answer_token_seconds": 28.5,
-        "median_end_to_end_response_time_seconds": 33.99
+        "median_output_tokens_per_second": 98.24,
+        "median_time_to_first_token_seconds": 24.24,
+        "median_time_to_first_answer_token_seconds": 24.24,
+        "median_end_to_end_response_time_seconds": 29.33
       }
     },
     {
@@ -15635,10 +15635,10 @@
         "price_1m_cache_write_tokens": null
       },
       "performance": {
-        "median_output_tokens_per_second": 154.58,
-        "median_time_to_first_token_seconds": 0.71,
-        "median_time_to_first_answer_token_seconds": 0.71,
-        "median_end_to_end_response_time_seconds": 3.95
+        "median_output_tokens_per_second": 171.89,
+        "median_time_to_first_token_seconds": 0.7,
+        "median_time_to_first_answer_token_seconds": 0.7,
+        "median_end_to_end_response_time_seconds": 3.61
       }
     },
     {
@@ -15669,10 +15669,10 @@
         "price_1m_cache_write_tokens": null
       },
       "performance": {
-        "median_output_tokens_per_second": 44.2,
+        "median_output_tokens_per_second": 44.99,
         "median_time_to_first_token_seconds": 0.82,
         "median_time_to_first_answer_token_seconds": 0.82,
-        "median_end_to_end_response_time_seconds": 12.14
+        "median_end_to_end_response_time_seconds": 11.93
       }
     },
     {
@@ -15771,10 +15771,10 @@
         "price_1m_cache_write_tokens": null
       },
       "performance": {
-        "median_output_tokens_per_second": 106.38,
-        "median_time_to_first_token_seconds": 1.03,
-        "median_time_to_first_answer_token_seconds": 1.03,
-        "median_end_to_end_response_time_seconds": 5.73
+        "median_output_tokens_per_second": 106.66,
+        "median_time_to_first_token_seconds": 0.99,
+        "median_time_to_first_answer_token_seconds": 0.99,
+        "median_end_to_end_response_time_seconds": 5.67
       }
     },
     {
@@ -15878,10 +15878,10 @@
         "price_1m_cache_write_tokens": 2.5
       },
       "performance": {
-        "median_output_tokens_per_second": 45.11,
-        "median_time_to_first_token_seconds": 5.59,
-        "median_time_to_first_answer_token_seconds": 5.59,
-        "median_end_to_end_response_time_seconds": 16.68
+        "median_output_tokens_per_second": 45.57,
+        "median_time_to_first_token_seconds": 5.14,
+        "median_time_to_first_answer_token_seconds": 5.14,
+        "median_end_to_end_response_time_seconds": 16.11
       }
     },
     {
@@ -15985,10 +15985,10 @@
         "price_1m_cache_write_tokens": 12.5
       },
       "performance": {
-        "median_output_tokens_per_second": 47.45,
-        "median_time_to_first_token_seconds": 2.65,
-        "median_time_to_first_answer_token_seconds": 2.65,
-        "median_end_to_end_response_time_seconds": 13.19
+        "median_output_tokens_per_second": 52.39,
+        "median_time_to_first_token_seconds": 2.34,
+        "median_time_to_first_answer_token_seconds": 2.34,
+        "median_end_to_end_response_time_seconds": 11.88
       }
     },
     {
@@ -16126,10 +16126,10 @@
         "price_1m_cache_write_tokens": null
       },
       "performance": {
-        "median_output_tokens_per_second": null,
-        "median_time_to_first_token_seconds": null,
-        "median_time_to_first_answer_token_seconds": null,
-        "median_end_to_end_response_time_seconds": null
+        "median_output_tokens_per_second": 210.2,
+        "median_time_to_first_token_seconds": 1.78,
+        "median_time_to_first_answer_token_seconds": 11.3,
+        "median_end_to_end_response_time_seconds": 13.68
       }
     },
     {
@@ -16166,9 +16166,9 @@
       },
       "performance": {
         "median_output_tokens_per_second": 98.21,
-        "median_time_to_first_token_seconds": 18.85,
-        "median_time_to_first_answer_token_seconds": 18.85,
-        "median_end_to_end_response_time_seconds": 23.94
+        "median_time_to_first_token_seconds": 21.32,
+        "median_time_to_first_answer_token_seconds": 21.32,
+        "median_end_to_end_response_time_seconds": 26.41
       }
     },
     {
@@ -16370,9 +16370,9 @@
       },
       "performance": {
         "median_output_tokens_per_second": 56.2,
-        "median_time_to_first_token_seconds": 2.95,
-        "median_time_to_first_answer_token_seconds": 38.54,
-        "median_end_to_end_response_time_seconds": 47.43
+        "median_time_to_first_token_seconds": 2.94,
+        "median_time_to_first_answer_token_seconds": 38.52,
+        "median_end_to_end_response_time_seconds": 47.42
       }
     },
     {
@@ -16442,10 +16442,10 @@
         "price_1m_cache_write_tokens": null
       },
       "performance": {
-        "median_output_tokens_per_second": 55.92,
-        "median_time_to_first_token_seconds": 2.21,
-        "median_time_to_first_answer_token_seconds": 37.97,
-        "median_end_to_end_response_time_seconds": 46.91
+        "median_output_tokens_per_second": 55.79,
+        "median_time_to_first_token_seconds": 2.25,
+        "median_time_to_first_answer_token_seconds": 38.1,
+        "median_end_to_end_response_time_seconds": 47.06
       }
     },
     {
@@ -16476,10 +16476,10 @@
         "price_1m_cache_write_tokens": null
       },
       "performance": {
-        "median_output_tokens_per_second": 95.08,
-        "median_time_to_first_token_seconds": 188.6,
-        "median_time_to_first_answer_token_seconds": 188.6,
-        "median_end_to_end_response_time_seconds": 193.86
+        "median_output_tokens_per_second": 97.56,
+        "median_time_to_first_token_seconds": 164.43,
+        "median_time_to_first_answer_token_seconds": 164.43,
+        "median_end_to_end_response_time_seconds": 169.56
       }
     },
     {
@@ -16617,10 +16617,10 @@
         "price_1m_cache_write_tokens": 0.25
       },
       "performance": {
-        "median_output_tokens_per_second": 108.94,
-        "median_time_to_first_token_seconds": 17.26,
-        "median_time_to_first_answer_token_seconds": 17.26,
-        "median_end_to_end_response_time_seconds": 21.85
+        "median_output_tokens_per_second": 113.96,
+        "median_time_to_first_token_seconds": 18.04,
+        "median_time_to_first_answer_token_seconds": 18.04,
+        "median_end_to_end_response_time_seconds": 22.43
       }
     },
     {
@@ -16685,10 +16685,10 @@
         "price_1m_cache_write_tokens": null
       },
       "performance": {
-        "median_output_tokens_per_second": 186.97,
-        "median_time_to_first_token_seconds": 1.12,
-        "median_time_to_first_answer_token_seconds": 1.12,
-        "median_end_to_end_response_time_seconds": 3.79
+        "median_output_tokens_per_second": 182.75,
+        "median_time_to_first_token_seconds": 1.13,
+        "median_time_to_first_answer_token_seconds": 1.13,
+        "median_end_to_end_response_time_seconds": 3.86
       }
     },
     {
@@ -16957,10 +16957,10 @@
         "price_1m_cache_write_tokens": null
       },
       "performance": {
-        "median_output_tokens_per_second": 98.86,
-        "median_time_to_first_token_seconds": 0.82,
-        "median_time_to_first_answer_token_seconds": 0.82,
-        "median_end_to_end_response_time_seconds": 5.87
+        "median_output_tokens_per_second": 69.16,
+        "median_time_to_first_token_seconds": 0.86,
+        "median_time_to_first_answer_token_seconds": 0.86,
+        "median_end_to_end_response_time_seconds": 8.09
       }
     },
     {
@@ -16996,10 +16996,10 @@
         "price_1m_cache_write_tokens": null
       },
       "performance": {
-        "median_output_tokens_per_second": 57.01,
-        "median_time_to_first_token_seconds": 0.87,
-        "median_time_to_first_answer_token_seconds": 35.96,
-        "median_end_to_end_response_time_seconds": 44.73
+        "median_output_tokens_per_second": 49.07,
+        "median_time_to_first_token_seconds": 0.94,
+        "median_time_to_first_answer_token_seconds": 41.7,
+        "median_end_to_end_response_time_seconds": 51.89
       }
     },
     {
@@ -17030,10 +17030,10 @@
         "price_1m_cache_write_tokens": null
       },
       "performance": {
-        "median_output_tokens_per_second": 187.99,
-        "median_time_to_first_token_seconds": 0.74,
-        "median_time_to_first_answer_token_seconds": 0.74,
-        "median_end_to_end_response_time_seconds": 3.4
+        "median_output_tokens_per_second": 190.75,
+        "median_time_to_first_token_seconds": 0.68,
+        "median_time_to_first_answer_token_seconds": 0.68,
+        "median_end_to_end_response_time_seconds": 3.3
       }
     },
     {
@@ -17166,10 +17166,10 @@
         "price_1m_cache_write_tokens": null
       },
       "performance": {
-        "median_output_tokens_per_second": 104.95,
-        "median_time_to_first_token_seconds": 2.49,
-        "median_time_to_first_answer_token_seconds": 21.55,
-        "median_end_to_end_response_time_seconds": 26.31
+        "median_output_tokens_per_second": 106.34,
+        "median_time_to_first_token_seconds": 2.5,
+        "median_time_to_first_answer_token_seconds": 21.31,
+        "median_end_to_end_response_time_seconds": 26.01
       }
     },
     {
@@ -17205,10 +17205,10 @@
         "price_1m_cache_write_tokens": null
       },
       "performance": {
-        "median_output_tokens_per_second": 45.46,
-        "median_time_to_first_token_seconds": 3.82,
-        "median_time_to_first_answer_token_seconds": 47.81,
-        "median_end_to_end_response_time_seconds": 58.81
+        "median_output_tokens_per_second": 45.78,
+        "median_time_to_first_token_seconds": 3.79,
+        "median_time_to_first_answer_token_seconds": 47.48,
+        "median_end_to_end_response_time_seconds": 58.41
       }
     },
     {
@@ -17346,10 +17346,10 @@
         "price_1m_cache_write_tokens": null
       },
       "performance": {
-        "median_output_tokens_per_second": 37.85,
-        "median_time_to_first_token_seconds": 2.66,
-        "median_time_to_first_answer_token_seconds": 55.51,
-        "median_end_to_end_response_time_seconds": 68.72
+        "median_output_tokens_per_second": 36.96,
+        "median_time_to_first_token_seconds": 2.64,
+        "median_time_to_first_answer_token_seconds": 56.75,
+        "median_end_to_end_response_time_seconds": 70.28
       }
     },
     {
@@ -17385,10 +17385,10 @@
         "price_1m_cache_write_tokens": null
       },
       "performance": {
-        "median_output_tokens_per_second": 82.64,
-        "median_time_to_first_token_seconds": 20.65,
-        "median_time_to_first_answer_token_seconds": 20.65,
-        "median_end_to_end_response_time_seconds": 26.7
+        "median_output_tokens_per_second": 82.3,
+        "median_time_to_first_token_seconds": 16.58,
+        "median_time_to_first_answer_token_seconds": 16.58,
+        "median_end_to_end_response_time_seconds": 22.66
       }
     },
     {
@@ -17424,10 +17424,10 @@
         "price_1m_cache_write_tokens": 2.5
       },
       "performance": {
-        "median_output_tokens_per_second": 134.15,
-        "median_time_to_first_token_seconds": 452.28,
-        "median_time_to_first_answer_token_seconds": 452.28,
-        "median_end_to_end_response_time_seconds": 456
+        "median_output_tokens_per_second": 132.25,
+        "median_time_to_first_token_seconds": 454.56,
+        "median_time_to_first_answer_token_seconds": 454.56,
+        "median_end_to_end_response_time_seconds": 458.34
       }
     },
     {
@@ -17497,10 +17497,10 @@
         "price_1m_cache_write_tokens": 0.75
       },
       "performance": {
-        "median_output_tokens_per_second": 290.88,
-        "median_time_to_first_token_seconds": 10.56,
-        "median_time_to_first_answer_token_seconds": 10.56,
-        "median_end_to_end_response_time_seconds": 12.27
+        "median_output_tokens_per_second": 284.35,
+        "median_time_to_first_token_seconds": 10.73,
+        "median_time_to_first_answer_token_seconds": 10.73,
+        "median_end_to_end_response_time_seconds": 12.49
       }
     },
     {
@@ -17536,10 +17536,10 @@
         "price_1m_cache_write_tokens": null
       },
       "performance": {
-        "median_output_tokens_per_second": 87,
-        "median_time_to_first_token_seconds": 3.12,
-        "median_time_to_first_answer_token_seconds": 26.1,
-        "median_end_to_end_response_time_seconds": 31.85
+        "median_output_tokens_per_second": 87.14,
+        "median_time_to_first_token_seconds": 3.1,
+        "median_time_to_first_answer_token_seconds": 26.05,
+        "median_end_to_end_response_time_seconds": 31.79
       }
     },
     {
@@ -17575,10 +17575,10 @@
         "price_1m_cache_write_tokens": 2.5
       },
       "performance": {
-        "median_output_tokens_per_second": 52.44,
-        "median_time_to_first_token_seconds": 293.8,
-        "median_time_to_first_answer_token_seconds": 293.8,
-        "median_end_to_end_response_time_seconds": 303.34
+        "median_output_tokens_per_second": 51.91,
+        "median_time_to_first_token_seconds": 265.42,
+        "median_time_to_first_answer_token_seconds": 265.42,
+        "median_end_to_end_response_time_seconds": 275.05
       }
     },
     {
@@ -17643,10 +17643,10 @@
         "price_1m_cache_write_tokens": null
       },
       "performance": {
-        "median_output_tokens_per_second": 41.57,
-        "median_time_to_first_token_seconds": 3.65,
-        "median_time_to_first_answer_token_seconds": 3.65,
-        "median_end_to_end_response_time_seconds": 15.67
+        "median_output_tokens_per_second": 40.97,
+        "median_time_to_first_token_seconds": 3.62,
+        "median_time_to_first_answer_token_seconds": 3.62,
+        "median_end_to_end_response_time_seconds": 15.82
       }
     },
     {
@@ -18017,10 +18017,10 @@
         "price_1m_cache_write_tokens": null
       },
       "performance": {
-        "median_output_tokens_per_second": 100.61,
-        "median_time_to_first_token_seconds": 0.86,
-        "median_time_to_first_answer_token_seconds": 0.86,
-        "median_end_to_end_response_time_seconds": 5.83
+        "median_output_tokens_per_second": 90.77,
+        "median_time_to_first_token_seconds": 0.89,
+        "median_time_to_first_answer_token_seconds": 0.89,
+        "median_end_to_end_response_time_seconds": 6.4
       }
     },
     {
@@ -18056,10 +18056,10 @@
         "price_1m_cache_write_tokens": null
       },
       "performance": {
-        "median_output_tokens_per_second": 351.37,
-        "median_time_to_first_token_seconds": 1.04,
-        "median_time_to_first_answer_token_seconds": 6.74,
-        "median_end_to_end_response_time_seconds": 8.16
+        "median_output_tokens_per_second": 342.41,
+        "median_time_to_first_token_seconds": 1.21,
+        "median_time_to_first_answer_token_seconds": 7.05,
+        "median_end_to_end_response_time_seconds": 8.51
       }
     },
     {
@@ -18129,10 +18129,10 @@
         "price_1m_cache_write_tokens": null
       },
       "performance": {
-        "median_output_tokens_per_second": 137.62,
-        "median_time_to_first_token_seconds": 1.3,
-        "median_time_to_first_answer_token_seconds": 15.84,
-        "median_end_to_end_response_time_seconds": 19.47
+        "median_output_tokens_per_second": 136.36,
+        "median_time_to_first_token_seconds": 1.26,
+        "median_time_to_first_answer_token_seconds": 15.93,
+        "median_end_to_end_response_time_seconds": 19.6
       }
     },
     {
@@ -18168,10 +18168,10 @@
         "price_1m_cache_write_tokens": 6.25
       },
       "performance": {
-        "median_output_tokens_per_second": 55.55,
-        "median_time_to_first_token_seconds": 62.33,
-        "median_time_to_first_answer_token_seconds": 62.33,
-        "median_end_to_end_response_time_seconds": 71.33
+        "median_output_tokens_per_second": 56.05,
+        "median_time_to_first_token_seconds": 62.72,
+        "median_time_to_first_answer_token_seconds": 62.72,
+        "median_end_to_end_response_time_seconds": 71.64
       }
     },
     {
@@ -18202,10 +18202,10 @@
         "price_1m_cache_write_tokens": null
       },
       "performance": {
-        "median_output_tokens_per_second": 102.11,
+        "median_output_tokens_per_second": 101.77,
         "median_time_to_first_token_seconds": 1.92,
-        "median_time_to_first_answer_token_seconds": 21.51,
-        "median_end_to_end_response_time_seconds": 26.4
+        "median_time_to_first_answer_token_seconds": 21.57,
+        "median_end_to_end_response_time_seconds": 26.49
       }
     },
     {
@@ -18275,10 +18275,10 @@
         "price_1m_cache_write_tokens": 2.5
       },
       "performance": {
-        "median_output_tokens_per_second": 65.99,
-        "median_time_to_first_token_seconds": 8.58,
-        "median_time_to_first_answer_token_seconds": 8.58,
-        "median_end_to_end_response_time_seconds": 16.16
+        "median_output_tokens_per_second": 69.39,
+        "median_time_to_first_token_seconds": 6.37,
+        "median_time_to_first_answer_token_seconds": 6.37,
+        "median_end_to_end_response_time_seconds": 13.58
       }
     },
     {
@@ -18348,10 +18348,10 @@
         "price_1m_cache_write_tokens": null
       },
       "performance": {
-        "median_output_tokens_per_second": 222.33,
-        "median_time_to_first_token_seconds": 120.12,
-        "median_time_to_first_answer_token_seconds": 120.12,
-        "median_end_to_end_response_time_seconds": 122.36
+        "median_output_tokens_per_second": 239.72,
+        "median_time_to_first_token_seconds": 128.4,
+        "median_time_to_first_answer_token_seconds": 128.4,
+        "median_end_to_end_response_time_seconds": 130.48
       }
     },
     {
@@ -18387,10 +18387,10 @@
         "price_1m_cache_write_tokens": null
       },
       "performance": {
-        "median_output_tokens_per_second": 119.29,
+        "median_output_tokens_per_second": 120.54,
         "median_time_to_first_token_seconds": 13.75,
-        "median_time_to_first_answer_token_seconds": 30.52,
-        "median_end_to_end_response_time_seconds": 34.71
+        "median_time_to_first_answer_token_seconds": 30.35,
+        "median_end_to_end_response_time_seconds": 34.49
       }
     },
     {
@@ -18426,10 +18426,10 @@
         "price_1m_cache_write_tokens": 2.5
       },
       "performance": {
-        "median_output_tokens_per_second": 90.13,
-        "median_time_to_first_token_seconds": 1.31,
-        "median_time_to_first_answer_token_seconds": 1.31,
-        "median_end_to_end_response_time_seconds": 6.86
+        "median_output_tokens_per_second": 92.58,
+        "median_time_to_first_token_seconds": 1.17,
+        "median_time_to_first_answer_token_seconds": 1.17,
+        "median_end_to_end_response_time_seconds": 6.57
       }
     },
     {
@@ -18465,10 +18465,10 @@
         "price_1m_cache_write_tokens": null
       },
       "performance": {
-        "median_output_tokens_per_second": 112.13,
-        "median_time_to_first_token_seconds": 24.23,
-        "median_time_to_first_answer_token_seconds": 24.23,
-        "median_end_to_end_response_time_seconds": 28.69
+        "median_output_tokens_per_second": 117.07,
+        "median_time_to_first_token_seconds": 22.4,
+        "median_time_to_first_answer_token_seconds": 22.4,
+        "median_end_to_end_response_time_seconds": 26.67
       }
     },
     {
@@ -18499,10 +18499,10 @@
         "price_1m_cache_write_tokens": null
       },
       "performance": {
-        "median_output_tokens_per_second": 63.46,
-        "median_time_to_first_token_seconds": 2.77,
-        "median_time_to_first_answer_token_seconds": 34.29,
-        "median_end_to_end_response_time_seconds": 42.16
+        "median_output_tokens_per_second": 63.5,
+        "median_time_to_first_token_seconds": 2.74,
+        "median_time_to_first_answer_token_seconds": 34.24,
+        "median_end_to_end_response_time_seconds": 42.11
       }
     },
     {
@@ -18533,10 +18533,10 @@
         "price_1m_cache_write_tokens": null
       },
       "performance": {
-        "median_output_tokens_per_second": 137.64,
-        "median_time_to_first_token_seconds": 0.79,
-        "median_time_to_first_answer_token_seconds": 0.79,
-        "median_end_to_end_response_time_seconds": 4.43
+        "median_output_tokens_per_second": 139.06,
+        "median_time_to_first_token_seconds": 0.82,
+        "median_time_to_first_answer_token_seconds": 0.82,
+        "median_end_to_end_response_time_seconds": 4.42
       }
     },
     {
@@ -18640,10 +18640,10 @@
         "price_1m_cache_write_tokens": 2.5
       },
       "performance": {
-        "median_output_tokens_per_second": 101.69,
-        "median_time_to_first_token_seconds": 156.49,
-        "median_time_to_first_answer_token_seconds": 156.49,
-        "median_end_to_end_response_time_seconds": 161.4
+        "median_output_tokens_per_second": 104.67,
+        "median_time_to_first_token_seconds": 127.63,
+        "median_time_to_first_answer_token_seconds": 127.63,
+        "median_end_to_end_response_time_seconds": 132.4
       }
     },
     {
@@ -18708,10 +18708,10 @@
         "price_1m_cache_write_tokens": null
       },
       "performance": {
-        "median_output_tokens_per_second": 139.63,
-        "median_time_to_first_token_seconds": 1.4,
-        "median_time_to_first_answer_token_seconds": 15.73,
-        "median_end_to_end_response_time_seconds": 19.31
+        "median_output_tokens_per_second": 158.47,
+        "median_time_to_first_token_seconds": 1.34,
+        "median_time_to_first_answer_token_seconds": 13.96,
+        "median_end_to_end_response_time_seconds": 17.12
       }
     },
     {
@@ -18781,10 +18781,10 @@
         "price_1m_cache_write_tokens": null
       },
       "performance": {
-        "median_output_tokens_per_second": 108.04,
-        "median_time_to_first_token_seconds": 1.66,
-        "median_time_to_first_answer_token_seconds": 42.15,
-        "median_end_to_end_response_time_seconds": 46.78
+        "median_output_tokens_per_second": 111.4,
+        "median_time_to_first_token_seconds": 1.62,
+        "median_time_to_first_answer_token_seconds": 40.89,
+        "median_end_to_end_response_time_seconds": 45.38
       }
     },
     {
@@ -18815,10 +18815,10 @@
         "price_1m_cache_write_tokens": null
       },
       "performance": {
-        "median_output_tokens_per_second": 106.78,
+        "median_output_tokens_per_second": 106.41,
         "median_time_to_first_token_seconds": 2.55,
         "median_time_to_first_answer_token_seconds": 2.55,
-        "median_end_to_end_response_time_seconds": 7.24
+        "median_end_to_end_response_time_seconds": 7.25
       }
     },
     {
@@ -18854,10 +18854,10 @@
         "price_1m_cache_write_tokens": 0.13
       },
       "performance": {
-        "median_output_tokens_per_second": 120.52,
-        "median_time_to_first_token_seconds": 2.26,
-        "median_time_to_first_answer_token_seconds": 2.26,
-        "median_end_to_end_response_time_seconds": 6.41
+        "median_output_tokens_per_second": 124.57,
+        "median_time_to_first_token_seconds": 1.97,
+        "median_time_to_first_answer_token_seconds": 1.97,
+        "median_end_to_end_response_time_seconds": 5.98
       }
     },
     {
@@ -18893,10 +18893,10 @@
         "price_1m_cache_write_tokens": null
       },
       "performance": {
-        "median_output_tokens_per_second": 63.5,
-        "median_time_to_first_token_seconds": 6.85,
-        "median_time_to_first_answer_token_seconds": 6.85,
-        "median_end_to_end_response_time_seconds": 14.73
+        "median_output_tokens_per_second": 66.23,
+        "median_time_to_first_token_seconds": 6.09,
+        "median_time_to_first_answer_token_seconds": 6.09,
+        "median_end_to_end_response_time_seconds": 13.64
       }
     },
     {
@@ -18928,9 +18928,9 @@
       },
       "performance": {
         "median_output_tokens_per_second": 117.82,
-        "median_time_to_first_token_seconds": 1.06,
-        "median_time_to_first_answer_token_seconds": 1.06,
-        "median_end_to_end_response_time_seconds": 5.31
+        "median_time_to_first_token_seconds": 0.86,
+        "median_time_to_first_answer_token_seconds": 0.86,
+        "median_end_to_end_response_time_seconds": 5.1
       }
     },
     {
@@ -18995,10 +18995,10 @@
         "price_1m_cache_write_tokens": null
       },
       "performance": {
-        "median_output_tokens_per_second": 164.75,
-        "median_time_to_first_token_seconds": 0.7,
-        "median_time_to_first_answer_token_seconds": 0.7,
-        "median_end_to_end_response_time_seconds": 3.74
+        "median_output_tokens_per_second": 174.58,
+        "median_time_to_first_token_seconds": 0.65,
+        "median_time_to_first_answer_token_seconds": 0.65,
+        "median_end_to_end_response_time_seconds": 3.52
       }
     },
     {
@@ -19029,10 +19029,10 @@
         "price_1m_cache_write_tokens": 1.25
       },
       "performance": {
-        "median_output_tokens_per_second": 88.48,
-        "median_time_to_first_token_seconds": 0.56,
-        "median_time_to_first_answer_token_seconds": 0.56,
-        "median_end_to_end_response_time_seconds": 6.21
+        "median_output_tokens_per_second": 84.09,
+        "median_time_to_first_token_seconds": 0.55,
+        "median_time_to_first_answer_token_seconds": 0.55,
+        "median_end_to_end_response_time_seconds": 6.5
       }
     },
     {
@@ -19063,10 +19063,10 @@
         "price_1m_cache_write_tokens": null
       },
       "performance": {
-        "median_output_tokens_per_second": 132.32,
-        "median_time_to_first_token_seconds": 9.45,
-        "median_time_to_first_answer_token_seconds": 9.45,
-        "median_end_to_end_response_time_seconds": 13.22
+        "median_output_tokens_per_second": 137.73,
+        "median_time_to_first_token_seconds": 9.93,
+        "median_time_to_first_answer_token_seconds": 9.93,
+        "median_end_to_end_response_time_seconds": 13.56
       }
     },
     {
@@ -19097,10 +19097,10 @@
         "price_1m_cache_write_tokens": null
       },
       "performance": {
-        "median_output_tokens_per_second": 79.1,
-        "median_time_to_first_token_seconds": 1.17,
-        "median_time_to_first_answer_token_seconds": 1.17,
-        "median_end_to_end_response_time_seconds": 7.49
+        "median_output_tokens_per_second": 93.69,
+        "median_time_to_first_token_seconds": 1.1,
+        "median_time_to_first_answer_token_seconds": 1.1,
+        "median_end_to_end_response_time_seconds": 6.44
       }
     },
     {
@@ -19170,10 +19170,10 @@
         "price_1m_cache_write_tokens": null
       },
       "performance": {
-        "median_output_tokens_per_second": 117.96,
-        "median_time_to_first_token_seconds": 0.96,
-        "median_time_to_first_answer_token_seconds": 17.92,
-        "median_end_to_end_response_time_seconds": 22.16
+        "median_output_tokens_per_second": 118.86,
+        "median_time_to_first_token_seconds": 0.88,
+        "median_time_to_first_answer_token_seconds": 17.71,
+        "median_end_to_end_response_time_seconds": 21.91
       }
     },
     {
@@ -19277,10 +19277,10 @@
         "price_1m_cache_write_tokens": 2.5
       },
       "performance": {
-        "median_output_tokens_per_second": 93.26,
-        "median_time_to_first_token_seconds": 123.06,
-        "median_time_to_first_answer_token_seconds": 123.06,
-        "median_end_to_end_response_time_seconds": 128.42
+        "median_output_tokens_per_second": 106.6,
+        "median_time_to_first_token_seconds": 112.24,
+        "median_time_to_first_answer_token_seconds": 112.24,
+        "median_end_to_end_response_time_seconds": 116.93
       }
     },
     {
@@ -19345,10 +19345,10 @@
         "price_1m_cache_write_tokens": null
       },
       "performance": {
-        "median_output_tokens_per_second": 107.62,
-        "median_time_to_first_token_seconds": 14.08,
-        "median_time_to_first_answer_token_seconds": 14.08,
-        "median_end_to_end_response_time_seconds": 18.73
+        "median_output_tokens_per_second": 125.14,
+        "median_time_to_first_token_seconds": 13.99,
+        "median_time_to_first_answer_token_seconds": 13.99,
+        "median_end_to_end_response_time_seconds": 17.98
       }
     },
     {
@@ -19481,10 +19481,10 @@
         "price_1m_cache_write_tokens": null
       },
       "performance": {
-        "median_output_tokens_per_second": 79.17,
-        "median_time_to_first_token_seconds": 1.57,
-        "median_time_to_first_answer_token_seconds": 1.57,
-        "median_end_to_end_response_time_seconds": 7.88
+        "median_output_tokens_per_second": 79.57,
+        "median_time_to_first_token_seconds": 1.53,
+        "median_time_to_first_answer_token_seconds": 1.53,
+        "median_end_to_end_response_time_seconds": 7.81
       }
     },
     {
@@ -19515,10 +19515,10 @@
         "price_1m_cache_write_tokens": null
       },
       "performance": {
-        "median_output_tokens_per_second": 123.26,
-        "median_time_to_first_token_seconds": 3.33,
-        "median_time_to_first_answer_token_seconds": 19.55,
-        "median_end_to_end_response_time_seconds": 23.61
+        "median_output_tokens_per_second": 104.62,
+        "median_time_to_first_token_seconds": 3.41,
+        "median_time_to_first_answer_token_seconds": 22.53,
+        "median_end_to_end_response_time_seconds": 27.3
       }
     },
     {
@@ -19549,10 +19549,10 @@
         "price_1m_cache_write_tokens": null
       },
       "performance": {
-        "median_output_tokens_per_second": 104.55,
-        "median_time_to_first_token_seconds": 1.55,
-        "median_time_to_first_answer_token_seconds": 1.55,
-        "median_end_to_end_response_time_seconds": 6.34
+        "median_output_tokens_per_second": 116.01,
+        "median_time_to_first_token_seconds": 1.41,
+        "median_time_to_first_answer_token_seconds": 1.41,
+        "median_end_to_end_response_time_seconds": 5.72
       }
     },
     {
@@ -19617,10 +19617,10 @@
         "price_1m_cache_write_tokens": null
       },
       "performance": {
-        "median_output_tokens_per_second": 183.3,
-        "median_time_to_first_token_seconds": 2.29,
-        "median_time_to_first_answer_token_seconds": 13.2,
-        "median_end_to_end_response_time_seconds": 15.93
+        "median_output_tokens_per_second": 192.3,
+        "median_time_to_first_token_seconds": 2.28,
+        "median_time_to_first_answer_token_seconds": 12.68,
+        "median_end_to_end_response_time_seconds": 15.28
       }
     },
     {
@@ -19656,10 +19656,10 @@
         "price_1m_cache_write_tokens": null
       },
       "performance": {
-        "median_output_tokens_per_second": 72.36,
-        "median_time_to_first_token_seconds": 28.84,
-        "median_time_to_first_answer_token_seconds": 28.84,
-        "median_end_to_end_response_time_seconds": 35.75
+        "median_output_tokens_per_second": 72.72,
+        "median_time_to_first_token_seconds": 26.2,
+        "median_time_to_first_answer_token_seconds": 26.2,
+        "median_end_to_end_response_time_seconds": 33.08
       }
     },
     {
@@ -19690,10 +19690,10 @@
         "price_1m_cache_write_tokens": null
       },
       "performance": {
-        "median_output_tokens_per_second": 164.34,
-        "median_time_to_first_token_seconds": 0.82,
-        "median_time_to_first_answer_token_seconds": 12.99,
-        "median_end_to_end_response_time_seconds": 16.03
+        "median_output_tokens_per_second": 195.98,
+        "median_time_to_first_token_seconds": 0.8,
+        "median_time_to_first_answer_token_seconds": 11.01,
+        "median_end_to_end_response_time_seconds": 13.56
       }
     },
     {
@@ -19792,10 +19792,10 @@
         "price_1m_cache_write_tokens": null
       },
       "performance": {
-        "median_output_tokens_per_second": 58.4,
+        "median_output_tokens_per_second": 60.09,
         "median_time_to_first_token_seconds": 4.04,
-        "median_time_to_first_answer_token_seconds": 38.29,
-        "median_end_to_end_response_time_seconds": 46.85
+        "median_time_to_first_answer_token_seconds": 37.32,
+        "median_end_to_end_response_time_seconds": 45.64
       }
     },
     {
@@ -19831,10 +19831,10 @@
         "price_1m_cache_write_tokens": null
       },
       "performance": {
-        "median_output_tokens_per_second": 70.65,
+        "median_output_tokens_per_second": 79.49,
         "median_time_to_first_token_seconds": 3.13,
-        "median_time_to_first_answer_token_seconds": 31.44,
-        "median_end_to_end_response_time_seconds": 38.52
+        "median_time_to_first_answer_token_seconds": 28.29,
+        "median_end_to_end_response_time_seconds": 34.58
       }
     },
     {
@@ -19904,10 +19904,10 @@
         "price_1m_cache_write_tokens": 2.5
       },
       "performance": {
-        "median_output_tokens_per_second": 81.89,
-        "median_time_to_first_token_seconds": 1.72,
-        "median_time_to_first_answer_token_seconds": 1.72,
-        "median_end_to_end_response_time_seconds": 7.82
+        "median_output_tokens_per_second": 87.65,
+        "median_time_to_first_token_seconds": 1.64,
+        "median_time_to_first_answer_token_seconds": 1.64,
+        "median_end_to_end_response_time_seconds": 7.34
       }
     },
     {
@@ -19977,10 +19977,10 @@
         "price_1m_cache_write_tokens": null
       },
       "performance": {
-        "median_output_tokens_per_second": 35.42,
+        "median_output_tokens_per_second": 35.58,
         "median_time_to_first_token_seconds": 1.12,
-        "median_time_to_first_answer_token_seconds": 50.13,
-        "median_end_to_end_response_time_seconds": 64.24
+        "median_time_to_first_answer_token_seconds": 49.91,
+        "median_end_to_end_response_time_seconds": 63.97
       }
     },
     {
@@ -20016,10 +20016,10 @@
         "price_1m_cache_write_tokens": 12.5
       },
       "performance": {
-        "median_output_tokens_per_second": 64.3,
-        "median_time_to_first_token_seconds": 86.28,
-        "median_time_to_first_answer_token_seconds": 86.28,
-        "median_end_to_end_response_time_seconds": 94.06
+        "median_output_tokens_per_second": 64.44,
+        "median_time_to_first_token_seconds": 93.92,
+        "median_time_to_first_answer_token_seconds": 93.92,
+        "median_end_to_end_response_time_seconds": 101.68
       }
     },
     {
@@ -20055,10 +20055,10 @@
         "price_1m_cache_write_tokens": null
       },
       "performance": {
-        "median_output_tokens_per_second": 70.91,
-        "median_time_to_first_token_seconds": 3.18,
-        "median_time_to_first_answer_token_seconds": 31.38,
-        "median_end_to_end_response_time_seconds": 38.43
+        "median_output_tokens_per_second": 71.43,
+        "median_time_to_first_token_seconds": 2.84,
+        "median_time_to_first_answer_token_seconds": 30.84,
+        "median_end_to_end_response_time_seconds": 37.84
       }
     },
     {
@@ -20089,10 +20089,10 @@
         "price_1m_cache_write_tokens": null
       },
       "performance": {
-        "median_output_tokens_per_second": 114.05,
-        "median_time_to_first_token_seconds": 2.2,
-        "median_time_to_first_answer_token_seconds": 19.73,
-        "median_end_to_end_response_time_seconds": 24.12
+        "median_output_tokens_per_second": 112.85,
+        "median_time_to_first_token_seconds": 2.21,
+        "median_time_to_first_answer_token_seconds": 19.93,
+        "median_end_to_end_response_time_seconds": 24.36
       }
     },
     {
@@ -20259,10 +20259,10 @@
         "price_1m_cache_write_tokens": null
       },
       "performance": {
-        "median_output_tokens_per_second": 41.3,
-        "median_time_to_first_token_seconds": 2.09,
-        "median_time_to_first_answer_token_seconds": 2.09,
-        "median_end_to_end_response_time_seconds": 14.19
+        "median_output_tokens_per_second": 40.9,
+        "median_time_to_first_token_seconds": 1.98,
+        "median_time_to_first_answer_token_seconds": 1.98,
+        "median_end_to_end_response_time_seconds": 14.2
       }
     },
     {
@@ -20293,10 +20293,10 @@
         "price_1m_cache_write_tokens": null
       },
       "performance": {
-        "median_output_tokens_per_second": 120.17,
-        "median_time_to_first_token_seconds": 0.99,
-        "median_time_to_first_answer_token_seconds": 0.99,
-        "median_end_to_end_response_time_seconds": 5.15
+        "median_output_tokens_per_second": 120.98,
+        "median_time_to_first_token_seconds": 0.91,
+        "median_time_to_first_answer_token_seconds": 0.91,
+        "median_end_to_end_response_time_seconds": 5.04
       }
     },
     {
@@ -20429,10 +20429,10 @@
         "price_1m_cache_write_tokens": null
       },
       "performance": {
-        "median_output_tokens_per_second": 83.79,
-        "median_time_to_first_token_seconds": 3.3,
-        "median_time_to_first_answer_token_seconds": 27.17,
-        "median_end_to_end_response_time_seconds": 33.14
+        "median_output_tokens_per_second": 85.23,
+        "median_time_to_first_token_seconds": 3.41,
+        "median_time_to_first_answer_token_seconds": 26.88,
+        "median_end_to_end_response_time_seconds": 32.74
       }
     },
     {
@@ -20536,10 +20536,10 @@
         "price_1m_cache_write_tokens": null
       },
       "performance": {
-        "median_output_tokens_per_second": 90.81,
-        "median_time_to_first_token_seconds": 2.76,
-        "median_time_to_first_answer_token_seconds": 24.78,
-        "median_end_to_end_response_time_seconds": 30.29
+        "median_output_tokens_per_second": 90.83,
+        "median_time_to_first_token_seconds": 2.7,
+        "median_time_to_first_answer_token_seconds": 24.72,
+        "median_end_to_end_response_time_seconds": 30.22
       }
     },
     {
@@ -20570,10 +20570,10 @@
         "price_1m_cache_write_tokens": null
       },
       "performance": {
-        "median_output_tokens_per_second": 40.93,
-        "median_time_to_first_token_seconds": 2.39,
-        "median_time_to_first_answer_token_seconds": 2.39,
-        "median_end_to_end_response_time_seconds": 14.6
+        "median_output_tokens_per_second": 42.29,
+        "median_time_to_first_token_seconds": 2.37,
+        "median_time_to_first_answer_token_seconds": 2.37,
+        "median_end_to_end_response_time_seconds": 14.2
       }
     },
     {
@@ -20609,10 +20609,10 @@
         "price_1m_cache_write_tokens": 2.5
       },
       "performance": {
-        "median_output_tokens_per_second": 83.05,
-        "median_time_to_first_token_seconds": 1.01,
-        "median_time_to_first_answer_token_seconds": 1.01,
-        "median_end_to_end_response_time_seconds": 7.03
+        "median_output_tokens_per_second": 90.77,
+        "median_time_to_first_token_seconds": 0.89,
+        "median_time_to_first_answer_token_seconds": 0.89,
+        "median_end_to_end_response_time_seconds": 6.4
       }
     },
     {
@@ -20682,10 +20682,10 @@
         "price_1m_cache_write_tokens": null
       },
       "performance": {
-        "median_output_tokens_per_second": 114.68,
-        "median_time_to_first_token_seconds": 1.55,
-        "median_time_to_first_answer_token_seconds": 1.55,
-        "median_end_to_end_response_time_seconds": 5.91
+        "median_output_tokens_per_second": 148.31,
+        "median_time_to_first_token_seconds": 1.59,
+        "median_time_to_first_answer_token_seconds": 1.59,
+        "median_end_to_end_response_time_seconds": 4.96
       }
     },
     {
@@ -20721,10 +20721,10 @@
         "price_1m_cache_write_tokens": null
       },
       "performance": {
-        "median_output_tokens_per_second": 164.47,
-        "median_time_to_first_token_seconds": 76.09,
-        "median_time_to_first_answer_token_seconds": 76.09,
-        "median_end_to_end_response_time_seconds": 79.13
+        "median_output_tokens_per_second": 167.52,
+        "median_time_to_first_token_seconds": 69.77,
+        "median_time_to_first_answer_token_seconds": 69.77,
+        "median_end_to_end_response_time_seconds": 72.76
       }
     },
     {
@@ -20760,10 +20760,10 @@
         "price_1m_cache_write_tokens": null
       },
       "performance": {
-        "median_output_tokens_per_second": 145.51,
-        "median_time_to_first_token_seconds": 32.5,
-        "median_time_to_first_answer_token_seconds": 46.24,
-        "median_end_to_end_response_time_seconds": 49.68
+        "median_output_tokens_per_second": 148.36,
+        "median_time_to_first_token_seconds": 37.79,
+        "median_time_to_first_answer_token_seconds": 51.27,
+        "median_end_to_end_response_time_seconds": 54.64
       }
     },
     {
@@ -20794,10 +20794,10 @@
         "price_1m_cache_write_tokens": 2.5
       },
       "performance": {
-        "median_output_tokens_per_second": 64.39,
-        "median_time_to_first_token_seconds": 0.97,
-        "median_time_to_first_answer_token_seconds": 0.97,
-        "median_end_to_end_response_time_seconds": 8.73
+        "median_output_tokens_per_second": 65,
+        "median_time_to_first_token_seconds": 0.78,
+        "median_time_to_first_answer_token_seconds": 0.78,
+        "median_end_to_end_response_time_seconds": 8.47
       }
     },
     {
@@ -20828,10 +20828,10 @@
         "price_1m_cache_write_tokens": null
       },
       "performance": {
-        "median_output_tokens_per_second": 53.92,
-        "median_time_to_first_token_seconds": 2.66,
-        "median_time_to_first_answer_token_seconds": 2.66,
-        "median_end_to_end_response_time_seconds": 11.94
+        "median_output_tokens_per_second": 53.69,
+        "median_time_to_first_token_seconds": 2.68,
+        "median_time_to_first_answer_token_seconds": 2.68,
+        "median_end_to_end_response_time_seconds": 12
       }
     },
     {
@@ -20941,9 +20941,9 @@
       },
       "performance": {
         "median_output_tokens_per_second": 66.56,
-        "median_time_to_first_token_seconds": 34.15,
-        "median_time_to_first_answer_token_seconds": 34.15,
-        "median_end_to_end_response_time_seconds": 41.66
+        "median_time_to_first_token_seconds": 38.63,
+        "median_time_to_first_answer_token_seconds": 38.63,
+        "median_end_to_end_response_time_seconds": 46.14
       }
     },
     {
@@ -21008,10 +21008,10 @@
         "price_1m_cache_write_tokens": null
       },
       "performance": {
-        "median_output_tokens_per_second": 60.93,
-        "median_time_to_first_token_seconds": 1.06,
-        "median_time_to_first_answer_token_seconds": 33.88,
-        "median_end_to_end_response_time_seconds": 42.09
+        "median_output_tokens_per_second": 41.33,
+        "median_time_to_first_token_seconds": 1.21,
+        "median_time_to_first_answer_token_seconds": 49.6,
+        "median_end_to_end_response_time_seconds": 61.69
       }
     },
     {
@@ -21120,10 +21120,10 @@
         "price_1m_cache_write_tokens": 5
       },
       "performance": {
-        "median_output_tokens_per_second": 75.7,
-        "median_time_to_first_token_seconds": 117.08,
-        "median_time_to_first_answer_token_seconds": 117.08,
-        "median_end_to_end_response_time_seconds": 123.69
+        "median_output_tokens_per_second": 77.81,
+        "median_time_to_first_token_seconds": 111.03,
+        "median_time_to_first_answer_token_seconds": 111.03,
+        "median_end_to_end_response_time_seconds": 117.45
       }
     },
     {
@@ -21193,10 +21193,10 @@
         "price_1m_cache_write_tokens": 5
       },
       "performance": {
-        "median_output_tokens_per_second": 73.54,
-        "median_time_to_first_token_seconds": 50.35,
-        "median_time_to_first_answer_token_seconds": 50.35,
-        "median_end_to_end_response_time_seconds": 57.15
+        "median_output_tokens_per_second": 75.55,
+        "median_time_to_first_token_seconds": 44,
+        "median_time_to_first_answer_token_seconds": 44,
+        "median_end_to_end_response_time_seconds": 50.62
       }
     },
     {
@@ -21232,10 +21232,10 @@
         "price_1m_cache_write_tokens": 2.5
       },
       "performance": {
-        "median_output_tokens_per_second": 94.27,
-        "median_time_to_first_token_seconds": 46.52,
-        "median_time_to_first_answer_token_seconds": 46.52,
-        "median_end_to_end_response_time_seconds": 51.83
+        "median_output_tokens_per_second": 100.14,
+        "median_time_to_first_token_seconds": 43.15,
+        "median_time_to_first_answer_token_seconds": 43.15,
+        "median_end_to_end_response_time_seconds": 48.15
       }
     },
     {
@@ -21266,10 +21266,10 @@
         "price_1m_cache_write_tokens": null
       },
       "performance": {
-        "median_output_tokens_per_second": 84.98,
-        "median_time_to_first_token_seconds": 2.67,
-        "median_time_to_first_answer_token_seconds": 2.67,
-        "median_end_to_end_response_time_seconds": 8.55
+        "median_output_tokens_per_second": 86.72,
+        "median_time_to_first_token_seconds": 2.66,
+        "median_time_to_first_answer_token_seconds": 2.66,
+        "median_end_to_end_response_time_seconds": 8.42
       }
     },
     {
@@ -21368,10 +21368,10 @@
         "price_1m_cache_write_tokens": null
       },
       "performance": {
-        "median_output_tokens_per_second": 90.86,
-        "median_time_to_first_token_seconds": 1.44,
-        "median_time_to_first_answer_token_seconds": 23.45,
-        "median_end_to_end_response_time_seconds": 28.95
+        "median_output_tokens_per_second": 91.06,
+        "median_time_to_first_token_seconds": 1.34,
+        "median_time_to_first_answer_token_seconds": 23.3,
+        "median_end_to_end_response_time_seconds": 28.79
       }
     },
     {
@@ -21407,10 +21407,10 @@
         "price_1m_cache_write_tokens": null
       },
       "performance": {
-        "median_output_tokens_per_second": 210.54,
+        "median_output_tokens_per_second": 213.27,
         "median_time_to_first_token_seconds": 1.09,
-        "median_time_to_first_answer_token_seconds": 10.59,
-        "median_end_to_end_response_time_seconds": 12.97
+        "median_time_to_first_answer_token_seconds": 10.46,
+        "median_end_to_end_response_time_seconds": 12.81
       }
     },
     {
@@ -21446,10 +21446,10 @@
         "price_1m_cache_write_tokens": 0.25
       },
       "performance": {
-        "median_output_tokens_per_second": 105.49,
-        "median_time_to_first_token_seconds": 0.8,
-        "median_time_to_first_answer_token_seconds": 0.8,
-        "median_end_to_end_response_time_seconds": 5.53
+        "median_output_tokens_per_second": 106.01,
+        "median_time_to_first_token_seconds": 0.78,
+        "median_time_to_first_answer_token_seconds": 0.78,
+        "median_end_to_end_response_time_seconds": 5.5
       }
     },
     {
@@ -21485,10 +21485,10 @@
         "price_1m_cache_write_tokens": null
       },
       "performance": {
-        "median_output_tokens_per_second": 163.73,
-        "median_time_to_first_token_seconds": 2.23,
-        "median_time_to_first_answer_token_seconds": 14.44,
-        "median_end_to_end_response_time_seconds": 17.5
+        "median_output_tokens_per_second": 164.45,
+        "median_time_to_first_token_seconds": 2.21,
+        "median_time_to_first_answer_token_seconds": 14.37,
+        "median_end_to_end_response_time_seconds": 17.41
       }
     },
     {
@@ -21587,10 +21587,10 @@
         "price_1m_cache_write_tokens": 0.75
       },
       "performance": {
-        "median_output_tokens_per_second": 260.53,
+        "median_output_tokens_per_second": 279.56,
         "median_time_to_first_token_seconds": 1.48,
         "median_time_to_first_answer_token_seconds": 1.48,
-        "median_end_to_end_response_time_seconds": 3.39
+        "median_end_to_end_response_time_seconds": 3.27
       }
     },
     {
@@ -21655,10 +21655,10 @@
         "price_1m_cache_write_tokens": null
       },
       "performance": {
-        "median_output_tokens_per_second": 114.99,
-        "median_time_to_first_token_seconds": 2.37,
-        "median_time_to_first_answer_token_seconds": 19.76,
-        "median_end_to_end_response_time_seconds": 24.11
+        "median_output_tokens_per_second": 114.36,
+        "median_time_to_first_token_seconds": 2.31,
+        "median_time_to_first_answer_token_seconds": 19.8,
+        "median_end_to_end_response_time_seconds": 24.17
       }
     },
     {
@@ -21762,10 +21762,10 @@
         "price_1m_cache_write_tokens": 5
       },
       "performance": {
-        "median_output_tokens_per_second": 79.72,
+        "median_output_tokens_per_second": 77.81,
         "median_time_to_first_token_seconds": 153.22,
         "median_time_to_first_answer_token_seconds": 153.22,
-        "median_end_to_end_response_time_seconds": 159.49
+        "median_end_to_end_response_time_seconds": 159.65
       }
     },
     {
@@ -21801,10 +21801,10 @@
         "price_1m_cache_write_tokens": 3.75
       },
       "performance": {
-        "median_output_tokens_per_second": 45.28,
-        "median_time_to_first_token_seconds": 104.12,
-        "median_time_to_first_answer_token_seconds": 104.12,
-        "median_end_to_end_response_time_seconds": 115.16
+        "median_output_tokens_per_second": 45.75,
+        "median_time_to_first_token_seconds": 113.66,
+        "median_time_to_first_answer_token_seconds": 113.66,
+        "median_end_to_end_response_time_seconds": 124.59
       }
     },
     {
@@ -21976,10 +21976,10 @@
         "price_1m_cache_write_tokens": 12.5
       },
       "performance": {
-        "median_output_tokens_per_second": 48.23,
-        "median_time_to_first_token_seconds": 76.15,
-        "median_time_to_first_answer_token_seconds": 76.15,
-        "median_end_to_end_response_time_seconds": 86.51
+        "median_output_tokens_per_second": 54.42,
+        "median_time_to_first_token_seconds": 58.53,
+        "median_time_to_first_answer_token_seconds": 58.53,
+        "median_end_to_end_response_time_seconds": 67.72
       }
     },
     {
@@ -22010,10 +22010,10 @@
         "price_1m_cache_write_tokens": null
       },
       "performance": {
-        "median_output_tokens_per_second": 150.9,
-        "median_time_to_first_token_seconds": 85.76,
-        "median_time_to_first_answer_token_seconds": 85.76,
-        "median_end_to_end_response_time_seconds": 89.07
+        "median_output_tokens_per_second": 149.57,
+        "median_time_to_first_token_seconds": 79.78,
+        "median_time_to_first_answer_token_seconds": 79.78,
+        "median_end_to_end_response_time_seconds": 83.12
       }
     },
     {
@@ -22214,10 +22214,10 @@
         "price_1m_cache_write_tokens": null
       },
       "performance": {
-        "median_output_tokens_per_second": 362.04,
-        "median_time_to_first_token_seconds": 2.58,
-        "median_time_to_first_answer_token_seconds": 8.1,
-        "median_end_to_end_response_time_seconds": 9.48
+        "median_output_tokens_per_second": 360.76,
+        "median_time_to_first_token_seconds": 2.51,
+        "median_time_to_first_answer_token_seconds": 8.05,
+        "median_end_to_end_response_time_seconds": 9.44
       }
     },
     {
@@ -22423,10 +22423,10 @@
         "price_1m_cache_write_tokens": 2.5
       },
       "performance": {
-        "median_output_tokens_per_second": 47.06,
-        "median_time_to_first_token_seconds": 3.37,
-        "median_time_to_first_answer_token_seconds": 3.37,
-        "median_end_to_end_response_time_seconds": 13.99
+        "median_output_tokens_per_second": 50.25,
+        "median_time_to_first_token_seconds": 2.91,
+        "median_time_to_first_answer_token_seconds": 2.91,
+        "median_end_to_end_response_time_seconds": 12.86
       }
     },
     {
@@ -22457,10 +22457,10 @@
         "price_1m_cache_write_tokens": null
       },
       "performance": {
-        "median_output_tokens_per_second": 140.74,
-        "median_time_to_first_token_seconds": 1.2,
-        "median_time_to_first_answer_token_seconds": 1.2,
-        "median_end_to_end_response_time_seconds": 4.76
+        "median_output_tokens_per_second": 149.86,
+        "median_time_to_first_token_seconds": 1.17,
+        "median_time_to_first_answer_token_seconds": 1.17,
+        "median_end_to_end_response_time_seconds": 4.5
       }
     },
     {
@@ -22564,10 +22564,10 @@
         "price_1m_cache_write_tokens": 12.5
       },
       "performance": {
-        "median_output_tokens_per_second": 47.15,
-        "median_time_to_first_token_seconds": 4.52,
-        "median_time_to_first_answer_token_seconds": 4.52,
-        "median_end_to_end_response_time_seconds": 15.13
+        "median_output_tokens_per_second": 51.94,
+        "median_time_to_first_token_seconds": 4.83,
+        "median_time_to_first_answer_token_seconds": 4.83,
+        "median_end_to_end_response_time_seconds": 14.46
       }
     },
     {
@@ -22598,10 +22598,10 @@
         "price_1m_cache_write_tokens": null
       },
       "performance": {
-        "median_output_tokens_per_second": 106,
-        "median_time_to_first_token_seconds": 1,
-        "median_time_to_first_answer_token_seconds": 1,
-        "median_end_to_end_response_time_seconds": 5.71
+        "median_output_tokens_per_second": 125.97,
+        "median_time_to_first_token_seconds": 0.98,
+        "median_time_to_first_answer_token_seconds": 0.98,
+        "median_end_to_end_response_time_seconds": 4.94
       }
     },
     {
@@ -22632,10 +22632,10 @@
         "price_1m_cache_write_tokens": 6.25
       },
       "performance": {
-        "median_output_tokens_per_second": 46.53,
-        "median_time_to_first_token_seconds": 24.3,
-        "median_time_to_first_answer_token_seconds": 24.3,
-        "median_end_to_end_response_time_seconds": 35.04
+        "median_output_tokens_per_second": 46.83,
+        "median_time_to_first_token_seconds": 26.49,
+        "median_time_to_first_answer_token_seconds": 26.49,
+        "median_end_to_end_response_time_seconds": 37.16
       }
     },
     {
@@ -22705,10 +22705,10 @@
         "price_1m_cache_write_tokens": 5
       },
       "performance": {
-        "median_output_tokens_per_second": 72.8,
-        "median_time_to_first_token_seconds": 23.74,
-        "median_time_to_first_answer_token_seconds": 23.74,
-        "median_end_to_end_response_time_seconds": 30.6
+        "median_output_tokens_per_second": 72.83,
+        "median_time_to_first_token_seconds": 24.32,
+        "median_time_to_first_answer_token_seconds": 24.32,
+        "median_end_to_end_response_time_seconds": 31.19
       }
     },
     {
@@ -22774,9 +22774,9 @@
       },
       "performance": {
         "median_output_tokens_per_second": 272.79,
-        "median_time_to_first_token_seconds": 5.1,
-        "median_time_to_first_answer_token_seconds": 5.1,
-        "median_end_to_end_response_time_seconds": 6.93
+        "median_time_to_first_token_seconds": 5.61,
+        "median_time_to_first_answer_token_seconds": 5.61,
+        "median_end_to_end_response_time_seconds": 7.44
       }
     },
     {
@@ -22812,10 +22812,10 @@
         "price_1m_cache_write_tokens": null
       },
       "performance": {
-        "median_output_tokens_per_second": 121.21,
-        "median_time_to_first_token_seconds": 3.67,
-        "median_time_to_first_answer_token_seconds": 20.17,
-        "median_end_to_end_response_time_seconds": 24.3
+        "median_output_tokens_per_second": 116.03,
+        "median_time_to_first_token_seconds": 3.55,
+        "median_time_to_first_answer_token_seconds": 20.79,
+        "median_end_to_end_response_time_seconds": 25.1
       }
     },
     {
@@ -22982,10 +22982,10 @@
         "price_1m_cache_write_tokens": null
       },
       "performance": {
-        "median_output_tokens_per_second": 63.68,
-        "median_time_to_first_token_seconds": 2.74,
-        "median_time_to_first_answer_token_seconds": 2.74,
-        "median_end_to_end_response_time_seconds": 10.6
+        "median_output_tokens_per_second": 63.3,
+        "median_time_to_first_token_seconds": 2.71,
+        "median_time_to_first_answer_token_seconds": 2.71,
+        "median_end_to_end_response_time_seconds": 10.61
       }
     },
     {
@@ -23016,10 +23016,10 @@
         "price_1m_cache_write_tokens": null
       },
       "performance": {
-        "median_output_tokens_per_second": 34.59,
-        "median_time_to_first_token_seconds": 2.91,
-        "median_time_to_first_answer_token_seconds": 2.91,
-        "median_end_to_end_response_time_seconds": 17.37
+        "median_output_tokens_per_second": 37.13,
+        "median_time_to_first_token_seconds": 2.64,
+        "median_time_to_first_answer_token_seconds": 2.64,
+        "median_end_to_end_response_time_seconds": 16.1
       }
     },
     {
@@ -23050,10 +23050,10 @@
         "price_1m_cache_write_tokens": null
       },
       "performance": {
-        "median_output_tokens_per_second": 164.96,
-        "median_time_to_first_token_seconds": 2.1,
-        "median_time_to_first_answer_token_seconds": 2.1,
-        "median_end_to_end_response_time_seconds": 5.14
+        "median_output_tokens_per_second": 163.52,
+        "median_time_to_first_token_seconds": 2.12,
+        "median_time_to_first_answer_token_seconds": 2.12,
+        "median_end_to_end_response_time_seconds": 5.17
       }
     },
     {
@@ -23090,9 +23090,9 @@
       },
       "performance": {
         "median_output_tokens_per_second": 65.94,
-        "median_time_to_first_token_seconds": 1.43,
-        "median_time_to_first_answer_token_seconds": 1.43,
-        "median_end_to_end_response_time_seconds": 9.02
+        "median_time_to_first_token_seconds": 1.17,
+        "median_time_to_first_answer_token_seconds": 1.17,
+        "median_end_to_end_response_time_seconds": 8.75
       }
     },
     {
@@ -23128,10 +23128,10 @@
         "price_1m_cache_write_tokens": null
       },
       "performance": {
-        "median_output_tokens_per_second": 159.63,
+        "median_output_tokens_per_second": 181.47,
         "median_time_to_first_token_seconds": 0.83,
-        "median_time_to_first_answer_token_seconds": 13.36,
-        "median_end_to_end_response_time_seconds": 16.49
+        "median_time_to_first_answer_token_seconds": 11.85,
+        "median_end_to_end_response_time_seconds": 14.61
       }
     },
     {
@@ -23162,10 +23162,10 @@
         "price_1m_cache_write_tokens": null
       },
       "performance": {
-        "median_output_tokens_per_second": 69.52,
-        "median_time_to_first_token_seconds": 1.71,
-        "median_time_to_first_answer_token_seconds": 1.71,
-        "median_end_to_end_response_time_seconds": 8.9
+        "median_output_tokens_per_second": 68.04,
+        "median_time_to_first_token_seconds": 1.65,
+        "median_time_to_first_answer_token_seconds": 1.65,
+        "median_end_to_end_response_time_seconds": 9
       }
     },
     {
@@ -23196,10 +23196,10 @@
         "price_1m_cache_write_tokens": null
       },
       "performance": {
-        "median_output_tokens_per_second": 52.09,
-        "median_time_to_first_token_seconds": 9.08,
-        "median_time_to_first_answer_token_seconds": 47.48,
-        "median_end_to_end_response_time_seconds": 57.08
+        "median_output_tokens_per_second": 19.31,
+        "median_time_to_first_token_seconds": 34.18,
+        "median_time_to_first_answer_token_seconds": 137.76,
+        "median_end_to_end_response_time_seconds": 163.66
       }
     },
     {
@@ -23230,10 +23230,10 @@
         "price_1m_cache_write_tokens": 3.75
       },
       "performance": {
-        "median_output_tokens_per_second": 43.98,
-        "median_time_to_first_token_seconds": 1.01,
-        "median_time_to_first_answer_token_seconds": 1.01,
-        "median_end_to_end_response_time_seconds": 12.38
+        "median_output_tokens_per_second": 41.92,
+        "median_time_to_first_token_seconds": 1,
+        "median_time_to_first_answer_token_seconds": 1,
+        "median_end_to_end_response_time_seconds": 12.93
       }
     },
     {
@@ -23303,10 +23303,10 @@
         "price_1m_cache_write_tokens": 5
       },
       "performance": {
-        "median_output_tokens_per_second": 73.41,
+        "median_output_tokens_per_second": 71.94,
         "median_time_to_first_token_seconds": 34.4,
         "median_time_to_first_answer_token_seconds": 34.4,
-        "median_end_to_end_response_time_seconds": 41.21
+        "median_end_to_end_response_time_seconds": 41.35
       }
     },
     {
@@ -23337,10 +23337,10 @@
         "price_1m_cache_write_tokens": null
       },
       "performance": {
-        "median_output_tokens_per_second": 107.28,
+        "median_output_tokens_per_second": 106.6,
         "median_time_to_first_token_seconds": 2.19,
         "median_time_to_first_answer_token_seconds": 2.19,
-        "median_end_to_end_response_time_seconds": 6.85
+        "median_end_to_end_response_time_seconds": 6.88
       }
     },
     {
@@ -23371,10 +23371,10 @@
         "price_1m_cache_write_tokens": null
       },
       "performance": {
-        "median_output_tokens_per_second": 56.24,
-        "median_time_to_first_token_seconds": 2.13,
-        "median_time_to_first_answer_token_seconds": 100.82,
-        "median_end_to_end_response_time_seconds": 109.71
+        "median_output_tokens_per_second": 56.19,
+        "median_time_to_first_token_seconds": 2.18,
+        "median_time_to_first_answer_token_seconds": 100.96,
+        "median_end_to_end_response_time_seconds": 109.86
       }
     },
     {
@@ -23405,10 +23405,10 @@
         "price_1m_cache_write_tokens": null
       },
       "performance": {
-        "median_output_tokens_per_second": 124.28,
-        "median_time_to_first_token_seconds": 11.31,
-        "median_time_to_first_answer_token_seconds": 27.41,
-        "median_end_to_end_response_time_seconds": 31.43
+        "median_output_tokens_per_second": 122.17,
+        "median_time_to_first_token_seconds": 9.22,
+        "median_time_to_first_answer_token_seconds": 25.59,
+        "median_end_to_end_response_time_seconds": 29.69
       }
     },
     {
@@ -23439,10 +23439,10 @@
         "price_1m_cache_write_tokens": null
       },
       "performance": {
-        "median_output_tokens_per_second": 350.2,
-        "median_time_to_first_token_seconds": 15.12,
-        "median_time_to_first_answer_token_seconds": 15.12,
-        "median_end_to_end_response_time_seconds": 16.54
+        "median_output_tokens_per_second": 357.3,
+        "median_time_to_first_token_seconds": 17.15,
+        "median_time_to_first_answer_token_seconds": 17.15,
+        "median_end_to_end_response_time_seconds": 18.55
       }
     },
     {
@@ -23512,10 +23512,10 @@
         "price_1m_cache_write_tokens": null
       },
       "performance": {
-        "median_output_tokens_per_second": 64.99,
-        "median_time_to_first_token_seconds": 2.93,
-        "median_time_to_first_answer_token_seconds": 33.7,
-        "median_end_to_end_response_time_seconds": 41.4
+        "median_output_tokens_per_second": 64.64,
+        "median_time_to_first_token_seconds": 2.82,
+        "median_time_to_first_answer_token_seconds": 33.76,
+        "median_end_to_end_response_time_seconds": 41.49
       }
     },
     {
@@ -23614,10 +23614,10 @@
         "price_1m_cache_write_tokens": null
       },
       "performance": {
-        "median_output_tokens_per_second": 97.23,
-        "median_time_to_first_token_seconds": 1.44,
-        "median_time_to_first_answer_token_seconds": 22.01,
-        "median_end_to_end_response_time_seconds": 27.15
+        "median_output_tokens_per_second": 99.54,
+        "median_time_to_first_token_seconds": 1.47,
+        "median_time_to_first_answer_token_seconds": 21.57,
+        "median_end_to_end_response_time_seconds": 26.59
       }
     },
     {
@@ -23687,10 +23687,10 @@
         "price_1m_cache_write_tokens": null
       },
       "performance": {
-        "median_output_tokens_per_second": 93.26,
-        "median_time_to_first_token_seconds": 3.05,
-        "median_time_to_first_answer_token_seconds": 24.5,
-        "median_end_to_end_response_time_seconds": 29.86
+        "median_output_tokens_per_second": 93.66,
+        "median_time_to_first_token_seconds": 2.99,
+        "median_time_to_first_answer_token_seconds": 24.34,
+        "median_end_to_end_response_time_seconds": 29.68
       }
     },
     {
@@ -23726,10 +23726,10 @@
         "price_1m_cache_write_tokens": null
       },
       "performance": {
-        "median_output_tokens_per_second": 36.11,
+        "median_output_tokens_per_second": 40.23,
         "median_time_to_first_token_seconds": 4.06,
-        "median_time_to_first_answer_token_seconds": 59.44,
-        "median_end_to_end_response_time_seconds": 73.29
+        "median_time_to_first_answer_token_seconds": 53.77,
+        "median_end_to_end_response_time_seconds": 66.2
       }
     },
     {
@@ -23833,10 +23833,10 @@
         "price_1m_cache_write_tokens": null
       },
       "performance": {
-        "median_output_tokens_per_second": 139.17,
-        "median_time_to_first_token_seconds": 1.31,
-        "median_time_to_first_answer_token_seconds": 15.68,
-        "median_end_to_end_response_time_seconds": 19.27
+        "median_output_tokens_per_second": 136.7,
+        "median_time_to_first_token_seconds": 1.38,
+        "median_time_to_first_answer_token_seconds": 16.01,
+        "median_end_to_end_response_time_seconds": 19.67
       }
     },
     {
@@ -23969,10 +23969,10 @@
         "price_1m_cache_write_tokens": null
       },
       "performance": {
-        "median_output_tokens_per_second": 181.75,
-        "median_time_to_first_token_seconds": 17.6,
-        "median_time_to_first_answer_token_seconds": 28.61,
-        "median_end_to_end_response_time_seconds": 31.36
+        "median_output_tokens_per_second": 175.39,
+        "median_time_to_first_token_seconds": 19.32,
+        "median_time_to_first_answer_token_seconds": 30.72,
+        "median_end_to_end_response_time_seconds": 33.58
       }
     },
     {
@@ -24042,10 +24042,10 @@
         "price_1m_cache_write_tokens": null
       },
       "performance": {
-        "median_output_tokens_per_second": 83.47,
-        "median_time_to_first_token_seconds": 1.29,
-        "median_time_to_first_answer_token_seconds": 1.29,
-        "median_end_to_end_response_time_seconds": 7.28
+        "median_output_tokens_per_second": 92.93,
+        "median_time_to_first_token_seconds": 1.23,
+        "median_time_to_first_answer_token_seconds": 1.23,
+        "median_end_to_end_response_time_seconds": 6.61
       }
     },
     {
@@ -24178,10 +24178,10 @@
         "price_1m_cache_write_tokens": 1.25
       },
       "performance": {
-        "median_output_tokens_per_second": 117.52,
-        "median_time_to_first_token_seconds": 4.66,
-        "median_time_to_first_answer_token_seconds": 4.66,
-        "median_end_to_end_response_time_seconds": 8.92
+        "median_output_tokens_per_second": 126.66,
+        "median_time_to_first_token_seconds": 4.25,
+        "median_time_to_first_answer_token_seconds": 4.25,
+        "median_end_to_end_response_time_seconds": 8.19
       }
     },
     {
@@ -24217,10 +24217,10 @@
         "price_1m_cache_write_tokens": null
       },
       "performance": {
-        "median_output_tokens_per_second": 209.1,
-        "median_time_to_first_token_seconds": 0.98,
-        "median_time_to_first_answer_token_seconds": 10.54,
-        "median_end_to_end_response_time_seconds": 12.93
+        "median_output_tokens_per_second": 214.65,
+        "median_time_to_first_token_seconds": 1.07,
+        "median_time_to_first_answer_token_seconds": 10.39,
+        "median_end_to_end_response_time_seconds": 12.72
       }
     },
     {
@@ -24251,10 +24251,10 @@
         "price_1m_cache_write_tokens": null
       },
       "performance": {
-        "median_output_tokens_per_second": 114.79,
-        "median_time_to_first_token_seconds": 2.41,
-        "median_time_to_first_answer_token_seconds": 19.83,
-        "median_end_to_end_response_time_seconds": 24.19
+        "median_output_tokens_per_second": 113.73,
+        "median_time_to_first_token_seconds": 2.4,
+        "median_time_to_first_answer_token_seconds": 19.99,
+        "median_end_to_end_response_time_seconds": 24.38
       }
     },
     {
@@ -24290,10 +24290,10 @@
         "price_1m_cache_write_tokens": 6.25
       },
       "performance": {
-        "median_output_tokens_per_second": 52.72,
-        "median_time_to_first_token_seconds": 4.61,
-        "median_time_to_first_answer_token_seconds": 4.61,
-        "median_end_to_end_response_time_seconds": 14.1
+        "median_output_tokens_per_second": 54.09,
+        "median_time_to_first_token_seconds": 3.75,
+        "median_time_to_first_answer_token_seconds": 3.75,
+        "median_end_to_end_response_time_seconds": 12.99
       }
     },
     {
@@ -24324,10 +24324,10 @@
         "price_1m_cache_write_tokens": null
       },
       "performance": {
-        "median_output_tokens_per_second": 70.06,
-        "median_time_to_first_token_seconds": 1.78,
-        "median_time_to_first_answer_token_seconds": 30.33,
-        "median_end_to_end_response_time_seconds": 37.46
+        "median_output_tokens_per_second": 81.35,
+        "median_time_to_first_token_seconds": 1.72,
+        "median_time_to_first_answer_token_seconds": 26.31,
+        "median_end_to_end_response_time_seconds": 32.46
       }
     },
     {
