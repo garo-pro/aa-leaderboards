@@ -5,10 +5,22 @@
     "source_url": "https://artificialanalysis.ai/api/v2/media/text-to-speech/models/free",
     "source_description": "Text-to-speech arena Elo rankings (Free tier)",
     "parser_version": "official-api-v1",
-    "model_count": 93,
-    "fetched_at": "2026-10-05T12:16:07.871930+00:00"
+    "model_count": 94,
+    "fetched_at": "2026-10-06T12:01:21.429282+00:00"
   },
   "models": [
+    {
+      "id": "1743efcc-71b5-415c-9a64-f03c739127ef",
+      "name": "Eleven v4 Turbo",
+      "slug": "eleven-v4-turbo",
+      "creator": {
+        "id": "8d057760-0a8b-460a-9625-6dd261bb325c",
+        "name": "ElevenLabs"
+      },
+      "elo": 1334,
+      "ci_95": 19,
+      "ci95_range": "-19/+19"
+    },
     {
       "id": "5731ba67-aafe-4ebd-be07-5b7f86454d01",
       "name": "Eleven v4",
