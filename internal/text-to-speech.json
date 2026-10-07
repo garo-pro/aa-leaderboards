@@ -5,8 +5,8 @@
     "source_url": "https://artificialanalysis.ai/api/v2/media/text-to-speech/models/free",
     "source_description": "Text-to-speech arena Elo rankings (Free tier)",
     "parser_version": "official-api-v1",
-    "model_count": 94,
-    "fetched_at": "2026-10-06T12:01:21.429282+00:00"
+    "model_count": 95,
+    "fetched_at": "2026-10-07T11:46:49.215687+00:00"
   },
   "models": [
     {
@@ -692,6 +692,18 @@
       "elo": 1058,
       "ci_95": 12,
       "ci95_range": "-12/+12"
+    },
+    {
+      "id": "77d660c1-f881-41ab-9982-167e09938218",
+      "name": "Flux TTS",
+      "slug": "flux-tts",
+      "creator": {
+        "id": "e89cf922-cec7-4064-a472-c439f5a04da9",
+        "name": "Deepgram"
+      },
+      "elo": 1057,
+      "ci_95": 14,
+      "ci95_range": "-14/+14"
     },
     {
       "id": "f524429e-7e12-47eb-88df-6a9730f88989",

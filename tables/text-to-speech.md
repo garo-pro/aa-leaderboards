@@ -3,8 +3,8 @@
 Data by [Artificial Analysis](https://artificialanalysis.ai/), via their [Data API](https://artificialanalysis.ai/data-api).
 
 - Source: [https://artificialanalysis.ai/api/v2/media/text-to-speech/models/free](https://artificialanalysis.ai/api/v2/media/text-to-speech/models/free)
-- Fetched at: 2026-10-06T12:01:21.429282+00:00
-- Model count: 94
+- Fetched at: 2026-10-07T11:46:49.215687+00:00
+- Model count: 95
 
 > Generated from `internal/text-to-speech.json` by `scripts/render_tables.py`. Do not edit by hand.
 
@@ -67,6 +67,7 @@ Data by [Artificial Analysis](https://artificialanalysis.ai/), via their [Data A
 | cddf7ab5-43d6-488f-be03-1dcfbb8955d3 | Coda | rime-coda | 2f5ee776-6f01-4c17-8ce2-335e235f45f8 | Rime | 1062 | 13 | -13/+13 |
 | a71d7774-e73e-4b6c-8dfe-7963273b2975 | Sonic 3 | sonic3 | 1fa5b287-d75e-4268-a1c1-c04c0a9e512a | Cartesia | 1060 | 12 | -12/+12 |
 | 7b6ea07a-99e1-4635-9ea1-beee1b6520d5 | Gemini 2.5 Flash TTS (Dec 2025) | gemini-2-5-flash-dec-2025 | faddc6d9-2c14-445f-9b28-56726f59c793 | Google | 1058 | 12 | -12/+12 |
+| 77d660c1-f881-41ab-9982-167e09938218 | Flux TTS | flux-tts | e89cf922-cec7-4064-a472-c439f5a04da9 | Deepgram | 1057 | 14 | -14/+14 |
 | f524429e-7e12-47eb-88df-6a9730f88989 | Chirp 3: HD | chirp3-hd | faddc6d9-2c14-445f-9b28-56726f59c793 | Google | 1056 | 12 | -12/+12 |
 | abdcf494-6c73-4574-ade9-6672cdb21936 | MiMo-V2.5-TTS | mimo-v2-5-tts | 5147c8b4-61d5-4070-9324-8adf8aa144c2 | Xiaomi | 1055 | 13 | -13/+13 |
 | 765fd2b5-acb4-490f-a402-eaad710f23e1 | Async Flash v1.0 | asyncflow-v2 | fccade0c-ac6f-4c87-9c6e-59957a1e93b9 | async | 1052 | 11 | -11/+11 |
