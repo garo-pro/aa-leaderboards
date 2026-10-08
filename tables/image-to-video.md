@@ -3,7 +3,7 @@
 Data by [Artificial Analysis](https://artificialanalysis.ai/), via their [Data API](https://artificialanalysis.ai/data-api).
 
 - Source: [https://artificialanalysis.ai/api/v2/media/image-to-video/models/free](https://artificialanalysis.ai/api/v2/media/image-to-video/models/free)
-- Fetched at: 2026-10-07T11:46:49.215687+00:00
+- Fetched at: 2026-10-08T12:01:17.279606+00:00
 - Model count: 76
 
 > Generated from `internal/image-to-video.json` by `scripts/render_tables.py`. Do not edit by hand.
@@ -16,7 +16,7 @@ Data by [Artificial Analysis](https://artificialanalysis.ai/), via their [Data A
 | c82a5e9e-6a94-40c3-ab47-7b4935f9c685 | MiniMax H3 | minimax-h3 | a31a9071-6144-4dbb-92dc-2e02d653ecea | MiniMax | 1356 | 11 | -11/+11 |
 | 36db1f4d-a9f6-49d1-a74d-06bddbf2fe4f | Dreamina Seedance 2.0 720p | seedance-2-0 | 2354746c-4775-4a06-b64d-0ba4137785b8 | ByteDance Seed | 1339 | 9 | -9/+9 |
 | be866b8a-d073-4ee4-9652-73227c679dc4 | PixVerse V6 | pixverse-v6 | 1942f8d6-ab55-4408-99dd-2f99c70353f6 | PixVerse | 1339 | 10 | -10/+10 |
-| e83498b8-ae29-4eb7-a343-2a2a74eb0e53 | grok-imagine-video-1.5 | grok-imagine-video-1.5 | a1e3ddcf-d3e4-44a5-9e8f-029a69850875 | SpaceXAI | 1331 | 11 | -11/+11 |
+| e83498b8-ae29-4eb7-a343-2a2a74eb0e53 | Grok Imagine Video 1.5 | grok-imagine-video-1.5 | a1e3ddcf-d3e4-44a5-9e8f-029a69850875 | SpaceXAI | 1331 | 11 | -11/+11 |
 | 22ae7204-9ed9-4440-a8a6-48340dc8d446 | grok-imagine-video | grok-imagine-video | a1e3ddcf-d3e4-44a5-9e8f-029a69850875 | SpaceXAI | 1328 | 9 | -9/+9 |
 | e0e60f8f-ad67-4b84-aec9-4da2b9a962d5 | HappyHorse-1.1 | happyhorse-1-1 | 0ea38458-92d7-45de-a69d-c50bd8277273 | Alibaba-ATH | 1314 | 10 | -10/+10 |
 | 61270a9b-9d2e-4875-810f-e81508bc5504 | Kling 2.5 Turbo 1080p | kling-25-turbo-1080p | 62cc833b-f55a-4489-bcae-54806d4b04ff | KlingAI | 1299 | 9 | -9/+9 |

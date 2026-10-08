@@ -3,8 +3,8 @@
 Data by [Artificial Analysis](https://artificialanalysis.ai/), via their [Data API](https://artificialanalysis.ai/data-api).
 
 - Source: [https://artificialanalysis.ai/api/v2/media/text-to-image/models/free](https://artificialanalysis.ai/api/v2/media/text-to-image/models/free)
-- Fetched at: 2026-10-07T11:46:49.215687+00:00
-- Model count: 166
+- Fetched at: 2026-10-08T12:01:17.279606+00:00
+- Model count: 167
 
 > Generated from `internal/text-to-image.json` by `scripts/render_tables.py`. Do not edit by hand.
 
@@ -13,6 +13,7 @@ Data by [Artificial Analysis](https://artificialanalysis.ai/), via their [Data A
 | 98833f93-0f33-4205-b83a-c4d42a25da4f | GPT Image 2.5 Sunburst (max) | gpt-image-2.5-sunburst-2026-09-08 | e67e56e3-15cd-43db-b679-da4660a69f41 | OpenAI | 1198 | 9 | -9/+9 |
 | ac3abe51-14ca-4c04-b215-01a85f3a36ac | GPT Image 2.5 Flare (max) | gpt-image-2.5-flare-2026-09-08 | e67e56e3-15cd-43db-b679-da4660a69f41 | OpenAI | 1191 | 9 | -9/+9 |
 | 9570e1d0-a390-48c1-a270-1317570fe3d5 | GPT Image 2 (high) | gpt-image-2 | e67e56e3-15cd-43db-b679-da4660a69f41 | OpenAI | 1172 | 8 | -8/+8 |
+| b6f834da-1ca2-4f4c-a215-158970a058fa | Nano Banana 2.1 | nano-banana-2-1 | faddc6d9-2c14-445f-9b28-56726f59c793 | Google | 1160 | 10 | -10/+10 |
 | 748fadd1-ecd9-41d0-9b43-f5fccd4fb843 | Grok Imagine Image 2.0 | grok-imagine-image-2-0 | a1e3ddcf-d3e4-44a5-9e8f-029a69850875 | SpaceXAI | 1156 | 11 | -11/+11 |
 | 5d931c2e-797e-406e-8eb9-83ce18b5710c | MAI-Image-2.6 | mai-image-2-6 | 4756ee95-5ddf-45e8-a9d1-075d0e5b5200 | Microsoft AI | 1151 | 10 | -10/+10 |
 | 3180162e-693d-487d-adbb-721f859f768d | Nano Banana 2 (Gemini 3.1 Flash Image) | nano-banana-2 | faddc6d9-2c14-445f-9b28-56726f59c793 | Google | 1126 | 7 | -7/+7 |

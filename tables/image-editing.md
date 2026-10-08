@@ -3,8 +3,8 @@
 Data by [Artificial Analysis](https://artificialanalysis.ai/), via their [Data API](https://artificialanalysis.ai/data-api).
 
 - Source: [https://artificialanalysis.ai/api/v2/media/image-editing/models/free](https://artificialanalysis.ai/api/v2/media/image-editing/models/free)
-- Fetched at: 2026-10-07T11:46:49.215687+00:00
-- Model count: 80
+- Fetched at: 2026-10-08T12:01:17.279606+00:00
+- Model count: 81
 
 > Generated from `internal/image-editing.json` by `scripts/render_tables.py`. Do not edit by hand.
 
@@ -13,6 +13,7 @@ Data by [Artificial Analysis](https://artificialanalysis.ai/), via their [Data A
 | 98833f93-0f33-4205-b83a-c4d42a25da4f | GPT Image 2.5 Sunburst (max) | gpt-image-2.5-sunburst-2026-09-08 | e67e56e3-15cd-43db-b679-da4660a69f41 | OpenAI | 1183 | 8 | -8/+8 |
 | ac3abe51-14ca-4c04-b215-01a85f3a36ac | GPT Image 2.5 Flare (max) | gpt-image-2.5-flare-2026-09-08 | e67e56e3-15cd-43db-b679-da4660a69f41 | OpenAI | 1163 | 7 | -7/+7 |
 | 5d931c2e-797e-406e-8eb9-83ce18b5710c | MAI-Image-2.6 | mai-image-2-6 | 4756ee95-5ddf-45e8-a9d1-075d0e5b5200 | Microsoft AI | 1139 | 8 | -8/+8 |
+| b6f834da-1ca2-4f4c-a215-158970a058fa | Nano Banana 2.1 | nano-banana-2-1 | faddc6d9-2c14-445f-9b28-56726f59c793 | Google | 1137 | 9 | -9/+9 |
 | daa01918-0450-4825-992a-eade1f981683 | MAI-Image-2.6-Flash | mai-image-2-6-flash | 4756ee95-5ddf-45e8-a9d1-075d0e5b5200 | Microsoft AI | 1127 | 8 | -8/+8 |
 | 9570e1d0-a390-48c1-a270-1317570fe3d5 | GPT Image 2 (high) | gpt-image-2 | e67e56e3-15cd-43db-b679-da4660a69f41 | OpenAI | 1125 | 8 | -8/+8 |
 | 0a7b7bb4-caa5-4334-aff3-57ad2bdead0d | Muse Image | muse-image-1.0 | e1694725-0192-4e54-b1b8-c97e816c6cbe | Meta | 1120 | 8 | -8/+8 |
