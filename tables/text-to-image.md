@@ -3,7 +3,7 @@
 Data by [Artificial Analysis](https://artificialanalysis.ai/), via their [Data API](https://artificialanalysis.ai/data-api).
 
 - Source: [https://artificialanalysis.ai/api/v2/media/text-to-image/models/free](https://artificialanalysis.ai/api/v2/media/text-to-image/models/free)
-- Fetched at: 2026-10-08T12:01:17.279606+00:00
+- Fetched at: 2026-10-09T11:53:31.714703+00:00
 - Model count: 167
 
 > Generated from `internal/text-to-image.json` by `scripts/render_tables.py`. Do not edit by hand.
@@ -99,13 +99,13 @@ Data by [Artificial Analysis](https://artificialanalysis.ai/), via their [Data A
 | 2a91c547-e6e1-46b6-bb73-abd73d518de8 | ERNIE Image Turbo | ernie-image-turbo | bfb6e769-2456-4027-a6da-e9e05b627a21 | Baidu | 924 | 8 | -8/+8 |
 | 7c4f717b-a48f-4ebe-85b5-9cab75ac2ac6 | Vivago 2.0 | vivago-2-0 | 040f2c41-5df4-4708-8c77-6a2030be2539 | HiDream | 924 | 9 | -9/+9 |
 | 29714890-0638-4648-a1df-3fdc2a4b42fa | Vidu Q2 | vidu_vidu_q2 | e3a5ba75-0127-45b0-8bcc-2864b8dd404d | Vidu | 920 | 7 | -7/+7 |
-| 95a40d42-7e24-42ac-8e86-ded5ba37c6ea | GPT Image 1 Mini (medium) | openai-gpt_gpt-image-1-mini--medium | e67e56e3-15cd-43db-b679-da4660a69f41 | OpenAI | 919 | 7 | -7/+7 |
+| 95a40d42-7e24-42ac-8e86-ded5ba37c6ea | GPT Image 1 Mini (medium) | openai-gpt_gpt-image-1-mini--medium | e67e56e3-15cd-43db-b679-da4660a69f41 | OpenAI | 918 | 7 | -7/+7 |
 | fdca46eb-4014-45f5-b0aa-db73ee85deb1 | Imagen 3 (v002) | imagen-3-v002 | faddc6d9-2c14-445f-9b28-56726f59c793 | Google | 916 | 9 | -9/+9 |
 | aef67397-7859-4806-8fbb-6b50e391feec | Kling Image 3.0 Omni | kling-image-3-0-omni | 62cc833b-f55a-4489-bcae-54806d4b04ff | KlingAI | 916 | 7 | -7/+7 |
 | e2fa2f78-4a0c-4e2f-b3cf-53d213a18872 | P-Image-Ideogram (Very Low) | p-image-ideogram-very-low | a98e0396-4ef1-4a39-bb12-b004c7590bee | Pruna AI | 914 | 10 | -10/+10 |
 | 561d9150-bc67-4212-8129-2d239f06fde8 | Dreamina 3.1 | dreamina-3-1 | 582174aa-90d5-4a43-9c4d-64dc0af57547 | Bytedance | 913 | 7 | -7/+7 |
 | 8d8aa93e-0d6c-4973-9946-e00e52eeb01d | Lucid Origin Ultra | lucid-origin-ultra | c104be52-31ea-4948-b921-265dc297f3ac | Leonardo.Ai | 913 | 7 | -7/+7 |
-| 4015fb1d-f6a6-451c-85e1-e8e0b556b683 | Reve Image (Halfmoon) | reve-image-halfmoon | cc6e981e-eb3c-4ac3-a23e-4dbe3e1ffd99 | Reve | 913 | 9 | -9/+9 |
+| 4015fb1d-f6a6-451c-85e1-e8e0b556b683 | Reve Image (Halfmoon) | reve-image-halfmoon | cc6e981e-eb3c-4ac3-a23e-4dbe3e1ffd99 | Reve | 912 | 9 | -9/+9 |
 | 72d1951d-075a-421b-9002-66537114124c | ERNIE Image | ernie-image | bfb6e769-2456-4027-a6da-e9e05b627a21 | Baidu | 912 | 8 | -8/+8 |
 | 49beed3c-4642-47be-987b-b7b184cab77d | Imagen 4 Standard | google-imagen_imagen-4-standard | faddc6d9-2c14-445f-9b28-56726f59c793 | Google | 910 | 10 | -10/+10 |
 | 3338f278-fb1f-4727-b9af-d51ae3ab7e36 | FLUX.1 Kontext [pro] | flux-1-kontext-pro | d427ad30-eba3-4945-857a-4eb0ead82e87 | Black Forest Labs | 909 | 7 | -7/+7 |
@@ -140,7 +140,7 @@ Data by [Artificial Analysis](https://artificialanalysis.ai/), via their [Data A
 | 3838ac21-dbc9-4438-bbf3-3cf49f4e47c8 | Midjourney v6.1 | midjourney-v6-1 | f3101bf7-753f-4c98-9df5-d57092e924fb | Midjourney | 848 | 8 | -8/+8 |
 | 7fd58fea-e8b4-46c9-a421-409db1b54a71 | FLUX.1 Krea [dev] | flux-1-krea-dev | d427ad30-eba3-4945-857a-4eb0ead82e87 | Black Forest Labs | 845 | 9 | -9/+9 |
 | 65f37105-427a-4f10-af5c-b001e59024a6 | Phoenix 1.0 Ultra | phoenix-1-0-ultra | c104be52-31ea-4948-b921-265dc297f3ac | Leonardo.Ai | 843 | 9 | -9/+9 |
-| 42f6daca-7146-4620-8977-d190d7fac51a | FLUX.1 [dev] | flux-1-dev | d427ad30-eba3-4945-857a-4eb0ead82e87 | Black Forest Labs | 841 | 7 | -7/+7 |
+| 42f6daca-7146-4620-8977-d190d7fac51a | FLUX.1 [dev] | flux-1-dev | d427ad30-eba3-4945-857a-4eb0ead82e87 | Black Forest Labs | 840 | 7 | -7/+7 |
 | b0f2192b-678c-405d-94f8-4525064713eb | Stable Diffusion 3.5 Large | stable-diffusion-3-5-large | fae49f90-2280-46b0-b364-40d25eb84564 | Stability.ai | 840 | 9 | -9/+9 |
 | b7a4bc1e-1da9-4d29-8c55-67124e867d4c | Stable Diffusion 3 Large | stable-diffusion-3-large | fae49f90-2280-46b0-b364-40d25eb84564 | Stability.ai | 838 | 8 | -8/+8 |
 | 9f592429-9411-4c1e-bebe-780d2790759a | Phoenix 0.9 Ultra | phoenix-0-9-ultra | c104be52-31ea-4948-b921-265dc297f3ac | Leonardo.Ai | 835 | 7 | -7/+7 |
@@ -151,7 +151,7 @@ Data by [Artificial Analysis](https://artificialanalysis.ai/), via their [Data A
 | b23a5363-0e53-48f1-93b1-db1350b72844 | Ideogram v2a | ideogram-v2a | a8b2ac11-1f36-44cb-9e88-383c4e0d749f | Ideogram | 820 | 10 | -10/+10 |
 | 83be9cb8-55f8-4e7c-be4e-7073f2644b5a | Krea 1 | krea-1 | da6aca5c-fe97-453a-b5cb-43de1ac7210b | Krea | 820 | 9 | -9/+9 |
 | 0b89ea2e-c652-485a-aa8c-34ceafed224f | Playground v3 (beta) | playground-v3-beta | f04aca25-ae17-42e2-a0b7-0c9734e0adfe | Playground AI | 810 | 8 | -8/+8 |
-| d77cfc0a-2fa1-4f8e-9f7f-a666b348b1e9 | FLUX.1 [schnell] | flux-1-schnell | d427ad30-eba3-4945-857a-4eb0ead82e87 | Black Forest Labs | 802 | 7 | -7/+7 |
+| d77cfc0a-2fa1-4f8e-9f7f-a666b348b1e9 | FLUX.1 [schnell] | flux-1-schnell | d427ad30-eba3-4945-857a-4eb0ead82e87 | Black Forest Labs | 803 | 7 | -7/+7 |
 | 61ace12c-0fb5-4262-a0b7-80845c84b40d | Luma Photon Flash | luma-photon-flash | 09468924-69a9-499b-8dd6-d0bb4c05285d | Luma Labs | 799 | 7 | -7/+7 |
 | 74606b04-5682-4ff2-85ce-56999ef61acb | Step Image Edit 2 | step-image-edit-2 | ce2e2e8b-7a22-4020-98ec-8ef71000dd42 | StepFun | 798 | 11 | -11/+11 |
 | 19c33a87-2ede-4d18-b2ce-7e5254611622 | FLUX.2 [klein] Base 4B | flux_flux-2-klein-base-4b | d427ad30-eba3-4945-857a-4eb0ead82e87 | Black Forest Labs | 794 | 10 | -10/+10 |

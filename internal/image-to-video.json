@@ -5,8 +5,8 @@
     "source_url": "https://artificialanalysis.ai/api/v2/media/image-to-video/models/free",
     "source_description": "Image-to-video arena Elo rankings (Free tier)",
     "parser_version": "official-api-v1",
-    "model_count": 76,
-    "fetched_at": "2026-10-08T12:01:17.279606+00:00"
+    "model_count": 77,
+    "fetched_at": "2026-10-09T11:53:31.714703+00:00"
   },
   "models": [
     {
@@ -56,6 +56,18 @@
       "elo": 1356,
       "ci_95": 11,
       "ci95_range": "-11/+11"
+    },
+    {
+      "id": "60f8f6e0-6b69-4f5b-83fb-e5a9a9144858",
+      "name": "Vimoo 1.0",
+      "slug": "vimoo-1-0",
+      "creator": {
+        "id": "83f18d77-237c-4f11-bd9d-393d74396972",
+        "name": "Vimoo"
+      },
+      "elo": 1348,
+      "ci_95": 14,
+      "ci95_range": "-14/+14"
     },
     {
       "id": "36db1f4d-a9f6-49d1-a74d-06bddbf2fe4f",
