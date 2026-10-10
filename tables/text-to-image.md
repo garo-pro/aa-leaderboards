@@ -3,8 +3,8 @@
 Data by [Artificial Analysis](https://artificialanalysis.ai/), via their [Data API](https://artificialanalysis.ai/data-api).
 
 - Source: [https://artificialanalysis.ai/api/v2/media/text-to-image/models/free](https://artificialanalysis.ai/api/v2/media/text-to-image/models/free)
-- Fetched at: 2026-10-09T11:53:31.714703+00:00
-- Model count: 167
+- Fetched at: 2026-10-10T11:10:23.741715+00:00
+- Model count: 168
 
 > Generated from `internal/text-to-image.json` by `scripts/render_tables.py`. Do not edit by hand.
 
@@ -17,6 +17,7 @@ Data by [Artificial Analysis](https://artificialanalysis.ai/), via their [Data A
 | 748fadd1-ecd9-41d0-9b43-f5fccd4fb843 | Grok Imagine Image 2.0 | grok-imagine-image-2-0 | a1e3ddcf-d3e4-44a5-9e8f-029a69850875 | SpaceXAI | 1156 | 11 | -11/+11 |
 | 5d931c2e-797e-406e-8eb9-83ce18b5710c | MAI-Image-2.6 | mai-image-2-6 | 4756ee95-5ddf-45e8-a9d1-075d0e5b5200 | Microsoft AI | 1151 | 10 | -10/+10 |
 | 3180162e-693d-487d-adbb-721f859f768d | Nano Banana 2 (Gemini 3.1 Flash Image) | nano-banana-2 | faddc6d9-2c14-445f-9b28-56726f59c793 | Google | 1126 | 7 | -7/+7 |
+| 952cb4e8-6155-45f4-a653-f426669cf80a | FLUX 3 Image | flux-3-image | d427ad30-eba3-4945-857a-4eb0ead82e87 | Black Forest Labs | 1117 | 11 | -11/+11 |
 | 0a7b7bb4-caa5-4334-aff3-57ad2bdead0d | Muse Image | muse-image-1.0 | e1694725-0192-4e54-b1b8-c97e816c6cbe | Meta | 1115 | 9 | -9/+9 |
 | a1ee4d6f-d136-434b-bb1d-066fe5f9bf6f | GPT Image 1.5 (high) | openai-gpt_image-1-5 | e67e56e3-15cd-43db-b679-da4660a69f41 | OpenAI | 1107 | 8 | -8/+8 |
 | daa01918-0450-4825-992a-eade1f981683 | MAI-Image-2.6-Flash | mai-image-2-6-flash | 4756ee95-5ddf-45e8-a9d1-075d0e5b5200 | Microsoft AI | 1105 | 9 | -9/+9 |
@@ -83,7 +84,7 @@ Data by [Artificial Analysis](https://artificialanalysis.ai/), via their [Data A
 | a7537dba-f8c0-4e26-9693-c593a69a3db8 | Ideogram 4.0 Fast | ideogram-v4-fast | d3f67dc4-ba4d-4103-ba79-ee321ca99b40 | Fal | 969 | 9 | -9/+9 |
 | d5a99ffc-7fb6-48c3-8543-75c4c07706f0 | P-Image-Ideogram (Low) | p-image-ideogram-low | a98e0396-4ef1-4a39-bb12-b004c7590bee | Pruna AI | 967 | 10 | -10/+10 |
 | 59b0cb98-b550-40f1-b863-a2daca08ab81 | Qwen Image 2.0 (2026-03-03) | qwen-image-2-0-alibaba-cloud-may-2026 | d874d370-74d3-4fa0-ba00-5272f92f946b | Alibaba | 963 | 8 | -8/+8 |
-| aa41be4d-efb7-4d31-99e6-72678c1d05fd | Wan 2.5 Preview | wan_wan-2-5-preview | d874d370-74d3-4fa0-ba00-5272f92f946b | Alibaba | 962 | 9 | -9/+9 |
+| aa41be4d-efb7-4d31-99e6-72678c1d05fd | Wan 2.5 Preview | wan_wan-2-5-preview | d874d370-74d3-4fa0-ba00-5272f92f946b | Alibaba | 961 | 9 | -9/+9 |
 | a4df7ca4-0e85-4ff4-a796-da8af019fbca | Seedream 3.0 | seedream-3-0-byteplus | 2354746c-4775-4a06-b64d-0ba4137785b8 | ByteDance Seed | 959 | 9 | -9/+9 |
 | 2106ec2e-158c-4978-82e0-9049e3d8d90f | Recraft V4.1 Flash | recraft-v4-1-flash | 02845eed-a64f-4ddd-af96-8409678c890a | Recraft | 957 | 9 | -9/+9 |
 | 5959f365-f1fa-424b-8bef-3b839251a497 | ImagineArt 1.5 Preview | imagineart-1-5-preview | 3257e1b4-560b-4bb9-8197-39de391c491f | ImagineArt | 956 | 7 | -7/+7 |

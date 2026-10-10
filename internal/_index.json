@@ -1,6 +1,6 @@
 {
-  "date": "2026-10-09",
-  "fetched_at": "2026-10-09T11:53:31.714703+00:00",
+  "date": "2026-10-10",
+  "fetched_at": "2026-10-10T11:10:23.741715+00:00",
   "source": "https://artificialanalysis.ai/data-api",
   "source_type": "official_api_free_tier",
   "parser_version": "official-api-v1",
@@ -11,7 +11,7 @@
       "source_url": "https://artificialanalysis.ai/api/v2/language/models/free"
     },
     "text-to-image": {
-      "model_count": 167,
+      "model_count": 168,
       "source_type": "official_api_free_tier",
       "source_url": "https://artificialanalysis.ai/api/v2/media/text-to-image/models/free"
     },
