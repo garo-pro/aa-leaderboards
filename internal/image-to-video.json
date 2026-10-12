@@ -6,7 +6,7 @@
     "source_description": "Image-to-video arena Elo rankings (Free tier)",
     "parser_version": "official-api-v1",
     "model_count": 77,
-    "fetched_at": "2026-10-11T11:23:59.139149+00:00"
+    "fetched_at": "2026-10-12T13:09:35.851826+00:00"
   },
   "models": [
     {
@@ -185,7 +185,7 @@
         "id": "67b5ce4d-0c81-4edc-b4c3-370acc2df555",
         "name": "Skywork AI"
       },
-      "elo": 1283,
+      "elo": 1282,
       "ci_95": 11,
       "ci95_range": "-11/+11"
     },
@@ -197,7 +197,7 @@
         "id": "62cc833b-f55a-4489-bcae-54806d4b04ff",
         "name": "KlingAI"
       },
-      "elo": 1281,
+      "elo": 1280,
       "ci_95": 10,
       "ci95_range": "-10/+10"
     },
@@ -413,7 +413,7 @@
         "id": "a31a9071-6144-4dbb-92dc-2e02d653ecea",
         "name": "MiniMax"
       },
-      "elo": 1247,
+      "elo": 1246,
       "ci_95": 11,
       "ci95_range": "-11/+11"
     },
@@ -461,7 +461,7 @@
         "id": "2354746c-4775-4a06-b64d-0ba4137785b8",
         "name": "ByteDance Seed"
       },
-      "elo": 1235,
+      "elo": 1234,
       "ci_95": 9,
       "ci95_range": "-9/+9"
     },
@@ -473,7 +473,7 @@
         "id": "e3a5ba75-0127-45b0-8bcc-2864b8dd404d",
         "name": "Vidu"
       },
-      "elo": 1234,
+      "elo": 1233,
       "ci_95": 10,
       "ci95_range": "-10/+10"
     },
@@ -521,7 +521,7 @@
         "id": "09468924-69a9-499b-8dd6-d0bb4c05285d",
         "name": "Luma Labs"
       },
-      "elo": 1216,
+      "elo": 1215,
       "ci_95": 10,
       "ci95_range": "-10/+10"
     },
@@ -557,7 +557,7 @@
         "id": "62cc833b-f55a-4489-bcae-54806d4b04ff",
         "name": "KlingAI"
       },
-      "elo": 1208,
+      "elo": 1207,
       "ci_95": 12,
       "ci95_range": "-12/+12"
     },
@@ -677,7 +677,7 @@
         "id": "ed94442e-da40-4fa6-a209-c7e9e095a75f",
         "name": "Lightricks"
       },
-      "elo": 1158,
+      "elo": 1157,
       "ci_95": 10,
       "ci95_range": "-10/+10"
     },
@@ -713,7 +713,7 @@
         "id": "2354746c-4775-4a06-b64d-0ba4137785b8",
         "name": "ByteDance Seed"
       },
-      "elo": 1139,
+      "elo": 1138,
       "ci_95": 11,
       "ci95_range": "-11/+11"
     },
@@ -785,7 +785,7 @@
         "id": "faddc6d9-2c14-445f-9b28-56726f59c793",
         "name": "Google"
       },
-      "elo": 1100,
+      "elo": 1099,
       "ci_95": 11,
       "ci95_range": "-11/+11"
     },
@@ -845,7 +845,7 @@
         "id": "c104be52-31ea-4948-b921-265dc297f3ac",
         "name": "Leonardo.Ai"
       },
-      "elo": 1027,
+      "elo": 1026,
       "ci_95": 13,
       "ci95_range": "-13/+13"
     },
