@@ -6,7 +6,7 @@
     "source_description": "Text-to-video arena Elo rankings (Free tier)",
     "parser_version": "official-api-v1",
     "model_count": 32,
-    "fetched_at": "2026-10-12T13:09:35.851826+00:00"
+    "fetched_at": "2026-10-13T12:42:03.656666+00:00"
   },
   "models": [
     {
@@ -29,7 +29,7 @@
         "id": "d3f67dc4-ba4d-4103-ba79-ee321ca99b40",
         "name": "Fal"
       },
-      "elo": 1118,
+      "elo": 1120,
       "ci_95": 11,
       "ci95_range": "-11/+11"
     },
@@ -101,9 +101,9 @@
         "id": "faddc6d9-2c14-445f-9b28-56726f59c793",
         "name": "Google"
       },
-      "elo": 1069,
-      "ci_95": 11,
-      "ci95_range": "-11/+11"
+      "elo": 1071,
+      "ci_95": 10,
+      "ci95_range": "-10/+10"
     },
     {
       "id": "5518540d-d1bc-48cc-9ad3-8f20769c021e",
@@ -113,7 +113,7 @@
         "id": "5db3af1a-e372-4c62-98bd-f6027eeaf990",
         "name": "Sapiens AI"
       },
-      "elo": 1051,
+      "elo": 1053,
       "ci_95": 11,
       "ci95_range": "-11/+11"
     },
@@ -126,8 +126,8 @@
         "name": "Alibaba-ATH"
       },
       "elo": 1042,
-      "ci_95": 11,
-      "ci95_range": "-11/+11"
+      "ci_95": 10,
+      "ci95_range": "-10/+10"
     },
     {
       "id": "a4dc21f8-7a35-497e-90a4-4c9a1593c8ca",
@@ -149,7 +149,7 @@
         "id": "a1e3ddcf-d3e4-44a5-9e8f-029a69850875",
         "name": "SpaceXAI"
       },
-      "elo": 1036,
+      "elo": 1037,
       "ci_95": 11,
       "ci95_range": "-11/+11"
     },
@@ -162,8 +162,8 @@
         "name": "Alibaba"
       },
       "elo": 1028,
-      "ci_95": 11,
-      "ci95_range": "-11/+11"
+      "ci_95": 10,
+      "ci95_range": "-10/+10"
     },
     {
       "id": "d149ad95-b3b2-4d23-8611-07a84c1a0e7f",
@@ -185,7 +185,7 @@
         "id": "1942f8d6-ab55-4408-99dd-2f99c70353f6",
         "name": "PixVerse"
       },
-      "elo": 996,
+      "elo": 999,
       "ci_95": 11,
       "ci95_range": "-11/+11"
     },
@@ -197,7 +197,7 @@
         "id": "62cc833b-f55a-4489-bcae-54806d4b04ff",
         "name": "KlingAI"
       },
-      "elo": 990,
+      "elo": 989,
       "ci_95": 11,
       "ci95_range": "-11/+11"
     },
@@ -209,7 +209,7 @@
         "id": "a1e3ddcf-d3e4-44a5-9e8f-029a69850875",
         "name": "SpaceXAI"
       },
-      "elo": 984,
+      "elo": 985,
       "ci_95": 11,
       "ci95_range": "-11/+11"
     },
@@ -234,8 +234,8 @@
         "name": "Google"
       },
       "elo": 964,
-      "ci_95": 11,
-      "ci95_range": "-11/+11"
+      "ci_95": 10,
+      "ci95_range": "-10/+10"
     },
     {
       "id": "1d0f4e17-4e52-44fa-9de7-36308c5cee61",
@@ -245,7 +245,7 @@
         "id": "319e519d-a916-49f0-8708-ce0b54073a3c",
         "name": "Sand.ai"
       },
-      "elo": 957,
+      "elo": 958,
       "ci_95": 11,
       "ci95_range": "-11/+11"
     },
@@ -257,7 +257,7 @@
         "id": "faddc6d9-2c14-445f-9b28-56726f59c793",
         "name": "Google"
       },
-      "elo": 955,
+      "elo": 956,
       "ci_95": 11,
       "ci95_range": "-11/+11"
     },
@@ -269,7 +269,7 @@
         "id": "ed94442e-da40-4fa6-a209-c7e9e095a75f",
         "name": "Lightricks"
       },
-      "elo": 938,
+      "elo": 939,
       "ci_95": 11,
       "ci95_range": "-11/+11"
     },
@@ -281,7 +281,7 @@
         "id": "ed94442e-da40-4fa6-a209-c7e9e095a75f",
         "name": "Lightricks"
       },
-      "elo": 934,
+      "elo": 932,
       "ci_95": 11,
       "ci95_range": "-11/+11"
     },
@@ -293,7 +293,19 @@
         "id": "a6906d95-a471-4a0c-ad10-b989571de20c",
         "name": "Runway"
       },
-      "elo": 923,
+      "elo": 925,
+      "ci_95": 11,
+      "ci95_range": "-11/+11"
+    },
+    {
+      "id": "d7c0367f-1adf-40ec-8195-5c5d1906efa8",
+      "name": "Vidu Q3 Pro",
+      "slug": "vidu-q3-pro",
+      "creator": {
+        "id": "e3a5ba75-0127-45b0-8bcc-2864b8dd404d",
+        "name": "Vidu"
+      },
+      "elo": 912,
       "ci_95": 11,
       "ci95_range": "-11/+11"
     },
@@ -310,18 +322,6 @@
       "ci95_range": "-11/+11"
     },
     {
-      "id": "d7c0367f-1adf-40ec-8195-5c5d1906efa8",
-      "name": "Vidu Q3 Pro",
-      "slug": "vidu-q3-pro",
-      "creator": {
-        "id": "e3a5ba75-0127-45b0-8bcc-2864b8dd404d",
-        "name": "Vidu"
-      },
-      "elo": 911,
-      "ci_95": 11,
-      "ci95_range": "-11/+11"
-    },
-    {
       "id": "46b5ed93-3586-4fc3-875b-4231492aea82",
       "name": "Kling O1 Pro (January)",
       "slug": "kling-o1-pro-january",
@@ -329,7 +329,7 @@
         "id": "62cc833b-f55a-4489-bcae-54806d4b04ff",
         "name": "KlingAI"
       },
-      "elo": 897,
+      "elo": 898,
       "ci_95": 11,
       "ci95_range": "-11/+11"
     },
@@ -341,7 +341,7 @@
         "id": "ed94442e-da40-4fa6-a209-c7e9e095a75f",
         "name": "Lightricks"
       },
-      "elo": 857,
+      "elo": 858,
       "ci_95": 11,
       "ci95_range": "-11/+11"
     },
@@ -353,7 +353,7 @@
         "id": "ed94442e-da40-4fa6-a209-c7e9e095a75f",
         "name": "Lightricks"
       },
-      "elo": 856,
+      "elo": 855,
       "ci_95": 11,
       "ci95_range": "-11/+11"
     },
@@ -365,7 +365,7 @@
         "id": "acea75bb-3f76-4ce0-b168-741a31fcec0a",
         "name": "Pika Art"
       },
-      "elo": 847,
+      "elo": 846,
       "ci_95": 12,
       "ci95_range": "-12/+12"
     },
@@ -389,7 +389,7 @@
         "id": "a98e0396-4ef1-4a39-bb12-b004c7590bee",
         "name": "Pruna AI"
       },
-      "elo": 820,
+      "elo": 824,
       "ci_95": 12,
       "ci95_range": "-12/+12"
     }
