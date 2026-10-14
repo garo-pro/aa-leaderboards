@@ -3,7 +3,7 @@
 Data by [Artificial Analysis](https://artificialanalysis.ai/), via their [Data API](https://artificialanalysis.ai/data-api).
 
 - Source: [https://artificialanalysis.ai/api/v2/media/image-to-video/models/free](https://artificialanalysis.ai/api/v2/media/image-to-video/models/free)
-- Fetched at: 2026-10-13T12:42:03.656666+00:00
+- Fetched at: 2026-10-14T10:11:21.525786+00:00
 - Model count: 77
 
 > Generated from `internal/image-to-video.json` by `scripts/render_tables.py`. Do not edit by hand.
@@ -66,9 +66,9 @@ Data by [Artificial Analysis](https://artificialanalysis.ai/), via their [Data A
 | f0bea8bf-2158-448f-9158-0d99f707a58e | Kling 2.1 Standard | kling-2-1-standard | 62cc833b-f55a-4489-bcae-54806d4b04ff | KlingAI | 1174 | 11 | -11/+11 |
 | 2bc33840-9c22-428c-83a6-c0c0ba353b7f | Midjourney V1 | midjourney-v1 | f3101bf7-753f-4c98-9df5-d57092e924fb | Midjourney | 1165 | 11 | -11/+11 |
 | c783d9aa-c387-4f44-b371-563fd9bab06d | LTX-2.3 Pro | ltx-2-3-pro | ed94442e-da40-4fa6-a209-c7e9e095a75f | Lightricks | 1158 | 10 | -10/+10 |
-| 7e329f46-5e24-41b1-84ab-af6df18782b8 | PixVerse V4.5 | pixverse-v4-5 | 1942f8d6-ab55-4408-99dd-2f99c70353f6 | PixVerse | 1152 | 12 | -12/+12 |
+| 7e329f46-5e24-41b1-84ab-af6df18782b8 | PixVerse V4.5 | pixverse-v4-5 | 1942f8d6-ab55-4408-99dd-2f99c70353f6 | PixVerse | 1153 | 12 | -12/+12 |
 | 40f64093-99b7-4e9b-9705-651fc5b436c4 | LTX-2.3 Fast | ltx-2-3-fast | ed94442e-da40-4fa6-a209-c7e9e095a75f | Lightricks | 1150 | 10 | -10/+10 |
-| 105002bb-dfde-4b74-9615-361c637d1887 | Seedance 1.0 Mini | seedance-1-0-mini | 2354746c-4775-4a06-b64d-0ba4137785b8 | ByteDance Seed | 1138 | 11 | -11/+11 |
+| 105002bb-dfde-4b74-9615-361c637d1887 | Seedance 1.0 Mini | seedance-1-0-mini | 2354746c-4775-4a06-b64d-0ba4137785b8 | ByteDance Seed | 1139 | 11 | -11/+11 |
 | 39077383-a22e-4d2f-afe9-5c12f87ea16c | Kling 1.6 Pro | kling-1-6-pro | 62cc833b-f55a-4489-bcae-54806d4b04ff | KlingAI | 1137 | 10 | -10/+10 |
 | 498151a5-a67b-4104-94ce-891fbf1f035b | HunyuanVideo-1.5 (Fal) | hunyuanvideo-1-5-fal | a4e5bd55-a6cd-4dcf-8d4a-1d9643cd3826 | Tencent | 1134 | 11 | -11/+11 |
 | e3ae2457-aad0-469a-ae99-5bc082b59d76 | P-Video | p-video | a98e0396-4ef1-4a39-bb12-b004c7590bee | Pruna AI | 1130 | 11 | -11/+11 |

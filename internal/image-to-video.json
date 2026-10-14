@@ -6,7 +6,7 @@
     "source_description": "Image-to-video arena Elo rankings (Free tier)",
     "parser_version": "official-api-v1",
     "model_count": 77,
-    "fetched_at": "2026-10-13T12:42:03.656666+00:00"
+    "fetched_at": "2026-10-14T10:11:21.525786+00:00"
   },
   "models": [
     {
@@ -689,7 +689,7 @@
         "id": "1942f8d6-ab55-4408-99dd-2f99c70353f6",
         "name": "PixVerse"
       },
-      "elo": 1152,
+      "elo": 1153,
       "ci_95": 12,
       "ci95_range": "-12/+12"
     },
@@ -713,7 +713,7 @@
         "id": "2354746c-4775-4a06-b64d-0ba4137785b8",
         "name": "ByteDance Seed"
       },
-      "elo": 1138,
+      "elo": 1139,
       "ci_95": 11,
       "ci95_range": "-11/+11"
     },
