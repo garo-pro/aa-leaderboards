@@ -3,8 +3,8 @@
 Data by [Artificial Analysis](https://artificialanalysis.ai/), via their [Data API](https://artificialanalysis.ai/data-api).
 
 - Source: [https://artificialanalysis.ai/api/v2/media/image-to-video/models/free](https://artificialanalysis.ai/api/v2/media/image-to-video/models/free)
-- Fetched at: 2026-10-14T10:11:21.525786+00:00
-- Model count: 77
+- Fetched at: 2026-10-15T09:53:38.771625+00:00
+- Model count: 76
 
 > Generated from `internal/image-to-video.json` by `scripts/render_tables.py`. Do not edit by hand.
 
@@ -24,7 +24,6 @@ Data by [Artificial Analysis](https://artificialanalysis.ai/), via their [Data A
 | a4dc21f8-7a35-497e-90a4-4c9a1593c8ca | HappyHorse-1.0 | happyhorse-1-0 | 0ea38458-92d7-45de-a69d-c50bd8277273 | Alibaba-ATH | 1294 | 9 | -9/+9 |
 | d7c0367f-1adf-40ec-8195-5c5d1906efa8 | Vidu Q3 Pro | vidu-q3-pro | e3a5ba75-0127-45b0-8bcc-2864b8dd404d | Vidu | 1290 | 9 | -9/+9 |
 | c6a494f5-7ab7-4693-8382-fa03060d2fdf | PixVerse V5.6 | pixverse-v5-6 | 1942f8d6-ab55-4408-99dd-2f99c70353f6 | PixVerse | 1287 | 10 | -10/+10 |
-| 50ed6856-5052-431d-8994-584b2e02f023 | SkyReels V4 | skyreels-v4 | 67b5ce4d-0c81-4edc-b4c3-370acc2df555 | Skywork AI | 1283 | 11 | -11/+11 |
 | 553f28a1-95de-4991-9084-d9275d862f68 | Kling 3.0 Omni 1080p (Pro) | kling-o3-pro | 62cc833b-f55a-4489-bcae-54806d4b04ff | KlingAI | 1281 | 10 | -10/+10 |
 | d149ad95-b3b2-4d23-8611-07a84c1a0e7f | Kling 3.0 1080p (Pro) | kling-3-0-pro | 62cc833b-f55a-4489-bcae-54806d4b04ff | KlingAI | 1277 | 9 | -9/+9 |
 | 5180943f-2a96-44a5-9461-80e5ae1e249e | PixVerse V5 | pixverse-v5 | 1942f8d6-ab55-4408-99dd-2f99c70353f6 | PixVerse | 1277 | 9 | -9/+9 |

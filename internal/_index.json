@@ -1,6 +1,6 @@
 {
-  "date": "2026-10-14",
-  "fetched_at": "2026-10-14T10:11:21.525786+00:00",
+  "date": "2026-10-15",
+  "fetched_at": "2026-10-15T09:53:38.771625+00:00",
   "source": "https://artificialanalysis.ai/data-api",
   "source_type": "official_api_free_tier",
   "parser_version": "official-api-v1",
@@ -26,12 +26,12 @@
       "source_url": "https://artificialanalysis.ai/api/v2/media/text-to-speech/models/free"
     },
     "text-to-video": {
-      "model_count": 32,
+      "model_count": 31,
       "source_type": "official_api_free_tier",
       "source_url": "https://artificialanalysis.ai/api/v2/media/text-to-video/models/free"
     },
     "image-to-video": {
-      "model_count": 77,
+      "model_count": 76,
       "source_type": "official_api_free_tier",
       "source_url": "https://artificialanalysis.ai/api/v2/media/image-to-video/models/free"
     }
