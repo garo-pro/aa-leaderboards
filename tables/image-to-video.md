@@ -3,7 +3,7 @@
 Data by [Artificial Analysis](https://artificialanalysis.ai/), via their [Data API](https://artificialanalysis.ai/data-api).
 
 - Source: [https://artificialanalysis.ai/api/v2/media/image-to-video/models/free](https://artificialanalysis.ai/api/v2/media/image-to-video/models/free)
-- Fetched at: 2026-10-17T09:20:13.161855+00:00
+- Fetched at: 2026-10-18T09:36:51.759480+00:00
 - Model count: 76
 
 > Generated from `internal/image-to-video.json` by `scripts/render_tables.py`. Do not edit by hand.
@@ -47,7 +47,7 @@ Data by [Artificial Analysis](https://artificialanalysis.ai/), via their [Data A
 | a8f7ab65-828a-4166-8fbf-616cbb01d773 | Veo 3.1 Lite | veo-3-1-lite | faddc6d9-2c14-445f-9b28-56726f59c793 | Google | 1242 | 12 | -12/+12 |
 | dd3e028f-856f-4915-9759-eff55e2f5f9e | Vidu Q2 Turbo | vidu-q2-turbo | e3a5ba75-0127-45b0-8bcc-2864b8dd404d | Vidu | 1237 | 10 | -10/+10 |
 | b58bc338-cee5-4d19-b820-8c4f7d7f1248 | Seedance 1.0 | seedance-10 | 2354746c-4775-4a06-b64d-0ba4137785b8 | ByteDance Seed | 1235 | 9 | -9/+9 |
-| 57a29e57-e118-4ae7-abb1-aa6e5935634a | Vidu Q2 Pro | vidu-q2-pro | e3a5ba75-0127-45b0-8bcc-2864b8dd404d | Vidu | 1233 | 10 | -10/+10 |
+| 57a29e57-e118-4ae7-abb1-aa6e5935634a | Vidu Q2 Pro | vidu-q2-pro | e3a5ba75-0127-45b0-8bcc-2864b8dd404d | Vidu | 1234 | 10 | -10/+10 |
 | 043f0cb2-3565-45ad-bf78-7e2de8288e94 | Vidu Q3 Turbo | vidu-q3-turbo | e3a5ba75-0127-45b0-8bcc-2864b8dd404d | Vidu | 1230 | 11 | -11/+11 |
 | 7623b756-8b01-4e60-aed4-3322c1933e36 | Veo 3 | veo-3-no-audio | faddc6d9-2c14-445f-9b28-56726f59c793 | Google | 1225 | 10 | -10/+10 |
 | 6ccddbde-d734-4ac0-95a7-f7ed903ec45d | Wan 2.6 | wan-2-6 | d874d370-74d3-4fa0-ba00-5272f92f946b | Alibaba | 1222 | 10 | -10/+10 |
@@ -57,7 +57,7 @@ Data by [Artificial Analysis](https://artificialanalysis.ai/), via their [Data A
 | c308a441-376d-4783-b193-1da5ff10212e | Hailuo 02 Fast | hailuo-02-fast | a31a9071-6144-4dbb-92dc-2e02d653ecea | MiniMax | 1207 | 11 | -11/+11 |
 | e451b7d7-42eb-4c07-9f57-5b5e9bd80c97 | LTX-2 Pro | ltx-2-pro | ed94442e-da40-4fa6-a209-c7e9e095a75f | Lightricks | 1201 | 9 | -9/+9 |
 | e6709ae3-1527-4977-9b9a-aa13dbbc3647 | Pika 2.5 | pika-2-5 | acea75bb-3f76-4ce0-b168-741a31fcec0a | Pika Art | 1199 | 10 | -10/+10 |
-| 791ff10c-594f-418b-9c1a-39313784d759 | LTX-2.5 Pro | ltx-2-5-pro | ed94442e-da40-4fa6-a209-c7e9e095a75f | Lightricks | 1194 | 12 | -12/+12 |
+| 791ff10c-594f-418b-9c1a-39313784d759 | LTX-2.5 Pro | ltx-2-5-pro | ed94442e-da40-4fa6-a209-c7e9e095a75f | Lightricks | 1195 | 12 | -12/+12 |
 | f8e18877-4f78-4f5b-b45b-16222c8f641f | LTX-2 Fast | ltx-2-fast | ed94442e-da40-4fa6-a209-c7e9e095a75f | Lightricks | 1191 | 9 | -9/+9 |
 | 429afba7-8ce1-42b3-80c9-58d1b96d775a | Kling 2.1 Pro | kling-2-1-pro | 62cc833b-f55a-4489-bcae-54806d4b04ff | KlingAI | 1185 | 11 | -11/+11 |
 | 53ce6c01-8a4d-4d22-94a8-d48ffe32ce32 | Kling 2.0 | kling-2-0 | 62cc833b-f55a-4489-bcae-54806d4b04ff | KlingAI | 1180 | 10 | -10/+10 |

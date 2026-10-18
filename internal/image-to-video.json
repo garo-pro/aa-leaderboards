@@ -6,7 +6,7 @@
     "source_description": "Image-to-video arena Elo rankings (Free tier)",
     "parser_version": "official-api-v1",
     "model_count": 76,
-    "fetched_at": "2026-10-17T09:20:13.161855+00:00"
+    "fetched_at": "2026-10-18T09:36:51.759480+00:00"
   },
   "models": [
     {
@@ -461,7 +461,7 @@
         "id": "e3a5ba75-0127-45b0-8bcc-2864b8dd404d",
         "name": "Vidu"
       },
-      "elo": 1233,
+      "elo": 1234,
       "ci_95": 10,
       "ci95_range": "-10/+10"
     },
@@ -581,7 +581,7 @@
         "id": "ed94442e-da40-4fa6-a209-c7e9e095a75f",
         "name": "Lightricks"
       },
-      "elo": 1194,
+      "elo": 1195,
       "ci_95": 12,
       "ci95_range": "-12/+12"
     },
