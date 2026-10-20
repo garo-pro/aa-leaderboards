@@ -6,7 +6,7 @@
     "source_description": "Image-to-video arena Elo rankings (Free tier)",
     "parser_version": "official-api-v1",
     "model_count": 76,
-    "fetched_at": "2026-10-19T10:45:35.146544+00:00"
+    "fetched_at": "2026-10-20T10:03:41.207493+00:00"
   },
   "models": [
     {
@@ -137,7 +137,7 @@
         "id": "62cc833b-f55a-4489-bcae-54806d4b04ff",
         "name": "KlingAI"
       },
-      "elo": 1299,
+      "elo": 1298,
       "ci_95": 9,
       "ci95_range": "-9/+9"
     },
@@ -185,7 +185,7 @@
         "id": "62cc833b-f55a-4489-bcae-54806d4b04ff",
         "name": "KlingAI"
       },
-      "elo": 1281,
+      "elo": 1280,
       "ci_95": 10,
       "ci95_range": "-10/+10"
     },
@@ -209,7 +209,7 @@
         "id": "1942f8d6-ab55-4408-99dd-2f99c70353f6",
         "name": "PixVerse"
       },
-      "elo": 1277,
+      "elo": 1276,
       "ci_95": 9,
       "ci95_range": "-9/+9"
     },
@@ -329,7 +329,7 @@
         "id": "a31a9071-6144-4dbb-92dc-2e02d653ecea",
         "name": "MiniMax"
       },
-      "elo": 1257,
+      "elo": 1256,
       "ci_95": 10,
       "ci95_range": "-10/+10"
     },
@@ -401,7 +401,7 @@
         "id": "a31a9071-6144-4dbb-92dc-2e02d653ecea",
         "name": "MiniMax"
       },
-      "elo": 1247,
+      "elo": 1246,
       "ci_95": 11,
       "ci95_range": "-11/+11"
     },
@@ -437,7 +437,7 @@
         "id": "e3a5ba75-0127-45b0-8bcc-2864b8dd404d",
         "name": "Vidu"
       },
-      "elo": 1237,
+      "elo": 1236,
       "ci_95": 10,
       "ci95_range": "-10/+10"
     },
@@ -449,7 +449,7 @@
         "id": "2354746c-4775-4a06-b64d-0ba4137785b8",
         "name": "ByteDance Seed"
       },
-      "elo": 1235,
+      "elo": 1234,
       "ci_95": 9,
       "ci95_range": "-9/+9"
     },
@@ -461,7 +461,7 @@
         "id": "e3a5ba75-0127-45b0-8bcc-2864b8dd404d",
         "name": "Vidu"
       },
-      "elo": 1234,
+      "elo": 1233,
       "ci_95": 10,
       "ci95_range": "-10/+10"
     },
@@ -533,7 +533,7 @@
         "id": "62cc833b-f55a-4489-bcae-54806d4b04ff",
         "name": "KlingAI"
       },
-      "elo": 1208,
+      "elo": 1207,
       "ci_95": 12,
       "ci95_range": "-12/+12"
     },
@@ -581,7 +581,7 @@
         "id": "ed94442e-da40-4fa6-a209-c7e9e095a75f",
         "name": "Lightricks"
       },
-      "elo": 1195,
+      "elo": 1194,
       "ci_95": 12,
       "ci95_range": "-12/+12"
     },
@@ -629,7 +629,7 @@
         "id": "040f2c41-5df4-4708-8c77-6a2030be2539",
         "name": "HiDream"
       },
-      "elo": 1177,
+      "elo": 1176,
       "ci_95": 10,
       "ci95_range": "-10/+10"
     },
@@ -665,7 +665,7 @@
         "id": "ed94442e-da40-4fa6-a209-c7e9e095a75f",
         "name": "Lightricks"
       },
-      "elo": 1158,
+      "elo": 1157,
       "ci_95": 10,
       "ci95_range": "-10/+10"
     },
@@ -677,7 +677,7 @@
         "id": "1942f8d6-ab55-4408-99dd-2f99c70353f6",
         "name": "PixVerse"
       },
-      "elo": 1153,
+      "elo": 1152,
       "ci_95": 12,
       "ci95_range": "-12/+12"
     },
@@ -701,7 +701,7 @@
         "id": "2354746c-4775-4a06-b64d-0ba4137785b8",
         "name": "ByteDance Seed"
       },
-      "elo": 1139,
+      "elo": 1138,
       "ci_95": 11,
       "ci95_range": "-11/+11"
     },
@@ -773,7 +773,7 @@
         "id": "faddc6d9-2c14-445f-9b28-56726f59c793",
         "name": "Google"
       },
-      "elo": 1100,
+      "elo": 1099,
       "ci_95": 11,
       "ci95_range": "-11/+11"
     },
@@ -845,7 +845,7 @@
         "id": "a6906d95-a471-4a0c-ad10-b989571de20c",
         "name": "Runway"
       },
-      "elo": 1017,
+      "elo": 1016,
       "ci_95": 12,
       "ci95_range": "-12/+12"
     },
@@ -881,7 +881,7 @@
         "id": "a6906d95-a471-4a0c-ad10-b989571de20c",
         "name": "Runway"
       },
-      "elo": 1004,
+      "elo": 1003,
       "ci_95": 12,
       "ci95_range": "-12/+12"
     },
@@ -917,7 +917,7 @@
         "id": "a4e5bd55-a6cd-4dcf-8d4a-1d9643cd3826",
         "name": "Tencent"
       },
-      "elo": 921,
+      "elo": 920,
       "ci_95": 13,
       "ci95_range": "-13/+13"
     }
