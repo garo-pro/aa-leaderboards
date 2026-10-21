@@ -3,7 +3,7 @@
 Data by [Artificial Analysis](https://artificialanalysis.ai/), via their [Data API](https://artificialanalysis.ai/data-api).
 
 - Source: [https://artificialanalysis.ai/api/v2/media/image-to-video/models/free](https://artificialanalysis.ai/api/v2/media/image-to-video/models/free)
-- Fetched at: 2026-10-20T10:03:41.207493+00:00
+- Fetched at: 2026-10-21T10:07:11.334832+00:00
 - Model count: 76
 
 > Generated from `internal/image-to-video.json` by `scripts/render_tables.py`. Do not edit by hand.
@@ -79,7 +79,7 @@ Data by [Artificial Analysis](https://artificialanalysis.ai/), via their [Data A
 | 21bce815-dea9-4e48-8515-cf2b193ae711 | Vidu Q1 | vidu-q1 | e3a5ba75-0127-45b0-8bcc-2864b8dd404d | Vidu | 1032 | 13 | -13/+13 |
 | 906000d4-9c7c-4584-8e16-f5a362d3c06e | LTX Video v0.9.7 13B | ltx-video-v0-9-7-13b | ed94442e-da40-4fa6-a209-c7e9e095a75f | Lightricks | 1031 | 13 | -13/+13 |
 | ca910fd5-94bf-46a0-adcd-bb24a55ec611 | Motion 2.0 | motion-2-0 | c104be52-31ea-4948-b921-265dc297f3ac | Leonardo.Ai | 1026 | 13 | -13/+13 |
-| 43b09fe3-a4a8-4bda-9244-da05949c9d65 | Runway Gen 3 Alpha | runway-gen-3-alpha | a6906d95-a471-4a0c-ad10-b989571de20c | Runway | 1016 | 12 | -12/+12 |
+| 43b09fe3-a4a8-4bda-9244-da05949c9d65 | Runway Gen 3 Alpha | runway-gen-3-alpha | a6906d95-a471-4a0c-ad10-b989571de20c | Runway | 1017 | 12 | -12/+12 |
 | 43967fcc-e1b9-4591-ac7c-d59c51d8b192 | Pika 2.2 | pika-2-2 | acea75bb-3f76-4ce0-b168-741a31fcec0a | Pika Art | 1013 | 12 | -12/+12 |
 | aa7b1ddc-9db0-4afc-ad1b-4915cdc49b01 | Marey | marey | ba0bfcf7-3dd3-4d37-9114-cbe872a82723 | Moonvalley | 1007 | 12 | -12/+12 |
 | 6018f5d3-4cdf-49b2-aca9-8296f9c71111 | Runway Gen 3 Alpha Turbo | runway-gen-3-alpha-turbo | a6906d95-a471-4a0c-ad10-b989571de20c | Runway | 1003 | 12 | -12/+12 |
