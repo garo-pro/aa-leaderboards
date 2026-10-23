@@ -5,8 +5,8 @@
     "source_url": "https://artificialanalysis.ai/api/v2/media/text-to-image/models/free",
     "source_description": "Text-to-image arena Elo rankings (Free tier)",
     "parser_version": "official-api-v1",
-    "model_count": 105,
-    "fetched_at": "2026-10-22T10:09:44.871754+00:00"
+    "model_count": 106,
+    "fetched_at": "2026-10-23T10:02:35.713514+00:00"
   },
   "models": [
     {
@@ -248,6 +248,18 @@
       "elo": 1049,
       "ci_95": 9,
       "ci95_range": "-9/+9"
+    },
+    {
+      "id": "2fcb2223-b343-48c5-b6ed-31bdc0e0678c",
+      "name": "FLUX 3 Image Klein",
+      "slug": "flux-3-image-klein",
+      "creator": {
+        "id": "d427ad30-eba3-4945-857a-4eb0ead82e87",
+        "name": "Black Forest Labs"
+      },
+      "elo": 1043,
+      "ci_95": 12,
+      "ci95_range": "-12/+12"
     },
     {
       "id": "dea37206-747e-49f3-8bed-6541ca505d03",

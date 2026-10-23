@@ -3,8 +3,8 @@
 Data by [Artificial Analysis](https://artificialanalysis.ai/), via their [Data API](https://artificialanalysis.ai/data-api).
 
 - Source: [https://artificialanalysis.ai/api/v2/media/text-to-image/models/free](https://artificialanalysis.ai/api/v2/media/text-to-image/models/free)
-- Fetched at: 2026-10-22T10:09:44.871754+00:00
-- Model count: 105
+- Fetched at: 2026-10-23T10:02:35.713514+00:00
+- Model count: 106
 
 > Generated from `internal/text-to-image.json` by `scripts/render_tables.py`. Do not edit by hand.
 
@@ -30,6 +30,7 @@ Data by [Artificial Analysis](https://artificialanalysis.ai/), via their [Data A
 | 2253749f-b609-4016-b639-0ce39a42375a | Qwen-Image-3.0 | qwen-image-3-0 | d874d370-74d3-4fa0-ba00-5272f92f946b | Alibaba | 1070 | 12 | -12/+12 |
 | 74eeddb9-9c0b-4dbc-b188-27f91a811bd3 | Qwen-Image-2.1-Pro | qwen-image-2-1-pro | d874d370-74d3-4fa0-ba00-5272f92f946b | Alibaba | 1056 | 12 | -12/+12 |
 | 9fe07c8f-8d20-4908-a991-65c00e5ef260 | grok-imagine-image-quality | grok-imagine-image-quality | a1e3ddcf-d3e4-44a5-9e8f-029a69850875 | SpaceXAI | 1049 | 9 | -9/+9 |
+| 2fcb2223-b343-48c5-b6ed-31bdc0e0678c | FLUX 3 Image Klein | flux-3-image-klein | d427ad30-eba3-4945-857a-4eb0ead82e87 | Black Forest Labs | 1043 | 12 | -12/+12 |
 | dea37206-747e-49f3-8bed-6541ca505d03 | Qwen-Image-2.1 | qwen-image-2-1 | d874d370-74d3-4fa0-ba00-5272f92f946b | Alibaba | 1042 | 12 | -12/+12 |
 | 5aa06cdc-2d14-44d2-ae75-cd1230bca9f7 | Fibo 2.0 | fibo-2-0 | 95c9bc82-f015-4ed4-8da0-4729f2d14f09 | Bria | 1039 | 12 | -12/+12 |
 | 4f4bff18-e48f-4f7f-aa6b-94e9a9a11b68 | Krea 2 Large | krea-2-large | da6aca5c-fe97-453a-b5cb-43de1ac7210b | Krea | 1034 | 9 | -9/+9 |

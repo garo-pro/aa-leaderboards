@@ -3,14 +3,14 @@
 Data by [Artificial Analysis](https://artificialanalysis.ai/), via their [Data API](https://artificialanalysis.ai/data-api).
 
 - Source: [https://artificialanalysis.ai/api/v2/media/text-to-video/models/free](https://artificialanalysis.ai/api/v2/media/text-to-video/models/free)
-- Fetched at: 2026-10-22T10:09:44.871754+00:00
+- Fetched at: 2026-10-23T10:02:35.713514+00:00
 - Model count: 32
 
 > Generated from `internal/text-to-video.json` by `scripts/render_tables.py`. Do not edit by hand.
 
 | id | name | slug | creator.id | creator.name | elo | ci_95 | ci95_range |
 | --- | --- | --- | --- | --- | --- | --- | --- |
-| af7808f7-e0bf-4832-9e2e-65c036899b95 | HeyGen Video (ultraquality) | heygen-video | 42a993bf-a299-4dfa-add5-a90343098244 | HeyGen | 1144 | 17 | -17/+17 |
+| af7808f7-e0bf-4832-9e2e-65c036899b95 | HeyGen Video 1 | heygen-video | 42a993bf-a299-4dfa-add5-a90343098244 | HeyGen | 1144 | 17 | -17/+17 |
 | ceee978e-c560-4ba9-9405-f7d390a47709 | Wan 3.0 | wan-3-0 | d874d370-74d3-4fa0-ba00-5272f92f946b | Alibaba | 1134 | 18 | -18/+18 |
 | da987d84-718f-4ac2-a278-518595967b42 | MiniMax H3 (768p) | minimax-h3-768p | a31a9071-6144-4dbb-92dc-2e02d653ecea | MiniMax | 1120 | 18 | -18/+18 |
 | 75aebebb-6692-4bca-8c59-54336e4da6a3 | MiniMax H3 Max | minimax-h3-max | d3f67dc4-ba4d-4103-ba79-ee321ca99b40 | Fal | 1117 | 17 | -17/+17 |

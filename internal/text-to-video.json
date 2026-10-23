@@ -6,12 +6,12 @@
     "source_description": "Text-to-video arena Elo rankings (Free tier)",
     "parser_version": "official-api-v1",
     "model_count": 32,
-    "fetched_at": "2026-10-22T10:09:44.871754+00:00"
+    "fetched_at": "2026-10-23T10:02:35.713514+00:00"
   },
   "models": [
     {
       "id": "af7808f7-e0bf-4832-9e2e-65c036899b95",
-      "name": "HeyGen Video (ultraquality)",
+      "name": "HeyGen Video 1",
       "slug": "heygen-video",
       "creator": {
         "id": "42a993bf-a299-4dfa-add5-a90343098244",
