@@ -3,8 +3,8 @@
 Data by [Artificial Analysis](https://artificialanalysis.ai/), via their [Data API](https://artificialanalysis.ai/data-api).
 
 - Source: [https://artificialanalysis.ai/api/v2/media/image-to-video/models/free](https://artificialanalysis.ai/api/v2/media/image-to-video/models/free)
-- Fetched at: 2026-10-23T10:02:35.713514+00:00
-- Model count: 76
+- Fetched at: 2026-10-24T09:31:30.065401+00:00
+- Model count: 75
 
 > Generated from `internal/image-to-video.json` by `scripts/render_tables.py`. Do not edit by hand.
 
@@ -30,7 +30,6 @@ Data by [Artificial Analysis](https://artificialanalysis.ai/), via their [Data A
 | 4818889c-3943-4578-9467-4827fb187e39 | PixVerse V5.5 | pixverse-v5-5 | 1942f8d6-ab55-4408-99dd-2f99c70353f6 | PixVerse | 1275 | 10 | -10/+10 |
 | fbe52f99-34a3-44a9-b14b-dc35c030e9f4 | Cosmos3-Super-Image2Video-4Step | cosmos3-super-image2video-4step | 0c303112-430d-4367-a484-51defaa2e166 | NVIDIA | 1275 | 11 | -11/+11 |
 | f0a7c830-eab1-419f-b61c-bb7143841a9d | Kling 3.0 Omni 720p (Standard) | kling-o3-standard | 62cc833b-f55a-4489-bcae-54806d4b04ff | KlingAI | 1271 | 10 | -10/+10 |
-| 1ce3af77-bb30-40ef-90e2-5aa9fa4588b9 | Wan 2.7 | wan-2-7-v2v | d874d370-74d3-4fa0-ba00-5272f92f946b | Alibaba | 1271 | 11 | -11/+11 |
 | b5d5057e-3d0d-4e22-b029-bd976cd1b6a6 | Kling 3.0 720p (Standard) | kling-3-0-standard | 62cc833b-f55a-4489-bcae-54806d4b04ff | KlingAI | 1270 | 9 | -9/+9 |
 | fc9dbded-1710-4498-9711-850dc6603abf | Kling 2.6 Pro (January) | kling-2-6-pro-january-no-audio | 62cc833b-f55a-4489-bcae-54806d4b04ff | KlingAI | 1266 | 9 | -9/+9 |
 | 440843ac-4961-4eef-a504-158724c11fee | Runway Gen-4.5 (720p) | runway-gen-4-5 | a6906d95-a471-4a0c-ad10-b989571de20c | Runway | 1265 | 10 | -10/+10 |
