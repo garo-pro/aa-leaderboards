@@ -3,14 +3,15 @@
 Data by [Artificial Analysis](https://artificialanalysis.ai/), via their [Data API](https://artificialanalysis.ai/data-api).
 
 - Source: [https://artificialanalysis.ai/api/v2/media/image-editing/models/free](https://artificialanalysis.ai/api/v2/media/image-editing/models/free)
-- Fetched at: 2026-10-27T10:32:51.923675+00:00
-- Model count: 76
+- Fetched at: 2026-10-28T11:19:49.556601+00:00
+- Model count: 77
 
 > Generated from `internal/image-editing.json` by `scripts/render_tables.py`. Do not edit by hand.
 
 | id | name | slug | creator.id | creator.name | elo | ci_95 | ci95_range |
 | --- | --- | --- | --- | --- | --- | --- | --- |
 | 98833f93-0f33-4205-b83a-c4d42a25da4f | GPT Image 2.5 Sunburst (max) | gpt-image-2.5-sunburst-2026-09-08 | e67e56e3-15cd-43db-b679-da4660a69f41 | OpenAI | 1199 | 11 | -11/+11 |
+| e0c7ffeb-f6b7-4f54-902a-fbedccea863e | MAI-Image-2.7-Preview | MAI-Image-2-7-Preview | 4756ee95-5ddf-45e8-a9d1-075d0e5b5200 | Microsoft AI | 1193 | 15 | -15/+15 |
 | ac3abe51-14ca-4c04-b215-01a85f3a36ac | GPT Image 2.5 Flare (max) | gpt-image-2.5-flare-2026-09-08 | e67e56e3-15cd-43db-b679-da4660a69f41 | OpenAI | 1182 | 11 | -11/+11 |
 | 5d931c2e-797e-406e-8eb9-83ce18b5710c | MAI-Image-2.6 | mai-image-2-6 | 4756ee95-5ddf-45e8-a9d1-075d0e5b5200 | Microsoft AI | 1151 | 12 | -12/+12 |
 | 6bce2e1f-3d76-4d7f-b850-d4fe4d6d34c6 | Krea 3 (Ultra) | krea-3-ultra | da6aca5c-fe97-453a-b5cb-43de1ac7210b | Krea | 1151 | 14 | -14/+14 |
