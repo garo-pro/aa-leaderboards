@@ -5,14 +5,14 @@
     "source_url": "https://artificialanalysis.ai/api/v2/media/text-to-video/models/free",
     "source_description": "Text-to-video arena Elo rankings (Free tier)",
     "parser_version": "official-api-v1",
-    "model_count": 32,
-    "fetched_at": "2026-10-28T11:19:49.556601+00:00"
+    "model_count": 33,
+    "fetched_at": "2026-10-29T11:30:47.058860+00:00"
   },
   "models": [
     {
       "id": "af7808f7-e0bf-4832-9e2e-65c036899b95",
       "name": "HeyGen Video 1",
-      "slug": "heygen-video",
+      "slug": "heygen-video-1",
       "creator": {
         "id": "42a993bf-a299-4dfa-add5-a90343098244",
         "name": "HeyGen"
@@ -20,6 +20,30 @@
       "elo": 1143,
       "ci_95": 16,
       "ci95_range": "-16/+16"
+    },
+    {
+      "id": "f1da1147-517d-431a-8d98-886d71546d66",
+      "name": "MiniMax H3 Max",
+      "slug": "minimax-h3-max-oct",
+      "creator": {
+        "id": "d3f67dc4-ba4d-4103-ba79-ee321ca99b40",
+        "name": "Fal"
+      },
+      "elo": 1140,
+      "ci_95": 19,
+      "ci95_range": "-19/+19"
+    },
+    {
+      "id": "a7f0b4bb-703a-4563-a318-c6644415cae9",
+      "name": "FLUX 3 Max",
+      "slug": "flux-3-max",
+      "creator": {
+        "id": "d3f67dc4-ba4d-4103-ba79-ee321ca99b40",
+        "name": "Fal"
+      },
+      "elo": 1138,
+      "ci_95": 19,
+      "ci95_range": "-19/+19"
     },
     {
       "id": "ceee978e-c560-4ba9-9405-f7d390a47709",
@@ -42,18 +66,6 @@
         "name": "MiniMax"
       },
       "elo": 1120,
-      "ci_95": 17,
-      "ci95_range": "-17/+17"
-    },
-    {
-      "id": "75aebebb-6692-4bca-8c59-54336e4da6a3",
-      "name": "MiniMax H3 Max",
-      "slug": "minimax-h3-max",
-      "creator": {
-        "id": "d3f67dc4-ba4d-4103-ba79-ee321ca99b40",
-        "name": "Fal"
-      },
-      "elo": 1118,
       "ci_95": 17,
       "ci95_range": "-17/+17"
     },

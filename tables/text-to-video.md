@@ -3,17 +3,18 @@
 Data by [Artificial Analysis](https://artificialanalysis.ai/), via their [Data API](https://artificialanalysis.ai/data-api).
 
 - Source: [https://artificialanalysis.ai/api/v2/media/text-to-video/models/free](https://artificialanalysis.ai/api/v2/media/text-to-video/models/free)
-- Fetched at: 2026-10-28T11:19:49.556601+00:00
-- Model count: 32
+- Fetched at: 2026-10-29T11:30:47.058860+00:00
+- Model count: 33
 
 > Generated from `internal/text-to-video.json` by `scripts/render_tables.py`. Do not edit by hand.
 
 | id | name | slug | creator.id | creator.name | elo | ci_95 | ci95_range |
 | --- | --- | --- | --- | --- | --- | --- | --- |
-| af7808f7-e0bf-4832-9e2e-65c036899b95 | HeyGen Video 1 | heygen-video | 42a993bf-a299-4dfa-add5-a90343098244 | HeyGen | 1143 | 16 | -16/+16 |
+| af7808f7-e0bf-4832-9e2e-65c036899b95 | HeyGen Video 1 | heygen-video-1 | 42a993bf-a299-4dfa-add5-a90343098244 | HeyGen | 1143 | 16 | -16/+16 |
+| f1da1147-517d-431a-8d98-886d71546d66 | MiniMax H3 Max | minimax-h3-max-oct | d3f67dc4-ba4d-4103-ba79-ee321ca99b40 | Fal | 1140 | 19 | -19/+19 |
+| a7f0b4bb-703a-4563-a318-c6644415cae9 | FLUX 3 Max | flux-3-max | d3f67dc4-ba4d-4103-ba79-ee321ca99b40 | Fal | 1138 | 19 | -19/+19 |
 | ceee978e-c560-4ba9-9405-f7d390a47709 | Wan 3.0 | wan-3-0 | d874d370-74d3-4fa0-ba00-5272f92f946b | Alibaba | 1133 | 17 | -17/+17 |
 | da987d84-718f-4ac2-a278-518595967b42 | MiniMax H3 (768p) | minimax-h3-768p | a31a9071-6144-4dbb-92dc-2e02d653ecea | MiniMax | 1120 | 17 | -17/+17 |
-| 75aebebb-6692-4bca-8c59-54336e4da6a3 | MiniMax H3 Max | minimax-h3-max | d3f67dc4-ba4d-4103-ba79-ee321ca99b40 | Fal | 1118 | 17 | -17/+17 |
 | 57913d03-a959-4752-8027-8991612448ed | Dreamina Seedance 2.5 | seedance-2-5-1080p | 2354746c-4775-4a06-b64d-0ba4137785b8 | ByteDance Seed | 1104 | 17 | -17/+17 |
 | b0e23926-7240-4277-8480-b3f12c12251b | FLUX 3 | flux-3 | d427ad30-eba3-4945-857a-4eb0ead82e87 | Black Forest Labs | 1091 | 17 | -17/+17 |
 | b8289cfd-3843-4d4c-a3fb-ec5ae5e752e0 | Dreamina Seedance 2.0 | seedance-2-0-1080p | 2354746c-4775-4a06-b64d-0ba4137785b8 | ByteDance Seed | 1082 | 17 | -17/+17 |

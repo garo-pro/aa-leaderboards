@@ -3,7 +3,7 @@
 Data by [Artificial Analysis](https://artificialanalysis.ai/), via their [Data API](https://artificialanalysis.ai/data-api).
 
 - Source: [https://artificialanalysis.ai/api/v2/media/image-editing/models/free](https://artificialanalysis.ai/api/v2/media/image-editing/models/free)
-- Fetched at: 2026-10-28T11:19:49.556601+00:00
+- Fetched at: 2026-10-29T11:30:47.058860+00:00
 - Model count: 77
 
 > Generated from `internal/image-editing.json` by `scripts/render_tables.py`. Do not edit by hand.
