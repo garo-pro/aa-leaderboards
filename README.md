@@ -13,6 +13,7 @@ The current snapshot, rendered as Markdown:
 | Endpoint | Description | Table |
 |----------|-------------|-------|
 | `llms` | LLM leaderboard | [tables/llms.md](tables/llms.md) |
+| `llms` | LLM ranking: scored models only, one per model (highest effort), sorted by Intelligence Index | [tables/llms-ranked.md](tables/llms-ranked.md) |
 | `text-to-image` | Text-to-image arena rankings | [tables/text-to-image.md](tables/text-to-image.md) |
 | `image-editing` | Image editing arena rankings | [tables/image-editing.md](tables/image-editing.md) |
 | `text-to-speech` | Text-to-speech arena rankings | [tables/text-to-speech.md](tables/text-to-speech.md) |

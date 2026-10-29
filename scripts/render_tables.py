@@ -12,6 +12,7 @@ Usage:
 from __future__ import annotations
 
 import json
+import re
 from pathlib import Path
 from typing import Any
 
@@ -69,6 +70,82 @@ def render_table(columns: list[str], rows: list[dict[str, Any]]) -> str:
     for row in rows:
         lines.append("| " + " | ".join(cell(row.get(col)) for col in columns) + " |")
     return "\n".join(lines)
+
+
+def base_model_name(name: str) -> str:
+    """Strip a trailing effort/variant suffix like "(High)" or "(Max, Default Fallback)".
+    Parentheticals starting with a digit are version labels (e.g. "(0902)") and are kept."""
+    m = re.search(r"\s*\(([^)]*)\)\s*$", name)
+    if m and not m.group(1)[:1].isdigit():
+        return name[: m.start()]
+    return name
+
+
+def render_ranked_llms(internal_dir: Path, tables_dir: Path) -> bool:
+    """Write tables/llms-ranked.md: scored LLMs sorted by intelligence index, keeping only
+    the highest-scoring variant (i.e. highest effort) of each model."""
+    src_path = internal_dir / "llms.json"
+    if not src_path.exists():
+        return False
+
+    with open(src_path, encoding="utf-8") as f:
+        data = json.load(f)
+
+    def score(model: dict[str, Any]) -> float | None:
+        return (model.get("evaluations") or {}).get("artificial_analysis_intelligence_index")
+
+    best: dict[tuple[str, str], dict[str, Any]] = {}
+    for model in data.get("models", []):
+        if score(model) is None:
+            continue
+        key = ((model.get("creator") or {}).get("id") or "", base_model_name(model["name"]))
+        if key not in best or score(model) > score(best[key]):
+            best[key] = model
+
+    ranked = sorted(best.values(), key=score, reverse=True)
+    columns = [
+        "rank", "model", "creator", "intelligence", "coding", "agentic",
+        "$/1M in", "$/1M out", "tokens/s", "release_date",
+    ]
+    rows = []
+    for i, model in enumerate(ranked, 1):
+        flat = flatten(model)
+        rows.append({
+            "rank": i,
+            "model": model["name"],
+            "creator": flat.get("creator.name"),
+            "intelligence": flat.get("evaluations.artificial_analysis_intelligence_index"),
+            "coding": flat.get("evaluations.artificial_analysis_coding_index"),
+            "agentic": flat.get("evaluations.artificial_analysis_agentic_index"),
+            "$/1M in": flat.get("pricing.price_1m_input_tokens"),
+            "$/1M out": flat.get("pricing.price_1m_output_tokens"),
+            "tokens/s": flat.get("performance.median_output_tokens_per_second"),
+            "release_date": model.get("release_date"),
+        })
+
+    meta = data.get("meta", {})
+    lines = [
+        "# LLM Ranking",
+        "",
+        ATTRIBUTION,
+        "",
+        f"- Fetched at: {meta.get('fetched_at', 'unknown')}",
+        f"- Model count: {len(rows)}",
+        "",
+        "Models with an Intelligence Index, sorted by it. Variants of the same model (effort levels)"
+        " are collapsed to the highest-scoring one.",
+        "",
+        "> Generated from `internal/llms.json` by `scripts/render_tables.py`. Do not edit by hand.",
+        "",
+        render_table(columns, rows),
+        "",
+        "---",
+        ATTRIBUTION,
+        "",
+    ]
+    with open(tables_dir / "llms-ranked.md", "w", encoding="utf-8") as f:
+        f.write("\n".join(lines))
+    return True
 
 
 def render_source(internal_dir: Path, tables_dir: Path, slug: str) -> str | None:
@@ -136,6 +213,8 @@ def main() -> None:
             rendered.append(slug)
             fetched_at = fetched_at or result
 
+    ranked = render_ranked_llms(internal_dir, tables_dir)
+
     index_lines = [
         "# Leaderboard Tables",
         "",
@@ -148,6 +227,8 @@ def main() -> None:
     ]
     for slug in rendered:
         index_lines.append(f"| {TITLES.get(slug, slug)} | [{slug}.md]({slug}.md) |")
+    if ranked:
+        index_lines.append("| LLM Ranking (deduplicated, sorted by score) | [llms-ranked.md](llms-ranked.md) |")
     index_lines.append("")
     index_lines.append(
         "Same data, grouped by provider instead of endpoint: [endpoint-providers.md](endpoint-providers.md)."

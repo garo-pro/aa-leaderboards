@@ -12,5 +12,6 @@ Snapshot fetched at: 2026-10-29T11:30:47.058860+00:00
 | Text-to-Speech Arena | [text-to-speech.md](text-to-speech.md) |
 | Text-to-Video Arena | [text-to-video.md](text-to-video.md) |
 | Image-to-Video Arena | [image-to-video.md](image-to-video.md) |
+| LLM Ranking (deduplicated, sorted by score) | [llms-ranked.md](llms-ranked.md) |
 
 Same data, grouped by provider instead of endpoint: [endpoint-providers.md](endpoint-providers.md).
