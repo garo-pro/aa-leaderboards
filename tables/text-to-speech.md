@@ -3,8 +3,8 @@
 Data by [Artificial Analysis](https://artificialanalysis.ai/), via their [Data API](https://artificialanalysis.ai/data-api).
 
 - Source: [https://artificialanalysis.ai/api/v2/media/text-to-speech/models/free](https://artificialanalysis.ai/api/v2/media/text-to-speech/models/free)
-- Fetched at: 2026-10-29T13:11:52.433719+00:00
-- Model count: 99
+- Fetched at: 2026-10-30T11:23:53.364687+00:00
+- Model count: 100
 
 > Generated from `internal/text-to-speech.json` by `scripts/render_tables.py`. Do not edit by hand.
 
@@ -15,6 +15,7 @@ Data by [Artificial Analysis](https://artificialanalysis.ai/), via their [Data A
 | 115c856c-4b94-4c4d-b9c9-5fb7817ca4a4 | Qwen-Audio-3.1-TTS-Plus | qwen-audio-3-1-tts-plus | d874d370-74d3-4fa0-ba00-5272f92f946b | Alibaba | 1305 | 15 | -15/+15 |
 | d03dbdcb-d7b8-4bc9-aa3e-90a9e6cb43be | Sonic 3.6 | sonic-3-6 | 1fa5b287-d75e-4268-a1c1-c04c0a9e512a | Cartesia | 1296 | 13 | -13/+13 |
 | e4a3c98a-0ac3-4039-a189-a820368ec76c | Gemini 3.8 Flash TTS | gemini-3-8-flash-tts | faddc6d9-2c14-445f-9b28-56726f59c793 | Google | 1283 | 13 | -13/+13 |
+| 93cb64af-01fd-4f98-bec7-4f70c6c07abb | Fish Audio Drama 3 | drama3 | b28a9155-95e8-460a-82fe-8271e5f2bc77 | Fish Audio | 1278 | 18 | -18/+18 |
 | 0e0fb28e-5626-439f-a816-e7f05896daf9 | Qwen-Audio-3.0-TTS-Plus | qwen-audio-3-0-tts-plus | d874d370-74d3-4fa0-ba00-5272f92f946b | Alibaba | 1269 | 13 | -13/+13 |
 | 359b0666-ac70-4eb2-9804-c2bd02e06f9a | Realtime TTS-2 | realtime-tts-2 | 3aab6d2e-04b0-43ee-996f-d8ef76ac3232 | Inworld | 1267 | 14 | -14/+14 |
 | 7cb7b052-fd60-41ca-b718-b298f4ebf5a0 | Lightning V3.1 Pro (Oct 2026) | lightning-v3-1-pro-oct-2026 | 000cfce6-a1fa-478d-a83c-16a4928d91cf | Smallest.ai | 1266 | 16 | -16/+16 |

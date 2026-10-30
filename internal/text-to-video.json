@@ -5,8 +5,8 @@
     "source_url": "https://artificialanalysis.ai/api/v2/media/text-to-video/models/free",
     "source_description": "Text-to-video arena Elo rankings (Free tier)",
     "parser_version": "official-api-v1",
-    "model_count": 33,
-    "fetched_at": "2026-10-29T13:11:52.433719+00:00"
+    "model_count": 36,
+    "fetched_at": "2026-10-30T11:23:53.364687+00:00"
   },
   "models": [
     {
@@ -58,6 +58,18 @@
       "ci95_range": "-17/+17"
     },
     {
+      "id": "48635dd3-c2f3-400e-b739-49a29c61c0ad",
+      "name": "Utopai X",
+      "slug": "utopai-x",
+      "creator": {
+        "id": "a38daf25-05f7-417a-9d4f-2ebfbab51ae5",
+        "name": "Utopai Studios"
+      },
+      "elo": 1130,
+      "ci_95": 18,
+      "ci95_range": "-18/+18"
+    },
+    {
       "id": "da987d84-718f-4ac2-a278-518595967b42",
       "name": "MiniMax H3 (768p)",
       "slug": "minimax-h3-768p",
@@ -68,6 +80,30 @@
       "elo": 1120,
       "ci_95": 17,
       "ci95_range": "-17/+17"
+    },
+    {
+      "id": "c66de5cb-2ff1-4554-bff4-f3d347f2f7fd",
+      "name": "Bach 1.0 Pro",
+      "slug": "bach-1-0-pro",
+      "creator": {
+        "id": "8fd60081-cd8e-4838-bd7c-01f705ed7f7e",
+        "name": "Video Rebirth"
+      },
+      "elo": 1109,
+      "ci_95": 18,
+      "ci95_range": "-18/+18"
+    },
+    {
+      "id": "b473ac8b-88db-480f-b12e-2a67f37ee216",
+      "name": "P-Video-2-Pro",
+      "slug": "p-video-2-pro",
+      "creator": {
+        "id": "a98e0396-4ef1-4a39-bb12-b004c7590bee",
+        "name": "Pruna AI"
+      },
+      "elo": 1103,
+      "ci_95": 18,
+      "ci95_range": "-18/+18"
     },
     {
       "id": "57913d03-a959-4752-8027-8991612448ed",

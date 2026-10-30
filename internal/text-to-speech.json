@@ -5,8 +5,8 @@
     "source_url": "https://artificialanalysis.ai/api/v2/media/text-to-speech/models/free",
     "source_description": "Text-to-speech arena Elo rankings (Free tier)",
     "parser_version": "official-api-v1",
-    "model_count": 99,
-    "fetched_at": "2026-10-29T13:11:52.433719+00:00"
+    "model_count": 100,
+    "fetched_at": "2026-10-30T11:23:53.364687+00:00"
   },
   "models": [
     {
@@ -68,6 +68,18 @@
       "elo": 1283,
       "ci_95": 13,
       "ci95_range": "-13/+13"
+    },
+    {
+      "id": "93cb64af-01fd-4f98-bec7-4f70c6c07abb",
+      "name": "Fish Audio Drama 3",
+      "slug": "drama3",
+      "creator": {
+        "id": "b28a9155-95e8-460a-82fe-8271e5f2bc77",
+        "name": "Fish Audio"
+      },
+      "elo": 1278,
+      "ci_95": 18,
+      "ci95_range": "-18/+18"
     },
     {
       "id": "0e0fb28e-5626-439f-a816-e7f05896daf9",

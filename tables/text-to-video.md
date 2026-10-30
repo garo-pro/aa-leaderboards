@@ -3,8 +3,8 @@
 Data by [Artificial Analysis](https://artificialanalysis.ai/), via their [Data API](https://artificialanalysis.ai/data-api).
 
 - Source: [https://artificialanalysis.ai/api/v2/media/text-to-video/models/free](https://artificialanalysis.ai/api/v2/media/text-to-video/models/free)
-- Fetched at: 2026-10-29T13:11:52.433719+00:00
-- Model count: 33
+- Fetched at: 2026-10-30T11:23:53.364687+00:00
+- Model count: 36
 
 > Generated from `internal/text-to-video.json` by `scripts/render_tables.py`. Do not edit by hand.
 
@@ -14,7 +14,10 @@ Data by [Artificial Analysis](https://artificialanalysis.ai/), via their [Data A
 | f1da1147-517d-431a-8d98-886d71546d66 | MiniMax H3 Max | minimax-h3-max-oct | d3f67dc4-ba4d-4103-ba79-ee321ca99b40 | Fal | 1140 | 19 | -19/+19 |
 | a7f0b4bb-703a-4563-a318-c6644415cae9 | FLUX 3 Max | flux-3-max | d3f67dc4-ba4d-4103-ba79-ee321ca99b40 | Fal | 1135 | 19 | -19/+19 |
 | ceee978e-c560-4ba9-9405-f7d390a47709 | Wan 3.0 | wan-3-0 | d874d370-74d3-4fa0-ba00-5272f92f946b | Alibaba | 1133 | 17 | -17/+17 |
+| 48635dd3-c2f3-400e-b739-49a29c61c0ad | Utopai X | utopai-x | a38daf25-05f7-417a-9d4f-2ebfbab51ae5 | Utopai Studios | 1130 | 18 | -18/+18 |
 | da987d84-718f-4ac2-a278-518595967b42 | MiniMax H3 (768p) | minimax-h3-768p | a31a9071-6144-4dbb-92dc-2e02d653ecea | MiniMax | 1120 | 17 | -17/+17 |
+| c66de5cb-2ff1-4554-bff4-f3d347f2f7fd | Bach 1.0 Pro | bach-1-0-pro | 8fd60081-cd8e-4838-bd7c-01f705ed7f7e | Video Rebirth | 1109 | 18 | -18/+18 |
+| b473ac8b-88db-480f-b12e-2a67f37ee216 | P-Video-2-Pro | p-video-2-pro | a98e0396-4ef1-4a39-bb12-b004c7590bee | Pruna AI | 1103 | 18 | -18/+18 |
 | 57913d03-a959-4752-8027-8991612448ed | Dreamina Seedance 2.5 | seedance-2-5-1080p | 2354746c-4775-4a06-b64d-0ba4137785b8 | ByteDance Seed | 1101 | 17 | -17/+17 |
 | b0e23926-7240-4277-8480-b3f12c12251b | FLUX 3 | flux-3 | d427ad30-eba3-4945-857a-4eb0ead82e87 | Black Forest Labs | 1092 | 17 | -17/+17 |
 | b8289cfd-3843-4d4c-a3fb-ec5ae5e752e0 | Dreamina Seedance 2.0 | seedance-2-0-1080p | 2354746c-4775-4a06-b64d-0ba4137785b8 | ByteDance Seed | 1085 | 17 | -17/+17 |
