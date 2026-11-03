@@ -5,8 +5,8 @@
     "source_url": "https://artificialanalysis.ai/api/v2/media/image-to-video/models/free",
     "source_description": "Image-to-video arena Elo rankings (Free tier)",
     "parser_version": "official-api-v1",
-    "model_count": 33,
-    "fetched_at": "2026-11-02T13:29:05.971851+00:00"
+    "model_count": 34,
+    "fetched_at": "2026-11-03T12:46:29.707514+00:00"
   },
   "models": [
     {
@@ -17,7 +17,7 @@
         "id": "a38daf25-05f7-417a-9d4f-2ebfbab51ae5",
         "name": "Utopai Studios"
       },
-      "elo": 1155,
+      "elo": 1154,
       "ci_95": 19,
       "ci95_range": "-19/+19"
     },
@@ -53,7 +53,7 @@
         "id": "8fd60081-cd8e-4838-bd7c-01f705ed7f7e",
         "name": "Video Rebirth"
       },
-      "elo": 1120,
+      "elo": 1119,
       "ci_95": 19,
       "ci95_range": "-19/+19"
     },
@@ -78,8 +78,8 @@
         "name": "Sapiens AI"
       },
       "elo": 1114,
-      "ci_95": 19,
-      "ci95_range": "-19/+19"
+      "ci_95": 18,
+      "ci95_range": "-18/+18"
     },
     {
       "id": "da987d84-718f-4ac2-a278-518595967b42",
@@ -89,7 +89,7 @@
         "id": "a31a9071-6144-4dbb-92dc-2e02d653ecea",
         "name": "MiniMax"
       },
-      "elo": 1111,
+      "elo": 1110,
       "ci_95": 18,
       "ci95_range": "-18/+18"
     },
@@ -257,7 +257,7 @@
         "id": "1942f8d6-ab55-4408-99dd-2f99c70353f6",
         "name": "PixVerse"
       },
-      "elo": 969,
+      "elo": 968,
       "ci_95": 18,
       "ci95_range": "-18/+18"
     },
@@ -293,7 +293,7 @@
         "id": "faddc6d9-2c14-445f-9b28-56726f59c793",
         "name": "Google"
       },
-      "elo": 924,
+      "elo": 923,
       "ci_95": 18,
       "ci95_range": "-18/+18"
     },
@@ -317,7 +317,7 @@
         "id": "ed94442e-da40-4fa6-a209-c7e9e095a75f",
         "name": "Lightricks"
       },
-      "elo": 920,
+      "elo": 919,
       "ci_95": 18,
       "ci95_range": "-18/+18"
     },
@@ -353,7 +353,7 @@
         "id": "a6906d95-a471-4a0c-ad10-b989571de20c",
         "name": "Runway"
       },
-      "elo": 901,
+      "elo": 900,
       "ci_95": 18,
       "ci95_range": "-18/+18"
     },
@@ -392,6 +392,18 @@
       "elo": 823,
       "ci_95": 19,
       "ci95_range": "-19/+19"
+    },
+    {
+      "id": "436ab581-ac8e-4c14-9d9d-67507a1eddab",
+      "name": "Ray 3.2",
+      "slug": "ray-3-2",
+      "creator": {
+        "id": "09468924-69a9-499b-8dd6-d0bb4c05285d",
+        "name": "Luma Labs"
+      },
+      "elo": 818,
+      "ci_95": 22,
+      "ci95_range": "-22/+22"
     },
     {
       "id": "c783d9aa-c387-4f44-b371-563fd9bab06d",
