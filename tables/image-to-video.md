@@ -3,46 +3,48 @@
 Data by [Artificial Analysis](https://artificialanalysis.ai/), via their [Data API](https://artificialanalysis.ai/data-api).
 
 - Source: [https://artificialanalysis.ai/api/v2/media/image-to-video/models/free](https://artificialanalysis.ai/api/v2/media/image-to-video/models/free)
-- Fetched at: 2026-11-04T12:58:31.806434+00:00
-- Model count: 34
+- Fetched at: 2026-11-05T13:11:10.233392+00:00
+- Model count: 36
 
 > Generated from `internal/image-to-video.json` by `scripts/render_tables.py`. Do not edit by hand.
 
 | id | name | slug | creator.id | creator.name | elo | ci_95 | ci95_range |
 | --- | --- | --- | --- | --- | --- | --- | --- |
-| 48635dd3-c2f3-400e-b739-49a29c61c0ad | Utopai X | utopai-x | a38daf25-05f7-417a-9d4f-2ebfbab51ae5 | Utopai Studios | 1155 | 18 | -18/+18 |
-| 57913d03-a959-4752-8027-8991612448ed | Dreamina Seedance 2.5 | seedance-2-5-1080p | 2354746c-4775-4a06-b64d-0ba4137785b8 | ByteDance Seed | 1128 | 17 | -17/+17 |
-| f1da1147-517d-431a-8d98-886d71546d66 | MiniMax H3 Max | minimax-h3-max-oct | d3f67dc4-ba4d-4103-ba79-ee321ca99b40 | Fal | 1122 | 17 | -17/+17 |
-| c66de5cb-2ff1-4554-bff4-f3d347f2f7fd | Bach 1.0 Pro | bach-1-0-pro | 8fd60081-cd8e-4838-bd7c-01f705ed7f7e | Video Rebirth | 1121 | 18 | -18/+18 |
-| d55f3c1f-f2c8-4093-aeab-7d8816f6aae7 | Hyperflow H3 | hyperflow-h3 | 8fd60081-cd8e-4838-bd7c-01f705ed7f7e | Video Rebirth | 1119 | 18 | -18/+18 |
-| 5518540d-d1bc-48cc-9ad3-8f20769c021e | Agnes-Video-2.5 | agnes-video-2-5 | 5db3af1a-e372-4c62-98bd-f6027eeaf990 | Sapiens AI | 1116 | 17 | -17/+17 |
-| da987d84-718f-4ac2-a278-518595967b42 | MiniMax H3 (768p) | minimax-h3-768p | a31a9071-6144-4dbb-92dc-2e02d653ecea | MiniMax | 1112 | 17 | -17/+17 |
-| b473ac8b-88db-480f-b12e-2a67f37ee216 | P-Video-2-Pro | p-video-2-pro | a98e0396-4ef1-4a39-bb12-b004c7590bee | Pruna AI | 1106 | 17 | -17/+17 |
-| af7808f7-e0bf-4832-9e2e-65c036899b95 | HeyGen Video 1 | heygen-video-1 | 42a993bf-a299-4dfa-add5-a90343098244 | HeyGen | 1103 | 16 | -16/+16 |
-| b8289cfd-3843-4d4c-a3fb-ec5ae5e752e0 | Dreamina Seedance 2.0 | seedance-2-0-1080p | 2354746c-4775-4a06-b64d-0ba4137785b8 | ByteDance Seed | 1095 | 18 | -18/+18 |
-| ceee978e-c560-4ba9-9405-f7d390a47709 | Wan 3.0 | wan-3-0 | d874d370-74d3-4fa0-ba00-5272f92f946b | Alibaba | 1085 | 17 | -17/+17 |
-| a7f0b4bb-703a-4563-a318-c6644415cae9 | FLUX 3 Max | flux-3-max | d3f67dc4-ba4d-4103-ba79-ee321ca99b40 | Fal | 1052 | 17 | -17/+17 |
+| 48635dd3-c2f3-400e-b739-49a29c61c0ad | Utopai X | utopai-x | a38daf25-05f7-417a-9d4f-2ebfbab51ae5 | Utopai Studios | 1156 | 18 | -18/+18 |
+| 57913d03-a959-4752-8027-8991612448ed | Dreamina Seedance 2.5 | seedance-2-5-1080p | 2354746c-4775-4a06-b64d-0ba4137785b8 | ByteDance Seed | 1130 | 17 | -17/+17 |
+| f1da1147-517d-431a-8d98-886d71546d66 | MiniMax H3 Max | minimax-h3-max-oct | d3f67dc4-ba4d-4103-ba79-ee321ca99b40 | Fal | 1123 | 17 | -17/+17 |
+| c66de5cb-2ff1-4554-bff4-f3d347f2f7fd | Bach 1.0 Pro | bach-1-0-pro | 8fd60081-cd8e-4838-bd7c-01f705ed7f7e | Video Rebirth | 1121 | 17 | -17/+17 |
+| d55f3c1f-f2c8-4093-aeab-7d8816f6aae7 | Hyperflow H3 | hyperflow-h3 | 8fd60081-cd8e-4838-bd7c-01f705ed7f7e | Video Rebirth | 1120 | 18 | -18/+18 |
+| 5518540d-d1bc-48cc-9ad3-8f20769c021e | Agnes-Video-2.5 | agnes-video-2-5 | 5db3af1a-e372-4c62-98bd-f6027eeaf990 | Sapiens AI | 1117 | 17 | -17/+17 |
+| da987d84-718f-4ac2-a278-518595967b42 | MiniMax H3 (768p) | minimax-h3-768p | a31a9071-6144-4dbb-92dc-2e02d653ecea | MiniMax | 1113 | 17 | -17/+17 |
+| b473ac8b-88db-480f-b12e-2a67f37ee216 | P-Video-2-Pro | p-video-2-pro | a98e0396-4ef1-4a39-bb12-b004c7590bee | Pruna AI | 1107 | 17 | -17/+17 |
+| af7808f7-e0bf-4832-9e2e-65c036899b95 | HeyGen Video 1 | heygen-video-1 | 42a993bf-a299-4dfa-add5-a90343098244 | HeyGen | 1104 | 16 | -16/+16 |
+| b8289cfd-3843-4d4c-a3fb-ec5ae5e752e0 | Dreamina Seedance 2.0 | seedance-2-0-1080p | 2354746c-4775-4a06-b64d-0ba4137785b8 | ByteDance Seed | 1094 | 18 | -18/+18 |
+| 747aed35-d2f4-44ca-b74d-e02ba0039595 | HiDream-O1-Video-1.0 | hidream-o1-video-1-0 | 040f2c41-5df4-4708-8c77-6a2030be2539 | HiDream | 1090 | 17 | -17/+17 |
+| ceee978e-c560-4ba9-9405-f7d390a47709 | Wan 3.0 | wan-3-0 | d874d370-74d3-4fa0-ba00-5272f92f946b | Alibaba | 1086 | 17 | -17/+17 |
+| a7f0b4bb-703a-4563-a318-c6644415cae9 | FLUX 3 Max | flux-3-max | d3f67dc4-ba4d-4103-ba79-ee321ca99b40 | Fal | 1053 | 17 | -17/+17 |
 | e83498b8-ae29-4eb7-a343-2a2a74eb0e53 | Grok Imagine Video 1.5 | grok-imagine-video-1.5 | a1e3ddcf-d3e4-44a5-9e8f-029a69850875 | SpaceXAI | 1050 | 17 | -17/+17 |
 | b0e23926-7240-4277-8480-b3f12c12251b | FLUX 3 | flux-3 | d427ad30-eba3-4945-857a-4eb0ead82e87 | Black Forest Labs | 1043 | 17 | -17/+17 |
-| e0e60f8f-ad67-4b84-aec9-4da2b9a962d5 | HappyHorse-1.1 | happyhorse-1-1 | 0ea38458-92d7-45de-a69d-c50bd8277273 | Alibaba-ATH | 1024 | 17 | -17/+17 |
-| 91ad83d7-be21-4595-952a-2eefee3360e5 | Gemini Omni Flash 1.1 | gemini-omni-flash-1-1 | faddc6d9-2c14-445f-9b28-56726f59c793 | Google | 1020 | 17 | -17/+17 |
-| 553f28a1-95de-4991-9084-d9275d862f68 | Kling 3.0 Omni 1080p (Pro) | kling-o3-pro | 62cc833b-f55a-4489-bcae-54806d4b04ff | KlingAI | 1016 | 17 | -17/+17 |
-| a4dc21f8-7a35-497e-90a4-4c9a1593c8ca | HappyHorse-1.0 | happyhorse-1-0 | 0ea38458-92d7-45de-a69d-c50bd8277273 | Alibaba-ATH | 1014 | 17 | -17/+17 |
+| e0e60f8f-ad67-4b84-aec9-4da2b9a962d5 | HappyHorse-1.1 | happyhorse-1-1 | 0ea38458-92d7-45de-a69d-c50bd8277273 | Alibaba-ATH | 1025 | 17 | -17/+17 |
+| 91ad83d7-be21-4595-952a-2eefee3360e5 | Gemini Omni Flash 1.1 | gemini-omni-flash-1-1 | faddc6d9-2c14-445f-9b28-56726f59c793 | Google | 1021 | 17 | -17/+17 |
+| 553f28a1-95de-4991-9084-d9275d862f68 | Kling 3.0 Omni 1080p (Pro) | kling-o3-pro | 62cc833b-f55a-4489-bcae-54806d4b04ff | KlingAI | 1017 | 17 | -17/+17 |
+| a4dc21f8-7a35-497e-90a4-4c9a1593c8ca | HappyHorse-1.0 | happyhorse-1-0 | 0ea38458-92d7-45de-a69d-c50bd8277273 | Alibaba-ATH | 1015 | 17 | -17/+17 |
 | d149ad95-b3b2-4d23-8611-07a84c1a0e7f | Kling 3.0 1080p (Pro) | kling-3-0-pro | 62cc833b-f55a-4489-bcae-54806d4b04ff | KlingAI | 1000 | 0 | -0/+0 |
-| c478c4a7-cd9f-41ac-8995-355556eb8707 | Grok Imagine Video 1.5 Lite | grok-imagine-video-1-5-lite | a1e3ddcf-d3e4-44a5-9e8f-029a69850875 | SpaceXAI | 996 | 17 | -17/+17 |
-| be866b8a-d073-4ee4-9652-73227c679dc4 | PixVerse V6 | pixverse-v6 | 1942f8d6-ab55-4408-99dd-2f99c70353f6 | PixVerse | 967 | 17 | -17/+17 |
+| c478c4a7-cd9f-41ac-8995-355556eb8707 | Grok Imagine Video 1.5 Lite | grok-imagine-video-1-5-lite | a1e3ddcf-d3e4-44a5-9e8f-029a69850875 | SpaceXAI | 998 | 17 | -17/+17 |
+| d9945614-fbf2-479a-bcc3-ce067030fcbd | MAGI-2 Preview | magi-2-preview-latest | 319e519d-a916-49f0-8708-ce0b54073a3c | Sand.ai | 980 | 17 | -17/+17 |
+| be866b8a-d073-4ee4-9652-73227c679dc4 | PixVerse V6 | pixverse-v6 | 1942f8d6-ab55-4408-99dd-2f99c70353f6 | PixVerse | 968 | 17 | -17/+17 |
 | b8dc1338-a685-4c03-ad98-cf61226547b0 | Veo 3.1 | veo-3-1 | faddc6d9-2c14-445f-9b28-56726f59c793 | Google | 946 | 17 | -17/+17 |
-| f3c7e331-2b60-4f87-bc9c-363264f211a8 | Veo 3.1 Fast | veo-3-1-fast | faddc6d9-2c14-445f-9b28-56726f59c793 | Google | 930 | 17 | -17/+17 |
+| f3c7e331-2b60-4f87-bc9c-363264f211a8 | Veo 3.1 Fast | veo-3-1-fast | faddc6d9-2c14-445f-9b28-56726f59c793 | Google | 931 | 17 | -17/+17 |
 | 043f0cb2-3565-45ad-bf78-7e2de8288e94 | Vidu Q3 Turbo | vidu-q3-turbo | e3a5ba75-0127-45b0-8bcc-2864b8dd404d | Vidu | 921 | 17 | -17/+17 |
-| a8f7ab65-828a-4166-8fbf-616cbb01d773 | Veo 3.1 Lite | veo-3-1-lite | faddc6d9-2c14-445f-9b28-56726f59c793 | Google | 920 | 17 | -17/+17 |
-| b5343afd-4bff-4e97-99fc-1e2edf2e8eb1 | LTX-2.5 Fast | ltx-2-5-fast | ed94442e-da40-4fa6-a209-c7e9e095a75f | Lightricks | 914 | 17 | -17/+17 |
-| d7c0367f-1adf-40ec-8195-5c5d1906efa8 | Vidu Q3 Pro | vidu-q3-pro | e3a5ba75-0127-45b0-8bcc-2864b8dd404d | Vidu | 906 | 17 | -17/+17 |
+| a8f7ab65-828a-4166-8fbf-616cbb01d773 | Veo 3.1 Lite | veo-3-1-lite | faddc6d9-2c14-445f-9b28-56726f59c793 | Google | 919 | 17 | -17/+17 |
+| b5343afd-4bff-4e97-99fc-1e2edf2e8eb1 | LTX-2.5 Fast | ltx-2-5-fast | ed94442e-da40-4fa6-a209-c7e9e095a75f | Lightricks | 913 | 17 | -17/+17 |
+| d7c0367f-1adf-40ec-8195-5c5d1906efa8 | Vidu Q3 Pro | vidu-q3-pro | e3a5ba75-0127-45b0-8bcc-2864b8dd404d | Vidu | 907 | 17 | -17/+17 |
 | 791ff10c-594f-418b-9c1a-39313784d759 | LTX-2.5 Pro | ltx-2-5-pro | ed94442e-da40-4fa6-a209-c7e9e095a75f | Lightricks | 904 | 17 | -17/+17 |
-| 440843ac-4961-4eef-a504-158724c11fee | Runway Gen-4.5 (720p) | runway-gen-4-5 | a6906d95-a471-4a0c-ad10-b989571de20c | Runway | 895 | 17 | -17/+17 |
-| 46b5ed93-3586-4fc3-875b-4231492aea82 | Kling O1 Pro (January) | kling-o1-pro-january | 62cc833b-f55a-4489-bcae-54806d4b04ff | KlingAI | 866 | 18 | -18/+18 |
+| 440843ac-4961-4eef-a504-158724c11fee | Runway Gen-4.5 (720p) | runway-gen-4-5 | a6906d95-a471-4a0c-ad10-b989571de20c | Runway | 896 | 17 | -17/+17 |
+| 46b5ed93-3586-4fc3-875b-4231492aea82 | Kling O1 Pro (January) | kling-o1-pro-january | 62cc833b-f55a-4489-bcae-54806d4b04ff | KlingAI | 867 | 18 | -18/+18 |
 | e6709ae3-1527-4977-9b9a-aa13dbbc3647 | Pika 2.5 | pika-2-5 | acea75bb-3f76-4ce0-b168-741a31fcec0a | Pika Art | 846 | 18 | -18/+18 |
 | 40f64093-99b7-4e9b-9705-651fc5b436c4 | LTX-2.3 Fast | ltx-2-3-fast | ed94442e-da40-4fa6-a209-c7e9e095a75f | Lightricks | 824 | 18 | -18/+18 |
-| 436ab581-ac8e-4c14-9d9d-67507a1eddab | Ray 3.2 | ray-3-2 | 09468924-69a9-499b-8dd6-d0bb4c05285d | Luma Labs | 820 | 20 | -20/+20 |
+| 436ab581-ac8e-4c14-9d9d-67507a1eddab | Ray 3.2 | ray-3-2 | 09468924-69a9-499b-8dd6-d0bb4c05285d | Luma Labs | 823 | 20 | -20/+20 |
 | c783d9aa-c387-4f44-b371-563fd9bab06d | LTX-2.3 Pro | ltx-2-3-pro | ed94442e-da40-4fa6-a209-c7e9e095a75f | Lightricks | 816 | 18 | -18/+18 |
 
 ---
