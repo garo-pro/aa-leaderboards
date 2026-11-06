@@ -5,8 +5,8 @@
     "source_url": "https://artificialanalysis.ai/api/v2/media/image-to-video/models/free",
     "source_description": "Image-to-video arena Elo rankings (Free tier)",
     "parser_version": "official-api-v1",
-    "model_count": 36,
-    "fetched_at": "2026-11-05T13:11:10.233392+00:00"
+    "model_count": 37,
+    "fetched_at": "2026-11-06T12:56:45.368960+00:00"
   },
   "models": [
     {
@@ -260,6 +260,18 @@
       "elo": 998,
       "ci_95": 17,
       "ci95_range": "-17/+17"
+    },
+    {
+      "id": "ae5428ad-3603-4ff2-9ddc-bc4f43bdf265",
+      "name": "Vidu Q4 Preview",
+      "slug": "vidu-q4-preview",
+      "creator": {
+        "id": "e3a5ba75-0127-45b0-8bcc-2864b8dd404d",
+        "name": "Vidu"
+      },
+      "elo": 994,
+      "ci_95": 16,
+      "ci95_range": "-16/+16"
     },
     {
       "id": "d9945614-fbf2-479a-bcc3-ce067030fcbd",

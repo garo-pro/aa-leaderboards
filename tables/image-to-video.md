@@ -3,8 +3,8 @@
 Data by [Artificial Analysis](https://artificialanalysis.ai/), via their [Data API](https://artificialanalysis.ai/data-api).
 
 - Source: [https://artificialanalysis.ai/api/v2/media/image-to-video/models/free](https://artificialanalysis.ai/api/v2/media/image-to-video/models/free)
-- Fetched at: 2026-11-05T13:11:10.233392+00:00
-- Model count: 36
+- Fetched at: 2026-11-06T12:56:45.368960+00:00
+- Model count: 37
 
 > Generated from `internal/image-to-video.json` by `scripts/render_tables.py`. Do not edit by hand.
 
@@ -31,6 +31,7 @@ Data by [Artificial Analysis](https://artificialanalysis.ai/), via their [Data A
 | a4dc21f8-7a35-497e-90a4-4c9a1593c8ca | HappyHorse-1.0 | happyhorse-1-0 | 0ea38458-92d7-45de-a69d-c50bd8277273 | Alibaba-ATH | 1015 | 17 | -17/+17 |
 | d149ad95-b3b2-4d23-8611-07a84c1a0e7f | Kling 3.0 1080p (Pro) | kling-3-0-pro | 62cc833b-f55a-4489-bcae-54806d4b04ff | KlingAI | 1000 | 0 | -0/+0 |
 | c478c4a7-cd9f-41ac-8995-355556eb8707 | Grok Imagine Video 1.5 Lite | grok-imagine-video-1-5-lite | a1e3ddcf-d3e4-44a5-9e8f-029a69850875 | SpaceXAI | 998 | 17 | -17/+17 |
+| ae5428ad-3603-4ff2-9ddc-bc4f43bdf265 | Vidu Q4 Preview | vidu-q4-preview | e3a5ba75-0127-45b0-8bcc-2864b8dd404d | Vidu | 994 | 16 | -16/+16 |
 | d9945614-fbf2-479a-bcc3-ce067030fcbd | MAGI-2 Preview | magi-2-preview-latest | 319e519d-a916-49f0-8708-ce0b54073a3c | Sand.ai | 980 | 17 | -17/+17 |
 | be866b8a-d073-4ee4-9652-73227c679dc4 | PixVerse V6 | pixverse-v6 | 1942f8d6-ab55-4408-99dd-2f99c70353f6 | PixVerse | 968 | 17 | -17/+17 |
 | b8dc1338-a685-4c03-ad98-cf61226547b0 | Veo 3.1 | veo-3-1 | faddc6d9-2c14-445f-9b28-56726f59c793 | Google | 946 | 17 | -17/+17 |

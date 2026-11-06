@@ -1,12 +1,12 @@
 {
-  "date": "2026-11-05",
-  "fetched_at": "2026-11-05T13:11:10.233392+00:00",
+  "date": "2026-11-06",
+  "fetched_at": "2026-11-06T12:56:45.368960+00:00",
   "source": "https://artificialanalysis.ai/data-api",
   "source_type": "official_api_free_tier",
   "parser_version": "official-api-v1",
   "endpoints": {
     "llms": {
-      "model_count": 725,
+      "model_count": 726,
       "source_type": "official_api_free_tier",
       "source_url": "https://artificialanalysis.ai/api/v2/language/models/free"
     },
@@ -21,7 +21,7 @@
       "source_url": "https://artificialanalysis.ai/api/v2/media/image-editing/models/free"
     },
     "text-to-speech": {
-      "model_count": 103,
+      "model_count": 104,
       "source_type": "official_api_free_tier",
       "source_url": "https://artificialanalysis.ai/api/v2/media/text-to-speech/models/free"
     },
@@ -31,7 +31,7 @@
       "source_url": "https://artificialanalysis.ai/api/v2/media/text-to-video/models/free"
     },
     "image-to-video": {
-      "model_count": 36,
+      "model_count": 37,
       "source_type": "official_api_free_tier",
       "source_url": "https://artificialanalysis.ai/api/v2/media/image-to-video/models/free"
     }
