@@ -5,10 +5,34 @@
     "source_url": "https://artificialanalysis.ai/api/v2/media/text-to-image/models/free",
     "source_description": "Text-to-image arena Elo rankings (Free tier)",
     "parser_version": "official-api-v1",
-    "model_count": 106,
-    "fetched_at": "2026-11-06T12:56:45.368960+00:00"
+    "model_count": 108,
+    "fetched_at": "2026-11-07T11:43:27.411462+00:00"
   },
   "models": [
+    {
+      "id": "a126a6fd-2f15-4da2-8b9a-700b2973a4e3",
+      "name": "GPT Image 2.6 Sunburst (max)",
+      "slug": "gpt-image-2-6-sunburst",
+      "creator": {
+        "id": "e67e56e3-15cd-43db-b679-da4660a69f41",
+        "name": "OpenAI"
+      },
+      "elo": 1259,
+      "ci_95": 15,
+      "ci95_range": "-15/+15"
+    },
+    {
+      "id": "ac1b5565-d063-480e-a593-ce244705cd43",
+      "name": "GPT Image 2.6 Flare (max)",
+      "slug": "gpt-image-2-6-flare",
+      "creator": {
+        "id": "e67e56e3-15cd-43db-b679-da4660a69f41",
+        "name": "OpenAI"
+      },
+      "elo": 1228,
+      "ci_95": 12,
+      "ci95_range": "-12/+12"
+    },
     {
       "id": "98833f93-0f33-4205-b83a-c4d42a25da4f",
       "name": "GPT Image 2.5 Sunburst (max)",
