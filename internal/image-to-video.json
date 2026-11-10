@@ -6,7 +6,7 @@
     "source_description": "Image-to-video arena Elo rankings (Free tier)",
     "parser_version": "official-api-v1",
     "model_count": 39,
-    "fetched_at": "2026-11-09T13:53:03.380740+00:00"
+    "fetched_at": "2026-11-10T13:27:29.765995+00:00"
   },
   "models": [
     {
@@ -29,9 +29,21 @@
         "id": "2354746c-4775-4a06-b64d-0ba4137785b8",
         "name": "ByteDance Seed"
       },
-      "elo": 1130,
+      "elo": 1127,
       "ci_95": 16,
       "ci95_range": "-16/+16"
+    },
+    {
+      "id": "c66de5cb-2ff1-4554-bff4-f3d347f2f7fd",
+      "name": "Bach 1.0 Pro",
+      "slug": "bach-1-0-pro",
+      "creator": {
+        "id": "8fd60081-cd8e-4838-bd7c-01f705ed7f7e",
+        "name": "Video Rebirth"
+      },
+      "elo": 1125,
+      "ci_95": 17,
+      "ci95_range": "-17/+17"
     },
     {
       "id": "f1da1147-517d-431a-8d98-886d71546d66",
@@ -42,20 +54,8 @@
         "name": "Fal"
       },
       "elo": 1124,
-      "ci_95": 17,
-      "ci95_range": "-17/+17"
-    },
-    {
-      "id": "c66de5cb-2ff1-4554-bff4-f3d347f2f7fd",
-      "name": "Bach 1.0 Pro",
-      "slug": "bach-1-0-pro",
-      "creator": {
-        "id": "8fd60081-cd8e-4838-bd7c-01f705ed7f7e",
-        "name": "Video Rebirth"
-      },
-      "elo": 1123,
-      "ci_95": 17,
-      "ci95_range": "-17/+17"
+      "ci_95": 16,
+      "ci95_range": "-16/+16"
     },
     {
       "id": "d55f3c1f-f2c8-4093-aeab-7d8816f6aae7",
@@ -65,7 +65,7 @@
         "id": "8fd60081-cd8e-4838-bd7c-01f705ed7f7e",
         "name": "Video Rebirth"
       },
-      "elo": 1122,
+      "elo": 1124,
       "ci_95": 17,
       "ci95_range": "-17/+17"
     },
@@ -89,9 +89,9 @@
         "id": "5db3af1a-e372-4c62-98bd-f6027eeaf990",
         "name": "Sapiens AI"
       },
-      "elo": 1117,
-      "ci_95": 17,
-      "ci95_range": "-17/+17"
+      "elo": 1118,
+      "ci_95": 16,
+      "ci95_range": "-16/+16"
     },
     {
       "id": "da987d84-718f-4ac2-a278-518595967b42",
@@ -101,9 +101,9 @@
         "id": "a31a9071-6144-4dbb-92dc-2e02d653ecea",
         "name": "MiniMax"
       },
-      "elo": 1114,
-      "ci_95": 17,
-      "ci95_range": "-17/+17"
+      "elo": 1115,
+      "ci_95": 16,
+      "ci95_range": "-16/+16"
     },
     {
       "id": "b473ac8b-88db-480f-b12e-2a67f37ee216",
@@ -114,8 +114,8 @@
         "name": "Pruna AI"
       },
       "elo": 1108,
-      "ci_95": 17,
-      "ci95_range": "-17/+17"
+      "ci_95": 16,
+      "ci95_range": "-16/+16"
     },
     {
       "id": "af7808f7-e0bf-4832-9e2e-65c036899b95",
@@ -125,7 +125,7 @@
         "id": "42a993bf-a299-4dfa-add5-a90343098244",
         "name": "HeyGen"
       },
-      "elo": 1106,
+      "elo": 1107,
       "ci_95": 15,
       "ci95_range": "-15/+15"
     },
@@ -137,21 +137,9 @@
         "id": "acea75bb-3f76-4ce0-b168-741a31fcec0a",
         "name": "Pika Art"
       },
-      "elo": 1101,
+      "elo": 1100,
       "ci_95": 16,
       "ci95_range": "-16/+16"
-    },
-    {
-      "id": "b8289cfd-3843-4d4c-a3fb-ec5ae5e752e0",
-      "name": "Dreamina Seedance 2.0",
-      "slug": "seedance-2-0-1080p",
-      "creator": {
-        "id": "2354746c-4775-4a06-b64d-0ba4137785b8",
-        "name": "ByteDance Seed"
-      },
-      "elo": 1094,
-      "ci_95": 17,
-      "ci95_range": "-17/+17"
     },
     {
       "id": "747aed35-d2f4-44ca-b74d-e02ba0039595",
@@ -161,7 +149,19 @@
         "id": "040f2c41-5df4-4708-8c77-6a2030be2539",
         "name": "HiDream"
       },
-      "elo": 1092,
+      "elo": 1093,
+      "ci_95": 17,
+      "ci95_range": "-17/+17"
+    },
+    {
+      "id": "b8289cfd-3843-4d4c-a3fb-ec5ae5e752e0",
+      "name": "Dreamina Seedance 2.0",
+      "slug": "seedance-2-0-1080p",
+      "creator": {
+        "id": "2354746c-4775-4a06-b64d-0ba4137785b8",
+        "name": "ByteDance Seed"
+      },
+      "elo": 1093,
       "ci_95": 17,
       "ci95_range": "-17/+17"
     },
@@ -173,7 +173,7 @@
         "id": "d874d370-74d3-4fa0-ba00-5272f92f946b",
         "name": "Alibaba"
       },
-      "elo": 1087,
+      "elo": 1086,
       "ci_95": 16,
       "ci95_range": "-16/+16"
     },
@@ -197,7 +197,7 @@
         "id": "a1e3ddcf-d3e4-44a5-9e8f-029a69850875",
         "name": "SpaceXAI"
       },
-      "elo": 1049,
+      "elo": 1048,
       "ci_95": 16,
       "ci95_range": "-16/+16"
     },
@@ -209,7 +209,7 @@
         "id": "d427ad30-eba3-4945-857a-4eb0ead82e87",
         "name": "Black Forest Labs"
       },
-      "elo": 1043,
+      "elo": 1042,
       "ci_95": 16,
       "ci95_range": "-16/+16"
     },
@@ -233,19 +233,7 @@
         "id": "faddc6d9-2c14-445f-9b28-56726f59c793",
         "name": "Google"
       },
-      "elo": 1020,
-      "ci_95": 16,
-      "ci95_range": "-16/+16"
-    },
-    {
-      "id": "553f28a1-95de-4991-9084-d9275d862f68",
-      "name": "Kling 3.0 Omni 1080p (Pro)",
-      "slug": "kling-o3-pro",
-      "creator": {
-        "id": "62cc833b-f55a-4489-bcae-54806d4b04ff",
-        "name": "KlingAI"
-      },
-      "elo": 1016,
+      "elo": 1018,
       "ci_95": 16,
       "ci95_range": "-16/+16"
     },
@@ -256,6 +244,18 @@
       "creator": {
         "id": "0ea38458-92d7-45de-a69d-c50bd8277273",
         "name": "Alibaba-ATH"
+      },
+      "elo": 1016,
+      "ci_95": 16,
+      "ci95_range": "-16/+16"
+    },
+    {
+      "id": "553f28a1-95de-4991-9084-d9275d862f68",
+      "name": "Kling 3.0 Omni 1080p (Pro)",
+      "slug": "kling-o3-pro",
+      "creator": {
+        "id": "62cc833b-f55a-4489-bcae-54806d4b04ff",
+        "name": "KlingAI"
       },
       "elo": 1015,
       "ci_95": 16,
@@ -293,7 +293,7 @@
         "id": "e3a5ba75-0127-45b0-8bcc-2864b8dd404d",
         "name": "Vidu"
       },
-      "elo": 995,
+      "elo": 993,
       "ci_95": 16,
       "ci95_range": "-16/+16"
     },
@@ -317,7 +317,7 @@
         "id": "1942f8d6-ab55-4408-99dd-2f99c70353f6",
         "name": "PixVerse"
       },
-      "elo": 970,
+      "elo": 971,
       "ci_95": 16,
       "ci95_range": "-16/+16"
     },
@@ -329,7 +329,7 @@
         "id": "faddc6d9-2c14-445f-9b28-56726f59c793",
         "name": "Google"
       },
-      "elo": 945,
+      "elo": 944,
       "ci_95": 16,
       "ci95_range": "-16/+16"
     },
@@ -341,9 +341,9 @@
         "id": "faddc6d9-2c14-445f-9b28-56726f59c793",
         "name": "Google"
       },
-      "elo": 930,
-      "ci_95": 17,
-      "ci95_range": "-17/+17"
+      "elo": 929,
+      "ci_95": 16,
+      "ci95_range": "-16/+16"
     },
     {
       "id": "043f0cb2-3565-45ad-bf78-7e2de8288e94",
@@ -353,9 +353,9 @@
         "id": "e3a5ba75-0127-45b0-8bcc-2864b8dd404d",
         "name": "Vidu"
       },
-      "elo": 921,
-      "ci_95": 17,
-      "ci95_range": "-17/+17"
+      "elo": 922,
+      "ci_95": 16,
+      "ci95_range": "-16/+16"
     },
     {
       "id": "a8f7ab65-828a-4166-8fbf-616cbb01d773",
@@ -365,9 +365,9 @@
         "id": "faddc6d9-2c14-445f-9b28-56726f59c793",
         "name": "Google"
       },
-      "elo": 919,
-      "ci_95": 17,
-      "ci95_range": "-17/+17"
+      "elo": 917,
+      "ci_95": 16,
+      "ci95_range": "-16/+16"
     },
     {
       "id": "b5343afd-4bff-4e97-99fc-1e2edf2e8eb1",
@@ -377,9 +377,9 @@
         "id": "ed94442e-da40-4fa6-a209-c7e9e095a75f",
         "name": "Lightricks"
       },
-      "elo": 914,
-      "ci_95": 17,
-      "ci95_range": "-17/+17"
+      "elo": 913,
+      "ci_95": 16,
+      "ci95_range": "-16/+16"
     },
     {
       "id": "d7c0367f-1adf-40ec-8195-5c5d1906efa8",
@@ -389,9 +389,9 @@
         "id": "e3a5ba75-0127-45b0-8bcc-2864b8dd404d",
         "name": "Vidu"
       },
-      "elo": 907,
-      "ci_95": 17,
-      "ci95_range": "-17/+17"
+      "elo": 906,
+      "ci_95": 16,
+      "ci95_range": "-16/+16"
     },
     {
       "id": "791ff10c-594f-418b-9c1a-39313784d759",
@@ -402,8 +402,8 @@
         "name": "Lightricks"
       },
       "elo": 904,
-      "ci_95": 17,
-      "ci95_range": "-17/+17"
+      "ci_95": 16,
+      "ci95_range": "-16/+16"
     },
     {
       "id": "440843ac-4961-4eef-a504-158724c11fee",
@@ -413,9 +413,9 @@
         "id": "a6906d95-a471-4a0c-ad10-b989571de20c",
         "name": "Runway"
       },
-      "elo": 899,
-      "ci_95": 17,
-      "ci95_range": "-17/+17"
+      "elo": 898,
+      "ci_95": 16,
+      "ci95_range": "-16/+16"
     },
     {
       "id": "46b5ed93-3586-4fc3-875b-4231492aea82",
@@ -425,7 +425,7 @@
         "id": "62cc833b-f55a-4489-bcae-54806d4b04ff",
         "name": "KlingAI"
       },
-      "elo": 868,
+      "elo": 867,
       "ci_95": 17,
       "ci95_range": "-17/+17"
     },
@@ -437,7 +437,7 @@
         "id": "acea75bb-3f76-4ce0-b168-741a31fcec0a",
         "name": "Pika Art"
       },
-      "elo": 845,
+      "elo": 843,
       "ci_95": 17,
       "ci95_range": "-17/+17"
     },
@@ -449,7 +449,7 @@
         "id": "09468924-69a9-499b-8dd6-d0bb4c05285d",
         "name": "Luma Labs"
       },
-      "elo": 824,
+      "elo": 823,
       "ci_95": 19,
       "ci95_range": "-19/+19"
     },
@@ -462,8 +462,8 @@
         "name": "Lightricks"
       },
       "elo": 822,
-      "ci_95": 18,
-      "ci95_range": "-18/+18"
+      "ci_95": 17,
+      "ci95_range": "-17/+17"
     },
     {
       "id": "c783d9aa-c387-4f44-b371-563fd9bab06d",
