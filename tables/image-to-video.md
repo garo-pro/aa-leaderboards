@@ -3,8 +3,8 @@
 Data by [Artificial Analysis](https://artificialanalysis.ai/), via their [Data API](https://artificialanalysis.ai/data-api).
 
 - Source: [https://artificialanalysis.ai/api/v2/media/image-to-video/models/free](https://artificialanalysis.ai/api/v2/media/image-to-video/models/free)
-- Fetched at: 2026-11-10T13:27:29.765995+00:00
-- Model count: 39
+- Fetched at: 2026-11-11T12:42:27.122628+00:00
+- Model count: 40
 
 > Generated from `internal/image-to-video.json` by `scripts/render_tables.py`. Do not edit by hand.
 
@@ -25,6 +25,7 @@ Data by [Artificial Analysis](https://artificialanalysis.ai/), via their [Data A
 | b8289cfd-3843-4d4c-a3fb-ec5ae5e752e0 | Dreamina Seedance 2.0 | seedance-2-0-1080p | 2354746c-4775-4a06-b64d-0ba4137785b8 | ByteDance Seed | 1093 | 17 | -17/+17 |
 | ceee978e-c560-4ba9-9405-f7d390a47709 | Wan 3.0 | wan-3-0 | d874d370-74d3-4fa0-ba00-5272f92f946b | Alibaba | 1086 | 16 | -16/+16 |
 | a7f0b4bb-703a-4563-a318-c6644415cae9 | FLUX 3 Max | flux-3-max | d3f67dc4-ba4d-4103-ba79-ee321ca99b40 | Fal | 1055 | 16 | -16/+16 |
+| 939dcfbc-2322-4224-bfdb-5395c4046b6c | Gemini Omni Flash 1.2 | gemini-omni-flash-1-2 | faddc6d9-2c14-445f-9b28-56726f59c793 | Google | 1054 | 17 | -17/+17 |
 | e83498b8-ae29-4eb7-a343-2a2a74eb0e53 | Grok Imagine Video 1.5 | grok-imagine-video-1.5 | a1e3ddcf-d3e4-44a5-9e8f-029a69850875 | SpaceXAI | 1048 | 16 | -16/+16 |
 | b0e23926-7240-4277-8480-b3f12c12251b | FLUX 3 | flux-3 | d427ad30-eba3-4945-857a-4eb0ead82e87 | Black Forest Labs | 1042 | 16 | -16/+16 |
 | e0e60f8f-ad67-4b84-aec9-4da2b9a962d5 | HappyHorse-1.1 | happyhorse-1-1 | 0ea38458-92d7-45de-a69d-c50bd8277273 | Alibaba-ATH | 1022 | 16 | -16/+16 |

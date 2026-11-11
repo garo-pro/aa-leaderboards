@@ -5,8 +5,8 @@
     "source_url": "https://artificialanalysis.ai/api/v2/media/image-to-video/models/free",
     "source_description": "Image-to-video arena Elo rankings (Free tier)",
     "parser_version": "official-api-v1",
-    "model_count": 39,
-    "fetched_at": "2026-11-10T13:27:29.765995+00:00"
+    "model_count": 40,
+    "fetched_at": "2026-11-11T12:42:27.122628+00:00"
   },
   "models": [
     {
@@ -188,6 +188,18 @@
       "elo": 1055,
       "ci_95": 16,
       "ci95_range": "-16/+16"
+    },
+    {
+      "id": "939dcfbc-2322-4224-bfdb-5395c4046b6c",
+      "name": "Gemini Omni Flash 1.2",
+      "slug": "gemini-omni-flash-1-2",
+      "creator": {
+        "id": "faddc6d9-2c14-445f-9b28-56726f59c793",
+        "name": "Google"
+      },
+      "elo": 1054,
+      "ci_95": 17,
+      "ci95_range": "-17/+17"
     },
     {
       "id": "e83498b8-ae29-4eb7-a343-2a2a74eb0e53",

@@ -3,8 +3,8 @@
 Data by [Artificial Analysis](https://artificialanalysis.ai/), via their [Data API](https://artificialanalysis.ai/data-api).
 
 - Source: [https://artificialanalysis.ai/api/v2/media/text-to-video/models/free](https://artificialanalysis.ai/api/v2/media/text-to-video/models/free)
-- Fetched at: 2026-11-10T13:27:29.765995+00:00
-- Model count: 38
+- Fetched at: 2026-11-11T12:42:27.122628+00:00
+- Model count: 39
 
 > Generated from `internal/text-to-video.json` by `scripts/render_tables.py`. Do not edit by hand.
 
@@ -16,6 +16,7 @@ Data by [Artificial Analysis](https://artificialanalysis.ai/), via their [Data A
 | ceee978e-c560-4ba9-9405-f7d390a47709 | Wan 3.0 | wan-3-0 | d874d370-74d3-4fa0-ba00-5272f92f946b | Alibaba | 1136 | 16 | -16/+16 |
 | 48635dd3-c2f3-400e-b739-49a29c61c0ad | Utopai X | utopai-x | a38daf25-05f7-417a-9d4f-2ebfbab51ae5 | Utopai Studios | 1136 | 17 | -17/+17 |
 | da987d84-718f-4ac2-a278-518595967b42 | MiniMax H3 (768p) | minimax-h3-768p | a31a9071-6144-4dbb-92dc-2e02d653ecea | MiniMax | 1122 | 16 | -16/+16 |
+| 939dcfbc-2322-4224-bfdb-5395c4046b6c | Gemini Omni Flash 1.2 | gemini-omni-flash-1-2 | faddc6d9-2c14-445f-9b28-56726f59c793 | Google | 1113 | 18 | -18/+18 |
 | c66de5cb-2ff1-4554-bff4-f3d347f2f7fd | Bach 1.0 Pro | bach-1-0-pro | 8fd60081-cd8e-4838-bd7c-01f705ed7f7e | Video Rebirth | 1113 | 17 | -17/+17 |
 | 57913d03-a959-4752-8027-8991612448ed | Dreamina Seedance 2.5 | seedance-2-5-1080p | 2354746c-4775-4a06-b64d-0ba4137785b8 | ByteDance Seed | 1106 | 16 | -16/+16 |
 | b473ac8b-88db-480f-b12e-2a67f37ee216 | P-Video-2-Pro | p-video-2-pro | a98e0396-4ef1-4a39-bb12-b004c7590bee | Pruna AI | 1105 | 17 | -17/+17 |
