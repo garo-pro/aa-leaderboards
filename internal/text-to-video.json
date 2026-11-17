@@ -5,8 +5,8 @@
     "source_url": "https://artificialanalysis.ai/api/v2/media/text-to-video/models/free",
     "source_description": "Text-to-video arena Elo rankings (Free tier)",
     "parser_version": "official-api-v1",
-    "model_count": 39,
-    "fetched_at": "2026-11-16T13:38:00.998091+00:00"
+    "model_count": 40,
+    "fetched_at": "2026-11-17T14:22:33.671093+00:00"
   },
   "models": [
     {
@@ -44,6 +44,18 @@
       "elo": 1138,
       "ci_95": 17,
       "ci95_range": "-17/+17"
+    },
+    {
+      "id": "d55f3c1f-f2c8-4093-aeab-7d8816f6aae7",
+      "name": "Hyperflow H3",
+      "slug": "hyperflow-h3",
+      "creator": {
+        "id": "8fd60081-cd8e-4838-bd7c-01f705ed7f7e",
+        "name": "Video Rebirth"
+      },
+      "elo": 1137,
+      "ci_95": 16,
+      "ci95_range": "-16/+16"
     },
     {
       "id": "48635dd3-c2f3-400e-b739-49a29c61c0ad",

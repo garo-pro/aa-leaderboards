@@ -1,6 +1,6 @@
 {
-  "date": "2026-11-16",
-  "fetched_at": "2026-11-16T13:38:00.998091+00:00",
+  "date": "2026-11-17",
+  "fetched_at": "2026-11-17T14:22:33.671093+00:00",
   "source": "https://artificialanalysis.ai/data-api",
   "source_type": "official_api_free_tier",
   "parser_version": "official-api-v1",
@@ -26,7 +26,7 @@
       "source_url": "https://artificialanalysis.ai/api/v2/media/text-to-speech/models/free"
     },
     "text-to-video": {
-      "model_count": 39,
+      "model_count": 40,
       "source_type": "official_api_free_tier",
       "source_url": "https://artificialanalysis.ai/api/v2/media/text-to-video/models/free"
     },
