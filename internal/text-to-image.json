@@ -5,8 +5,8 @@
     "source_url": "https://artificialanalysis.ai/api/v2/media/text-to-image/models/free",
     "source_description": "Text-to-image arena Elo rankings (Free tier)",
     "parser_version": "official-api-v1",
-    "model_count": 114,
-    "fetched_at": "2026-11-17T14:22:33.671093+00:00"
+    "model_count": 116,
+    "fetched_at": "2026-11-18T13:56:58.376036+00:00"
   },
   "models": [
     {
@@ -46,6 +46,18 @@
       "ci95_range": "-12/+12"
     },
     {
+      "id": "19495b13-2819-4280-a705-97b7700687d5",
+      "name": "MAI-Image-2.7",
+      "slug": "mai-image-2-7",
+      "creator": {
+        "id": "4756ee95-5ddf-45e8-a9d1-075d0e5b5200",
+        "name": "Microsoft AI"
+      },
+      "elo": 1214,
+      "ci_95": 14,
+      "ci95_range": "-14/+14"
+    },
+    {
       "id": "ac3abe51-14ca-4c04-b215-01a85f3a36ac",
       "name": "GPT Image 2.5 Flare (max)",
       "slug": "gpt-image-2-5-flare",
@@ -71,8 +83,8 @@
     },
     {
       "id": "c1c59bcb-5836-4bd0-aac8-09fdee960eec",
-      "name": "Kling Image 4.0 (preview)",
-      "slug": "kling-image-4-0-preview",
+      "name": "Kling Image 4.0",
+      "slug": "kling-image-4-0",
       "creator": {
         "id": "62cc833b-f55a-4489-bcae-54806d4b04ff",
         "name": "KlingAI"
@@ -114,6 +126,18 @@
         "name": "SpaceXAI"
       },
       "elo": 1167,
+      "ci_95": 12,
+      "ci95_range": "-12/+12"
+    },
+    {
+      "id": "03e11c81-0db5-4eb2-934e-0a91d6138276",
+      "name": "MAI-Image-2.7-Flash",
+      "slug": "mai-image-2-7-flash",
+      "creator": {
+        "id": "4756ee95-5ddf-45e8-a9d1-075d0e5b5200",
+        "name": "Microsoft AI"
+      },
+      "elo": 1158,
       "ci_95": 12,
       "ci95_range": "-12/+12"
     },

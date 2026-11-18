@@ -3,8 +3,8 @@
 Data by [Artificial Analysis](https://artificialanalysis.ai/), via their [Data API](https://artificialanalysis.ai/data-api).
 
 - Source: [https://artificialanalysis.ai/api/v2/media/text-to-image/models/free](https://artificialanalysis.ai/api/v2/media/text-to-image/models/free)
-- Fetched at: 2026-11-17T14:22:33.671093+00:00
-- Model count: 114
+- Fetched at: 2026-11-18T13:56:58.376036+00:00
+- Model count: 116
 
 > Generated from `internal/text-to-image.json` by `scripts/render_tables.py`. Do not edit by hand.
 
@@ -13,12 +13,14 @@ Data by [Artificial Analysis](https://artificialanalysis.ai/), via their [Data A
 | a126a6fd-2f15-4da2-8b9a-700b2973a4e3 | GPT Image 2.6 Sunburst (max) | gpt-image-2-6-sunburst | e67e56e3-15cd-43db-b679-da4660a69f41 | OpenAI | 1261 | 14 | -14/+14 |
 | 98833f93-0f33-4205-b83a-c4d42a25da4f | GPT Image 2.5 Sunburst (max) | gpt-image-2-5-sunburst | e67e56e3-15cd-43db-b679-da4660a69f41 | OpenAI | 1229 | 10 | -10/+10 |
 | ac1b5565-d063-480e-a593-ce244705cd43 | GPT Image 2.6 Flare (max) | gpt-image-2-6-flare | e67e56e3-15cd-43db-b679-da4660a69f41 | OpenAI | 1227 | 12 | -12/+12 |
+| 19495b13-2819-4280-a705-97b7700687d5 | MAI-Image-2.7 | mai-image-2-7 | 4756ee95-5ddf-45e8-a9d1-075d0e5b5200 | Microsoft AI | 1214 | 14 | -14/+14 |
 | ac3abe51-14ca-4c04-b215-01a85f3a36ac | GPT Image 2.5 Flare (max) | gpt-image-2-5-flare | e67e56e3-15cd-43db-b679-da4660a69f41 | OpenAI | 1210 | 10 | -10/+10 |
 | 9570e1d0-a390-48c1-a270-1317570fe3d5 | GPT Image 2 (high) | gpt-image-2 | e67e56e3-15cd-43db-b679-da4660a69f41 | OpenAI | 1192 | 11 | -11/+11 |
-| c1c59bcb-5836-4bd0-aac8-09fdee960eec | Kling Image 4.0 (preview) | kling-image-4-0-preview | 62cc833b-f55a-4489-bcae-54806d4b04ff | KlingAI | 1180 | 13 | -13/+13 |
+| c1c59bcb-5836-4bd0-aac8-09fdee960eec | Kling Image 4.0 | kling-image-4-0 | 62cc833b-f55a-4489-bcae-54806d4b04ff | KlingAI | 1180 | 13 | -13/+13 |
 | b6f834da-1ca2-4f4c-a215-158970a058fa | Nano Banana 2.1 | nano-banana-2-1 | faddc6d9-2c14-445f-9b28-56726f59c793 | Google | 1176 | 12 | -12/+12 |
 | 5d931c2e-797e-406e-8eb9-83ce18b5710c | MAI-Image-2.6 | mai-image-2-6 | 4756ee95-5ddf-45e8-a9d1-075d0e5b5200 | Microsoft AI | 1168 | 12 | -12/+12 |
 | 748fadd1-ecd9-41d0-9b43-f5fccd4fb843 | Grok Imagine Image 2.0 | grok-imagine-image-2-0 | a1e3ddcf-d3e4-44a5-9e8f-029a69850875 | SpaceXAI | 1167 | 12 | -12/+12 |
+| 03e11c81-0db5-4eb2-934e-0a91d6138276 | MAI-Image-2.7-Flash | mai-image-2-7-flash | 4756ee95-5ddf-45e8-a9d1-075d0e5b5200 | Microsoft AI | 1158 | 12 | -12/+12 |
 | 5724146e-3b38-4387-9814-6c45a22aff75 | Canva Craft | canva-craft | 3c6251ab-f0f9-426a-af83-64cf0e15fa7d | Canva | 1158 | 13 | -13/+13 |
 | 3180162e-693d-487d-adbb-721f859f768d | Nano Banana 2 (Gemini 3.1 Flash Image) | nano-banana-2 | faddc6d9-2c14-445f-9b28-56726f59c793 | Google | 1143 | 10 | -10/+10 |
 | b8852bf6-1e75-4209-ac4d-a135170dc1f3 | Seedream 5.5 | seedream-5-5 | 2354746c-4775-4a06-b64d-0ba4137785b8 | ByteDance Seed | 1134 | 12 | -12/+12 |
