@@ -3,7 +3,7 @@
 Data by [Artificial Analysis](https://artificialanalysis.ai/), via their [Data API](https://artificialanalysis.ai/data-api).
 
 - Source: [https://artificialanalysis.ai/api/v2/media/text-to-video/models/free](https://artificialanalysis.ai/api/v2/media/text-to-video/models/free)
-- Fetched at: 2026-11-19T14:25:05.186696+00:00
+- Fetched at: 2026-11-20T13:59:38.780303+00:00
 - Model count: 40
 
 > Generated from `internal/text-to-video.json` by `scripts/render_tables.py`. Do not edit by hand.
@@ -33,7 +33,7 @@ Data by [Artificial Analysis](https://artificialanalysis.ai/), via their [Data A
 | 03ff7ea5-2ee9-4f2d-9c41-01f4279362cb | Wan2.7-260612 | wan2-7-260612 | d874d370-74d3-4fa0-ba00-5272f92f946b | Alibaba | 1027 | 15 | -15/+15 |
 | d9945614-fbf2-479a-bcc3-ce067030fcbd | MAGI-2 Preview | magi-2-preview-latest | 319e519d-a916-49f0-8708-ce0b54073a3c | Sand.ai | 1008 | 15 | -15/+15 |
 | d149ad95-b3b2-4d23-8611-07a84c1a0e7f | Kling 3.0 1080p (Pro) | kling-3-0-pro | 62cc833b-f55a-4489-bcae-54806d4b04ff | KlingAI | 1000 | 0 | -0/+0 |
-| be866b8a-d073-4ee4-9652-73227c679dc4 | PixVerse V6 | pixverse-v6 | 1942f8d6-ab55-4408-99dd-2f99c70353f6 | PixVerse | 994 | 16 | -16/+16 |
+| be866b8a-d073-4ee4-9652-73227c679dc4 | PixVerse V6 (Legacy) | pixverse-v6-legacy | 1942f8d6-ab55-4408-99dd-2f99c70353f6 | PixVerse | 994 | 16 | -16/+16 |
 | 553f28a1-95de-4991-9084-d9275d862f68 | Kling 3.0 Omni 1080p (Pro) | kling-o3-pro | 62cc833b-f55a-4489-bcae-54806d4b04ff | KlingAI | 989 | 16 | -16/+16 |
 | c478c4a7-cd9f-41ac-8995-355556eb8707 | Grok Imagine Video 1.5 Lite | grok-imagine-video-1-5-lite | a1e3ddcf-d3e4-44a5-9e8f-029a69850875 | SpaceXAI | 979 | 15 | -15/+15 |
 | f3c7e331-2b60-4f87-bc9c-363264f211a8 | Veo 3.1 Fast | veo-3-1-fast | faddc6d9-2c14-445f-9b28-56726f59c793 | Google | 962 | 16 | -16/+16 |

@@ -5,8 +5,8 @@
     "source_url": "https://artificialanalysis.ai/api/v2/media/image-to-video/models/free",
     "source_description": "Image-to-video arena Elo rankings (Free tier)",
     "parser_version": "official-api-v1",
-    "model_count": 40,
-    "fetched_at": "2026-11-19T14:25:05.186696+00:00"
+    "model_count": 41,
+    "fetched_at": "2026-11-20T13:59:38.780303+00:00"
   },
   "models": [
     {
@@ -68,6 +68,18 @@
       "elo": 1123,
       "ci_95": 17,
       "ci95_range": "-17/+17"
+    },
+    {
+      "id": "e57f1c3d-a585-497f-84c6-818adea1abe9",
+      "name": "Boreal-H3",
+      "slug": "boreal-h3",
+      "creator": {
+        "id": "033e3219-6b49-43b4-a86f-b92a63e3ebb2",
+        "name": "Creatify"
+      },
+      "elo": 1121,
+      "ci_95": 19,
+      "ci95_range": "-19/+19"
     },
     {
       "id": "58ced33a-e967-4ed9-8d78-2f1eb30f4972",
@@ -323,8 +335,8 @@
     },
     {
       "id": "be866b8a-d073-4ee4-9652-73227c679dc4",
-      "name": "PixVerse V6",
-      "slug": "pixverse-v6",
+      "name": "PixVerse V6 (Legacy)",
+      "slug": "pixverse-v6-legacy",
       "creator": {
         "id": "1942f8d6-ab55-4408-99dd-2f99c70353f6",
         "name": "PixVerse"

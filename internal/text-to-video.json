@@ -6,7 +6,7 @@
     "source_description": "Text-to-video arena Elo rankings (Free tier)",
     "parser_version": "official-api-v1",
     "model_count": 40,
-    "fetched_at": "2026-11-19T14:25:05.186696+00:00"
+    "fetched_at": "2026-11-20T13:59:38.780303+00:00"
   },
   "models": [
     {
@@ -287,8 +287,8 @@
     },
     {
       "id": "be866b8a-d073-4ee4-9652-73227c679dc4",
-      "name": "PixVerse V6",
-      "slug": "pixverse-v6",
+      "name": "PixVerse V6 (Legacy)",
+      "slug": "pixverse-v6-legacy",
       "creator": {
         "id": "1942f8d6-ab55-4408-99dd-2f99c70353f6",
         "name": "PixVerse"

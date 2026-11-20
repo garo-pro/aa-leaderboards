@@ -3,8 +3,8 @@
 Data by [Artificial Analysis](https://artificialanalysis.ai/), via their [Data API](https://artificialanalysis.ai/data-api).
 
 - Source: [https://artificialanalysis.ai/api/v2/media/image-to-video/models/free](https://artificialanalysis.ai/api/v2/media/image-to-video/models/free)
-- Fetched at: 2026-11-19T14:25:05.186696+00:00
-- Model count: 40
+- Fetched at: 2026-11-20T13:59:38.780303+00:00
+- Model count: 41
 
 > Generated from `internal/image-to-video.json` by `scripts/render_tables.py`. Do not edit by hand.
 
@@ -15,6 +15,7 @@ Data by [Artificial Analysis](https://artificialanalysis.ai/), via their [Data A
 | f1da1147-517d-431a-8d98-886d71546d66 | MiniMax H3 Max | minimax-h3-max-oct | d3f67dc4-ba4d-4103-ba79-ee321ca99b40 | Fal | 1124 | 16 | -16/+16 |
 | c66de5cb-2ff1-4554-bff4-f3d347f2f7fd | Bach 1.0 Pro | bach-1-0-pro | 8fd60081-cd8e-4838-bd7c-01f705ed7f7e | Video Rebirth | 1124 | 16 | -16/+16 |
 | d55f3c1f-f2c8-4093-aeab-7d8816f6aae7 | Hyperflow H3 | hyperflow-h3 | 8fd60081-cd8e-4838-bd7c-01f705ed7f7e | Video Rebirth | 1123 | 17 | -17/+17 |
+| e57f1c3d-a585-497f-84c6-818adea1abe9 | Boreal-H3 | boreal-h3 | 033e3219-6b49-43b4-a86f-b92a63e3ebb2 | Creatify | 1121 | 19 | -19/+19 |
 | 58ced33a-e967-4ed9-8d78-2f1eb30f4972 | SkyReels V4 | skyreels-v4 | 67b5ce4d-0c81-4edc-b4c3-370acc2df555 | Skywork AI | 1119 | 15 | -15/+15 |
 | 5518540d-d1bc-48cc-9ad3-8f20769c021e | Agnes-Video-2.5 | agnes-video-2-5 | 5db3af1a-e372-4c62-98bd-f6027eeaf990 | Sapiens AI | 1118 | 16 | -16/+16 |
 | da987d84-718f-4ac2-a278-518595967b42 | MiniMax H3 (768p) | minimax-h3-768p | a31a9071-6144-4dbb-92dc-2e02d653ecea | MiniMax | 1113 | 16 | -16/+16 |
@@ -36,7 +37,7 @@ Data by [Artificial Analysis](https://artificialanalysis.ai/), via their [Data A
 | c478c4a7-cd9f-41ac-8995-355556eb8707 | Grok Imagine Video 1.5 Lite | grok-imagine-video-1-5-lite | a1e3ddcf-d3e4-44a5-9e8f-029a69850875 | SpaceXAI | 997 | 16 | -16/+16 |
 | ae5428ad-3603-4ff2-9ddc-bc4f43bdf265 | Vidu Q4 Preview | vidu-q4-preview | e3a5ba75-0127-45b0-8bcc-2864b8dd404d | Vidu | 993 | 15 | -15/+15 |
 | d9945614-fbf2-479a-bcc3-ce067030fcbd | MAGI-2 Preview | magi-2-preview-latest | 319e519d-a916-49f0-8708-ce0b54073a3c | Sand.ai | 980 | 17 | -17/+17 |
-| be866b8a-d073-4ee4-9652-73227c679dc4 | PixVerse V6 | pixverse-v6 | 1942f8d6-ab55-4408-99dd-2f99c70353f6 | PixVerse | 970 | 16 | -16/+16 |
+| be866b8a-d073-4ee4-9652-73227c679dc4 | PixVerse V6 (Legacy) | pixverse-v6-legacy | 1942f8d6-ab55-4408-99dd-2f99c70353f6 | PixVerse | 970 | 16 | -16/+16 |
 | b8dc1338-a685-4c03-ad98-cf61226547b0 | Veo 3.1 | veo-3-1 | faddc6d9-2c14-445f-9b28-56726f59c793 | Google | 945 | 16 | -16/+16 |
 | f3c7e331-2b60-4f87-bc9c-363264f211a8 | Veo 3.1 Fast | veo-3-1-fast | faddc6d9-2c14-445f-9b28-56726f59c793 | Google | 929 | 16 | -16/+16 |
 | 043f0cb2-3565-45ad-bf78-7e2de8288e94 | Vidu Q3 Turbo | vidu-q3-turbo | e3a5ba75-0127-45b0-8bcc-2864b8dd404d | Vidu | 920 | 16 | -16/+16 |
