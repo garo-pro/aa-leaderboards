@@ -3,8 +3,8 @@
 Data by [Artificial Analysis](https://artificialanalysis.ai/), via their [Data API](https://artificialanalysis.ai/data-api).
 
 - Source: [https://artificialanalysis.ai/api/v2/media/image-to-video/models/free](https://artificialanalysis.ai/api/v2/media/image-to-video/models/free)
-- Fetched at: 2026-11-22T13:19:52.255454+00:00
-- Model count: 41
+- Fetched at: 2026-11-23T15:57:19.660657+00:00
+- Model count: 42
 
 > Generated from `internal/image-to-video.json` by `scripts/render_tables.py`. Do not edit by hand.
 
@@ -25,6 +25,7 @@ Data by [Artificial Analysis](https://artificialanalysis.ai/), via their [Data A
 | 747aed35-d2f4-44ca-b74d-e02ba0039595 | HiDream-O1-Video-1.0 | hidream-o1-video-1-0 | 040f2c41-5df4-4708-8c77-6a2030be2539 | HiDream | 1091 | 16 | -16/+16 |
 | b8289cfd-3843-4d4c-a3fb-ec5ae5e752e0 | Dreamina Seedance 2.0 | seedance-2-0-1080p | 2354746c-4775-4a06-b64d-0ba4137785b8 | ByteDance Seed | 1090 | 16 | -16/+16 |
 | ceee978e-c560-4ba9-9405-f7d390a47709 | Wan 3.0 | wan-3-0 | d874d370-74d3-4fa0-ba00-5272f92f946b | Alibaba | 1085 | 16 | -16/+16 |
+| 0c062f7b-ef60-484b-b9a6-8f5b6abeee49 | PixVerse V6 Max | pixverse-v6-max | 1942f8d6-ab55-4408-99dd-2f99c70353f6 | PixVerse | 1054 | 17 | -17/+17 |
 | 939dcfbc-2322-4224-bfdb-5395c4046b6c | Gemini Omni Flash 1.2 | gemini-omni-flash-1-2 | faddc6d9-2c14-445f-9b28-56726f59c793 | Google | 1051 | 17 | -17/+17 |
 | a7f0b4bb-703a-4563-a318-c6644415cae9 | FLUX 3 Max | flux-3-max | d3f67dc4-ba4d-4103-ba79-ee321ca99b40 | Fal | 1051 | 16 | -16/+16 |
 | e83498b8-ae29-4eb7-a343-2a2a74eb0e53 | Grok Imagine Video 1.5 | grok-imagine-video-1.5 | a1e3ddcf-d3e4-44a5-9e8f-029a69850875 | SpaceXAI | 1048 | 16 | -16/+16 |
@@ -37,8 +38,8 @@ Data by [Artificial Analysis](https://artificialanalysis.ai/), via their [Data A
 | c478c4a7-cd9f-41ac-8995-355556eb8707 | Grok Imagine Video 1.5 Lite | grok-imagine-video-1-5-lite | a1e3ddcf-d3e4-44a5-9e8f-029a69850875 | SpaceXAI | 995 | 16 | -16/+16 |
 | ae5428ad-3603-4ff2-9ddc-bc4f43bdf265 | Vidu Q4 Preview | vidu-q4-preview | e3a5ba75-0127-45b0-8bcc-2864b8dd404d | Vidu | 992 | 15 | -15/+15 |
 | d9945614-fbf2-479a-bcc3-ce067030fcbd | MAGI-2 Preview | magi-2-preview-latest | 319e519d-a916-49f0-8708-ce0b54073a3c | Sand.ai | 980 | 16 | -16/+16 |
-| be866b8a-d073-4ee4-9652-73227c679dc4 | PixVerse V6 (Legacy) | pixverse-v6-legacy | 1942f8d6-ab55-4408-99dd-2f99c70353f6 | PixVerse | 968 | 16 | -16/+16 |
 | b8dc1338-a685-4c03-ad98-cf61226547b0 | Veo 3.1 | veo-3-1 | faddc6d9-2c14-445f-9b28-56726f59c793 | Google | 945 | 16 | -16/+16 |
+| 9b3e12f0-45fb-41af-9562-8d914a8d6a61 | PixVerse V6 | pixverse-v6 | 1942f8d6-ab55-4408-99dd-2f99c70353f6 | PixVerse | 940 | 18 | -18/+18 |
 | f3c7e331-2b60-4f87-bc9c-363264f211a8 | Veo 3.1 Fast | veo-3-1-fast | faddc6d9-2c14-445f-9b28-56726f59c793 | Google | 926 | 16 | -16/+16 |
 | 043f0cb2-3565-45ad-bf78-7e2de8288e94 | Vidu Q3 Turbo | vidu-q3-turbo | e3a5ba75-0127-45b0-8bcc-2864b8dd404d | Vidu | 921 | 16 | -16/+16 |
 | a8f7ab65-828a-4166-8fbf-616cbb01d773 | Veo 3.1 Lite | veo-3-1-lite | faddc6d9-2c14-445f-9b28-56726f59c793 | Google | 916 | 16 | -16/+16 |

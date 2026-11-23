@@ -5,8 +5,8 @@
     "source_url": "https://artificialanalysis.ai/api/v2/media/image-to-video/models/free",
     "source_description": "Image-to-video arena Elo rankings (Free tier)",
     "parser_version": "official-api-v1",
-    "model_count": 41,
-    "fetched_at": "2026-11-22T13:19:52.255454+00:00"
+    "model_count": 42,
+    "fetched_at": "2026-11-23T15:57:19.660657+00:00"
   },
   "models": [
     {
@@ -190,6 +190,18 @@
       "ci95_range": "-16/+16"
     },
     {
+      "id": "0c062f7b-ef60-484b-b9a6-8f5b6abeee49",
+      "name": "PixVerse V6 Max",
+      "slug": "pixverse-v6-max",
+      "creator": {
+        "id": "1942f8d6-ab55-4408-99dd-2f99c70353f6",
+        "name": "PixVerse"
+      },
+      "elo": 1054,
+      "ci_95": 17,
+      "ci95_range": "-17/+17"
+    },
+    {
       "id": "939dcfbc-2322-4224-bfdb-5395c4046b6c",
       "name": "Gemini Omni Flash 1.2",
       "slug": "gemini-omni-flash-1-2",
@@ -334,18 +346,6 @@
       "ci95_range": "-16/+16"
     },
     {
-      "id": "be866b8a-d073-4ee4-9652-73227c679dc4",
-      "name": "PixVerse V6 (Legacy)",
-      "slug": "pixverse-v6-legacy",
-      "creator": {
-        "id": "1942f8d6-ab55-4408-99dd-2f99c70353f6",
-        "name": "PixVerse"
-      },
-      "elo": 968,
-      "ci_95": 16,
-      "ci95_range": "-16/+16"
-    },
-    {
       "id": "b8dc1338-a685-4c03-ad98-cf61226547b0",
       "name": "Veo 3.1",
       "slug": "veo-3-1",
@@ -356,6 +356,18 @@
       "elo": 945,
       "ci_95": 16,
       "ci95_range": "-16/+16"
+    },
+    {
+      "id": "9b3e12f0-45fb-41af-9562-8d914a8d6a61",
+      "name": "PixVerse V6",
+      "slug": "pixverse-v6",
+      "creator": {
+        "id": "1942f8d6-ab55-4408-99dd-2f99c70353f6",
+        "name": "PixVerse"
+      },
+      "elo": 940,
+      "ci_95": 18,
+      "ci95_range": "-18/+18"
     },
     {
       "id": "f3c7e331-2b60-4f87-bc9c-363264f211a8",
