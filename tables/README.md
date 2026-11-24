@@ -2,7 +2,7 @@
 
 Data by [Artificial Analysis](https://artificialanalysis.ai/), via their [Data API](https://artificialanalysis.ai/data-api).
 
-Snapshot fetched at: 2026-11-23T15:57:19.660657+00:00
+Snapshot fetched at: 2026-11-24T15:52:12.883301+00:00
 
 | Leaderboard | Table |
 |---|---|
