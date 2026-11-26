@@ -3,8 +3,8 @@
 Data by [Artificial Analysis](https://artificialanalysis.ai/), via their [Data API](https://artificialanalysis.ai/data-api).
 
 - Source: [https://artificialanalysis.ai/api/v2/media/text-to-image/models/free](https://artificialanalysis.ai/api/v2/media/text-to-image/models/free)
-- Fetched at: 2026-11-25T15:35:07.168780+00:00
-- Model count: 117
+- Fetched at: 2026-11-26T15:13:33.755494+00:00
+- Model count: 118
 
 > Generated from `internal/text-to-image.json` by `scripts/render_tables.py`. Do not edit by hand.
 
@@ -33,6 +33,7 @@ Data by [Artificial Analysis](https://artificialanalysis.ai/), via their [Data A
 | 952cb4e8-6155-45f4-a653-f426669cf80a | FLUX 3 Image | flux-3-image | d427ad30-eba3-4945-857a-4eb0ead82e87 | Black Forest Labs | 1114 | 12 | -12/+12 |
 | 7f1079f3-b886-4ac1-bd3e-7059da87ff28 | Nano Banana 2 Lite (Gemini 3.1 Flash Lite Image) | nano-banana-2-lite | faddc6d9-2c14-445f-9b28-56726f59c793 | Google | 1110 | 10 | -10/+10 |
 | c9e4f0a2-3b7d-4c61-8e29-1f5a6d0b47c3 | Seedream 5.0 Pro | seedream-5-0-pro | 2354746c-4775-4a06-b64d-0ba4137785b8 | ByteDance Seed | 1105 | 10 | -10/+10 |
+| 735df01c-b832-43c4-a267-5633dc2d7f91 | Ming-Image-0.2-Design | ming-image-0-2-design | 4df238a9-d4fd-4cf2-ab1e-d12956c41f9b | InclusionAI | 1095 | 12 | -12/+12 |
 | 5538a039-fb86-4cd7-a207-4d692f358032 | Qwen-Image-3.0-Pro | qwen-image-3-0-pro | d874d370-74d3-4fa0-ba00-5272f92f946b | Alibaba | 1093 | 11 | -11/+11 |
 | 2253749f-b609-4016-b639-0ce39a42375a | Qwen-Image-3.0 | qwen-image-3-0 | d874d370-74d3-4fa0-ba00-5272f92f946b | Alibaba | 1075 | 11 | -11/+11 |
 | 5c408cba-eb9a-4806-a44c-1d77030e9990 | H3-Image Highspeed | minimax-h3-image-highspeed | a31a9071-6144-4dbb-92dc-2e02d653ecea | MiniMax | 1072 | 14 | -14/+14 |

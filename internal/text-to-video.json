@@ -5,8 +5,8 @@
     "source_url": "https://artificialanalysis.ai/api/v2/media/text-to-video/models/free",
     "source_description": "Text-to-video arena Elo rankings (Free tier)",
     "parser_version": "official-api-v1",
-    "model_count": 43,
-    "fetched_at": "2026-11-25T15:35:07.168780+00:00"
+    "model_count": 44,
+    "fetched_at": "2026-11-26T15:13:33.755494+00:00"
   },
   "models": [
     {
@@ -104,6 +104,18 @@
       "elo": 1126,
       "ci_95": 14,
       "ci95_range": "-14/+14"
+    },
+    {
+      "id": "19004fef-bfc0-43c4-b9bb-a7a101e322a7",
+      "name": "Kling 4.0",
+      "slug": "kling-4-0",
+      "creator": {
+        "id": "62cc833b-f55a-4489-bcae-54806d4b04ff",
+        "name": "KlingAI"
+      },
+      "elo": 1116,
+      "ci_95": 16,
+      "ci95_range": "-16/+16"
     },
     {
       "id": "c66de5cb-2ff1-4554-bff4-f3d347f2f7fd",

@@ -3,8 +3,8 @@
 Data by [Artificial Analysis](https://artificialanalysis.ai/), via their [Data API](https://artificialanalysis.ai/data-api).
 
 - Source: [https://artificialanalysis.ai/api/v2/media/image-to-video/models/free](https://artificialanalysis.ai/api/v2/media/image-to-video/models/free)
-- Fetched at: 2026-11-25T15:35:07.168780+00:00
-- Model count: 44
+- Fetched at: 2026-11-26T15:13:33.755494+00:00
+- Model count: 45
 
 > Generated from `internal/image-to-video.json` by `scripts/render_tables.py`. Do not edit by hand.
 
@@ -12,6 +12,7 @@ Data by [Artificial Analysis](https://artificialanalysis.ai/), via their [Data A
 | --- | --- | --- | --- | --- | --- | --- | --- |
 | 3fcc695a-8e84-463e-8bae-5344f6806853 | MAGI-2 | magi-2 | 319e519d-a916-49f0-8708-ce0b54073a3c | Sand.ai | 1153 | 14 | -14/+14 |
 | 48635dd3-c2f3-400e-b739-49a29c61c0ad | Utopai X | utopai-x | a38daf25-05f7-417a-9d4f-2ebfbab51ae5 | Utopai Studios | 1147 | 15 | -15/+15 |
+| 19004fef-bfc0-43c4-b9bb-a7a101e322a7 | Kling 4.0 | kling-4-0 | 62cc833b-f55a-4489-bcae-54806d4b04ff | KlingAI | 1132 | 16 | -16/+16 |
 | 57913d03-a959-4752-8027-8991612448ed | Dreamina Seedance 2.5 | seedance-2-5-1080p | 2354746c-4775-4a06-b64d-0ba4137785b8 | ByteDance Seed | 1128 | 15 | -15/+15 |
 | d55f3c1f-f2c8-4093-aeab-7d8816f6aae7 | Hyperflow H3 | hyperflow-h3 | 8fd60081-cd8e-4838-bd7c-01f705ed7f7e | Video Rebirth | 1125 | 15 | -15/+15 |
 | f1da1147-517d-431a-8d98-886d71546d66 | MiniMax H3 Max | minimax-h3-max-oct | d3f67dc4-ba4d-4103-ba79-ee321ca99b40 | Fal | 1123 | 15 | -15/+15 |

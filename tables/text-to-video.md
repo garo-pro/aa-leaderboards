@@ -3,8 +3,8 @@
 Data by [Artificial Analysis](https://artificialanalysis.ai/), via their [Data API](https://artificialanalysis.ai/data-api).
 
 - Source: [https://artificialanalysis.ai/api/v2/media/text-to-video/models/free](https://artificialanalysis.ai/api/v2/media/text-to-video/models/free)
-- Fetched at: 2026-11-25T15:35:07.168780+00:00
-- Model count: 43
+- Fetched at: 2026-11-26T15:13:33.755494+00:00
+- Model count: 44
 
 > Generated from `internal/text-to-video.json` by `scripts/render_tables.py`. Do not edit by hand.
 
@@ -18,6 +18,7 @@ Data by [Artificial Analysis](https://artificialanalysis.ai/), via their [Data A
 | a7f0b4bb-703a-4563-a318-c6644415cae9 | FLUX 3 Max | flux-3-max | d3f67dc4-ba4d-4103-ba79-ee321ca99b40 | Fal | 1137 | 15 | -15/+15 |
 | f1da1147-517d-431a-8d98-886d71546d66 | MiniMax H3 Max | minimax-h3-max-oct | d3f67dc4-ba4d-4103-ba79-ee321ca99b40 | Fal | 1137 | 15 | -15/+15 |
 | da987d84-718f-4ac2-a278-518595967b42 | MiniMax H3 (768p) | minimax-h3-768p | a31a9071-6144-4dbb-92dc-2e02d653ecea | MiniMax | 1126 | 14 | -14/+14 |
+| 19004fef-bfc0-43c4-b9bb-a7a101e322a7 | Kling 4.0 | kling-4-0 | 62cc833b-f55a-4489-bcae-54806d4b04ff | KlingAI | 1116 | 16 | -16/+16 |
 | c66de5cb-2ff1-4554-bff4-f3d347f2f7fd | Bach 1.0 Pro | bach-1-0-pro | 8fd60081-cd8e-4838-bd7c-01f705ed7f7e | Video Rebirth | 1112 | 15 | -15/+15 |
 | 939dcfbc-2322-4224-bfdb-5395c4046b6c | Gemini Omni Flash 1.2 | gemini-omni-flash-1-2 | faddc6d9-2c14-445f-9b28-56726f59c793 | Google | 1112 | 15 | -15/+15 |
 | b473ac8b-88db-480f-b12e-2a67f37ee216 | P-Video-2-Pro | p-video-2-pro | a98e0396-4ef1-4a39-bb12-b004c7590bee | Pruna AI | 1107 | 15 | -15/+15 |
